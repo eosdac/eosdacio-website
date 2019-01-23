@@ -1,0 +1,86 @@
+<div><img src="/assets/spacer.png" style="width:100%;transform: rotate(180deg);"/></div>
+<footer class="site-footer h-card" style="background-image:linear-gradient(to left, #4A1289, #7C41BA); border: 0;">
+  <!--<data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>-->
+    <div class="container">
+        <a class="active" href="#">{{ site.languageNames[site.lang] }}</a>
+        {% for lang in site.languageNames %}
+        {% if lang[0] == site.lang %} {% continue %} {% endif %}
+        {% if page.namespace %}
+        <a href="{% tl {{ page.namespace }} {{ lang[0] }} %}">{{ lang[1] }}</a>
+        {% else %}
+        {% if lang[0] == site.defaultLang %}
+        <a href="{{ site.baseurl_root }}/">{{ lang[1] }}</a>
+        {% else %}
+        <a href="{{ site.baseurl_root }}/{{ lang[0] }}/">{{ lang[1] }}</a>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+      {% for lang in site.languages %}
+        {% unless site.lang == lang %}
+          <a href="{% tl {{ page.namespace }} {{ lang }} %}" >{% t langs.{{ lang }} %}</a>
+          
+          {% assign next = forloop.index | plus: 1 %}
+          
+          {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
+            <span class="separator"> &bull; </span>
+          {% endif %}
+          
+        {% endunless %}
+{% endfor %}
+  <hr style="padding: 10px 0; border-color: #BABDBE;"/><div class="row">
+    <div class="col-md-2">
+      <img src="/assets/signet-white.svg" height="50" alt="{{ site.title | escape }}">
+    </div>
+    <div class="col-md-10">
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
+  {%- if page_paths -%}
+      {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+            <a class="nav-link" href="{{ my_page.url | relative_url }}" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">{{ my_page.title | escape }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+  {%- endif -%}
+    </div>
+  </div></div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>-->
