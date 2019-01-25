@@ -1,0 +1,17 @@
+
+
+//TODO: only for big screens
+nav.navbar {
+  padding: 0 16px;
+}
+nav ul li a.nav-link {
+  text-transform: none;
+}
+nav ul li {
+  border-top: 5px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 14px 0;
+}
+nav ul li.active {
+  border-bottom-color: white;
+}

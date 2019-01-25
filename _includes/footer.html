@@ -1,5 +1,7 @@
-<div><img src="/assets/spacer.png" style="width:100%;transform: rotate(180deg);"/></div>
-<footer class="site-footer h-card" style="background-image:linear-gradient(to left, #4A1289, #7C41BA); border: 0;">
+<footer class="site-footer h-card" style="border:0;padding:0;background-image:url(/assets/footer-bkgr.svg);background-repeat:no-repeat;background-size:100% auto;">
+<img src="/assets/spacer.gif" style="width:100%;"/>
+
+<div style="background-image:linear-gradient(to left, #4A1289, #7C41BA);padding-bottom:20px;">
   <!--<data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
@@ -33,20 +35,6 @@
 
   </div>-->
     <div class="container">
-        <a class="active" href="#">{{ site.languageNames[site.lang] }}</a>
-        {% for lang in site.languageNames %}
-        {% if lang[0] == site.lang %} {% continue %} {% endif %}
-        {% if page.namespace %}
-        <a href="{% tl {{ page.namespace }} {{ lang[0] }} %}">{{ lang[1] }}</a>
-        {% else %}
-        {% if lang[0] == site.defaultLang %}
-        <a href="{{ site.baseurl_root }}/">{{ lang[1] }}</a>
-        {% else %}
-        <a href="{{ site.baseurl_root }}/{{ lang[0] }}/">{{ lang[1] }}</a>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
-
       {% for lang in site.languages %}
         {% unless site.lang == lang %}
           <a href="{% tl {{ page.namespace }} {{ lang }} %}" >{% t langs.{{ lang }} %}</a>
@@ -74,8 +62,33 @@
         {%- endif -%}
       {%- endfor -%}
   {%- endif -%}
+
+
+
+<!-- Default dropup button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="/assets/flags/{{ site.lang }}.png"/><!-- {{ site.languageNames[site.lang] }}-->
+  </button>
+  <div class="dropdown-menu">
+          {% for lang in site.languageNames %}
+          {% if lang[0] == site.lang %} {% continue %} {% endif %}
+          {% if page.namespace %}
+          <a class="dropdown-item" href="{% tl {{ page.namespace }} {{ lang[0] }} %}"><img src="/assets/flags/{{ lang[0] }}.png"/>&nbsp;{{ lang[1] }}</a>
+          {% else %}
+          {% if lang[0] == site.defaultLang %}
+          <a class="dropdown-item" href="{{ site.baseurl_root }}/"><img src="/assets/flags/{{ lang[0] }}.png"/>&nbsp;{{ lang[1] }}</a>
+          {% else %}
+          <a class="dropdown-item" href="{{ site.baseurl_root }}/{{ lang[0] }}/"><img src="/assets/flags/{{ lang[0] }}.png"/>&nbsp;{{ lang[1] }}</a>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+  </div>
+</div>
+
     </div>
   </div></div>
+</div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
