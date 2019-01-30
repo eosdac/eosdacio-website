@@ -1,4 +1,18 @@
+$purple1: #4A1289;
+$purple2: #7C41BA;
+$purple3: #B999DB;
 
+$dark1: #1E2128;
+$dark2: #272B35;
+$dark3: #2F333D;
+
+$light1: #babdbe;
+$light2: #eceff1;
+$light3: #ffffff; //white
+
+a, a:visited {
+  color: $purple1;
+}
 
 //TODO: only for big screens
 nav.navbar {
@@ -13,7 +27,122 @@ nav ul li {
   padding: 14px 0;
 }
 nav ul li.active {
-  border-bottom-color: white;
+  border-bottom-color: $light3;
+}
+nav .nav-item.dropdown img {
+  margin-bottom: 3px;
+}
+
+nav .nav-buttons > a {
+  border-radius: 5px;
+  text-transform: none;
+}
+nav .nav-buttons > a:first-of-type {
+  background: $light3;
+  color: $purple1;
+  margin-right: 10px;
+}
+nav .nav-buttons > a:first-of-type:hover {
+  background: $purple3;
+}
+
+
+.index.section1 {
+  color: $light3;
+}
+.index.section1 h1 {
+  font-weight: 100;
+  font-size: 3.5em;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.index.section1 h1:after {
+  content:""; 
+  background: $light3; 
+  position: absolute; 
+  top: 50px; 
+  left: 15px; 
+  height: 1px; 
+  width: 20%;
+}
+.index.section1 h1 strong {
+  front-weight: 500;
+}
+.index.section1 a {
+  border: solid 2px $light3;
+  border-radius: 10px;
+  padding: 10px 80px;
+  margin: 0 10px;
+  color: $light3;
+}
+.index.section1 a:first-of-type {
+  margin-left: 0px;
+  background: $light3;
+  color: $purple1;
+}
+
+.index.box p:first-of-type {
+  margin: 0;
+}
+.index.box img {
+  padding: 5px 60px;
+}
+.index.box h2 {
+  text-align: center;
+  color: $purple1;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.index.section2 {
+  $offset: 150px;
+  padding: $offset;
+  background: 
+    url(/assets/mockup-transparent-tinified.png) top right / contain no-repeat,
+    linear-gradient(transparent $offset, $light2 10px);
+}
+.heading-dark h1 {
+  color: $purple1;
+  font-weight: 100;
+  font-size: 3.5em;
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+.heading-dark h1:after {
+  content:""; 
+  background: $purple1; 
+  position: absolute; 
+  top: 50px; 
+  left: 15px; 
+  height: 1px; 
+  width: 20%;
+}
+.heading-dark h1 strong {
+  front-weight: 500;
+}
+
+.heading-dark p:last-of-type {
+  padding-top: 50px;
+}
+.heading-dark p:last-of-type a {
+  border: solid 2px $light3;
+  border-radius: 10px;
+  padding: 10px 80px;
+  background: $purple1;
+  color: $light3;
+}
+.heading-dark p:first-of-type {
+  padding-top: 0px;
+}
+
+.index.section3 {
+  background-image: url(/assets/miscbg-1920x805.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.index.section4 h1 {
+  max-width: 50%;
 }
 
 
