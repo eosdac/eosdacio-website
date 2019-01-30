@@ -1,7 +1,5 @@
-key: VALUE-DE
-global:
-  swedish: Svenska
-  english: English
-pages:
-  home: Home
-  work: Work
+header:
+  vote: "Wähle eosDAC"
+  mclient: "Mitglieder"
+footer:
+  newsletter: Newsletter

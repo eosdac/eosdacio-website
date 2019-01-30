@@ -55,9 +55,9 @@
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>-->
     </ul>
-    <span class="navbar-text">
-      <button class="btn btn-light">{% t key %}</button>
-      <button class="btn btn-outline-light">{% t key %}</button>
+    <span class="navbar-text nav-buttons">
+      <a href="{% translate_link why-vote %}" class="btn btn-light">{% translate header.vote %}</a>
+      <a href="https://members.eosdac.io" class="btn btn-outline-light">{% translate header.mclient %}</a>
     </span>
   </div>
   {%- endif -%}
