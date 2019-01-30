@@ -5,17 +5,18 @@
 #layout: home
 layout: default
 ---
-<div style="background-image:linear-gradient(to right, #4A1289, #7C41BA);">
+<div class="home">
+<div class="section dark">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 index section1" style="padding-bottom:120px;">
+      <div class="col-md-7">
       {% translate_file home/section1.md %}
       </div>
     </div>
   </div>
 </div>
 
-<div style="background-image:url(/assets/spacer.png);background-repeat: no-repeat;background-size:100%;">
+<div class="top-plains">
   <div class="container">
     <div class="row">
       <div class="col-md-4 index box">
@@ -43,7 +44,7 @@ layout: default
   </div>
 </div>
 
-<div class="index section2 heading-dark">
+<div class="section sec2">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -53,7 +54,7 @@ layout: default
   </div>
 </div>
 
-<div class="index section3 heading-dark">
+<div class="section sec3">
   <div class="container">
     <div class="row">
       <div class="col-md-9 offset-md-3">
@@ -109,8 +110,9 @@ layout: default
       </div>
     </div>
   </div>
+</div>
 
-<div class="index section4 heading-dark">
+<div class="section sec4">
   <div class="container">
     <div class="row">
       <div class="col-md-9 offset-md-3">
@@ -118,6 +120,6 @@ layout: default
       </div>
     </div>
   </div>
+  {%- include footer-plains.html -%}
 </div>
 </div>
-

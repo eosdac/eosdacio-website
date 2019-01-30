@@ -6,7 +6,96 @@ namespace: why-vote
 permalink: /why-vote/
 permalink_de: /why-vote/
 ---
+<div class="why-vote">
 
-{% translate_file why-vote/test.md %}
-<hr/>
-{% translate_file why-vote/test2.md %}
+<div class="section dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      {% translate_file why-vote/section1.md %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section top-plains">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 card big-card">
+        {% translate_file why-vote/section2.md %}
+        <div class="row">
+          <div class="col-md-4 index box">
+            <div class="card-body">
+              {% translate_file why-vote/box1.md %}
+            </div>
+          </div>
+          <div class="col-md-4 index box">
+            <div class="card-body">
+              {% translate_file why-vote/box2.md %}
+            </div>
+          </div>
+          <div class="col-md-4 index box">
+            <div class="card-body">
+              {% translate_file why-vote/box3.md %}
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 index box">
+            <div class="card-body">
+              {% translate_file why-vote/box4.md %}
+            </div>
+          </div>
+          <div class="col-md-4 index box">
+            <div class="card-body">
+              {% translate_file why-vote/box5.md %}
+            </div>
+          </div>
+          <div class="col-md-4 index box">
+            <div class="card-body">
+              {% translate_file why-vote/box6.md %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section grey sec3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {% translate_file why-vote/section3.md %}
+      </div>
+      <div class="col-md-4">
+        <div class="card box-feed">
+          <div class="card-header">
+              {% translate why-vote.box-feed %}
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>TODO: live feeds</li>
+              <li>Twitter</li>
+              <li>Steem</li>
+              <li>Youtube</li>
+              <li>Medium</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card box-vote">
+          <a href="#">
+            <div class="card-header">
+              <img src="/assets/why-vote/vote-48x48.svg" alt="Vote"/>
+              {% translate why-vote.box-vote %}
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {%- include footer-plains.html -%}
+</div>
+</div>

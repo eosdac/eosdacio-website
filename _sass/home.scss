@@ -1,0 +1,17 @@
+.home .sec2 {
+    $offset: 150px;
+    padding: $offset;
+    background: 
+        url(/assets/mockup-transparent-tinified.png) top right / contain no-repeat,
+        linear-gradient(transparent $offset, $light2 10px);
+}
+
+.home .sec3 {
+    background-image: url(/assets/miscbg-1920x805.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.home .sec4 h1 {
+    max-width: 50%;
+  }

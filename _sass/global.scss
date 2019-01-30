@@ -1,0 +1,116 @@
+// Global color variables from the styleguide at https://eosdac.io/styleguide
+$purple1: #4A1289;
+$purple2: #7C41BA;
+$purple3: #B999DB;
+
+$dark1: #1E2128;
+$dark2: #272B35;
+$dark3: #2F333D;
+
+$light1: #babdbe;
+$light2: #eceff1;
+$light3: #ffffff;
+
+// Link colors
+a, a:visited {
+    color: $purple1;
+}
+
+// Buttons
+a.btn.solid.light {
+    text-transform: none;
+    border-radius: 10px;
+    background-color: $light3;
+    padding: 12px 80px;
+}
+a:hover.btn.solid.light {
+    background-color: $purple3;
+    color: $light3;
+}
+
+a.btn.outline.light {
+    text-transform: none;
+    color: $light3;
+    border-radius: 10px;
+    border: solid 1px $light3;
+    padding: 12px 80px;
+}
+
+a.btn.solid.dark {
+    text-transform: none;
+    border-radius: 10px;
+    background-color: $purple1;
+    color: $light3;
+    padding: 12px 80px;
+}
+a:hover.btn.solid.dark {
+    background-color: $purple2;
+}
+
+// Top Plaines (Spacer)
+.top-plains {
+    background-image: url(/assets/spacer.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+    padding-top: 0 !important;
+}
+
+// Cards, Posts, ...
+.card {
+    margin-bottom: 30px;
+}
+.card .card-header {
+    background-color: $purple1;
+    color: $light3;
+}
+.post-content {
+    margin-bottom: 0;
+}
+
+// Sections with big headline
+.section {
+    color: $purple1;
+    padding: 75px 0;
+}
+.section:last-of-type {
+    padding-bottom: 0;
+}
+.section h1 {
+    font-weight: 100;
+    font-size: 3.5em;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.section h1:after {
+    content:""; 
+    background: $purple1; 
+    position: absolute; 
+    top: 0px; 
+    left: 15px; 
+    height: 1px; 
+    width: 20%;
+}
+.section h1 strong {
+    font-weight: 500;
+}
+
+/*
+.section p:last-of-type {
+    padding-top: 50px;
+}
+*/
+
+// Section on dark background (purple/black) with light headline (white)
+.section.dark {
+    color: $light3;
+    background-image: linear-gradient(to right, $purple1, $purple2);
+}
+.section.dark h1:after {
+    background: $light3; 
+}
+
+// Section on light background (grey) with dark headline (purple)
+.section.grey {
+    background: $light2;
+}

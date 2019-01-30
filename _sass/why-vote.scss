@@ -1,0 +1,33 @@
+$why-vote-card-offset: 30px;
+.why-vote .big-card {
+    padding-top: $why-vote-card-offset;
+}
+.why-vote .big-card h1:after {
+    top: $why-vote-card-offset;
+}
+
+.why-vote .sec3 p {
+    color: $dark1;
+}
+
+.why-vote .box-feed {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.why-vote .box-vote {
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.why-vote .box-vote img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.why-vote .card a:hover .card-header {
+    background-color: $purple2;
+}
+.why-vote .card a:hover {
+    text-decoration: none;
+}
