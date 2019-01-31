@@ -29,12 +29,20 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
-languages: ["en", "de"]
+languages: ["en", "de", "es", "it", "ja", "ko", "pt-br", "ru", "vi", "zh-hans"]
 exclude_from_localizations: ["temp"]
 defaultLang: en
 languageNames:
   en: English
   de: Deutsch
+  es: Español
+  it: Italiano
+  ja: 日本の
+  ko: 한국의
+  pt-br: Brasileiro
+  ru: Pусский
+  vi: Tiếng Việt
+  zh-hans: 中国
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
