@@ -1,6 +1,7 @@
 Social Media
 ------------
 
+\\
 [![Twitter](/assets/social/twitter.svg)](https://twitter.com/eosdac)
 [![Facebook](/assets/social/facebook.svg)](https://facebook.com/eosdac)
 [![Reddit](/assets/social/reddit.svg)](https://www.reddit.com/r/eosdac)
