@@ -1,4 +1,4 @@
-![Why Create Own?](/assets/create-own-dac.svg)
+![Openness](/assets/why-vote/Openness-Icon-160x160.svg)
 
-Why Create Own DAC?
--------------------
+Openness and Transparency
+---

@@ -1,4 +1,4 @@
-![Why Create Own?](/assets/create-own-dac.svg)
+![Independance](/assets/why-vote/independance-icon160x160.svg)
 
-Why Create Own DAC?
--------------------
+Independence
+---

@@ -1,4 +1,4 @@
-![Why Create Own?](/assets/create-own-dac.svg)
+![Fairness](/assets/why-vote/fairness-icon160x160.svg)
 
-Why Create Own DAC?
--------------------
+Fairness
+---

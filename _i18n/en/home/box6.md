@@ -1,4 +1,4 @@
-![Why Create Own?](/assets/create-own-dac.svg)
+![Support](/assets/why-vote/support world.svg)
 
-Why Create Own DAC?
--------------------
+Support of EOS Communities Worldwide
+---

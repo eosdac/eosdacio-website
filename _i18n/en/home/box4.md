@@ -1,4 +1,4 @@
-![Why Create Own?](/assets/create-own-dac.svg)
+![Excellence](/assets/why-vote/Excellence-Icon160x160.svg)
 
-Why Create Own DAC?
--------------------
+Excellence of Service Provision
+---

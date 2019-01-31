@@ -1,4 +1,4 @@
-![Why Create Own?](/assets/create-own-dac.svg)
+![Anti Fraud](/assets/why-vote/anti-fraud-icon160x160.svg)
 
-Why Create Own DAC?
--------------------
+Electoral Fraud
+---
