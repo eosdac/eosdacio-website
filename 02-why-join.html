@@ -20,26 +20,13 @@ permalink: /why-join/
   <div class="container">
         <div class="row">
             <div class="col-md-8">
-            {% translate_file why-join/section2.md %}
+                {% translate_file why-join/section2.md %}
             </div>
             <div class="col-md-4">
-            <div class="card sidebar-feed">
-                <div class="card-header">
-                    {% translate sidebar.feed %}
-                </div>
-                <div class="card-body">
-                <ul>
-                    <li>TODO: live feeds</li>
-                    <li>Twitter</li>
-                    <li>Steem</li>
-                    <li>Youtube</li>
-                    <li>Medium</li>
-                </ul>
-                </div>
+                {%- include sidebar-feed.html -%}
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <div class="section">

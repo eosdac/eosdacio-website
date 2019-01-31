@@ -70,20 +70,7 @@ permalink_de: /why-vote/
         {% translate_file why-vote/section3.md %}
       </div>
       <div class="col-md-4">
-        <div class="card sidebar-feed">
-          <div class="card-header">
-              {% translate sidebar.feed %}
-          </div>
-          <div class="card-body">
-            <ul>
-              <li>TODO: live feeds</li>
-              <li>Twitter</li>
-              <li>Steem</li>
-              <li>Youtube</li>
-              <li>Medium</li>
-            </ul>
-          </div>
-        </div>
+        {%- include sidebar-feed.html -%}
 
         <div class="card sidebar-vote">
           <a href="#">
