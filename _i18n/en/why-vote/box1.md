@@ -1,6 +1,6 @@
 ![Excellence](/assets/why-vote/Excellence-Icon160x160.svg)
 
-Exelence of Service Provision
+Excellence of Service Provision
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+The primary objective of eosDAC is to ensure that it is able to continuously produce blocks required by EOS.IO software driven blockchains.

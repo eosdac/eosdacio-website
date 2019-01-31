@@ -3,4 +3,4 @@
 Support of EOS Communities Worldwide
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+We want EOS.IO blockchains to flourish so we will engage with EOS communities with a view to initiating and supporting projects that benefit all EOS.IO blockchain communities. This will include tools for other DACs.

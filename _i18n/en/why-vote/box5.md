@@ -1,6 +1,6 @@
 ![Independance](/assets/why-vote/independance-icon160x160.svg)
 
-Independance
+Independence
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+eosDAC will not seek any significant stake in, or undue influence over, other block producers. It will also take appropriate measures to protect its own independence.
