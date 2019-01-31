@@ -3,6 +3,6 @@ header:
   mclient: "Member Client"
 footer:
   newsletter: Newsletter
-why-vote:
-  box-feed: "Our Articles on Steem, Youtube and Medium"
-  box-vote: "<b>Vote for</b> eos<b>DAC<br>Block Producer</b>"
+sidebar:
+  feed: "Our Articles on Steem, Youtube and Medium"
+  vote: "<b>Vote for</b> eos<b>DAC<br>Block Producer</b>"

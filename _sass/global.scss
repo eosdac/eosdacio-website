@@ -11,6 +11,10 @@ $light1: #babdbe;
 $light2: #eceff1;
 $light3: #ffffff;
 
+body {
+    background-color: $light3;
+}
+
 // Link colors
 a, a:visited {
     color: $purple1;
@@ -22,6 +26,7 @@ a.btn.solid.light {
     border-radius: 10px;
     background-color: $light3;
     padding: 12px 80px;
+    margin-right: 20px;
 }
 a:hover.btn.solid.light {
     background-color: $purple3;
@@ -34,6 +39,7 @@ a.btn.outline.light {
     border-radius: 10px;
     border: solid 1px $light3;
     padding: 12px 80px;
+    margin-right: 20px;
 }
 
 a.btn.solid.dark {
@@ -68,10 +74,29 @@ a:hover.btn.solid.dark {
     margin-bottom: 0;
 }
 
+// Sidebars
+.sidebar-feed {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.sidebar-vote {
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.sidebar-vote img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
 // Sections with big headline
 .section {
     color: $purple1;
     padding: 75px 0;
+}
+.section p {
+    color: $dark1;
 }
 .section:last-of-type {
     padding-bottom: 0;
@@ -105,6 +130,9 @@ a:hover.btn.solid.dark {
 .section.dark {
     color: $light3;
     background-image: linear-gradient(to right, $purple1, $purple2);
+}
+.section.dark p {
+    color: $light3;
 }
 .section.dark h1:after {
     background: $light3; 
