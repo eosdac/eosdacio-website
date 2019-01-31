@@ -6,13 +6,23 @@ $why-vote-card-offset: 30px;
     top: $why-vote-card-offset;
 }
 
-.why-vote .sec3 p {
-    color: $dark1;
-}
-
 .why-vote .card a:hover .card-header {
     background-color: $purple2;
 }
 .why-vote .card a:hover {
     text-decoration: none;
+}
+
+$why-vote-line-height: 40px;
+.why-vote .sec8 .btn.solid.dark {
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 50px;
+    padding: 20px 30px;
+    font-size: 1.3em;
+    line-height: $why-vote-line-height;
+}
+.why-vote .sec8 .btn.solid.dark img {
+    height: $why-vote-line-height;
+    float: left;
 }

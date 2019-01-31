@@ -92,11 +92,8 @@ a:hover.btn.solid.dark {
 
 // Sections with big headline
 .section {
-    color: $purple1;
-    padding: 75px 0;
-}
-.section p {
     color: $dark1;
+    padding: 75px 0;
 }
 .section:last-of-type {
     padding-bottom: 0;
@@ -106,6 +103,7 @@ a:hover.btn.solid.dark {
     font-size: 3.5em;
     padding-top: 20px;
     padding-bottom: 0px;
+    color: $purple1;
 }
 .section h1:after {
     content:""; 
@@ -131,7 +129,7 @@ a:hover.btn.solid.dark {
     color: $light3;
     background-image: linear-gradient(to right, $purple1, $purple2);
 }
-.section.dark p {
+.section.dark h1 {
     color: $light3;
 }
 .section.dark h1:after {
