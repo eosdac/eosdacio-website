@@ -21,3 +21,28 @@ footer a > img {
 footer a > img:hover {
     background: $light3;
 }
+
+footer form select {
+    margin-bottom: 20px;
+}
+
+// Material Design Form
+footer select.form-control, footer select.form-control:read-only {
+    color: $light3;
+    background-image: linear-gradient(0deg, $light3 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, $light3 1px, transparent 0)
+}
+footer select.form-control:read-only option {
+    color: $dark1;
+}
+footer .form-group label, footer .form-group.is-focused label {
+    color: $light3;
+}
+footer .form-group input {
+    background-image: linear-gradient(0deg, $light3 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, $light3 1px, transparent 0)
+}
+footer .form-group.is-focused input {
+    background-image: linear-gradient(0deg, $light3 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, rgba(0,0,0,0.26) 1px, transparent 0)
+}
+footer .form-group option {
+    background-color: red;
+}
