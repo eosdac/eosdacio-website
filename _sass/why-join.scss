@@ -4,6 +4,10 @@
         linear-gradient(to right, $dark1, $dark2);
     padding-top: 150px;
     padding-bottom: 250px;
+    @media (max-width: $break-point-mobile) {
+        padding-top: 170px;
+        padding-bottom: 50px;
+    }
 }
 
 .why-join .sec1 a {
@@ -18,6 +22,9 @@
     background: 
         url(/assets/mockup-transparent-tinified.png) center right / auto 70% no-repeat,
         linear-gradient(to right, $purple1, $purple2);
+    @media (max-width: $break-point-mobile) {
+        background: linear-gradient(to right, $purple1, $purple2);
+    }
 }
 .why-join .sec5 p:first-of-type {
     margin-bottom: 50px;
