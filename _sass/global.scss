@@ -27,6 +27,7 @@ a.btn.solid.light {
     background-color: $light3;
     padding: 12px 80px;
     margin-right: 20px;
+    margin-top: 30px;
 }
 a:hover.btn.solid.light {
     background-color: $purple3;
@@ -40,6 +41,7 @@ a.btn.outline.light {
     border: solid 1px $light3;
     padding: 12px 80px;
     margin-right: 20px;
+    margin-top: 30px;
 }
 
 a.btn.solid.dark {
@@ -48,6 +50,8 @@ a.btn.solid.dark {
     background-color: $purple1;
     color: $light3;
     padding: 12px 80px;
+    margin-right: 20px;
+    margin-top: 30px;
 }
 a:hover.btn.solid.dark {
     background-color: $purple2;
