@@ -1,2 +1,5 @@
-A **Decentralized BP** has fewer single points of failure which makes **EOS more secure,** and helps **protects EOS token holders investment.**
+**Server** Locations **around** the **world**
 ===
+
+ * eosDAC uses a mix of cloud and bare metal servers in several locations around the world
+ * eosDAC uses geographically decentralized server location in diverse jurisdictions

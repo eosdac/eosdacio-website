@@ -1,8 +1,2 @@
-**Openness** and **Transparency**
+A **Decentralized BP** has fewer single points of failure which makes **EOS more secure,** and helps **protects EOS token holders investment.**
 ===
-
-All decisions made by the eosDAC governance structures and all\\
-operations of eosDAC will be open and transparent.
-
-[Watch Video](https://www.google.de){: .btn.solid.light }
-[Read more](https://www.google.de){: .btn.outline.light }

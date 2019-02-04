@@ -1,5 +1,6 @@
-**Server** Locations **around** the **world**
+**Supporting eosDAC** development helps the **EOS ecosystem to grow**
 ===
 
- * eosDAC uses a mix of cloud and bare metal servers in several locations around the world
- 
+ * DACs can enable more small business on EOS
+ * Digital decentralized communities can out compete centralized paper bureaucracies
+ * eosDAC supports the growth of the EOS token value, by providing and improving DApps, chain security and educational content

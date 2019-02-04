@@ -1,4 +1,10 @@
-Another **layer of decentralization** onto EOS
+**Openness** and **Transparency**
 ===
 
- * Community ownership and management of a block producer on EOS
+All decisions made by the eosDAC governance structures and all\\
+operations of eosDAC will be open and transparent.
+
+<!--
+[Watch Video](https://www.youtube.com){: .btn.solid.light }
+[Read more](https://www.google.de){: .btn.outline.light }
+-->
