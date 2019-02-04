@@ -1,6 +1,5 @@
-eos**DAC Flow Chart**
+**Join** as a **registered member**
 ====
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-![Flow Chart](/assets/why-join/infographic-eosdac-v1-0.svg)
+ * Vote for custodians
+ * Contribute your ideas to the discussion

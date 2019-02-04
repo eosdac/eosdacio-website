@@ -1,4 +1,4 @@
-.why-join .sec1 {
+.why-join .sec8 {
     background: 
         url(/assets/mockup-transparent-tinified.png) top right / contain no-repeat,
         linear-gradient(to right, $dark1, $dark2);
@@ -9,60 +9,70 @@
         padding-bottom: 50px;
     }
 }
-
-.why-join .sec1 a {
+.why-join .sec8 a {
     color: $purple3;
 }
 
-.why-join .sec4 h1:after {
-    background: transparent; 
-}
-
-.why-join .sec5 {
+.why-join .sec9 {
     background: 
-        url(/assets/mockup-transparent-tinified.png) center right / auto 70% no-repeat,
-        linear-gradient(to right, $purple1, $purple2);
+        url(/assets/mockup-transparent-tinified.png) center right / auto 70% no-repeat;
     @media (max-width: $break-point-mobile) {
-        background: linear-gradient(to right, $purple1, $purple2);
+        background: none;
     }
 }
-.why-join .sec5 p:first-of-type {
+.why-join .sec9 p:first-of-type {
     margin-bottom: 50px;
 }
 
-.why-join .sec5 .box img {
+.why-join .sec9 .box img {
     width: 80px;
     float: left;
     margin-right: 20px;
     border-radius: 50%;
-    background-color: $purple3;
+    //background-color: $purple3;
+    border: solid 2px $purple3;
     padding: 15px;
     margin-bottom: 20px;
 }
-.why-join .sec5 .box p:first-of-type {
+.why-join .sec9 .box p:first-of-type {
     margin-bottom: 15px;
 }
-.why-join .sec5 .box p:nth-child(2) {
+.why-join .sec9 .box p:nth-child(2) {
     margin-bottom: 0px;
 }
-.why-join .sec5 .box p:last-of-type {
+.why-join .sec9 .box p:last-of-type {
     font-size: 0.9em;
-    color: $purple3;
+    color: $dark2;
 }
 
-.why-join .sec5 .btn.outline.light {
+/*
+.why-join .sec9 .btn.outline.light {
     padding: 10px 20px;
     width: 100%;
     text-align: left;
     border-color: $purple3;
     margin-top: 50px;
 }
-.why-join .sec5 .btn.outline.light h2 {
+.why-join .sec9 .btn.outline.light h2 {
     font-size: 1.3em;
     font-weight: 600;
     margin-bottom: 5px;
 }
-.why-join .sec5 .btn.outline.light p {
+.why-join .sec9 .btn.outline.light p {
     margin-bottom: 0;
     color: $purple3;
+}*/
+
+$why-join-line-height: 40px;
+.why-join .sec9 .btn.solid.dark, .why-join .sec8 .btn.solid.dark {
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 50px;
+    padding: 20px 30px;
+    font-size: 1.3em;
+    line-height: $why-join-line-height;
+}
+.why-join .sec9 .btn.solid.dark img, .why-join .sec8 .btn.solid.dark img {
+    height: $why-join-line-height;
+    float: left;
 }

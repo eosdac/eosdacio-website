@@ -162,3 +162,12 @@ a:hover.btn.solid.dark {
         font-size: 1.8em;
     }
 }
+
+// Big card
+$big-card-offset: 30px;
+.big-card {
+    padding-top: $big-card-offset;
+}
+.big-card h1:after {
+    top: $big-card-offset;
+}

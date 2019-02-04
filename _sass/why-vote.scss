@@ -1,11 +1,3 @@
-$why-vote-card-offset: 30px;
-.why-vote .big-card {
-    padding-top: $why-vote-card-offset;
-}
-.why-vote .big-card h1:after {
-    top: $why-vote-card-offset;
-}
-
 .why-vote .card a:hover .card-header {
     background-color: $purple2;
 }

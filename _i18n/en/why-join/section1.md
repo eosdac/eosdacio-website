@@ -1,7 +1,4 @@
-eos**DAC Member Client**
+**At** eos**DAC** we value **openness and transparency**
 ===
 
-eosDAC tokenholders are invited to log on to\\
-<https://members.eosdac.io> to register as Members of the DAC.
-
-[Launch Member Client](https://members.eosdac.io){: .btn.solid.dark }
+As an autonomous community, our operations are visible and reproducible on the blockchain.
