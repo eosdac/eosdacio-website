@@ -9,7 +9,7 @@ permalink: /news/
 <div class="section">
     <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8">
           <h1>{%- translate news.title -%}</h1>
           {%- if site.posts.size > 0 -%}
           <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
@@ -52,7 +52,12 @@ permalink: /news/
         </article>
       {% endfor %}
         </div>
-    </div>
+
+      <div class="col-md-4">
+        {%- include sidebar-feed.html -%}
+      </div>
+      </div>
+
     </div>
     {%- include footer-plains.html -%}
 </div>

@@ -57,6 +57,7 @@ a:hover.btn.solid.light {
 }
 a.btn.outline.light {
     color: $light3;
+    border: solid 2px $light3;
 }
 a.btn.solid.dark {
     background-color: $purple1;

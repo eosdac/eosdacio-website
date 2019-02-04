@@ -2,3 +2,5 @@
 ===
 
 {{ page.title }} page is still TODO...
+
+ * Jekyll collections
