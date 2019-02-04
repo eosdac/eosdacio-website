@@ -35,10 +35,9 @@ a, a:visited {
 }
 
 // Buttons
-a.btn.solid.light {
+a.btn {
     text-transform: none;
-    border-radius: 10px;
-    background-color: $light3;
+    //border-radius: 10px;
     padding: 12px 80px;
     margin-right: 20px;
     margin-top: 30px;
@@ -48,42 +47,20 @@ a.btn.solid.light {
         margin-top: 15px;
         margin-right: 15px;
     }
+}
+a.btn.solid.light {
+    background-color: $light3;
 }
 a:hover.btn.solid.light {
     background-color: $purple3;
     color: $light3;
 }
-
 a.btn.outline.light {
-    text-transform: none;
     color: $light3;
-    border-radius: 10px;
-    border: solid 1px $light3;
-    padding: 12px 80px;
-    margin-right: 20px;
-    margin-top: 30px;
-    white-space: normal;
-    @media (max-width: $break-point-mobile) {
-        padding: 10px 30px;
-        margin-top: 15px;
-        margin-right: 15px;
-    }
 }
-
 a.btn.solid.dark {
-    text-transform: none;
-    border-radius: 10px;
     background-color: $purple1;
     color: $light3;
-    padding: 12px 80px;
-    margin-right: 20px;
-    margin-top: 30px;
-    white-space: normal;
-    @media (max-width: $break-point-mobile) {
-        padding: 10px 30px;
-        margin-top: 15px;
-        margin-right: 15px;
-    }
 }
 a:hover.btn.solid.dark {
     background-color: $purple2;
