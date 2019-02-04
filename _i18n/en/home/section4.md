@@ -1,6 +1,6 @@
 **Vote** for EOS **Block Producers**
 ====================================
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+As an EOS tokenholder, you have an ownership stake in EOS. Voting for an EOS Block Producer is like voting for who takes care of your property. Who you choose to take care of your property matters.
 
 [Tutorial how to vote]({% translate_link why-vote %}){: .btn.solid.dark }
