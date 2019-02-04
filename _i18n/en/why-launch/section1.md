@@ -1,4 +1,4 @@
-**Implement** this Page **Now**
+**Why** launch your **own DAC**?
 ===
 
-{{ page.title }} page is still TODO...
+The blockchain tech is empowering communities to disrupt companies, over time we will see these communities challenging larger organisation nurturing the concept of DACs.
