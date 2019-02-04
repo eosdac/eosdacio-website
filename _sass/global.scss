@@ -158,6 +158,12 @@ a:hover.btn.solid.dark {
     background: $light2;
 }
 
+.section.miscbg {
+    background-image: url(/assets/miscbg-1920x805.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
 @media (max-width: $break-point-mobile) {
     .section h1 {
         font-size: 1.8em;

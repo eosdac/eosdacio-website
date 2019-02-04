@@ -17,12 +17,6 @@ $home-sec2-offset: 75px;
     top: $home-sec2-offset;
 }
 
-.home .sec3 {
-    background-image: url(/assets/miscbg-1920x805.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-}
-
 .home .sec4 h1 {
     max-width: 50%;
     @media (max-width: $break-point-mobile) {
