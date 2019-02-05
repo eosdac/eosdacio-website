@@ -1,0 +1,48 @@
+footer {
+    color: $light3;
+}
+footer h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+footer a, footer a:visited {
+    color: $light3;
+}
+
+// Social Icons
+footer a > img {
+    background: $purple3;
+    border-radius: 5px;
+    height: 45px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+footer a > img:hover {
+    background: $light3;
+}
+
+footer form select {
+    margin-bottom: 20px;
+}
+
+// Material Design Form
+footer select.form-control, footer select.form-control:read-only {
+    color: $light3;
+    background-image: linear-gradient(0deg, $light3 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, $light3 1px, transparent 0)
+}
+footer select.form-control:read-only option {
+    color: $dark1;
+}
+footer .form-group label, footer .form-group.is-focused label {
+    color: $light3;
+}
+footer .form-group input {
+    background-image: linear-gradient(0deg, $light3 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, $light3 1px, transparent 0)
+}
+footer .form-group.is-focused input {
+    background-image: linear-gradient(0deg, $light3 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, rgba(0,0,0,0.26) 1px, transparent 0)
+}
+footer .form-group option {
+    background-color: red;
+}

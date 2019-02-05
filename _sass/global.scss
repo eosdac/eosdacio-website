@@ -1,0 +1,180 @@
+// Global color variables from the styleguide at https://eosdac.io/styleguide
+$purple1: #4A1289;
+$purple2: #7C41BA;
+$purple3: #B999DB;
+
+$dark1: #1E2128;
+$dark2: #272B35;
+$dark3: #2F333D;
+
+$light1: #babdbe;
+$light2: #eceff1;
+$light3: #ffffff;
+
+$break-point-mobile: 992px;
+
+body {
+    background-color: $light3;
+}
+
+.page-content.main {
+    margin-top: 8px;
+    @media (max-width: $break-point-mobile) {
+        margin-top: 0;
+    }
+}
+.site-header {
+    @media (max-width: $break-point-mobile) {
+        min-height: 41px;
+    }
+}
+
+// Link colors
+a, a:visited {
+    color: $purple1;
+}
+
+// Buttons
+a.btn {
+    text-transform: none;
+    //border-radius: 10px;
+    padding: 12px 80px;
+    margin-right: 20px;
+    margin-top: 30px;
+    white-space: normal;
+    @media (max-width: $break-point-mobile) {
+        padding: 10px 30px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+}
+a.btn.solid.light {
+    background-color: $light3;
+}
+a:hover.btn.solid.light {
+    background-color: $purple3;
+    color: $light3;
+}
+a.btn.outline.light {
+    color: $light3;
+    border: solid 2px $light3;
+}
+a.btn.solid.dark {
+    background-color: $purple1;
+    color: $light3;
+}
+a:hover.btn.solid.dark {
+    background-color: $purple2;
+}
+
+// Top Plaines (Spacer)
+.top-plains {
+    background-image: url(/assets/spacer.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+    padding-top: 0 !important;
+}
+
+// Cards, Posts, ...
+.card {
+    margin-bottom: 30px;
+}
+.card .card-header {
+    background-color: $purple1;
+    color: $light3;
+}
+.post-content {
+    margin-bottom: 0;
+}
+
+// Sidebars
+.sidebar-feed {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.sidebar-vote {
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.sidebar-vote img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+// Sections with big headline
+.section {
+    color: $dark1;
+    padding: 75px 0;
+    @media (max-width: $break-point-mobile) {
+        padding: 25px 0;
+    }
+}
+.section:last-of-type {
+    padding-bottom: 0;
+}
+.section h1 {
+    font-weight: 100;
+    font-size: 3.5em;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: $purple1;
+    @media (max-width: $break-point-mobile) {
+        font-size: 1.8em;
+    }
+}
+.section h1:after {
+    content:""; 
+    background: $purple1; 
+    position: absolute; 
+    top: 0px; 
+    left: 15px; 
+    height: 1px; 
+    width: 20%;
+}
+.section h1 strong {
+    font-weight: 500;
+}
+.section li {
+    font-size: 1.2em;
+}
+
+// Section on dark background (purple/black) with light headline (white)
+.section.dark {
+    color: $light3;
+    background-image: linear-gradient(to right, $purple1, $purple2);
+}
+.section.dark h1 {
+    color: $light3;
+}
+.section.dark h1:after {
+    background: $light3; 
+}
+
+// Section on light background (grey) with dark headline (purple)
+.section.grey {
+    background: $light2;
+}
+
+.section.miscbg {
+    background-image: url(/assets/miscbg-1920x805.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+@media (max-width: $break-point-mobile) {
+    .section h1 {
+        font-size: 1.8em;
+    }
+}
+
+// Big card
+$big-card-offset: 30px;
+.big-card {
+    padding-top: $big-card-offset;
+}
+.big-card h1:after {
+    top: $big-card-offset;
+}

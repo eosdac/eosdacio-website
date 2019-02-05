@@ -1,0 +1,10 @@
+header:
+  vote: "Vote for eosDAC"
+  mclient: "Member Client"
+footer:
+  newsletter: Newsletter
+news:
+  title: "<b>News</b>feed"
+sidebar:
+  feed: "Our News on Twitter"
+

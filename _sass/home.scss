@@ -1,0 +1,25 @@
+.home .sec1 iframe {
+    max-width: 100%;
+}
+
+.home .sec2 {
+    $offset: 150px;
+    padding-top: $offset;
+    background: 
+        url(/assets/mockup-transparent-tinified.png) top right / contain no-repeat,
+        linear-gradient(transparent $offset, $light2 10px);
+}
+$home-sec2-offset: 75px;
+.home .sec2 h1 {
+    margin-top: $home-sec2-offset;
+}
+.home .sec2 h1:after {
+    top: $home-sec2-offset;
+}
+
+.home .sec4 h1 {
+    max-width: 50%;
+    @media (max-width: $break-point-mobile) {
+        max-width: 100%;
+    }
+}

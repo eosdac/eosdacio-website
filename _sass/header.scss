@@ -1,0 +1,28 @@
+//TODO: only for big screens
+nav.navbar {
+    padding: 0 16px;
+}
+a.nav-link {
+    text-transform: none;
+}
+
+// Language Selector
+nav .nav-item.dropdown img {
+    margin-bottom: 3px;
+}
+
+// Buttons at the top right
+nav .nav-buttons > a {
+    border-radius: 5px;
+    text-transform: none;
+    padding: .46875rem 1rem;
+    margin-top: 0;
+}
+nav .nav-buttons > a:first-of-type {
+    background: $light3;
+    color: $purple1;
+    margin-right: 10px;
+}
+nav .nav-buttons > a:first-of-type:hover {
+    background: $purple3;
+}
