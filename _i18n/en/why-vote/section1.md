@@ -1,2 +1,2 @@
-A **Decentralized BP** has fewer single points of failure which makes **EOS more secure,** and helps **protects EOS token holders investment.**
+A **Decentralized BP** has fewer single points of failure which make **EOS more secure,** and **protect EOS token holders investment.**
 ===

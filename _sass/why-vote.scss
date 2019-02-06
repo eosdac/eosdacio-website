@@ -1,20 +1,3 @@
-.why-vote .card a:hover .card-header {
-    background-color: $purple2;
-}
-.why-vote .card a:hover {
-    text-decoration: none;
-}
-
-$why-vote-line-height: 40px;
-.why-vote .sec8 .btn.solid.dark {
-    width: 100%;
-    border-radius: 2px;
-    margin-top: 50px;
-    padding: 20px 30px;
-    font-size: 1.3em;
-    line-height: $why-vote-line-height;
-}
-.why-vote .sec8 .btn.solid.dark img {
-    height: $why-vote-line-height;
-    float: left;
+.why-vote .sec1 h1:after {
+    background: transparent;
 }

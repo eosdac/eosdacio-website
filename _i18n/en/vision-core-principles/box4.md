@@ -1,4 +1,4 @@
-![Fairness](/assets/why-vote/fairness-icon160x160.svg)
+![Fairness](/assets/vision-core-principles/fairness-icon160x160.svg)
 
 Fairness
 ---

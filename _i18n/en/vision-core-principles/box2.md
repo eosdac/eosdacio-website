@@ -1,4 +1,4 @@
-![Openness](/assets/why-vote/Openness-Icon-160x160.svg)
+![Openness](/assets/vision-core-principles/Openness-Icon-160x160.svg)
 
 Openness and Transparency
 ---

@@ -2,21 +2,8 @@
 @import 'header.scss';
 @import 'home.scss';
 @import 'why-vote.scss';
+@import 'how-to-vote.scss';
 @import 'why-join.scss';
 @import 'support.scss';
+@import 'core-principles.scss';
 @import 'footer.scss';
-
-
-
-.index.box p:first-of-type {
-  margin: 0;
-}
-.index.box img {
-  padding: 5px 60px;
-}
-.index.box h2 {
-  text-align: center;
-  color: $purple1;
-  font-size: 1.3em;
-  font-weight: 500;
-}

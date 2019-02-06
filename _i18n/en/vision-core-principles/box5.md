@@ -1,4 +1,4 @@
-![Independance](/assets/why-vote/independance-icon160x160.svg)
+![Independance](/assets/vision-core-principles/independance-icon160x160.svg)
 
 Independence
 ---

@@ -178,3 +178,18 @@ $big-card-offset: 30px;
 .big-card h1:after {
     top: $big-card-offset;
 }
+
+// Small card boxes
+.box p:first-of-type {
+    margin: 0;
+  }
+.box img {
+    padding: 5px 60px;
+}
+.box h2 {
+    text-align: center;
+    color: $purple1;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+  
