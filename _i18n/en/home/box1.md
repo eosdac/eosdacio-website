@@ -1,4 +1,4 @@
-![Why Vote?](/assets/vote-for-dac.svg)
+![Why Vote?](/assets/home/vote-for-dac.svg)
 
 Why Vote for eosDAC?
 --------------------

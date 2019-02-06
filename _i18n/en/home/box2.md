@@ -1,4 +1,4 @@
-![Why Join?](/assets/join-dac.svg)
+![Why Join?](/assets/home/join-dac.svg)
 
 Why Join eosDAC?
 ----------------

@@ -1,4 +1,4 @@
-![Why Launch a DAC?](/assets/create-own-dac.svg)
+![Why Launch a DAC?](/assets/home/create-own-dac.svg)
 
 Why Launch a DAC?
 ---
