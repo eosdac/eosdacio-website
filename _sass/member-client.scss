@@ -18,7 +18,7 @@
         url(/assets/home/mockup-transparent-tinified.png) center right / auto 70% no-repeat,
         linear-gradient(to right, $purple1, $purple2);
     @media (max-width: $break-point-mobile) {
-        background: none;
+        background: linear-gradient(to right, $purple1, $purple2);
     }
 }
 .member-client .sec2 p:first-of-type {

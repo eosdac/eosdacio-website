@@ -6,7 +6,7 @@ namespace: why-join
 permalink: /why-join/
 ---
 <div class="why-join">
-<div class="section dark">
+<div class="section dark sec1">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -52,23 +52,23 @@ permalink: /why-join/
   </div>
 </div>
 
-<div class="section">
+<div class="section dark">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        {% translate_file why-join/section5-img.md %}
-      </div>
-      <div class="col-md-6">
-        {% translate_file why-join/section5.md %}
+      <div class="col-md-12">
+        {% translate_file vision-core-principles/vision.md %}
       </div>
     </div>
   </div>
 </div>
 
-<div class="section dark">
+<div class="section grey">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
+        {% translate_file why-join/section6-img.md %}
+      </div>
+      <div class="col-md-6">
         {% translate_file why-join/section6.md %}
       </div>
     </div>
@@ -88,57 +88,14 @@ permalink: /why-join/
   </div>
 </div>
 
-<div class="section dark sec8">
+<div class="section grey">
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
-        {% translate_file why-join/section8.md %}
+      <div class="col-md-12">
+        {%- include core-principles.html -%}
       </div>
     </div>
   </div>
-</div>
-
-<div class="section sec9">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-            {% translate_file why-join/section9.md %}
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 box">
-                {% translate_file why-join/box1.md %}
-            </div>
-            <div class="col-md-4 box">
-                    {% translate_file why-join/box2.md %}
-                </div>
-        </div>
-
-        <div class="row">
-                <div class="col-md-4 box">
-                    {% translate_file why-join/box3.md %}
-                </div>
-                <div class="col-md-4 box">
-                        {% translate_file why-join/box4.md %}
-                </div>
-        </div>
-
-        <div class="row">
-                <div class="col-md-4 box">
-                    {% translate_file why-join/box5.md %}
-                </div>
-                <div class="col-md-4 box">
-                        {% translate_file why-join/box6.md %}
-                </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-8">
-                {% translate_file why-join/box7.md %}
-            </div>
-        </div>
-    </div>
-    {%- include footer-plains.html -%}
+  {%- include footer-plains.html -%}
 </div>
 </div>
