@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
 languages: ["en", "de", "es", "it", "ja", "ko", "pt-br", "ru", "vi", "zh-hans"]
-exclude_from_localizations: ["temp"]
+exclude_from_localizations: ["temp", "styleguide", "assets"]
 defaultLang: en
 languageNames:
   en: English
