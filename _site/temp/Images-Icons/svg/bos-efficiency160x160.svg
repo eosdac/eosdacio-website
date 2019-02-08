@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
+<g>
+	<circle fill="#E3D7EF" cx="80" cy="80" r="80"/>
+	<g id="Interface-Essential__x2F__Setting__x2F__cog">
+		<g id="Group_167">
+			<g id="cog">
+				<path id="Shape_901" fill="#B999DB" stroke="#7C41BA" stroke-width="2" stroke-miterlimit="10" d="M113.016,86H122
+					c2.209,0,4-1.793,4-4v-4c0-2.207-1.791-4-4-4h-8.988c-0.814-4.055-2.16-7.984-4-11.691l6.355-6.348
+					c1.563-1.563,1.563-4.094,0-5.66l-5.672-5.656c-1.561-1.559-4.094-1.559-5.656,0L97.68,51c-3.701-1.836-7.627-3.184-11.68-4v-9
+					c0-2.207-1.791-4-4-4h-4c-2.209,0-4,1.793-4,4v8.992c-4.053,0.82-7.982,2.164-11.684,4l-6.359-6.348
+					c-1.563-1.559-4.096-1.559-5.656,0l-5.66,5.66c-1.563,1.563-1.563,4.098,0,5.656L51,62.32c-1.838,3.703-3.184,7.633-4,11.68h-9
+					c-2.209,0-4,1.797-4,4v4c0,2.215,1.791,4,4,4h8.984c0.816,4.059,2.162,7.984,4,11.688l-6.359,6.359
+					c-1.563,1.563-1.563,4.094,0,5.656l5.676,5.656c1.561,1.563,4.094,1.563,5.656,0L62.313,109c3.703,1.84,7.633,3.184,11.688,4v9
+					c0,2.207,1.791,4,4,4h4c2.209,0,4-1.793,4-4v-8.98c4.051-0.816,7.979-2.164,11.68-4l6.365,6.355
+					c1.561,1.563,4.094,1.563,5.654,0l5.656-5.656c1.563-1.563,1.563-4.094,0-5.656L109,97.703
+					C110.846,93.996,112.195,90.059,113.016,86z"/>
+				<path id="Oval_148" fill="#B999DB" stroke="#7C41BA" stroke-width="2" stroke-miterlimit="10" d="M80,98c9.941,0,18-8.059,18-18
+					s-8.059-18-18-18s-18,8.059-18,18S70.059,98,80,98z"/>
+			</g>
+		</g>
+	</g>
+	<g id="Interface-Essential__x2F__Dashboard__x2F__gauge-dashboard-1">
+		<g id="Group_13">
+			<g id="gauge-dashboard-1">
+				<path id="Oval_3" fill="#FFFFFF" stroke="#7C41BA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M80,103
+					c12.702,0,23-10.297,23-23S92.702,57,80,57c-12.703,0-23,10.297-23,23S67.297,103,80,103z"/>
+				<path id="Shape_42" fill="#FFFFFF" stroke="#7C41BA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="
+					M82.829,82.828c-1.569,1.516-4.064,1.492-5.607-0.051s-1.564-4.035-0.049-5.605c1.562-1.563,16.264-10.602,16.264-10.602
+					S84.4,81.266,82.829,82.828z"/>
+				<path id="Shape_43" fill="#FFFFFF" stroke="#7C41BA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="
+					M63,80h3"/>
+				<path id="Shape_44" fill="#FFFFFF" stroke="#7C41BA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="
+					M67.98,67.98l2.119,2.117"/>
+				<path id="Shape_45" fill="#FFFFFF" stroke="#7C41BA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="
+					M80,63v3"/>
+				<path id="Shape_46" fill="#FFFFFF" stroke="#7C41BA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="
+					M97,80h-3"/>
+				<path id="Shape_47" fill="#FFFFFF" stroke="#7C41BA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="
+					M97.266,95.199C92.197,91.699,86.158,89.883,80,90c-6.158-0.117-12.197,1.699-17.266,5.199"/>
+			</g>
+		</g>
+	</g>
+	<ellipse fill="#B999DB" cx="78.334" cy="136.67" rx="24" ry="3"/>
+</g>
+</svg>
