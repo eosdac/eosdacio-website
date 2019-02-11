@@ -517,6 +517,9 @@ body {
   .site-header {
     min-height: 41px; } }
 
+.nav-tabs li.nav-item {
+  margin-bottom: 0; }
+
 a, a:visited {
   color: #4A1289; }
 
@@ -531,6 +534,9 @@ a.btn {
       padding: 10px 30px;
       margin-top: 15px;
       margin-right: 15px; } }
+
+a.btn:last-of-type {
+  margin-right: 0; }
 
 a.btn.solid.light {
   background-color: #ffffff; }
@@ -765,6 +771,12 @@ nav .nav-buttons > a:first-of-type:hover {
 
 .support .sec1 .box img {
   width: 50%; }
+
+.news .sec2 h1:after {
+  background: transparent; }
+
+.news p.rss-subscribe {
+  margin-top: 50px; }
 
 .core-principles .card {
   min-height: 95%; }
