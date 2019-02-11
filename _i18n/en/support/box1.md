@@ -1,5 +1,6 @@
 ![Telegram](/assets/support/telegram.svg)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Connect with us on Telegram, so you can directly interact with the members and active contributors of the growing\\
+eosDAC community.
 
 [Connect with us on Telegram](https://t.me/eosdacio){: .btn.outline.light.btn-raised }
