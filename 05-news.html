@@ -1,6 +1,8 @@
 ---
 layout: page
 title: News
+pagination: 
+  enabled: true
 
 namespace: news
 permalink: /news/
@@ -10,50 +12,64 @@ permalink: /news/
     <div class="container">
     <div class="row">
         <div class="col-md-8">
-          <h1>{%- translate news.title -%}</h1>
+          {%- translate_file news/sec1.md -%}
           {%- if site.posts.size > 0 -%}
-          <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-          <ul class="post-list">
-            {%- for post in site.posts -%}
-            <li>
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
+            <!--
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            -->
+            <div class="row">
+
+            {% for post in paginator.posts %}
+            <div class="col-md-6">
+              <div class="card"">
+                <img class="card-img-top" src="{{ post.image | default: "/assets/news/default.png" }}" alt="{{ post.title | escape }}" style="max-height: 179px;">
+                <div class="card-body">
+                  <h5 class="card-title">{{ post.title | escape }}</h5>
+                  <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+                  <p class="card-text">{{ post.excerpt | truncate: 400 }}</p>
+                  <a href="{{ post.url | relative_url }}">{% translate news.more %}</a>
+                </div>
+              </div>
+            </div>
+            <!--<article>
+              <h2>
+                <a href="{{ post.url }}">
+                  {{ post.title }}
                 </a>
-              </h3>
-              {%- if site.show_excerpts -%}
-                {{ post.excerpt }}
-              {%- endif -%}
-            </li>
-            {%- endfor -%}
-          </ul>
-      
-          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+              </h2>
+              <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+              {{ post.content }}
+            </article>-->
+          {% endfor %}
+          </div>
         {%- else -%}
-          <h2>No news in your language... <a href="{% translate_link news en %}">check English</a></h2>
-          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-        {%- endif -%}
+          {%- translate_file news/no-news.md -%}
+        {%- endif -%}      
       
+        {% if paginator.total_pages > 1 %}
+        <center>
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="btn solid dark btn-raised">Previous</a>
+          {% else %}
+            <a class="btn solid light btn-raised">Previous</a>
+          {% endif %}
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn solid dark btn-raised">Next</a>
+          {% else %}
+            <a class="btn solid light btn-raised">Next</a>
+          {% endif %}
+        </center>
+        {% endif %}
+
+        <center>
+          <p class="rss-subscribe">{% translate news.subscribe %}<a href="{{ "/feed.xml" | relative_url }}">{% translate news.rss %}</a></p>
+        </center>
       
-      
-      
-      
-      {% for post in site.posts %}
-        <article>
-          <h2>
-            <a href="{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </h2>
-          <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-          {{ post.content }}
-        </article>
-      {% endfor %}
         </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 sec2">
+        <h1>&nbsp;</h1>
         {%- include sidebar-feed.html -%}
       </div>
       </div>

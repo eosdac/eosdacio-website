@@ -4,7 +4,11 @@ header:
 footer:
   newsletter: Newsletter
 news:
-  title: "<b>News</b>feed"
-sidebar:
-  feed: "Our News on Twitter"
+  sidebar: "Our News on Twitter"
+  more: "Read more"
+  back: "Back"
+  prev: "Previous"
+  next: "Next"
+  subscribe: "subscribe "
+  rss: "via RSS"
 
