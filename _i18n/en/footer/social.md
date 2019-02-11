@@ -1,5 +1,5 @@
 Social Media
-------------
+---
 
 \\
 [![Twitter](/assets/social/twitter.svg)](https://twitter.com/eosdac)

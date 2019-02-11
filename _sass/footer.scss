@@ -1,5 +1,7 @@
 footer {
     color: $light3;
+    border: 0;
+    padding: 0;
 }
 footer h2 {
     font-size: 1.1em;
@@ -7,6 +9,14 @@ footer h2 {
 }
 footer a, footer a:visited {
     color: $light3;
+}
+footer a:hover {
+    color: $light3;
+}
+
+footer .footer {
+    background-image: linear-gradient(to left, $purple1, $purple2);
+    padding-bottom:20px;
 }
 
 // Social Icons
