@@ -1,0 +1,1 @@
+![eosDAC Logo](/assets/news/default.png)
