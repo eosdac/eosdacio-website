@@ -22,25 +22,23 @@ permalink: /news/
 
             {% for post in paginator.posts %}
             <div class="col-md-6">
+              {% if post.external_link %} <a href="{{ post.external_link }}"> {% else %} <a href="{{ post.url | relative_url }}"> {% endif %}
               <div class="card"">
                 <img class="card-img-top" src="{{ post.image | default: "/assets/news/default.png" }}" alt="{{ post.title | escape }}" style="max-height: 179px;">
                 <div class="card-body">
                   <h5 class="card-title">{{ post.title | escape }}</h5>
+                  
                   <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-                  <p class="card-text">{{ post.excerpt | truncate: 400 }}</p>
-                  <a href="{{ post.url | relative_url }}">{% translate news.more %}</a>
+                  <p class="card-text">{{ post.excerpt }}</p><!-- | truncate: 400 -->
+                  {% if post.external_link %}
+                    <a href="{{ post.external_link }}" class="link">{% translate news.more %} ↗</a>
+                  {% else %}
+                    <a href="{{ post.url | relative_url }}" class="link">{% translate news.more %}</a>
+                  {% endif %}
                 </div>
               </div>
+              </a>
             </div>
-            <!--<article>
-              <h2>
-                <a href="{{ post.url }}">
-                  {{ post.title }}
-                </a>
-              </h2>
-              <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-              {{ post.content }}
-            </article>-->
           {% endfor %}
           </div>
         {%- else -%}

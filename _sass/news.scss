@@ -5,3 +5,15 @@
 .news p.rss-subscribe {
     margin-top: 50px;
 }
+
+.news .card a, .news .card a:hover {
+    text-decoration: none;
+    color: $dark1;
+}
+
+.news .card a.link {
+    color: $purple1;
+}
+.news .card a.link:hover {
+    text-decoration: underline;
+}

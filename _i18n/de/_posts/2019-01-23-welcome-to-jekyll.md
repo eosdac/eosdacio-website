@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Willkommen bei Jekyll!"
 date:   2019-01-23 11:48:09 +0100
 image:  https://furkanbayram.online/static/images/post_image/jekyll-tema-degistirme-ve-klasor-yapisi.html/bg.jpg
 categories: jekyll update
