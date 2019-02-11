@@ -89,7 +89,7 @@ pagination:
   #sort_field: 'date'
 
   # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  #sort_reverse: true
+  sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
   #category: 'posts'
