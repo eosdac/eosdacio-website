@@ -1,8 +1,11 @@
 header:
   vote: "Wähle eosdacserver"
   mclient: "Mitglieder"
-footer:
-  newsletter: Newsletter
-sidebar:
-  feed: "Neuigkeiten auf Twitter"
-
+news:
+  sidebar: "Neuigkeiten auf Twitter"
+  more: "mehr ..."
+  back: "zurück"
+  prev: "Zurück"
+  next: "Weiter"
+  subscribe: "abonnieren "
+  rss: "via RSS"

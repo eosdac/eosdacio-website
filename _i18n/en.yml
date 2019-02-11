@@ -1,8 +1,6 @@
 header:
   vote: "Vote eosdacserver"
   mclient: "Member Client"
-footer:
-  newsletter: Newsletter
 news:
   sidebar: "Our News on Twitter"
   more: "Read more"
