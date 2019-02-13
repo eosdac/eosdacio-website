@@ -18,6 +18,10 @@ body {
 }
 
 .page-content.main {
+    overflow: hidden;
+}
+
+.page-content.main {
     margin-top: 8px;
     @media (max-width: $break-point-mobile) {
         margin-top: 0;
@@ -68,7 +72,7 @@ a.btn.outline.light {
 }
 a.btn.solid.dark {
     background-color: $purple1;
-    color: $light3;
+    color: $light3 !important;
 }
 a:hover.btn.solid.dark {
     background-color: $purple2;
@@ -141,6 +145,9 @@ a:hover.btn.solid.dark {
     height: 1px; 
     width: 20%;
 }
+.section.head h1:after {
+    background: transparent !important;
+}
 .section h1 strong {
     font-weight: 500;
 }
@@ -152,6 +159,12 @@ a:hover.btn.solid.dark {
 .section.dark {
     color: $light3;
     background-image: linear-gradient(to right, $purple1, $purple2);
+}
+.section.dark.black {
+    background-image: linear-gradient(to right, $dark1, $dark2);
+}
+.section.dark.black a {
+    color: $purple3;
 }
 .section.dark h1 {
     color: $light3;

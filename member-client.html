@@ -5,57 +5,62 @@ namespace: member-client
 permalink: /member-client/
 ---
 <div class="member-client">
+<div class="section head dark sec1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 order-lg-2">
+              <img src="/assets/home/mclient1.png" class="bg d-none d-lg-block" alt="Member Client"/>
+            </div>
+            <div class="col-md-12 col-lg-8 order-lg-1">
+            {% translate_file member-client/section2.md %}
+            <div class="row">
+                <div class="col-md-6 box">
+                    {% translate_file member-client/box1.md %}
+                </div>
+                <div class="col-md-6 box">
+                        {% translate_file member-client/box2.md %}
+                    </div>
+            </div>
+    
+            <div class="row">
+                    <div class="col-md-6 box">
+                        {% translate_file member-client/box3.md %}
+                    </div>
+                    <div class="col-md-6 box">
+                            {% translate_file member-client/box4.md %}
+                    </div>
+            </div>
+    
+            <div class="row">
+                    <div class="col-md-6 box">
+                        {% translate_file member-client/box5.md %}
+                    </div>
+                    <div class="col-md-6 box">
+                            {% translate_file member-client/box6.md %}
+                    </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-12">
+                    {% translate_file member-client/box7.md %}
+                </div>
+            </div>
+            </div>
+        </div>
 
-<div class="section dark sec1">
+
+  </div>
+</div>
+<div class="section dark black sec2">
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-5 order-md-2">
+        <img src="/assets/home/mclient2.png" class="bg" alt="Member Client"/>
+      </div>
+      <div class="col-md-7 order-md-1">
         {% translate_file member-client/section1.md %}
       </div>
     </div>
-  </div>
-</div>
-
-<div class="section dark sec2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-            {% translate_file member-client/section2.md %}
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 box">
-                {% translate_file member-client/box1.md %}
-            </div>
-            <div class="col-md-4 box">
-                    {% translate_file member-client/box2.md %}
-                </div>
-        </div>
-
-        <div class="row">
-                <div class="col-md-4 box">
-                    {% translate_file member-client/box3.md %}
-                </div>
-                <div class="col-md-4 box">
-                        {% translate_file member-client/box4.md %}
-                </div>
-        </div>
-
-        <div class="row">
-                <div class="col-md-4 box">
-                    {% translate_file member-client/box5.md %}
-                </div>
-                <div class="col-md-4 box">
-                        {% translate_file member-client/box6.md %}
-                </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-8">
-                {% translate_file member-client/box7.md %}
-            </div>
-        </div>
   </div>
   {%- include footer-plains.html -%}
 </div>
