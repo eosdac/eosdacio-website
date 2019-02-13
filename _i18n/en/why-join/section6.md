@@ -1,6 +1,8 @@
-**Any member** can run as a **custodian**
+**Join us**, we'd love your **help!**
 ===
 
- * Any member willing to stake 35,000 or more eosDAC tokens can run as a custodian
- * If elected on the next 7 day term, your will have the responsibility of voting on all eosDAC WPs
- * You can help to guide the future direction of eosDAC
+ * DAC's are at their infancy
+ * For some people it's very exciting to work on ambitious things that have never been done before
+ * If you’re one of them, join us, we’d love your help!
+
+[Join Discussion on Discord](https://discord.io/eosdac){: .btn.solid.dark.btn-raised }
