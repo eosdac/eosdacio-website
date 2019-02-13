@@ -1,6 +1,5 @@
-![Discord](/assets/support/discord.svg)
+![Telegram](/assets/support/telegram.svg)
 
-Connect with us on Discord for general discussion about the project, worker proposals and regular community wide\\
-eosDAC meetings.
+Telegram can be used to reach out to the supporters and fans of eosDAC for generic discussions.
 
-[Connect with us on Discord](https://discord.io/eosdac){: .btn.outline.light.btn-raised }
+[Connect with us on Telegram](https://t.me/eosdacio){: .btn.outline.light.btn-raised }
