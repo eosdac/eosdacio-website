@@ -161,10 +161,13 @@ img.bg {
     top: 0px; 
     left: 15px; 
     height: 1px; 
-    width: 20%;
+    width: 130px;
 }
 .section.head h1:after {
     background: transparent !important;
+}
+.section.head h1 {
+    padding-top: 0px !important;
 }
 .section h1 strong {
     font-weight: 500;
