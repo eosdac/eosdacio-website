@@ -12,11 +12,12 @@ nav .nav-item.dropdown img {
 }
 
 // Buttons at the top right
-nav .nav-buttons > a {
+nav .nav-buttons > a.btn {
     border-radius: 5px;
     text-transform: none;
     padding: .46875rem 1rem;
     margin-top: 0;
+    min-width: 0;
 }
 nav .nav-buttons > a:first-of-type {
     background: $light3;

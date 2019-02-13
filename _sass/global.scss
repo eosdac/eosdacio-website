@@ -50,6 +50,7 @@ a.btn {
     margin-right: 20px;
     margin-top: 30px;
     white-space: normal;
+    min-width: 250px;
     @media (max-width: $break-point-mobile) {
         padding: 10px 30px;
         margin-top: 15px;
@@ -78,6 +79,11 @@ a:hover.btn.solid.dark {
     background-color: $purple2;
 }
 
+// Youtube Videos
+iframe {
+    max-width: 100%;
+}
+
 // Top Plaines (Spacer)
 .top-plains {
     background-image: url(/assets/spacer.png);
@@ -97,6 +103,18 @@ a:hover.btn.solid.dark {
 }
 .post-content {
     margin-bottom: 0;
+}
+
+// Side-/Background-Images
+img.bg {
+    max-height: 500px;
+    max-width: none;
+    margin-left: -180px;
+    @media (max-width: $break-point-mobile) {
+        max-height: 200px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
 }
 
 // Sidebars
