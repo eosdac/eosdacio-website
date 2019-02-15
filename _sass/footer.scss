@@ -20,16 +20,22 @@ footer .footer {
 }
 
 // Social Icons
-footer a > img {
+footer a > i {
     background: $purple3;
     border-radius: 5px;
-    height: 45px;
-    padding: 10px;
-    margin-right: 15px;
-    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    font-size: 23px;
+    color: $purple1;
+    display: inline-block;
+    text-align: center;
 }
-footer a > img:hover {
+footer a > i:hover {
     background: $light3;
+    text-decoration: none;
 }
 
 footer form select {
