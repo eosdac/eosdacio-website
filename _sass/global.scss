@@ -221,6 +221,9 @@ $big-card-offset: 30px;
 }
 
 // Small card boxes
+.box p {
+    font-size: 1.3em;
+}
 .box p:first-of-type {
     margin: 0;
   }
@@ -230,7 +233,7 @@ $big-card-offset: 30px;
 .box h2 {
     text-align: center;
     color: $purple1;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 500;
 }
   
