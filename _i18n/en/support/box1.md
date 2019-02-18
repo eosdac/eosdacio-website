@@ -1,5 +1,5 @@
 ![Discord](/assets/support/discord.svg)
 
-Discord is the **main communication channel** of eosDAC for general discussions, worker proposals and regular meetings.
+Discord is where the action happens and is the main communication channel of eosDAC for everything from discussions, questions, support, and meetings.
 
-[Connect with us on Discord](https://discord.io/eosdac){: .btn.outline.light.btn-raised }
+[Connect with us on Discord](https://discord.io/eosdac){: .btn.solid.light.btn-raised }
