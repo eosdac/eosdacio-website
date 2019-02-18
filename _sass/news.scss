@@ -17,3 +17,12 @@
 .news .card a.link:hover {
     text-decoration: underline;
 }
+
+.news .sidebar-feed a {
+    background-size: contain !important;
+}
+
+.news .sec1 h1 small {
+    color: $dark1;
+    font-size: 0.3em;
+}
