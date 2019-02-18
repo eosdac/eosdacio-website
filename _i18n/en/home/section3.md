@@ -6,7 +6,7 @@ DACs (Decentralised Autonomous Communities) are essentially just digital organiz
 By bringing a way for DACs to easily be made on EOS, eosDAC thinks this will cause an explosion of new digital organizations that can massively benefit EOS and change the world.
 
 If you’d like to learn more about DAC’s, you can watch the *What is a DAC?* video here:
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ahoFGzxE_NY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ahoFGzxE_NY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 [Why Vote?]({% translate_link why-vote %}){: .btn.solid.dark.btn-raised }
 [Why Join?]({% translate_link why-join %}){: .btn.solid.light.btn-raised }
