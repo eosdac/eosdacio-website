@@ -1,11 +1,11 @@
+site:
+  title: "eosDAC"
+  description: "The Community-Owned EOS Block Producer and DAC Enabler"
 header:
   vote: "Wähle eosdacserver"
   mclient: "Mitglieder"
 news:
-  sidebar: "Neuigkeiten auf Twitter"
   more: "mehr ..."
   back: "zurück"
   prev: "Zurück"
   next: "Weiter"
-  subscribe: "abonnieren "
-  rss: "via RSS"

@@ -60,41 +60,11 @@
       <img src="/assets/signet-white.svg" height="50" alt="{{ site.title | escape }}">
     </div>
     <div class="col-md-10">
-  {%- assign default_paths = site.pages | map: "path" -%}
-  {%- assign page_paths = site.header_pages | default: default_paths -%}
-  {%- if page_paths -%}
-      {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-            <a class="nav-link" href="{{ my_page.url | relative_url }}" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">{{ my_page.title | escape }}</a>
+        {% for my_page in site.pages %}
+        {% if my_page.title and my_page.autogen == nil %}
+        <a class="nav-link" href="{{ my_page.url | relative_url }}" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">{% t my_page.title %}</a>
         {%- endif -%}
-      {%- endfor -%}
-  {%- endif -%}
-
-
-
-<!-- Default dropup button -->
-<!--
-<div class="btn-group dropup">
-  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <img src="/assets/flags/{{ site.lang }}.png"/>
-  </button>
-  <div class="dropdown-menu">
-          {% for lang in site.languageNames %}
-          {% if lang[0] == site.lang %} {% continue %} {% endif %}
-          {% if page.namespace %}
-          <a class="dropdown-item" href="{% tl {{ page.namespace }} {{ lang[0] }} %}"><img src="/assets/flags/{{ lang[0] }}.png"/>&nbsp;{{ lang[1] }}</a>
-          {% else %}
-          {% if lang[0] == site.defaultLang %}
-          <a class="dropdown-item" href="{{ site.baseurl_root }}/"><img src="/assets/flags/{{ lang[0] }}.png"/>&nbsp;{{ lang[1] }}</a>
-          {% else %}
-          <a class="dropdown-item" href="{{ site.baseurl_root }}/{{ lang[0] }}/"><img src="/assets/flags/{{ lang[0] }}.png"/>&nbsp;{{ lang[1] }}</a>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-  </div>
-</div>
--->
+        {%- endfor -%}
     </div>
   </div></div>
 </div>

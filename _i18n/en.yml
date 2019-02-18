@@ -1,12 +1,21 @@
+site:
+  title: "eosDAC"
+  description: "The Community-Owned EOS Block Producer and DAC Enabler"
 header:
   vote: "Vote eosdacserver"
   mclient: "Member Client"
 news:
-  sidebar: "Our News on Twitter"
+  steemit: "Steemit"
+  youtube: "Youtube"
+  twitter: "Twitter"
   more: "Read more"
   back: "Back"
   prev: "Previous"
   next: "Next"
-  subscribe: "subscribe "
-  rss: "via RSS"
-
+pages:
+  why-vote: "Why Vote for eosDAC?"
+  why-join: "Why Join eosDAC?"
+  why-launch: "Why Launch a DAC?"
+  support: "Support"
+  tools: "Tools"
+  news: "News"
