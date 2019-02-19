@@ -2,27 +2,28 @@
 <html lang="ja"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>News | eosDAC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eosDAC | News</title><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>pages.news | site.title</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="News" />
+<meta property="og:title" content="pages.news" />
 <meta property="og:locale" content="ja" />
-<meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler" />
-<meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler" />
-<link rel="canonical" href="/ja/news/" />
-<meta property="og:url" content="/ja/news/" />
-<meta property="og:site_name" content="eosDAC" />
+<meta name="description" content="site.description" />
+<meta property="og:description" content="site.description" />
+<link rel="canonical" href="http://localhost:4000/ja/news/" />
+<meta property="og:url" content="http://localhost:4000/ja/news/" />
+<meta property="og:site_name" content="site.title" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"/ja/news/","headline":"News","description":"The Community-Owned EOS Block Producer and DAC Enabler","@context":"http://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/ja/news/","headline":"pages.news","description":"site.description","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="shortcut icon" type="image/png" href="/ja/assets/main.css">
+<link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/ja/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/ja/feed.xml" title="eosDAC" /></head>
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/ja/feed.xml" title="site.title" /></head>
 <body><header class="site-header" role="banner" style="border:0">
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs" style="background-image:linear-gradient(to right, #4A1289, #7C41BA)">
   <a class="navbar-brand" href="/ja/">
-    <img src="/assets/signet-white.svg" height="30" alt="eosDAC">
+    <img src="/assets/signet-white.svg" height="30" alt="site.title">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -170,43 +171,79 @@
 
   <div class="post-content">
     <div class="news">
-<div class="section">
+  <div class="section sec1">
     <div class="container">
-    <div class="row">
-        <div class="col-md-8"><h1 id="newsfeed"><strong>News</strong>feed</h1>
-<p>There are no posts in your language, yet. Please check the <a href="/news/index.html">English posts</a>.</p>
-
-
-        <center>
-          <p class="rss-subscribe">subscribe <a href="/ja/feed.xml">via RSS</a></p>
-        </center>
-      
-        </div>
-
-      <div class="col-md-4 sec2">
-        <h1>&nbsp;</h1><div class="card sidebar-feed">
+      <div class="row">
+        <div class="col-md-12"><h1 id="newsfeed-subscribe-via-rss"><strong>News</strong>feed <small>subscribe <a href="/ja/feed.xml">via RSS</a></small></h1>
+</div>
+      </div>
+      <div class="row">
+        <div class="col-md-4"><div class="card sidebar-feed">
     <div class="card-header">
-        Our News on Twitter
+        Twitter
      </div>
      <div class="card-body">
-        <a href="https://twitter.com/eosdac?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @eosdac</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <a class="twitter-timeline" data-tweet-limit="3" href="https://twitter.com/eosdac?ref_src=twsrc%5Etfw">Tweets by eosdac</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        <!--<a href="https://twitter.com/eosdac?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @eosdac</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+        <a class="twitter-timeline" data-tweet-limit="1" href="https://twitter.com/eosdac?ref_src=twsrc%5Etfw">Tweets by eosdac</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
     </div>
 </div></div>
+        <div class="col-md-4"><div class="card sidebar-feed">
+    <div class="card-header">
+        Steemit
+     </div>
+     <div class="card-body">
+<div id="steemit-widgets-blog"></div>
+<script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+<script src="https://mktcode.github.io/steemit-widgets/assets/js/steemit-widgets.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script>
+  steemitWidgets.blog({
+    element: 'steemit-widgets-blog',
+    user: 'eosdac',
+    limit: 1,
+    template: '<div style="font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif; padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px solid rgb(230, 230, 230);"><h2 style="margin: 0px; font-size: 16px; line-height: 16px; padding: 7px 10px 7px 0px; text-align: left;"><span>${RESTEEMED}</span> <a href="${URL}" style="color: rgb(51, 51, 51); text-decoration: none;"><b>${TITLE}</b></a></h2> <div style="font-size: 13px; color: rgb(51, 51, 51); padding-bottom: 5px; text-align: left;"><span style="color: rgb(138, 138, 138);">${DATE}</span> <span>by <a href="https://steemit.com/@${AUTHOR}" style="color: rgb(138, 138, 138); text-decoration: none; font-weight: bold;">${AUTHOR}</a></span> <!----> <span>in <a href="https://steemit.com/@${CATEGORY}" style="color: rgb(138, 138, 138); text-decoration: none; font-weight: bold;">${CATEGORY}</a></span></div> <a href="${URL}" style="border-top-right-radius: 0px; border-top-left-radius: 0px; height: 250px; display: block; background-image: url(\'${IMAGE}\'); background-size: cover; background-position: center center;"></a> <div style="color: rgb(136, 136, 136); display: table; table-layout: fixed; width: 100%; font-size: 14px; line-height: 21px; padding: 10px 0px 5px;"><!----> <div style="display: table-cell; text-align: right;"><!----> <!----> <span><span style="width: 15px; height: 15px; display: inline-block; vertical-align: middle;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve"><g><path d="M294.1,365.5c-2.6-1.8-7.2-4.5-17.5-4.5H160.5c-34.7,0-64.5-26.1-64.5-59.2V201h-1.8C67.9,201,48,221.5,48,246.5v128.9 c0,25,21.4,40.6,47.7,40.6H112v48l53.1-45c1.9-1.4,5.3-3,13.2-3h89.8c23,0,47.4-11.4,51.9-32L294.1,365.5z" fill="#cacaca"></path><path d="M401,48H183.7C149,48,128,74.8,128,107.8v69.7V276c0,33.1,28,60,62.7,60h101.1c10.4,0,15,2.3,17.5,4.2L384,400v-64h17 c34.8,0,63-26.9,63-59.9V107.8C464,74.8,435.8,48,401,48z" fill="#cacaca"></path></g></svg></span> ${COMMENTS}</span></div></div></div>',
+    resteemedIndicator: '<span style="width: 15px; height: 15px; display: inline-block;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M448,192l-128,96v-64H128v128h248c4.4,0,8,3.6,8,8v48c0,4.4-3.6,8-8,8H72c-4.4,0-8-3.6-8-8V168c0-4.4,3.6-8,8-8h248V96 L448,192z"></path></svg></span>',
+    reputationPrecision: 1,
+    updateInterval: 60,
+    dateCallback: function (date) {return moment.utc(date).from(moment.utc().format('YYYY-MM-DD HH:mm:ss'));}
+  });
+</script>
+    </div>
+</div>
+</div>
+        <div class="col-md-4"><div class="card sidebar-feed">
+    <div class="card-header">
+        Youtube
+     </div>
+     <div class="card-body" style="padding:0;">
+        <iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=testingorg1" width="480" height="200"></iframe>
+    </div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="section grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><p>There are no posts in your language, yet. Please check the <a href="/news/index.html">English posts</a>.</p>
+
+        </div>
+
+
       </div>
 
-    </div><div style="background-image:url(/assets/footer-bkgr.svg);background-repeat:no-repeat;background-size:100% auto;margin-top:50px;">
+    </div><div style="background-image:url(/assets/footer-bkgr.png);background-repeat:no-repeat;background-size:100% auto;margin-top:50px;">
     <img src="/assets/spacer.gif" style="width:100%;"/>
 </div></div>
 </div>
-
   </div>
 
 </article>
 
       </div>
     </main><footer class="site-footer h-card" style="border:0;padding:0;">
-<div style="background-image:linear-gradient(to left, #4A1289, #7C41BA);padding-bottom:20px;">
+<div class="footer">
 
 <div class="container">
   <div class="row">
@@ -216,11 +253,12 @@
 <a href="/ja/why-vote/#core-principles">Code Of Conduct</a><br />
 <a href="/styleguide">Styleguide</a><br />
 <a href="https://steemit.com/eos/@eosdac/statement-of-ownership-and-code-of-conduct">Disclosures</a><br />
-<a href="https://eosdac.io/bp.json">BP Info</a></p>
+<a href="/bp.json">BP Info</a></p>
 
     </div>
     <div class="col-md-6">
-      <h2>Newsletter</h2>
+      <h2 id="newsletter">Newsletter</h2>
+
       <form>
       <div class="row">
         <div class="col-md-6">
@@ -265,14 +303,17 @@
       <h2 id="social-media">Social Media</h2>
 
 <p><br />
-<a href="https://twitter.com/eosdac"><img src="/assets/social/twitter.svg" alt="Twitter" /></a>
-<a href="https://facebook.com/eosdac"><img src="/assets/social/facebook.svg" alt="Facebook" /></a>
-<a href="https://www.reddit.com/r/eosdac"><img src="/assets/social/reddit.svg" alt="Reddit" /></a>
-<a href="https://www.youtube.com/eosdac"><img src="/assets/social/youtube.svg" alt="YouTube" /></a></p>
-
-<p><a href="https://github.com/eosdac"><img src="/assets/social/github.svg" alt="Github" /></a>
-<a href="https://vk.com/eosdac"><img src="/assets/social/vk.svg" alt="VK" /></a>
-<a href="https://steemit.com/@eosdac"><img src="/assets/social/steem.svg" alt="Steem" /></a></p>
+<a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
+<a href="https://github.com/eosdac"><i class="icon icon-social-github-com"></i></a>
+<a href="https://steemit.com/@eosdac"><i class="icon icon-social-steemit-com"></i></a>
+<a href="https://twitter.com/eosdac"><i class="icon icon-social-twitter-com"></i></a>
+<a href="https://www.instagram.com/eosdac"><i class="icon icon-social-instagram-com"></i></a>
+<br />
+<a href="https://facebook.com/eosdac"><i class="icon icon-social-facebook-com"></i></a>
+<a href="https://www.reddit.com/r/eosdac"><i class="icon icon-social-reddit-com"></i></a>
+<a href="https://vk.com/eosdac"><i class="icon icon-social-vk-com"></i></a>
+<a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
+<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a></p>
 
     </div>
   </div>
@@ -281,66 +322,28 @@
     <div class="container">
   <hr style="padding: 10px 0; border-color: #BABDBE;"/><div class="row">
     <div class="col-md-2">
-      <img src="/assets/signet-white.svg" height="50" alt="eosDAC">
+      <img src="/assets/signet-white.svg" height="50" alt="site.title">
     </div>
-    <div class="col-md-10"><a class="nav-link" href="/ja/why-vote/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Why Vote for eosDAC?</a><a class="nav-link" href="/ja/why-join/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Why Join eosDAC?</a><a class="nav-link" href="/ja/why-launch/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Why Launch a DAC?</a><a class="nav-link" href="/ja/support/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Support</a><a class="nav-link" href="/ja/tools/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Tools</a><a class="nav-link" href="/ja/news/index.html" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">News</a><!-- Default dropup button -->
-<!--
-<div class="btn-group dropup">
-  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <img src="/assets/flags/ja.png"/>
-  </button>
-  <div class="dropdown-menu">
-          
-          
-          
-          <a class="dropdown-item" href="/news/index.html"><img src="/assets/flags/en.png"/>&nbsp;English</a>
-          
-          
-          
-          
-          <a class="dropdown-item" href="/de/news/index.html"><img src="/assets/flags/de.png"/>&nbsp;Deutsch</a>
-          
-          
-          
-          
-          <a class="dropdown-item" href="/es/news/index.html"><img src="/assets/flags/es.png"/>&nbsp;Español</a>
-          
-          
-          
-          
-          <a class="dropdown-item" href="/it/news/index.html"><img src="/assets/flags/it.png"/>&nbsp;Italiano</a>
-          
-          
-           
-          
-          
-          <a class="dropdown-item" href="/ko/news/index.html"><img src="/assets/flags/ko.png"/>&nbsp;한국의</a>
-          
-          
-          
-          
-          <a class="dropdown-item" href="/pt-br/news/index.html"><img src="/assets/flags/pt-br.png"/>&nbsp;Brasileiro</a>
-          
-          
-          
-          
-          <a class="dropdown-item" href="/ru/news/index.html"><img src="/assets/flags/ru.png"/>&nbsp;Pусский</a>
-          
-          
-          
-          
-          <a class="dropdown-item" href="/vi/news/index.html"><img src="/assets/flags/vi.png"/>&nbsp;Tiếng Việt</a>
-          
-          
-          
-          
-          <a class="dropdown-item" href="/zh-hans/news/index.html"><img src="/assets/flags/zh-hans.png"/>&nbsp;中国</a>
-          
-          
-  </div>
-</div>
--->
-    </div>
+    <div class="col-md-10">
+        
+        
+        <a class="nav-link" href="/ja/why-vote/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Why Vote for eosDAC?</a>
+        
+        <a class="nav-link" href="/ja/why-join/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Why Join eosDAC?</a>
+        
+        <a class="nav-link" href="/ja/why-launch/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Why Launch a DAC?</a>
+        
+        <a class="nav-link" href="/ja/support/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Support</a>
+        
+        <a class="nav-link" href="/ja/tools/" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">Tools</a>
+        
+        
+        
+        
+        
+        
+        
+        <a class="nav-link" href="/ja/news/index.html" style="text-transform: none; display: inline-block; margin-top: 5px; color: white;">News</a></div>
   </div></div>
 </div>
 </footer>
