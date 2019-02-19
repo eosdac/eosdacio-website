@@ -1,8 +1,3 @@
-header:
-  vote: "Vote eosdacserver"
-  mclient: "Member Client"
-footer:
-  newsletter: Newsletter
-sidebar:
-  feed: "Our News on Twitter"
-
+site:
+  title: "eosDAC"
+  description: "The Community-Owned EOS Block Producer and DAC Enabler"

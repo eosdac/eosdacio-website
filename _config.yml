@@ -13,11 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: eosDAC
+title: site.title
 email: hello@eosdac.io
-description: >- # this means to ignore newlines until "baseurl:"
-  The Community-Owned EOS Block Producer
-  and DAC Enabler
+description: site.description
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eosdac
@@ -31,7 +29,7 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-paginate-v2
 languages: ["en", "de", "es", "it", "ja", "ko", "pt-br", "ru", "vi", "zh-hans"]
-exclude_from_localizations: ["temp", "styleguide", "assets"]
+exclude_from_localizations: ["temp", "styleguide", "assets", "bp.json"]
 defaultLang: en
 languageNames:
   en: English
@@ -72,7 +70,7 @@ pagination:
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 4
+  per_page: 3
 
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/page/:num/' # Pages are index.html inside this folder (default)
@@ -89,7 +87,7 @@ pagination:
   #sort_field: 'date'
 
   # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  #sort_reverse: true
+  sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
   #category: 'posts'

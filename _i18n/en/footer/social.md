@@ -1,12 +1,15 @@
 Social Media
-------------
+---
 
 \\
-[![Twitter](/assets/social/twitter.svg)](https://twitter.com/eosdac)
-[![Facebook](/assets/social/facebook.svg)](https://facebook.com/eosdac)
-[![Reddit](/assets/social/reddit.svg)](https://www.reddit.com/r/eosdac)
-[![YouTube](/assets/social/youtube.svg)](https://www.youtube.com/eosdac)
-
-[![Github](/assets/social/github.svg)](https://github.com/eosdac)
-[![VK](/assets/social/vk.svg)](https://vk.com/eosdac)
-[![Steem](/assets/social/steem.svg)](https://steemit.com/@eosdac)
+[<i class="icon icon-social-discord-com"></i>](https://discord.io/eosdac)
+[<i class="icon icon-social-github-com"></i>](https://github.com/eosdac)
+[<i class="icon icon-social-steemit-com"></i>](https://steemit.com/@eosdac)
+[<i class="icon icon-social-twitter-com"></i>](https://twitter.com/eosdac)
+[<i class="icon icon-social-instagram-com"></i>](https://www.instagram.com/eosdac)
+\\
+[<i class="icon icon-social-facebook-com"></i>](https://facebook.com/eosdac)
+[<i class="icon icon-social-reddit-com"></i>](https://www.reddit.com/r/eosdac)
+[<i class="icon icon-social-vk-com"></i>](https://vk.com/eosdac)
+[<i class="icon icon-social-linkedin-com"></i>](https://www.linkedin.com/company/eosdac/)
+[<i class="icon icon-social-youtube-com"></i>](https://www.youtube.com/eosdac)

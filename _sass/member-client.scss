@@ -1,31 +1,7 @@
-.member-client .sec1 {
-    background: 
-        url(/assets/home/member-client.png) top right / contain no-repeat,
-        linear-gradient(to right, $dark1, $dark2);
-    padding-top: 150px;
-    padding-bottom: 250px;
-    @media (max-width: $break-point-mobile) {
-        padding-top: 250px;
-        padding-bottom: 50px;
-    }
-}
-.member-client .sec1 a {
-    color: $purple3;
-}
-
-.member-client .sec2 {
-    background: 
-        url(/assets/home/mockup-transparent-tinified.png) center right / auto 70% no-repeat,
-        linear-gradient(to right, $purple1, $purple2);
-    @media (max-width: $break-point-mobile) {
-        background: linear-gradient(to right, $purple1, $purple2);
-    }
-}
-.member-client .sec2 p:first-of-type {
+.member-client .sec1 p:first-of-type {
     margin-bottom: 50px;
 }
-
-.member-client .sec2 .box img {
+.member-client .sec1 .box img {
     width: 80px;
     float: left;
     margin-right: 20px;
@@ -35,13 +11,13 @@
     padding: 15px;
     margin-bottom: 20px;
 }
-.member-client .sec2 .box p:first-of-type {
+.member-client .sec1 .box p:first-of-type {
     margin-bottom: 15px;
 }
-.member-client .sec2 .box p:nth-child(2) {
+.member-client .sec1 .box p:nth-child(2) {
     margin-bottom: 0px;
 }
-.member-client .sec2 .box p:last-of-type {
+.member-client .sec1 .box p:last-of-type {
     font-size: 0.9em;
     color: $purple3;
 }

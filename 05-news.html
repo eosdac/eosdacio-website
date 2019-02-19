@@ -1,80 +1,95 @@
 ---
 layout: page
-title: News
-pagination: 
+title: pages.news
+pagination:
   enabled: true
 
 namespace: news
 permalink: /news/
 ---
 <div class="news">
-<div class="section">
+  <div class="section sec1">
     <div class="container">
-    <div class="row">
-        <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-12">
           {%- translate_file news/sec1.md -%}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+            {%- include twitter-feed.html -%}
+
+        </div>
+        <div class="col-md-4">
+            {%- include steemit-feed.html -%}
+
+        </div>
+        <div class="col-md-4">
+            {%- include youtube-feed.html -%}
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
           {%- if site.posts.size > 0 -%}
-            <!--
+          <!--
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             -->
-            <div class="row">
+          <div class="row">
 
             {% for post in paginator.posts %}
-            <div class="col-md-6">
-              <div class="card"">
-                <img class="card-img-top" src="{{ post.image | default: "/assets/news/default.png" }}" alt="{{ post.title | escape }}" style="max-height: 179px;">
-                <div class="card-body">
-                  <h5 class="card-title">{{ post.title | escape }}</h5>
-                  <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-                  <p class="card-text">{{ post.excerpt | truncate: 400 }}</p>
-                  <a href="{{ post.url | relative_url }}">{% translate news.more %}</a>
-                </div>
-              </div>
-            </div>
-            <!--<article>
-              <h2>
-                <a href="{{ post.url }}">
-                  {{ post.title }}
-                </a>
-              </h2>
-              <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-              {{ post.content }}
-            </article>-->
-          {% endfor %}
-          </div>
-        {%- else -%}
-          {%- translate_file news/no-news.md -%}
-        {%- endif -%}      
-      
-        {% if paginator.total_pages > 1 %}
-        <center>
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="btn solid dark btn-raised">Previous</a>
-          {% else %}
-            <a class="btn solid light btn-raised">Previous</a>
-          {% endif %}
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn solid dark btn-raised">Next</a>
-          {% else %}
-            <a class="btn solid light btn-raised">Next</a>
-          {% endif %}
-        </center>
-        {% endif %}
+            <div class="col-md-4">
+              {% if post.external_link %} <a href="{{ post.external_link }}"> {% else %} <a
+                  href="{{ post.url | relative_url }}"> {% endif %}
+                  <div class="card"">
+                <img class=" card-img-top" src="{{ post.image | default: "/assets/news/default.png" }}"
+                    alt="{{ post.title | escape }}" style="max-height: 179px;">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ post.title | escape }}</h5>
 
-        <center>
-          <p class="rss-subscribe">{% translate news.subscribe %}<a href="{{ "/feed.xml" | relative_url }}">{% translate news.rss %}</a></p>
-        </center>
-      
+                      <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+                      <p class="card-text">{{ post.excerpt | truncate: 400 }}</p><!-- | truncate: 400 -->
+                      {% if post.external_link %}
+                      <a href="{{ post.external_link }}" class="link">{% translate news.more %} ↗</a>
+                      {% else %}
+                      <a href="{{ post.url | relative_url }}" class="link">{% translate news.more %}</a>
+                      {% endif %}
+                    </div>
+                  </div>
+                </a>
+            </div>
+            {% endfor %}
+          </div>
+          {%- else -%}
+          {%- translate_file news/no-news.md -%}
+          {%- endif -%}
+
+          {% if paginator.total_pages > 1 %}
+          <center>
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
+              class="btn solid dark btn-raised">Previous</a>
+            {% else %}
+            <a class="btn solid light btn-raised">Previous</a>
+            {% endif %}
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn solid dark btn-raised">Next</a>
+            {% else %}
+            <a class="btn solid light btn-raised">Next</a>
+            {% endif %}
+          </center>
+          {% endif %}
         </div>
 
-      <div class="col-md-4 sec2">
-        <h1>&nbsp;</h1>
-        {%- include sidebar-feed.html -%}
-      </div>
+
       </div>
 
     </div>
     {%- include footer-plains.html -%}
-</div>
+  </div>
 </div>

@@ -2,8 +2,24 @@
 nav.navbar {
     padding: 0 16px;
 }
-a.nav-link {
+.nav-tabs a.nav-link {
     text-transform: none;
+    @media (max-width: $break-point-mobile) {
+        padding: 7px 0;
+    }
+}
+.dropdown-menu a.dropdown-item {
+    @media (max-width: $break-point-mobile) {
+        min-height: 35px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+ul.navbar-nav {
+    @media (max-width: $break-point-mobile) {
+        margin-left: 5px;
+    }
 }
 
 // Language Selector
@@ -12,11 +28,12 @@ nav .nav-item.dropdown img {
 }
 
 // Buttons at the top right
-nav .nav-buttons > a {
+nav .nav-buttons > a.btn {
     border-radius: 5px;
     text-transform: none;
     padding: .46875rem 1rem;
     margin-top: 0;
+    min-width: 0;
 }
 nav .nav-buttons > a:first-of-type {
     background: $light3;

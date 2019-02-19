@@ -1,12 +1,4 @@
-**Implement** this Page **Now**
+The eos**DAC Toolset**
 ===
 
-{{ page.title }} page is still TODO...
-
- * Github
- * DACFactory
- * Guardian Bot
- * etc ...
- * https://explorer.eosdac.io/transfers
- * https://members.eosdac.io
- * https://eosdac.io/token_check/
+We are using different tools for our work as a decentralized community. Additionaly we are building custom open source tools which fit our needs and which we make available to the community.

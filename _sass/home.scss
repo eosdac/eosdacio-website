@@ -1,25 +1,27 @@
-.home .sec1 h1:first-of-type:after {
-    background: transparent;
-}
 .home .sec1 iframe {
     width: 100%;
     height: 100%;
     margin: 20px 0;
 }
 
+$home-sec2-offset: 150px;
 .home .sec2 {
-    $offset: 150px;
-    padding-top: $offset;
-    background: 
-        url(/assets/home/member-client.png) top right / contain no-repeat,
-        linear-gradient(transparent $offset, $light2 10px);
+    background: linear-gradient(transparent $home-sec2-offset, $light2 10px);
+    @media (max-width: $break-point-mobile) {
+        background: linear-gradient(transparent 100px, $light2 10px);
+    }
 }
-$home-sec2-offset: 75px;
 .home .sec2 h1 {
     margin-top: $home-sec2-offset;
+    @media (max-width: $break-point-mobile) {
+        margin-top: 0px;
+    }
 }
 .home .sec2 h1:after {
     top: $home-sec2-offset;
+    @media (max-width: $break-point-mobile) {
+        top: 0px;
+    }
 }
 
 .home .sec4 h1 {

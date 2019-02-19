@@ -12,9 +12,9 @@
         {% if my_page.title and my_page.autogen == nil %}
           <li class="nav-item">
           {%- if my_page.url == page.url -%}
-            <a class="nav-link active" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="nav-link active" href="{{ my_page.url | relative_url }}">{% t my_page.title %}</a>
           {%- else -%}
-            <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="nav-link" href="{{ my_page.url | relative_url }}">{% t my_page.title %}</a>
           {%- endif -%}
           </li>
         {% endif %}

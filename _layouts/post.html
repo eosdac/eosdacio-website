@@ -29,6 +29,10 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+{% if page.external_link %}
+  <a href="{{ page.external_link }}">{% translate news.more %} ↗</a><br/><br/>
+{% endif %}
+
 <a href="{{ "/news" | relative_url }}">{% translate news.back %}</a>
 </div>
 </div>

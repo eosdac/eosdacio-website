@@ -1,6 +1,5 @@
-![Telegram](/assets/support/telegram.svg)
+![Discord](/assets/support/discord.svg)
 
-Connect with us on Telegram, so you can directly interact with the members and active contributors of the growing\\
-eosDAC community.
+Discord is where the action happens and is the main communication channel of eosDAC for everything from discussions, questions, support, and meetings.
 
-[Connect with us on Telegram](https://t.me/eosdacio){: .btn.outline.light.btn-raised }
+[Connect with us on Discord](https://discord.io/eosdac){: .btn.solid.light.btn-raised }
