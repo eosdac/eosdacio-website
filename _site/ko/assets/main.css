@@ -758,6 +758,9 @@ nav .nav-buttons > a:first-of-type:hover {
     .home .sec4 h1 {
       max-width: 100%; } }
 
+.home h1 i {
+  font-size: 0.4em; }
+
 .member-client .sec1 p:first-of-type {
   margin-bottom: 50px; }
 
@@ -800,12 +803,6 @@ nav .nav-buttons > a:first-of-type:hover {
 .support .sec1 .box img {
   width: 50%; }
 
-.news .sec2 h1:after {
-  background: transparent; }
-
-.news p.rss-subscribe {
-  margin-top: 30px; }
-
 .news .card a, .news .card a:hover {
   text-decoration: none;
   color: #1E2128; }
@@ -823,11 +820,38 @@ nav .nav-buttons > a:first-of-type:hover {
   color: #1E2128;
   font-size: 0.3em; }
 
+.news .card iframe {
+  border: 0px;
+  padding: 5px; }
+
 .core-principles .card {
   min-height: 95%; }
 
 .core-principles .card img {
   margin-bottom: 15px; }
+
+form#newsletterForm select {
+  margin-bottom: 20px; }
+
+form#newsletterForm .form-control {
+  color: #ffffff;
+  background: none;
+  border-bottom: 1px solid #ffffff;
+  line-height: inherit !important; }
+
+form#newsletterForm .form-group label, form#newsletterForm .form-group.is-focused label {
+  color: #ffffff; }
+
+form#newsletterForm select.form-control:read-only option {
+  color: #1E2128; }
+
+form#newsletterForm button.btn {
+  text-transform: none;
+  width: 100%;
+  padding: 8px 0;
+  white-space: normal;
+  color: #ffffff;
+  border: solid 2px #ffffff; }
 
 footer {
   color: #ffffff;
@@ -864,25 +888,3 @@ footer a > i {
 footer a > i:hover {
   background: #ffffff;
   text-decoration: none; }
-
-footer form select {
-  margin-bottom: 20px; }
-
-footer select.form-control, footer select.form-control:read-only {
-  color: #ffffff;
-  background-image: linear-gradient(0deg, #ffffff 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, #ffffff 1px, transparent 0); }
-
-footer select.form-control:read-only option {
-  color: #1E2128; }
-
-footer .form-group label, footer .form-group.is-focused label {
-  color: #ffffff; }
-
-footer .form-group input {
-  background-image: linear-gradient(0deg, #ffffff 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, #ffffff 1px, transparent 0); }
-
-footer .form-group.is-focused input {
-  background-image: linear-gradient(0deg, #ffffff 2px, rgba(0, 150, 136, 0) 0), linear-gradient(0deg, rgba(0, 0, 0, 0.26) 1px, transparent 0); }
-
-footer .form-group option {
-  background-color: red; }
