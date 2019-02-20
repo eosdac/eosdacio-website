@@ -1,0 +1,23 @@
+form#newsletterForm select {
+    margin-bottom: 20px;
+}
+form#newsletterForm .form-control {
+    color: $light3;
+    background: none;
+    border-bottom: 1px solid $light3;
+    line-height: inherit !important; //fix cutoff text
+}
+form#newsletterForm .form-group label, form#newsletterForm .form-group.is-focused label {
+    color: $light3;
+}
+form#newsletterForm select.form-control:read-only option {
+    color: $dark1;
+}
+form#newsletterForm button.btn {
+    text-transform: none;
+    width: 100%;
+    padding: 8px 0;
+    white-space: normal;
+    color: $light3;
+    border: solid 2px $light3;
+}

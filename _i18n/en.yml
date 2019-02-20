@@ -19,3 +19,10 @@ pages:
   support: "Support"
   tools: "Tools"
   news: "News"
+newsletterForm:
+  name: "Name"
+  email: "Email *"
+  language: "Language *"
+  subscribe: "Subscribe"
+  success: "Thank you, your records have been updated!"
+  error: "Error"

@@ -1,8 +1,8 @@
-eos**DAC Factory**
+eos**DAC Token**
 ===
 
-The DAC Factory is an open source toolset, which can be used by anyone to launch their own DAC.
+The eosDAC token explorer lets you see balances and transfers of the EOSDAC token on chain, holding accounts, as well as the current market price and volume.
 
- * Open source toolset
- * Supports DApp developers
- * Airdrop to eosDAC members to attract DAC-affine users
+ * Token contract: `eosdactokens`
+ * Token symbol: `EOSDAC`
+ * Total Supply: 1.200.000.000 EOSDAC
