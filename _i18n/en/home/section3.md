@@ -1,4 +1,4 @@
-**What** is a **DAC?**
+**What** is a **DAC?** [<i class="icon icon-social-general"></i>]({% translate_link home %}#what-is-dac)
 ===
 
 DACs (Decentralised Autonomous Communities) are essentially just digital organizations that use blockchain to do things that could never be done by traditional organizations. This is important because just like today’s apps are held by corporations and organizations, Dapps will need to be held by something.

@@ -1,11 +1,3 @@
-.news .sec2 h1:after {
-    background: transparent;
-}
-
-.news p.rss-subscribe {
-    margin-top: 30px;
-}
-
 .news .card a, .news .card a:hover {
     text-decoration: none;
     color: $dark1;
@@ -25,4 +17,9 @@
 .news .sec1 h1 small {
     color: $dark1;
     font-size: 0.3em;
+}
+
+.news .card iframe {
+    border: 0px;
+    padding: 5px;
 }
