@@ -9,7 +9,10 @@
       {% t site.title %} | {% t site.description %}
     {% endif %}
   </title>
-  {%- seo -%}
+  <meta property="og:title" content="{% t site.title %}">
+  <meta property="og:site_name" content="{% t site.title %}">
+  <meta name="description" content="{% t site.description %}">
+  <meta property="og:description" content="{% t site.description %}">
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
