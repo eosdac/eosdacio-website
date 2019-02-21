@@ -6,12 +6,20 @@ footer {
 footer h2 {
     font-size: 1.1em;
     font-weight: 500;
+    @media (max-width: $break-point-mobile) {
+        padding-top: 30px;
+    }
 }
 footer a, footer a:visited {
     color: $light3;
 }
 footer a:hover {
     color: $light3;
+}
+footer a.nav-link {
+    @media (max-width: $break-point-mobile) {
+        display: block !important;
+    }
 }
 
 footer .footer {
