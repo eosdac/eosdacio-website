@@ -152,3 +152,5 @@ _Note: The service company step is not included for technical reasons but is a l
 
 ### Refund after expiry - `refund`
 While the funds in the escrow account must be locked up for a certain duration they must also be available after expiry time has passed if there has not been sufficient approval from the sender or the arbitrator otherwise there could be funds locked in the account permanently. The `refund` action provide this mechanism and can only be called by the sender if the expiry time has passed. Then the escrowed amount will be transferred back the sender and the escrow record will be removed to prevent a double refund scenario.  
+
+[Back]({% translate_link tools %})
