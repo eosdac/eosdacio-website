@@ -29,7 +29,7 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-paginate-v2
 languages: ["en", "de", "es", "it", "ja", "ko", "pt-br", "ru", "vi", "zh-hans"]
-exclude_from_localizations: ["temp", "styleguide", "assets", "bp.json", "SOURCES"]
+exclude_from_localizations: ["styleguide", "assets", "bp.json", "SOURCES"]
 defaultLang: en
 languageNames:
   en: English
