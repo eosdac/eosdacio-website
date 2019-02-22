@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    
+      eosDAC | The Community-Owned EOS Block Producer and DAC Enabler
+    
+  </title>
+  <meta property="og:title" content="eosDAC">
+  <meta property="og:site_name" content="eosDAC">
+  <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+    crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
+  <link rel="stylesheet" href="/assets/main.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/pt-br/feed.xml" title="site.title" /></head>
+<body><header class="site-header" role="banner" style="border:0">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs"
+    style="background-image:linear-gradient(to right, #4A1289, #7C41BA)">
+    <a class="navbar-brand" href="/pt-br/">
+      <img src="/assets/signet-white.svg" height="30" alt="eosDAC">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/pt-br/why-vote/">
+            Why Vote for eosDAC?</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/pt-br/why-join/">
+            Why Join eosDAC?</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/pt-br/why-launch/">
+            Why Launch a DAC?</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/pt-br/support/">
+            Support</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/pt-br/tools/">
+            Tools</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/pt-br/news/index.html">
+            News</a></li>
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="/assets/flags/pt-br.png" />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+            
+            
+            
+            <a class="dropdown-item" href="/tools/smart-contracts-explained/">
+              <img src="/assets/flags/en.png" />&nbsp;English
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/de/tools/smart-contracts-explained/">
+              <img src="/assets/flags/de.png" />&nbsp;Deutsch
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/es/tools/smart-contracts-explained/">
+              <img src="/assets/flags/es.png" />&nbsp;Español
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/it/tools/smart-contracts-explained/">
+              <img src="/assets/flags/it.png" />&nbsp;Italiano
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/ja/tools/smart-contracts-explained/">
+              <img src="/assets/flags/ja.png" />&nbsp;日本の
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/ko/tools/smart-contracts-explained/">
+              <img src="/assets/flags/ko.png" />&nbsp;한국의
+            </a>
+            
+            
+            
+             
+            
+            
+            
+            <a class="dropdown-item" href="/ru/tools/smart-contracts-explained/">
+              <img src="/assets/flags/ru.png" />&nbsp;Pусский
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/vi/tools/smart-contracts-explained/">
+              <img src="/assets/flags/vi.png" />&nbsp;Tiếng Việt
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/zh-hans/tools/smart-contracts-explained/">
+              <img src="/assets/flags/zh-hans.png" />&nbsp;中国
+            </a>
+            
+            
+            
+          </div>
+        </li>
+      </ul>
+      <span class="navbar-text nav-buttons">
+        <a href="/pt-br/why-vote/" class="btn btn-light">
+          Vote eosdacserver
+        </a>
+        <a href="/pt-br/member-client/" class="btn
+          btn-outline-light">
+          Member Client
+        </a>
+      </span>
+    </div>
+  </nav>
+</header>
+<main class="page-content main" style="padding:0;" aria-label="Content">
+      <div class="">
+        <div class="smart-contracts-explained">
+<div class="section head dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="eosdac-smart-contracts-explained">EosDAC smart contracts explained</h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 id="whats-going-on-in-there">What’s going on in there?</h3>
+<p>Someone asked me the other day about all this EosDAC stuff what’s so special about all the work we have been doing on building this strange thing we are calling a DAC toolkit. How is it different from centralised solutions to organisation governance and operations? How is it secure? How have we designed and built the collection of smart contracts to ensure no single entity will be able harm the DAC through the smart contracts?</p>
+
+<p>There have been several articles and blog posts discussing the core beliefs and the how-to’s to operate a DAC using the code in this article I will focus on what the smart contracts are doing and how they work together to achieve secure autonomous governance. All the code is open source and available to view/use/fork on Github but then, not everyone reads C++.</p>
+
+<p>A primary consideration in all our smart contracts has been reusability for other DACS that may clone and use our source code. This was one of our core beliefs from the beginning and the justification for why some design decisions were more complex than they otherwise would have been if it was just for one use case. Our future goal would be to make these even more reusable so that multiple DACs could use our installed instances of the smart contracts and be able to tweak the settings for their own purpose without needing to maintain their own code. This way they would get updates along with the EosDAC team for feature updates and and general bug fixes.</p>
+
+<p>The code contracts consist of a token contract (<code class="highlighter-rouge">eosdactokens</code>), an election and custodian managing contract (<code class="highlighter-rouge">dacustodian</code>), a worker proposal contract to manage all worker proposals and payment coordination and a separate escrow account (<code class="highlighter-rouge">dacescrow</code>) to securely hold funds for in-progress worker proposals to protect both the DAC and worker from potential loss of promised payments for their work.</p>
+
+<h2 id="eosdactokens">EOSDACTOKENS</h2>
+
+<p>This is where it all started. The EOSDAC Token is held in this smart contract. It started as a clone from the main <code class="highlighter-rouge">eosio.token</code> contract code which is used for the EOS token and most likely the starting point for all the tokens that are running on all the EOS chains. We added some functionality to this contract to suit our needs for the launching of the DAC and the initial airdrop including the following:</p>
+
+<h3 id="ability-to-create-a-token-in-a-locked-state">Ability to create a token in a locked state.</h3>
+<p>The purpose of this was so that when we did the initial airdrop to the holders of the original Ethereum based tokens, back in June 2018, we could do thorough testing of the balances of the receiving accounts to ensure they matched the expected balances from the Ethereum snapshot before users could start trading the token. We take testing very seriously :) .</p>
+
+<p>EOSDAC was one of the very first tokens to do an airdrop on the chain so there were many unknowns. Once the airdrop was completed and tested we could unlock the token to allow transfers. Importantly, there is no ability to lock a token again once it has been unlocked since this function could have enabled the possibility for token creators to manipulate the price through centralised control of the token liquidity.</p>
+
+<h3 id="membership-terms-and-acceptance">Membership terms and acceptance.</h3>
+<p>Agreeing to terms of use as part of the DAC was seen by us as a fundamental core feature of the DAC smart contracts and therefore it made sense to include the functionality into the token contract. The terms would be agreed to by a user in order for them to become a member via performing the <code class="highlighter-rouge">memberreg</code> action on the contract.</p>
+
+<p>To perform this action a user would need to supply a checksum of the terms they have actually agreed to and the contract action would ensure these checksums match with the known checksum of the latest terms before accepting their agreement and membership. This checksum logic is abstracted away from the end user through the front end user interface but provides cryptographic evidence that the user agreed to a particular set of terms and is ready for others to add their user interface to interact with the contract code. As long as they are able to provide the same checksum of known terms and conditions then they will able to successfully run the <code class="highlighter-rouge">memberreg</code> action. While this may seem like a verbose way to agree to terms and conditions we took this approach because it is like saying “I agree to <em>these</em> terms and conditions” rather than asking the user “Do you agree to the latest terms and conditions” with the user responding “yes” or “no”. We felt the latter would be less robust to ensure users don’t accept the wrong terms accidentally or via a user interface that is out of date with the contract.</p>
+
+<p>In the interest of saving RAM usage for all the end users the contract only stores a reference to hash of the accepted terms stored once in the contract rather than storing a copy of the accepted hash for each user. This means each user only needs to store the version of accepted terms (8 bytes) and not the whole hash (32 bytes) and since RAM on chain is expensive every little saving helps.</p>
+
+<p>The state of each member’s acceptance of the latest terms is referred to repeatedly throughout the EOSDAC smart contracts to ensure user’s are not able to perform actions on the DAC without agreeing to the latest terms, including in the future when the terms are updated.</p>
+
+<h2 id="daccustodian">DACCUSTODIAN</h2>
+
+<p>This contract manages all the staking, nomination, voting, tallying of votes and appointment of custodians at the conclusion of each election period. The ultimate outcome from this contract’s actions is to manage the permissions on the DAC managing account (<code class="highlighter-rouge">dacauthority</code>) as configurable via the configs on the this contract since the managing account has pre-defined permissions to do anything in DAC including change the code and transfer funds. These allowed actions will be driven various multi-sig transactions leveraging off the the built-in sophisticated permission management tools available in the EOSIO protocol software. The parameters for the operations of the election process can be changed via a configuration object set on the contract via the <code class="highlighter-rouge">updateconfig</code> action. The functionality of this contract can be broken into the following broad sections:</p>
+
+<h3 id="staking">Staking</h3>
+<p>Before being able to successfully nominate as a candidate a member must first transfer EOSDAC as a staking amount using the <code class="highlighter-rouge">transfer</code> action on the token contract to this account. The memo must equal this contract’s account name (eg. “daccustodian”) in order for the transfer to be recognised as a staking transaction and the amount of required stake is configurable by the <code class="highlighter-rouge">lockupasset</code> field in the config object. Upon successfully staking there will be a pending stake amount in the contract for this candidate ready for the actual nomination action.</p>
+
+<h3 id="candidate-nomination---nominatecand">Candidate nomination - <code class="highlighter-rouge">nominatecand</code>:</h3>
+<p>To become an elected custodian for the DAC a valid member must first nominate as a candidate using the <code class="highlighter-rouge">nominatecand</code> action. This requires the account name of the account nominating and a request pay amount of EOS. This action checks the user is a valid member and has staked sufficient EOSDAC tokens. It also checks that the requested pay amount does not exceed the <code class="highlighter-rouge">requested_pay_max</code> from the config and if all these conditions are met will add the user as a votable candidate for future voting actions.</p>
+
+<h3 id="voting---votecust">Voting - <code class="highlighter-rouge">votecust</code>:</h3>
+<p>The voting is performed by the <code class="highlighter-rouge">votecust</code> action and requires voter account and a list of candidates that the voter would like to vote for. The votes follow the following rules:</p>
+
+<ul>
+  <li>Voting requires valid membership and agreement to the current member terms.</li>
+  <li>The weight of each vote is determined by the balance of EOSDAC the voter has in their account. (There is currently no staking required for voting.)</li>
+  <li>Once a vote has been placed that vote remains active until the voter changes the vote. This means that if the account balance falls to 0 and then has a balance added or one of the candidates resigns and then later returns the vote will still be active and applicable in the vote tallying.</li>
+  <li>All candidates voted for by a voter receive the same vote weight based on the EOSDAC balance.</li>
+  <li>There is a maximum number of candidates a voter can vote for, determined by a config setting.</li>
+  <li>To remove a vote a voter would need to vote with an empty list of candidates.</li>
+  <li>Voting and transferring tokens to and from a voting account will have a direct and immediate effect on the weight of each active vote but the only time the weight of votes matters is the block when the <code class="highlighter-rouge">newperiod</code> action is called (explained below).</li>
+</ul>
+
+<h3 id="new-election-periods---newperiod">New election periods - <code class="highlighter-rouge">newperiod</code>:</h3>
+<p>For each valid candidate the vote weight will be continuously tracked based on changes triggered from the <code class="highlighter-rouge">votecust</code> action or the <code class="highlighter-rouge">transfer</code> action on the token contract if there is an active vote for the <code class="highlighter-rouge">from</code> or <code class="highlighter-rouge">to</code> accounts on the transfer action. With these values being continuously tracked the actual election (at the time of <code class="highlighter-rouge">newperiod</code> running) only needs to take a snapshot of the candidates ordered by the most votes at that moment. The number of candidates is configurable via the <code class="highlighter-rouge">numelected</code> field on the config. There are other checks required to be satisfied in order to successfully run the <code class="highlighter-rouge">newperiod</code> action including:</p>
+
+<ul>
+  <li>Ensure the initial number of voters exceeds the <code class="highlighter-rouge">initial_vote_quorum_percent</code> config.</li>
+  <li>Ensure on subsequent elections the number of voters exceeds <code class="highlighter-rouge">vote_quorum_percent</code> config.</li>
+  <li>Ensure the time period between calls to <code class="highlighter-rouge">newperiod</code> exceeds the <code class="highlighter-rouge">periodlength</code> time delay.</li>
+</ul>
+
+<p>If all these checks succeed the following events are performed:</p>
+
+<ul>
+  <li>Custodian pay is distributed as per the median amount of the current custodians <code class="highlighter-rouge">requestedpay</code> amounts.</li>
+  <li>The new custodians are allocated based the ranking weight of their accumulated votes for the next period.</li>
+  <li>The permissions for operating the DAC accounts are updated to include the newly appointed custodians.</li>
+  <li>The current time is saved to use as a time reference for future calls the <code class="highlighter-rouge">newperiod</code> to ensure it’s not called too early for the next period.</li>
+  <li>For each candidate elected as a custodian their staked tokens will become locked up at this time to show they have some skin in the game. They will be able unstake their tokens once they are no longer a elected after a lockup period determined by <code class="highlighter-rouge">lockup_release_time_delay</code> from the config.</li>
+</ul>
+
+<h3 id="other-actions">Other actions:</h3>
+<p>In addition to the happy path as explained above there are other actions supported in this contract including:</p>
+
+<ul>
+  <li>Withdraw candidate (<code class="highlighter-rouge">withdrawcand</code>): This would be called by an existing candidate, including one that is currently an elected custodian when they would like to remove themselves from the next period of elections. Their tokens will remain staked and if the tokens are also locked up they will remain locked until the release time expires. A good use case for this action may be a custodian going on holidays with the intention of returning soon (that’s the reason for keeping the unstake functionality separate). Otherwise this action could be used for any other reason for a candidate voluntarily withdrawing from participating in the DAC operations.</li>
+  <li>fire a candidate (<code class="highlighter-rouge">firecand</code>): This would be called by the currently elected custodians via the multi-sig auth account to remove a misbehaving candidate. This action has the option to lockup the candidates staked tokens if they are not already locked up.</li>
+  <li>fire a custodian (<code class="highlighter-rouge">firecust</code>): Similar to the <code class="highlighter-rouge">firecand</code> this action will remove a currently elected custodian as actioned by the other custodians. This will remove the custodian from elected custodian group, remove them as a potential candidate for future elections, replace the custodian with the next highest voted candidate and finally update the account permissions to reflect the new set of elected custodians.</li>
+  <li>resign a custodian (<code class="highlighter-rouge">resigncust</code>): This action must be run by an active custodian who would like to resign from being an active custodian. This would remove them from an eligible candidate and replace the custodian with the next highest voted candidate.</li>
+  <li>Update requested pay (<code class="highlighter-rouge">updatereqpay</code>): A candidate may update their requested pay as a custodian. This will not take effect until the next period to prevent mid period changes to custodian pay.</li>
+  <li>Claim pay (<code class="highlighter-rouge">claimpay</code>): This is the action called by an active custodian in order to receive the pay amount that is due to to be paid to them. Due to the legacy legal system we live in the payment is made via a service company for legal reasons beyond the scope of this document. From the contract’s perspective this is the action to pay a custodian for their services to the DAC as a custodian and after this action has been performed the custodian is considered paid.</li>
+  <li>
+    <p>Update config (<code class="highlighter-rouge">updateconfig</code>): There are several configurable options on the contract code to allow it to be customised for use without needing to recompile and deploy the code. This future plan is that this will allow different DACs to operate using the same deployed code but with their own custom configurations. The changes are made by setting a new config object via this action with the following options:</p>
+
+    <ul>
+      <li><code class="highlighter-rouge">lockupasset</code>: The amount of EOSDAC token that are locked up by each candidate applying for election.</li>
+      <li><code class="highlighter-rouge">maxvotes</code> : The maximum number of votes that each member can make for a candidate. default of 5.</li>
+      <li><code class="highlighter-rouge">numelected</code> : Number of custodians to be elected for each election count.</li>
+      <li><code class="highlighter-rouge">periodlength</code> : Length of a period in seconds. Used to prevent early elections from being called on the <code class="highlighter-rouge">newperiod</code> action. default 7 days.</li>
+      <li><code class="highlighter-rouge">authaccount</code> : controlling account to have it’s permissions set with the elected custodians.</li>
+      <li><code class="highlighter-rouge">tokenholder</code> : The contract that holds the funds for the DAC. This is used as the source for custodian pay.</li>
+      <li><code class="highlighter-rouge">serviceprovider</code> :  The contract that will act as the service provider account for the DAC. This is used as the deliverer of pay to custodians and workers on worker proposals.</li>
+      <li><code class="highlighter-rouge">should_pay_via_service_provider</code> : If set to true the contract will direct all payments via the service provider rather than paying directly.</li>
+      <li><code class="highlighter-rouge">initial_vote_quorum_percent</code> :  Amount of token value in votes required to trigger the initial set of custodians</li>
+      <li>
+        <p><code class="highlighter-rouge">vote_quorum_percent</code> : Amount of token value in votes required to allow a new set of custodians to be set after the initial threshold has been achieved - election period 2 and onwards.</p>
+
+        <p>The required number of custodians to approve different levels of authenticated actions on the DAC smart contracts:</p>
+      </li>
+      <li><code class="highlighter-rouge">auth_threshold_high</code></li>
+      <li><code class="highlighter-rouge">auth_threshold_mid</code></li>
+      <li><code class="highlighter-rouge">auth_threshold_low</code></li>
+      <li><code class="highlighter-rouge">lockup_release_time_delay</code> : The time before locked up stake can be released back to the candidate using the unstake action</li>
+      <li><code class="highlighter-rouge">requested_pay_max</code> : The maximum amount of pay a custodian can request for payment.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="dacproposals">DACPROPOSALS</h2>
+
+<p>This contract is responsible for managing the worker proposals related to the DAC. It is once again built for configurability rather than just to suit our immediate needs in EosDAC.</p>
+
+<p>The general idea is that potential worker will have a piece of work they would like to propose to add value to the DAC in exchange for being paid in an amount of EOS based tokens. The proposal would be voted for approval for commencement and then completion by the current custodians and these actions would trigger payments to the proposer.</p>
+
+<h3 id="create-proposal-createprop">Create proposal <code class="highlighter-rouge">createprop</code></h3>
+<p>A proposing worker would create a proposal and submit it to the blockchain for the review and voting by the current DAC custodians. To proposal would need to include the following:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">title</code> (String): to identify the proposal</li>
+  <li><code class="highlighter-rouge">summary</code> (String): a brief summary of the the purpose of the worker proposal</li>
+  <li><code class="highlighter-rouge">arbitrator</code> (EOS Account name): the account name of an independent arbitrator who may be called upon to satisfy disputes in the completion of a worker proposal.</li>
+  <li><code class="highlighter-rouge">pay_amount</code> (EOSAsset): an amount of EOS based tokens requested as the pay amount for the worker proposal.</li>
+  <li><code class="highlighter-rouge">content_hash</code> (ChecksumHash): a content hash to ensure details of a proposal stored off-chain are not modified after a proposal has been agreed to. This allows for much more extensive detail that would not be stored on chain while still maintaining data integrity.</li>
+</ul>
+
+<p>For each proposal minimal content data is required to be stored in the contract state and is instead only passed through for data integrity via transaction logs. Only the account and payment data is stored for utilisation in later actions within this contract.</p>
+
+<h3 id="voting-for-a-proposal-voteprop">Voting for a proposal <code class="highlighter-rouge">voteprop</code></h3>
+<p>Once a proposal has been created it would be in a state waiting for the current custodians to vote either ‘proposal_approve’ or ‘proposal_deny’ for a proposal with the required number of votes and number of ‘yes’ votes to be configurable in the contract. At this time there may be refinements to the proposal with canceling <code class="highlighter-rouge">cancel</code> of existing proposals and resubmitting changes based on feedback from the custodians until the proposals get to ready and positively-voted-for position.</p>
+
+<h3 id="start-work-on-an-accepted-proposal-startwork">Start work on an accepted proposal <code class="highlighter-rouge">startwork</code></h3>
+<p>It there have been sufficient positive votes for a proposal the proposer will be able to call this action to confirm that they will agree to work on the agreed proposal with the agreed terms, payment etc. At this point the agreed payment amount is transferred into an escrow account to ensure the funds can and will be paid to the proposer when the work is complete as approved by the custodians or the agreed arbitrator for the proposal.</p>
+
+<p>The locking of funds in an escrow account is a crucial step to protect the worker from potentially malicious custodians who could reverse an earlier proposal acceptance because they have a trusted arbitrator on the proposal to also be able to release the funds.</p>
+
+<h3 id="signal-completion-of-work-completework">Signal completion of work <code class="highlighter-rouge">completework</code></h3>
+<p>After a worker has completed their work they would signal to the custodians that work is believed to be complete and the custodians would need to assess the work before approving via another vote using <code class="highlighter-rouge">voteprop</code> but this time with a different choice of vote values to indicate <code class="highlighter-rouge">claim_approve</code> or <code class="highlighter-rouge">claim_deny</code>.</p>
+
+<h3 id="claim-payment-for-completed-work-claim">Claim payment for completed work <code class="highlighter-rouge">claim</code></h3>
+<p>If there have been sufficient positive votes for the completed work from the custodians based on the current configurations then the proposer can call the action which will trigger the transfer of token payments to the worker. In practice for EosDAC the funds are sent to a service company account but effectively they are paid directly to the worker for their services.</p>
+
+<h3 id="contract-configuration-updateconfig">Contract configuration <code class="highlighter-rouge">updateconfig</code></h3>
+<p>Various options are configurable for this contract including:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">service_account</code> (Eos account name)</li>
+  <li><code class="highlighter-rouge">proposal_threshold</code> number of required votes to participate in voting for a proposal.</li>
+  <li><code class="highlighter-rouge">proposal_approval_threshold_percent</code> required percentage of positive votes to approve a proposal</li>
+  <li><code class="highlighter-rouge">claim_threshold</code> number of required votes to participate in voting for completing a proposal.</li>
+  <li><code class="highlighter-rouge">claim_approval_threshold_percent</code> required percentage of positive votes to approve a proposal claim.</li>
+  <li><code class="highlighter-rouge">escrow_expiry</code> the expiry time set on the created escrow transaction (number of seconds). This has a default value of 30 days.</li>
+</ul>
+
+<h2 id="dacescrow">DACESCROW</h2>
+<p>This contract is responsible for holding the secured funds for worker proposals until the elected custodians or an agreed arbitrator releases the funds to the receiver or the escrow time limit expires which would allow returning of funds to the sender. The intention is that this contract would be locked to even prevent code modification from malicious custodians. This would be achieved via deleting the owner and active keys on the account after the contract code has been set. This desire for immutability is another reason for this contract to be separate and simple from the other code contracts in the code. The hope is that this code never needs to be modified. In the unfortunate (and hopefully very unlikely) scenario that this code does need to be modified the custodians would need to get the required agreement from the current block producers to reset the owner key for this account.</p>
+
+<h3 id="initialise-an-escrow-transaction---init">Initialise an escrow transaction - <code class="highlighter-rouge">init</code></h3>
+<p>An escrow transaction must be initialised specifying the all the required fields including the sender, intended receiver, expiry time, arbitrator, memo for the eventual transfer action. There is also an optional external key which can be used as a cross-contract reference key rather than only relying on the internal auto-incrementing key which would otherwise lead to key collisions in time.</p>
+
+<h3 id="transfer-funds-for-an-escrow---transfer">Transfer funds for an escrow - <code class="highlighter-rouge">transfer</code></h3>
+<p>Funds for an escrow would need to be transferred to escrow contract using the usual <code class="highlighter-rouge">transfer</code> action as seen and replicated by most EOS based token contracts. This contract’s code relies on the built in notifications that the transfer action directs to both the sender and receiver of accounts of the transfer. When a transfer notification is received by the escrow contract the <code class="highlighter-rouge">transfer</code> action implementation will verify the sender has an empty escrow record and assigns the amount transferred into that escrow record for later processing by the other actions in the escrow contract code. An initialised escrow record may be cancelled with the <code class="highlighter-rouge">cancel</code> action provided it is called before the transfer action has populated the escrow.</p>
+
+<h3 id="approval-or-un-approval-of-an-escrow---approve-and-unapprove">Approval or un-approval of an escrow - <code class="highlighter-rouge">approve</code> and <code class="highlighter-rouge">unapprove</code></h3>
+<p>Once an escrow has been initialised and populated with a transfer action the next step would be to approve the escrow either by the sender, the nominated arbitrator or receiver. Two approvals are required from any of these three accounts to allow the <code class="highlighter-rouge">claim</code> action to be performed. <code class="highlighter-rouge">unapprove</code> may be subsequently called to remove an existing approval by the relevant actor.</p>
+
+<h3 id="claim-an-approved-escrow-payment---claim">Claim an approved escrow payment - <code class="highlighter-rouge">claim</code></h3>
+<p>The claim action can only be executed by the intended receiver for an escrow payment and will only succeed with the correct approval state for the escrow record. At this point the escrowed amount will be transferred to the nominated service company account so that payments can be processed to the intended receiver.</p>
+
+<p><em>Note: The service company step is not included for technical reasons but is a legal requirement to have sufficient interfacing with the traditional legal world. As much as we would like to perform all actions in the safety of cryptographically secured smart contract environment the world is not ready :( .</em></p>
+
+<h3 id="refund-after-expiry---refund">Refund after expiry - <code class="highlighter-rouge">refund</code></h3>
+<p>While the funds in the escrow account must be locked up for a certain duration they must also be available after expiry time has passed if there has not been sufficient approval from the sender or the arbitrator otherwise there could be funds locked in the account permanently. The <code class="highlighter-rouge">refund</code> action provide this mechanism and can only be called by the sender if the expiry time has passed. Then the escrowed amount will be transferred back the sender and the escrow record will be removed to prevent a double refund scenario.</p>
+
+<p><a href="/pt-br/tools/">Back</a></p>
+
+      </div>
+    </div>
+  </div>
+  <div style="background-image:url(/assets/footer-bkgr.png);background-repeat:no-repeat;background-size:100% auto;margin-top:50px;">
+    <img src="/assets/spacer.gif" style="width:100%;"/>
+</div>
+</div>
+</div>
+      </div>
+    </main><footer class="site-footer h-card" style="border:0;padding:0;">
+  <div class="footer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 id="important-links">Important Links</h2>
+<p><a href="/pt-br/why-vote/#core-principles">Code Of Conduct</a><br />
+<a href="/pt-br/history/">eosDAC History</a><br />
+<a href="/styleguide">Styleguide</a><br />
+<a href="https://steemit.com/eos/@eosdac/statement-of-ownership-and-code-of-conduct">Disclosures</a><br />
+<a href="/bp.json">BP Info</a></p>
+
+        </div>
+        <div class="col-md-6">
+          <h2 id="newsletter">Newsletter</h2>
+
+          <form id="newsletterForm">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="name" class="bmd-label-floating">
+                    Name
+                </label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email" class="bmd-label-floating">
+                    Email *
+                </label>
+                <input type="email" class="form-control" id="email" name="email"
+                    required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="form-control" id="language" name="language" required>
+                <option value="">Language *</option>
+                <option value="English">&nbsp;&nbsp;&nbsp;&nbsp;English</option>
+                <option value="Russian">&nbsp;&nbsp;&nbsp;&nbsp;Pусский</option>
+                <option value="Korean">&nbsp;&nbsp;&nbsp;&nbsp;한국의</option>
+                <option value="Chinese">&nbsp;&nbsp;&nbsp;&nbsp;中国</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <button type="submit" id="submitButton" class="btn">
+                Subscribe
+            </button>
+        </div>
+    </div>
+</form>
+<script>
+$('#newsletterForm').submit(function(event) {
+    event.preventDefault();
+    $.post('https://toolkit-api.eosdac.io/subscribe', $(this).serialize())
+    .done( function(result) {
+        if(result && (result.message === 'subscribed_successfully' || result.message === 'already_subscribed')) {
+            alert('Thank you, your records have been updated!');
+            document.getElementById('newsletterForm').reset();
+        } else {
+            alert('Error:\n'+JSON.stringify(result));
+        }
+    })
+    .fail( function(xhr, textStatus, errorThrown) {
+        alert('Error '+xhr.status+':\n'+xhr.responseText);
+    });
+});
+</script>
+        </div>
+        <div class="col-md-3">
+          <h2 id="social-media">Social Media</h2>
+
+<p><br />
+<a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
+<a href="https://github.com/eosdac"><i class="icon icon-social-github-com"></i></a>
+<a href="https://steemit.com/@eosdac"><i class="icon icon-social-steemit-com"></i></a>
+<a href="https://twitter.com/eosdac"><i class="icon icon-social-twitter-com"></i></a>
+<a href="https://www.instagram.com/eosdac"><i class="icon icon-social-instagram-com"></i></a>
+<br />
+<a href="https://facebook.com/eosdac"><i class="icon icon-social-facebook-com"></i></a>
+<a href="https://www.reddit.com/r/eosdac"><i class="icon icon-social-reddit-com"></i></a>
+<a href="https://vk.com/eosdac"><i class="icon icon-social-vk-com"></i></a>
+<a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
+<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr style="padding: 10px 0; border-color: #BABDBE;" /><div class="row">
+        <div class="col-md-2">
+          <img src="/assets/signet-white.svg" height="50" alt="site.title">
+        </div>
+        <div class="col-md-10">
+          
+          
+          <a class="nav-link" href="/pt-br/why-vote/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Vote for eosDAC?</a>
+          
+          <a class="nav-link" href="/pt-br/why-join/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Join eosDAC?</a>
+          
+          <a class="nav-link" href="/pt-br/why-launch/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Launch a DAC?</a>
+          
+          <a class="nav-link" href="/pt-br/support/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Support</a>
+          
+          <a class="nav-link" href="/pt-br/tools/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Tools</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="nav-link" href="/pt-br/news/index.html"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">News</a></div>
+      </div></div>
+  </div>
+</footer>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+  integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+  crossorigin="anonymous"></script>
+<script
+  src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+  integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+  crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+
+</html>
