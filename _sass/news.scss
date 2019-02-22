@@ -23,3 +23,9 @@
     border: 0px;
     padding: 5px;
 }
+
+.news a.btn {
+    @media (max-width: $break-point-mobile) {
+        min-width: 150px;
+    }
+}
