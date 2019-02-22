@@ -37,3 +37,13 @@ origin    git@github.com:lukestokes/eosdacio-website.git (push)
 upstream    https://github.com/eosdac/eosdacio-website.git (fetch)
 upstream    https://github.com/eosdac/eosdacio-website.git (push)
 ```
+
+## How to build and deploy?
+ 1. Install Jekyll ([read more](https://jekyllrb.com/docs/))
+    `gem install jekyll bundler`
+ 2. Install dependencies
+    `bundler install`
+ 3. Build the website
+    `jekyll build`
+
+To deploy the website, commit the contents of the `_site` folder to the `deploy` branch of this repository. If you want to run the site locally for debugging, you can run `jekyll serve` and access your local copy at: <http://localhost:4000>
