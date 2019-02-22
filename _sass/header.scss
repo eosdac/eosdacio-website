@@ -28,18 +28,17 @@ nav .nav-item.dropdown img {
 }
 
 // Buttons at the top right
+nav .nav-buttons {
+    @media (max-width: $break-point-mobile) {
+        display: block;
+        text-align: center;
+    }
+}
 nav .nav-buttons > a.btn {
-    border-radius: 5px;
-    text-transform: none;
     padding: .46875rem 1rem;
     margin-top: 0;
     min-width: 0;
 }
 nav .nav-buttons > a:first-of-type {
-    background: $light3;
-    color: $purple1;
     margin-right: 10px;
-}
-nav .nav-buttons > a:first-of-type:hover {
-    background: $purple3;
 }
