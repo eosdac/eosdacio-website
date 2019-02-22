@@ -544,7 +544,8 @@ a.btn:last-of-type {
   margin-right: 0; }
 
 a.btn.solid.light {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  color: #4A1289; }
 
 a:hover.btn.solid.light {
   background-color: #B999DB;
@@ -561,8 +562,12 @@ a.btn.solid.dark {
 a:hover.btn.solid.dark {
   background-color: #7C41BA; }
 
-iframe {
-  max-width: 100%; }
+.embed-responsive iframe {
+  width: 100%;
+  height: 100%; }
+
+.embed-responsive {
+  margin-bottom: 20px; }
 
 .top-plains {
   background-image: url(/assets/spacer.png);
@@ -714,20 +719,18 @@ nav.navbar {
 nav .nav-item.dropdown img {
   margin-bottom: 3px; }
 
+@media (max-width: 992px) {
+  nav .nav-buttons {
+    display: block;
+    text-align: center; } }
+
 nav .nav-buttons > a.btn {
-  border-radius: 5px;
-  text-transform: none;
   padding: .46875rem 1rem;
   margin-top: 0;
   min-width: 0; }
 
 nav .nav-buttons > a:first-of-type {
-  background: #ffffff;
-  color: #4A1289;
   margin-right: 10px; }
-
-nav .nav-buttons > a:first-of-type:hover {
-  background: #B999DB; }
 
 .home .sec2 {
   background: linear-gradient(transparent 150px, #eceff1 10px); }
