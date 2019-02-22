@@ -18,15 +18,15 @@ Block.One’s early presentations talked about EOS.IO software ushering in ‘Th
 
 eosDAC shares the same vision for how DACs can disrupt how business can be done. We believe that these new business models can challenge how we think about what a company will be. Blockchain technologies introduce new business opportunities which create value and give it back to the community, rather than only extracting resources from their environment. All connected parties to the DAC are incentivized to continually add value, therefore stimulating creativity and growth.
 
-In order to function, DACs need tools that aren’t currently available. eosDAC will create these tools and, through its commitment to open source software, will share them as a DAC Toolkit that anyone can take and use to set up and run a DAC.
+In order to function, DACs need tools that aren’t currently available. eosDAC has created these tools and, through its commitment to open source software, will share them as a "DAC Factory" that anyone can take and use to set up and run a DAC.
 
-This DAC toolkit will evolve organically and over time and will include the core concepts of membership, voting, custodians, and proposals. Any account holding EOSDAC tokens can become a Member and get rights to benefit from the DAC, stand as a custodian, vote for custodians and submit proposals. Custodians are the DAC decision makers and will be continually voted for and held accountable by members. Proposals will be voted for by custodians and once approved (subject to available funds being available) will be implemented, checked and paid for. All proposals will provide some deliverables and benefits to the DAC ecosystem.
+The DAC Factory will evolve organically and over time and will include the core concepts of membership, voting, custodians, and proposals. Any account holding EOSDAC tokens can become a Member and get rights to benefit from the DAC, stand as a custodian, vote for custodians and submit proposals. Custodians are the DAC decision makers and will be continually voted for and held accountable by members. Proposals will be voted for by custodians and once approved (subject to available funds being available) will be implemented, checked and paid for. All proposals will provide some deliverables and benefits to the DAC ecosystem.
 
-The DAC toolkit will need to make sure that all of the different cogs of the DAC machine run smoothly.
+The DAC Factory will need to make sure that all of the different cogs of the DAC machine run smoothly.
 
 ![DAC Enabler](/assets/history/dac-enabler.png)
 
-Over time, other DAC structures and tools could be supported. It is also envisaged that other individuals, groups, and DACs will join and build upon the toolkit. Beyond software, the toolkit will also include best practices alongside legal and regulatory guidance for different jurisdictions. This will include a case study on eosDAC’s endeavors.
+Over time, other DAC structures and tools could be supported. It is also envisaged that other individuals, groups, and DACs will join and build upon the tools we create. Beyond software, the DAC Factory will also include best practices alongside legal and regulatory guidance for different jurisdictions. This will include a case study on eosDAC’s endeavors.
 
 eosDAC will continue to work on suitable 'off-the-shelf' structures for DACs to interact with the worldwide legal and financial systems, in fact, everything that a new DAC will need in order to be established and flourish.
 
@@ -81,10 +81,10 @@ Full report: <https://docs.google.com/document/d/1irdLXCz4yJqdLPAeG2EgLGvyQAlXZ-
 Prioritizing DAC Toolkit and Partnering with Object Computing
 ===
 
-After completing the token distribution major focus was the DAC toolkit, eosDAC partnered with OCI (https://objectcomputing.com/) who helped Block One build EOS and are one of the best in the business. OCI is helping eosDAC to code review our smart contracts and is working very closely with our tech team to accelerate the progress of on the DAC toolkit. 
+After completing the token distribution major focus was the DAC Factory, eosDAC partnered with OCI (https://objectcomputing.com/) who helped Block One build EOS and are one of the best in the business. OCI is helping eosDAC to code review our smart contracts and is working very closely with our tech team to accelerate the progress of on the DAC Factory. 
 
 Read more here: <https://steemit.com/eos/@eosdac/eosdac-accelerates-progress-on-dac-toolkit-partners-with-object-computing>
-Just a few days ago eosDAC announced its first approved Worker Proposals, prioritizing block production and DAC toolkit. Read more here: <https://steemit.com/eosdac/@eosdac/eosdac-announces-first-approved-worker-proposals-prioritising-block-production-and-dac-toolkit>
+Just a few days ago eosDAC announced its first approved Worker Proposals, prioritizing block production and DAC Factory. Read more here: <https://steemit.com/eosdac/@eosdac/eosdac-announces-first-approved-worker-proposals-prioritising-block-production-and-dac-toolkit>
 
 Currently, the team is set to launch its MVP version of its DAC Toolkit soon, with Membership and Custodian Voting contracts. 
 You can follow the DAC Toolkit roadmap here: <https://trello.com/b/fbz4IHXP/dac-toolkit-roadmap>
