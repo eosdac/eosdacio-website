@@ -80,8 +80,12 @@ a:hover.btn.solid.dark {
 }
 
 // Youtube Videos
-iframe {
-    max-width: 100%;
+.embed-responsive iframe {
+    width: 100%;
+    height: 100%;
+}
+.embed-responsive {
+    margin-bottom: 20px;
 }
 
 // Top Plaines (Spacer)
