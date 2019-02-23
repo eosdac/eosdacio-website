@@ -78,10 +78,10 @@ Following was the outcome.
 eosDAC will try to recover the tokens that are stuck in DEX contracts like Forkdelta and Idex and the ones for which fallbacks couldn’t be generated
 Full report: <https://docs.google.com/document/d/1irdLXCz4yJqdLPAeG2EgLGvyQAlXZ-DivU0i-PTTKBY/edit>
 
-Prioritizing DAC Toolkit and Partnering with Object Computing
+Prioritizing DAC Factory and Partnering with Object Computing
 ===
 
-After completing the token distribution major focus was the DAC toolkit, eosDAC partnered with OCI (https://objectcomputing.com/) who helped Block One build EOS and are one of the best in the business. OCI is helping eosDAC to code review our smart contracts and is working very closely with our tech team to accelerate the progress of on the DAC toolkit. 
+After completing the token distribution major focus was the DAC Factory, eosDAC partnered with OCI (https://objectcomputing.com/) who helped Block One build EOS and are one of the best in the business. OCI is helping eosDAC to code review our smart contracts and is working very closely with our tech team to accelerate the progress of on the DAC toolkit. 
 
 Read more here: <https://steemit.com/eos/@eosdac/eosdac-accelerates-progress-on-dac-toolkit-partners-with-object-computing>
 Just a few days ago eosDAC announced its first approved Worker Proposals, prioritizing block production and DAC toolkit. Read more here: <https://steemit.com/eosdac/@eosdac/eosdac-announces-first-approved-worker-proposals-prioritising-block-production-and-dac-toolkit>
