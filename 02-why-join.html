@@ -6,6 +6,10 @@ namespace: why-join
 permalink: /why-join/
 ---
 <div class="why-join">
+<div class="video">
+    <video id="myVideo" playsinline="playsinline" muted="muted" type="video/mp4"></video>
+</div>
+
 <div class="section head dark">
   <div class="container">
     <div class="row">
@@ -117,3 +121,30 @@ permalink: /why-join/
   {%- include footer-plains.html -%}
 </div>
 </div>
+<script type="text/javascript">
+var videoSource = new Array();
+videoSource[0] = '/assets/why-join/join-and-sign-consti.mp4';
+videoSource[1] = '/assets/why-join/interact-with-discord-1.mp4';
+videoSource[2] = '/assets/why-join/interact-with-discord-2.mp4';
+videoSource[3] = '/assets/why-join/voting-custodians.mp4';
+var i = 0;
+var videoCount = videoSource.length;
+
+function videoPlay(videoNum) {
+  document.getElementById("myVideo").setAttribute("src", videoSource[videoNum]);
+  document.getElementById("myVideo").load();
+  document.getElementById("myVideo").play();
+}
+document.getElementById('myVideo').addEventListener('ended', videoEnded, false);
+videoPlay(0);
+
+function videoEnded() {
+  i++;
+  if (i === videoCount) {
+    i = 0;
+    videoPlay(i);
+  } else {
+    videoPlay(i);
+  }
+}
+</script>
