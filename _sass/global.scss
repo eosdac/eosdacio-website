@@ -15,6 +15,7 @@ $break-point-mobile: 992px;
 
 body {
     background-color: $light3;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .page-content.main {
@@ -152,6 +153,7 @@ img.bg {
 .section h1 {
     font-weight: 100;
     font-size: 3.5em;
+    font-family: 'Roboto', sans-serif;
     padding-top: 20px;
     padding-bottom: 0px;
     color: $purple1;
