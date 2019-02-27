@@ -1,0 +1,1 @@
+![Emanate](/assets/success-stories/emanate.png)

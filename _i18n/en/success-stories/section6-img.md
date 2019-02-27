@@ -1,0 +1,1 @@
+![Karma](/assets/success-stories/karma.png)

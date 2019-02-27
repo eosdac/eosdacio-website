@@ -1,3 +1,28 @@
+.why-join .video {
+    position: relative;
+    background-image: linear-gradient(to right, $dark1, $dark2);
+    height: 50vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    @media (max-width: $break-point-mobile) {
+        height: 20vh;
+        min-height: 0rem;
+    }
+}
+.why-join .video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100vw;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-40%);
+}
+
 .why-join .card img {
     margin-bottom: 15px;
     padding: 5px 100px;
