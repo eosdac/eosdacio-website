@@ -123,10 +123,10 @@ permalink: /why-join/
 </div>
 <script type="text/javascript">
 var videoSource = new Array();
-videoSource[0] = '/assets/why-join/join-and-sign-consti.mp4';
-videoSource[1] = '/assets/why-join/interact-with-discord-1.mp4';
-videoSource[2] = '/assets/why-join/interact-with-discord-2.mp4';
-videoSource[3] = '/assets/why-join/voting-custodians.mp4';
+var mq = window.matchMedia("(max-width: 992px)")
+mediaQueryFunc(mq) // Call listener function at run time
+mq.addListener(mediaQueryFunc) // Attach listener function on state changes
+
 var i = 0;
 var videoCount = videoSource.length;
 
@@ -145,6 +145,20 @@ function videoEnded() {
     videoPlay(i);
   } else {
     videoPlay(i);
+  }
+}
+
+function mediaQueryFunc(x) {
+  if (x.matches) { // If on mobile
+    videoSource[0] = '/assets/why-join/join-and-sign-consti_480p.mp4';
+    videoSource[1] = '/assets/why-join/interact-with-discord-1_480p.mp4';
+    videoSource[2] = '/assets/why-join/interact-with-discord-2_480p.mp4';
+    videoSource[3] = '/assets/why-join/voting-custodians_480p.mp4';
+  } else {
+    videoSource[0] = '/assets/why-join/join-and-sign-consti.mp4';
+    videoSource[1] = '/assets/why-join/interact-with-discord-1.mp4';
+    videoSource[2] = '/assets/why-join/interact-with-discord-2.mp4';
+    videoSource[3] = '/assets/why-join/voting-custodians.mp4';
   }
 }
 </script>
