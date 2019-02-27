@@ -5,3 +5,4 @@ The eos**DAC Factory**
  * Setting up a DAC from scratch is incredibly complex
  * Our upcoming DAC Factory will allow you to build and launch your own DAC in a fraction of the time
 
+[Success Stories]({% translate_link success-stories %}){: .btn.solid.dark.btn-raised }
