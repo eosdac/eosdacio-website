@@ -1,1 +1,1 @@
-<div class="embed-responsive embed-responsive-16by9"><video playsinline="playsinline" muted="muted" type="video/mp4" autoplay="autoplay" loop="loop" controls="controls" src="/assets/why-join/interact-with-discord-2.mp4"/></div>
+<div class="embed-responsive embed-responsive-16by9"><video type="video/mp4" loop="loop" controls="controls" src="/assets/why-join/interact-with-discord-2.mp4"/></div>
