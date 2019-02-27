@@ -1,1 +1,1 @@
-![XXX](https://via.placeholder.com/540x330/B999DB/7C41BA)
+<div class="embed-responsive embed-responsive-16by9"><video playsinline="playsinline" muted="muted" type="video/mp4" autoplay="autoplay" loop="loop" controls="controls" src="/assets/why-join/join-and-sign-consti.mp4"/></div>
