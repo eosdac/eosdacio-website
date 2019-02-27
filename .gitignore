@@ -3,3 +3,5 @@
 Gemfile.lock
 scripts/fetch-steem/node_modules
 scripts/fetch-steem/yarn.lock
+_site/scripts/fetch-steem/node_modules
+_site/scripts/fetch-steem/node_modules
