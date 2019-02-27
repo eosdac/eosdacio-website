@@ -21,19 +21,28 @@ Translating a page or section is very similar to updating a page, the only diffe
 Some general translations, such as site title, header or footer content, are done in a YAML file, located at `_i18n/LANGUAGE.yml`, please refer to [_i18n/en.yml](https://github.com/eosdac/eosdacio-website/blob/master/_i18n/en.yml) for all translateable keys.
 
 ## How to suggest changes for discussion to the eosDAC Website?
+Please base your changes and pull requests upon the `master` branch of this git repository. It contains the latest version of the website.
+
+The `deploy` branch is only used by the webmaster to keep a compiled copy of the website (inside the `_site` folder). As a contributor, you do not need to interact with this branch.
+
  1. Fork to your own github account: https://github.com/eosdac/eosdacio-website
  2. Use tools you're familiar with to edit pages (Github website, Github Windows Client, etc)
  3. Create pull request back to the original upstream repository for your changes.
 
+#### Github Desktop
+Watch this video, showing how to propose a change to this website via the *Github Desktop* client:
+<https://www.youtube.com/watch?v=uAlnTSHSMrI>
+
+#### Command Line
 Since I'm using the command line tools, I go about it like so:
-`git clone git@github.com:lukestokes/eosdacio-website.git`
+`git clone git@github.com:slyon/eosdacio-website.git`
 
 Then I add an upstream so I can easily update my forked repo following the instructions here: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 ```
 # git remote add upstream https://github.com/eosdac/eosdacio-website.git
 # git remote -v
-origin    git@github.com:lukestokes/eosdacio-website.git (fetch)
-origin    git@github.com:lukestokes/eosdacio-website.git (push)
+origin    git@github.com:slyon/eosdacio-website.git (fetch)
+origin    git@github.com:slyon/eosdacio-website.git (push)
 upstream    https://github.com/eosdac/eosdacio-website.git (fetch)
 upstream    https://github.com/eosdac/eosdacio-website.git (push)
 ```

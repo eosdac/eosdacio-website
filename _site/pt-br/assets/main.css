@@ -506,7 +506,8 @@ table {
     color: #099; }
 
 body {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif !important; }
 
 .page-content.main {
   overflow: hidden; }
@@ -621,6 +622,7 @@ img.bg {
 .section h1 {
   font-weight: 100;
   font-size: 3.5em;
+  font-family: 'Roboto', sans-serif;
   padding-top: 20px;
   padding-bottom: 0px;
   color: #4A1289; }
@@ -781,6 +783,30 @@ nav .nav-buttons > a:first-of-type {
 .member-client .sec1 .box p:last-of-type {
   font-size: 0.9em;
   color: #B999DB; }
+
+.why-join .video {
+  position: relative;
+  background-image: linear-gradient(to right, #1E2128, #272B35);
+  height: 50vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden; }
+  @media (max-width: 992px) {
+    .why-join .video {
+      height: 20vh;
+      min-height: 0rem; } }
+
+.why-join .video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100vw;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translateX(-50%) translateY(-40%); }
 
 .why-join .card img {
   margin-bottom: 15px;

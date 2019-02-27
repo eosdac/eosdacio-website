@@ -12,14 +12,14 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
   <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1551102922">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1551280176">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1551102922">
+  <link rel="stylesheet" href="/assets/main.css?1551280176">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/de/feed.xml" title="site.title" /></head>
 <body><header class="site-header" role="banner" style="border:0">
@@ -59,6 +59,8 @@
         
         <li class="nav-item"><a class="nav-link" href="/de/tools/">
             Werkzeuge</a></li>
+        
+        
         
         
         
@@ -192,6 +194,10 @@
 
   <div class="post-content">
     <div class="why-join">
+<div class="video">
+    <video id="myVideo" playsinline="playsinline" muted="muted" type="video/mp4"></video>
+</div>
+
 <div class="section head dark">
   <div class="container">
     <div class="row">
@@ -247,7 +253,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p><img src="https://via.placeholder.com/540x330/B999DB/7C41BA" alt="XXX" /></p>
+        <div class="embed-responsive embed-responsive-16by9"><video type="video/mp4" loop="loop" controls="controls" src="/assets/why-join/join-and-sign-consti.mp4" /></div>
 
       </div>
       <div class="col-md-6">
@@ -270,7 +276,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 order-md-2">
-        <p><img src="https://via.placeholder.com/540x330/B999DB/7C41BA" alt="XXX" /></p>
+        <p><img src="/assets/why-join/submit-Worker-proposal.svg" alt="Submit WP" /></p>
 
       </div>
       <div class="col-md-6 order-md-1">
@@ -282,7 +288,7 @@
 </ul>
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSculmbT-JGo9eX7BtQfTGoLUFnQyeThOR-wPBx7DZiIeKtmpw/viewform" class="btn solid dark btn-raised">Submit New</a>
-<a href="https://docs.google.com/spreadsheets/d/1J_BtrVbG9xE95papc3s5fMTZi8W2cqh_Xj5b8XzhRME/edit?usp=sharing" class="btn light dark btn-raised">View Active</a></p>
+<a href="https://docs.google.com/spreadsheets/d/1J_BtrVbG9xE95papc3s5fMTZi8W2cqh_Xj5b8XzhRME/edit?usp=sharing" class="btn solid light btn-raised">View Active</a></p>
 
       </div>
     </div>
@@ -306,7 +312,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p><img src="https://via.placeholder.com/540x330/B999DB/7C41BA" alt="XXX" /></p>
+        <div class="embed-responsive embed-responsive-16by9"><video type="video/mp4" loop="loop" controls="controls" src="/assets/why-join/voting-custodians.mp4" /></div>
 
       </div>
       <div class="col-md-6">
@@ -329,7 +335,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 order-md-2">
-        <p><img src="https://via.placeholder.com/540x330/B999DB/7C41BA" alt="XXX" /></p>
+        <div class="embed-responsive embed-responsive-16by9"><video type="video/mp4" loop="loop" controls="controls" src="/assets/why-join/interact-with-discord-2.mp4" /></div>
 
       </div>
       <div class="col-md-6 order-md-1">
@@ -438,6 +444,48 @@
     <img src="/assets/spacer.gif" style="width:100%;"/>
 </div></div>
 </div>
+<script type="text/javascript">
+var videoSource = new Array();
+var mq = window.matchMedia("(max-width: 992px)")
+mediaQueryFunc(mq) // Call listener function at run time
+mq.addListener(mediaQueryFunc) // Attach listener function on state changes
+
+var i = 0;
+var videoCount = videoSource.length;
+
+function videoPlay(videoNum) {
+  document.getElementById("myVideo").setAttribute("src", videoSource[videoNum]);
+  document.getElementById("myVideo").load();
+  document.getElementById("myVideo").play();
+}
+document.getElementById('myVideo').addEventListener('ended', videoEnded, false);
+videoPlay(0);
+
+function videoEnded() {
+  i++;
+  if (i === videoCount) {
+    i = 0;
+    videoPlay(i);
+  } else {
+    videoPlay(i);
+  }
+}
+
+function mediaQueryFunc(x) {
+  if (x.matches) { // If on mobile
+    videoSource[0] = '/assets/why-join/join-and-sign-consti_480p.mp4';
+    videoSource[1] = '/assets/why-join/interact-with-discord-1_480p.mp4';
+    videoSource[2] = '/assets/why-join/interact-with-discord-2_480p.mp4';
+    videoSource[3] = '/assets/why-join/voting-custodians_480p.mp4';
+  } else {
+    videoSource[0] = '/assets/why-join/join-and-sign-consti.mp4';
+    videoSource[1] = '/assets/why-join/interact-with-discord-1.mp4';
+    videoSource[2] = '/assets/why-join/interact-with-discord-2.mp4';
+    videoSource[3] = '/assets/why-join/voting-custodians.mp4';
+  }
+}
+</script>
+
   </div>
 
 </article>
@@ -562,6 +610,7 @@ $('#newsletterForm').submit(function(event) {
           <a class="nav-link" href="/de/tools/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">Werkzeuge</a>
+          
           
           
           
