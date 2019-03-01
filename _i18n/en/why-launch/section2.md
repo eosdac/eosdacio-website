@@ -1,7 +1,6 @@
-Communities **to disrupt** companies
+Empower **your Community**
 ====
 
- * The blockchain tech is empowering communities to disrupt companies
- * Over time we will see these communities challenging larger organisation nurturing the concept of DACs
+ * Blockchain combined with DAC tech is empowering communities to build their own value for themselves
+ * Over time we could see these super charged "DAC" communities challenging traditional organizations
  * DACs can be a powerful way to build an engaged community around your project
-
