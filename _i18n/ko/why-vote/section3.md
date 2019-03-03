@@ -1,5 +1,5 @@
-**Server** Locations **around** the **world**
+**전 세계**에 위치한 **서버** **위치**
 ===
 
- * eosDAC uses a mix of cloud and bare metal servers in several locations around the world
- * eosDAC uses geographically decentralized server location in diverse jurisdictions
+ * eosDAC은 전 세계 여러 곳에 클라우드 및 베어메탈 서버를 함께 갖고 있습니다.
+ * eosDAC은 다수의 관할권에 지리적으로 분산화된 서버 위치를 잡았습니다.
