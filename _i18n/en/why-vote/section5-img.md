@@ -1,1 +1,1 @@
-![Second Layer of Decentralisation](/assets/why-vote/second-layer-of-decentralisation-infographic-V1-0.svg)
+![Code Experience](/assets/why-vote/code-experience-graphic-V1-0.svg)

@@ -1,4 +1,4 @@
-**Control** will replaced with **voluntary work**
+**Control** will be replaced with **voluntary work**
 ====
 
  * Decentralized networked communities, shared goals, and shared ownership will prevail

@@ -1,1 +1,1 @@
-<div class="embed-responsive embed-responsive-16by9"><video type="video/mp4" loop="loop" controls="controls" src="/assets/why-join/voting-custodians.mp4"/></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/q113QPnZJ-Y?loop=1&playlist=q113QPnZJ-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
