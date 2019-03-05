@@ -1,7 +1,6 @@
-Communities **to disrupt** companies
+커뮤니티가 **회사를** 바꿀 것입니다
 ====
 
- * The blockchain tech is empowering communities to disrupt companies
- * Over time we will see these communities challenging larger organisation nurturing the concept of DACs
- * DACs can be a powerful way to build an engaged community around your project
-
+ * 블록체인 기술로 인해 커뮤니티가 회사를 대체할 수 있습니다
+ * 이러한 커뮤니티는 서서히 더 큰 조직들이 DAC의 개념을 포용하게 만들 것입니다
+ * DAC은 당신의 프로젝트에 참여하는 커뮤니티를 구축할 수 있는 훌륭한 방법입니다

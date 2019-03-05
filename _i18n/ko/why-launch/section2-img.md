@@ -1,1 +1,1 @@
-![Community](/assets/why-launch/wp-approval.svg)
+![커뮤니티](/assets/why-launch/wp-approval.svg)

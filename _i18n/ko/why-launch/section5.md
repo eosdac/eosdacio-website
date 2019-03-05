@@ -1,6 +1,6 @@
-**Flexibility** to create an **autonomous system**
+**자치제**를 세우기 위해 필요한 **유연성**
 ====
 
- * Give yourself the flexibility to create an autonomous system
- * Provide the services you need as you focus on new projects
+ * 자치 시스템을 세우려면 유연성이 필요합니다
+ * 새 프로젝트를 시작하면서 필요한 서비스를 제공합니다
 

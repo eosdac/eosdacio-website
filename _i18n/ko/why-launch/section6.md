@@ -1,6 +1,5 @@
-**Private keys** should be kept **secure**
+**프리이빗 키**는 **안전**하게 보관해야 합니다
 ====
 
- * The private keys controlling EOS tokens and smart contracts should not be in the hands of individuals
- * Use a DAC structure to spread out the governance of your projects on EOS
-
+ * EOS 토큰과 스마트 계약을 통제할 수 있는 프라이빗 키는 절대로 타인에게 공유해서는 안 됩니다
+ * 대신 DAC 구조를 통해 EOS 프로젝트의 거버넌스를 공유하세요

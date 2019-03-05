@@ -1,2 +1,2 @@
-The world of **static hierarchies** and centralized ownership **will be disrupted**
+**조직 계급**과 소유권이 중앙화된 지금의 세상은 **바뀔 것입니다**
 ==

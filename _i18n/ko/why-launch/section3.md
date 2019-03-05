@@ -1,7 +1,6 @@
-DACs are **transparent** and **decentralized**
+DAC은 **투명**하고 **탈중앙화**되었습니다
 ====
 
- * Decentralized Autonomous Communities accomplish goals in consistent, transparent ways
- * DACs have no single point of failure
- * Voting, work, membership, and governance can be securely handled on-chain
-
+ * 탈중앙 자치 커뮤니티는 일관되고 투명한 방법으로 목표를 달성합니다
+ * DAC은 중앙화되어 있지 않기 때문에 실패의 구심점이 없습니다
+ * 투표, 작업, 멤버십, 거버넌스가 모두 온체인에서 이루어집니다
