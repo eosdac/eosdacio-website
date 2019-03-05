@@ -1,0 +1,139 @@
+Last update: 2019-03-05T22:34:19+01:00
+Checking translation for 'ko' in path: _i18n
+
+UPDATE:    _i18n/ko.yml
+  english was modified at     2019-03-05 22:34:03 +0100
+  translation last updated at 2019-02-18 15:20:04 +0100
+DUPLICATE: _i18n/ko/history/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/history/section1.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-launch/section8-img.md
+  english was modified at     2019-03-01 17:55:12 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+DUPLICATE: _i18n/ko/why-launch/section9-img.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-launch/section3-img.md
+  english was modified at     2019-03-01 17:55:12 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/why-launch/section5-img.md
+  english was modified at     2019-03-01 17:55:12 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/why-launch/section6-img.md
+  english was modified at     2019-03-01 17:55:12 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/why-vote/section2-img.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section2.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section5-img.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+DUPLICATE: _i18n/ko/why-vote/section1.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-vote/section5.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+DUPLICATE: _i18n/ko/tools/smart-contracts-explained.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/smart-contracts-header.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/tools/box1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/home/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/home/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/home/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/home/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/home/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/news/no-news.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/news/sec1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/open-source.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section6-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section4-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-join/box2.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-join/section2-img.md
+  english was modified at     2019-03-05 17:42:14 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+DUPLICATE: _i18n/ko/why-join/section6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-join/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-join/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-join/section3.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-join/section5-img.md
+  english was modified at     2019-03-05 17:42:14 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/why-join/section6-img.md
+  english was modified at     2019-03-05 17:42:14 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+DUPLICATE: _i18n/ko/why-join/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-join/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-join/section5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-join/box1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/vision-core-principles/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/vision-core-principles/core-principles.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/vision-core-principles/box6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/vision-core-principles/vision.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/vision-core-principles/box4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/vision-core-principles/box5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/vision-core-principles/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/vision-core-principles/box1.md
+  delete this file, it will automatically fallback to english
