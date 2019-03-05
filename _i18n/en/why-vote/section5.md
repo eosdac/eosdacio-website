@@ -1,5 +1,5 @@
- **Technically excellent** block producer
+Another **layer of decentralization** onto EOS
 ===
 
- * eosDAC has pursued continual improvement to be one of the most technically excellent block producers since the very first testnet
- * eosDAC provides high CPU performance, to allow the EOS blockchain to reach the maximum TPS
+ * Community ownership and management of a block producer on EOS
+ * eosDAC provides stability of the chain, using decentralized governance of 12 elected custodians
