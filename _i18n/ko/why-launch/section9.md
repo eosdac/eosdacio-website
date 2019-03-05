@@ -1,8 +1,8 @@
-The eos**DAC Factory**
+eos**DAC 팩토리**
 ====
 
- * Use our DAC Factory to custom order a DAC suited for your own unique needs
- * Setting up a DAC from scratch is incredibly complex
- * Our upcoming DAC Factory will allow you to build and launch your own DAC in a fraction of the time
+ * DAC 팩토리를 이용해서 각각의 필요에 맞는 DAC을 커스텀 주문하세요
+ * DAC을 아무런 사전 준비 없이 설립하는 것은 굉장히 복잡합니다
+ * 지금 준비 중인 DAC 팩토리 서비스를 이용하면 짧은 시간 안에 나만의 DAC을 만들어 출범시킬 수 있습니다
 
-[Success Stories]({% translate_link success-stories %}){: .btn.solid.dark.btn-raised }
+[성공 사례]({% translate_link success-stories %}){: .btn.solid.dark.btn-raised }

@@ -1,9 +1,9 @@
-**Voting** participation **matters**
+**투표** 참여가 **중요합니다**
 ===
 
-As an EOS tokenholder, you have an ownership stake in EOS. Voting for an EOS Block Producer is like voting for who takes care of your property. Who you choose to take care of your property matters.
+여러분은 EOS 토큰 홀더로서 EOS의 소유권에 대한 지분을 가집니다. 블록 프로듀서에 투표하는 것은 자신의 자산을 누가 관리할지 결정하는 것과 같습니다. 누가 여러분의 자산을 관리할지 신중하게 선택해 주시기 바랍니다.
 
-Our Block Producer name on EOS Mainnet is: `eosdacserver`
+EOS 메인넷 BP명: `eosdacserver`
 
-[How to vote?]({% translate_link how-to-vote %}){: .btn.solid.dark.btn-raised }
-[Vote using Scatter](https://bloks.io/vote){: .btn.solid.light.btn-raised }
+[투표는 어떻게 하나요?]({% translate_link how-to-vote %}){: .btn.solid.dark.btn-raised }
+[Scatter로 투표하기](https://bloks.io/vote){: .btn.solid.light.btn-raised }

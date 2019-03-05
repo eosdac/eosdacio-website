@@ -1,5 +1,5 @@
-Another **layer of decentralization** onto EOS
+EOS 위에 또 하나의 **탈중앙**을 입히다
 ===
 
- * Community ownership and management of a block producer on EOS
- * eosDAC provides stability of the chain, using decentralized governance of 12 elected custodians
+ * EOS 상에서 커뮤니티가 소유하고 관리하는 블록 프로듀서
+ * eosDAC은 투표로 선출된 12명의 관리인이 운영하는 탈중앙화된 구조를 통해 체인의 안정성을 도모합니다

@@ -1,9 +1,8 @@
-![Why Vote?](/assets/home/vote-for-dac.svg)
+![투표하는 이유?](/assets/home/vote-for-dac.svg)
 
-Why Vote for eosDAC?
+왜 eosDAC에 투표해야 할까요?
 --------------------
 
-As an EOS tokenholder, you have an ownership stake in EOS. Voting for an EOS Block Producer is like voting for who takes care of your property. Who you choose to take care of your property matters.
-<br><br>
+EOS 토큰 홀더로서 여러분은 EOS 소유권의 지분을 가집니다. EOS 블록 프로듀서를 투표하는 것은 마치 여러분의 자산을 관리하는 사람을 뽑는 것과 마찬가지입니다. 누가 자산을 지킬지를 선택하는 것은 아주 중요하겠죠.<br><br>
 
-[Read more]({% translate_link why-vote %})
+[더 보기]({% translate_link why-vote %})

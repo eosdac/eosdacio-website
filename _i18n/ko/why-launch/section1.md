@@ -1,4 +1,4 @@
-**Why** launch your **own DAC**?
+**나만의 DAC**을 출범해야 하는 **이유**?
 ===
 
-Blockhain technology is empowering communities to disrupt centralized companies by creating synergy between owners, employees, and customers who all own and benefit from the same tokens and shared goals.
+블록체인 기술을 통해 같은 토큰을 소유하며 공통된 목표를 통해 이익을 얻는 소유권자와 고용인, 고객 사이에 시너지를 만들어 커뮤니티가 기존의 회사를 바꾸게 합니다

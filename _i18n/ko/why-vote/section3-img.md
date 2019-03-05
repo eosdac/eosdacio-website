@@ -1,1 +1,1 @@
-![Networks](/assets/why-vote/networks.ai_400x300.svg)
+![네트워크](/assets/why-vote/networks.ai_400x300.svg)
