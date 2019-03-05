@@ -4,9 +4,15 @@ nav.navbar {
 }
 .nav-tabs a.nav-link {
     text-transform: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 19px 8px;
     @media (max-width: $break-point-mobile) {
         padding: 7px 0;
     }
+}
+.nav-tabs a.nav-link.active {
+    font-weight: 500;
 }
 .dropdown-menu a.dropdown-item {
     @media (max-width: $break-point-mobile) {
