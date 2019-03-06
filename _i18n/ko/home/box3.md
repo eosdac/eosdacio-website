@@ -1,9 +1,9 @@
-![Why Launch a DAC?](/assets/home/create-own-dac.svg)
+![DAC 출범 이유](/assets/home/create-own-dac.svg)
 
-Why Launch a DAC?
+DAC을 출범해야 하는 이유?
 ---
 
-The blockchain tech is empowering communities to disrupt companies, over time we will see these communities challenging larger organisation nurturing the concept of DACs.\\
-&nbsp;
+블록체인 기술로 인해 커뮤니티는 기존의 회사 구조를 바꿀 수 있게 되었습니다. 미래에는 이런 커뮤니티가 더 큰 조직들이 DAC의 개념을 수용하도록 압력을 넣게 될 것입니다.
 
-[Read more]({% translate_link why-launch %})
+
+[더 보기]({% translate_link why-launch %})

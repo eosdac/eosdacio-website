@@ -1,8 +1,8 @@
-![Why Join?](/assets/home/join-dac.svg)
+![참여 이유](/assets/home/join-dac.svg)
 
-Why Join eosDAC?
+eosDAC에 참여해야 하는 이유는 무엇일까요?
 ----------------
 
-As an autonomous community, our operations are visible and reproducible on the blockchain. If you join as a member, you can submit your project plans as a worker proposal to the custodians and if they approve it, get paid it.
+eosDAC은 자치 커뮤니티로서 누구나 운영 사항을 볼 수 있으며 블록체인에서 확인할 수 있습니다. 정회원이 되면 관리인단에게 '작업자 제안'이라는 이름의 프로젝트 계획을 제안할 수 있으며, 이 제안이 승인되면 계획을 실행하고 보상을 받을 수 있습니다.
 
-[Read more]({% translate_link why-join %})
+[더 보기]({% translate_link why-join %})
