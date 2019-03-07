@@ -56,3 +56,13 @@ upstream    https://github.com/eosdac/eosdacio-website.git (push)
     `jekyll build`
 
 To deploy the website, commit the contents of the `_site` folder to the `deploy` branch of this repository. If you want to run the site locally for debugging, you can run `jekyll serve` and access your local copy at: <http://localhost:4000>
+
+If you are trying to run the site locally and get the below encoding error on windows
+`Liquid exception : incompatible character encodings : UTF - 8 ad IMB437`
+
+Run `chcp 65001` before running `jekyll serve`
+
+Follow the detailed guide on the link below to learn how to run Jekyll on Windows. 
+https://jekyllrb.com/docs/installation/windows/
+
+
