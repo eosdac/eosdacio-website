@@ -1,2 +1,2 @@
-A **Decentralized BP** has fewer single points of failure which make **EOS more secure,** and **protect EOS token holders investment.**
+**중앙화되지 않은 BP**는 그만큼 한 사람으로 인해 실패할 가능성이 적으므로 **EOS를 더욱 안정적**으로 만들며 **EOS 토큰 홀더의 투자를 보호합니다.**
 ===
