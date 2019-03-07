@@ -1,2 +1,0 @@
-eos**DAC** Core **Principles**
-===
