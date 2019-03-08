@@ -1,3 +1,28 @@
 site:
   title: "eosDAC"
-  description: "The Community-Owned EOS Block Producer and DAC Enabler"
+  description: "社区共有的 EOS 区块生产者及去中心化自治社区推动者"
+header:
+  vote: "为 eosdacserver 投票"
+  mclient: "会员客户端"
+news:
+  steemit: "Steemit"
+  youtube: "Youtube"
+  twitter: "Twitter"
+  more: "了解更多"
+  back: "返回"
+  prev: "前一页"
+  next: "下一页"
+pages:
+  why-vote: "为什么要为 eosDAC 投票?"
+  why-join: "为什么加入 eosDAC?"
+  why-launch: "为什么启动 DAC?"
+  support: "社区支持"
+  tools: "工具"
+  news: "新闻"
+newsletterForm:
+  name: "名字"
+  email: "邮箱 *"
+  language: "语言 *"
+  subscribe: "订阅"
+  success: "谢谢你，你提交的信息已被记录！"
+  error: "出错了"
