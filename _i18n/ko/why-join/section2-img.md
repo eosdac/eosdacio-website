@@ -1,0 +1,1 @@
+<div class="embed-responsive embed-responsive-16by9"><video type="video/mp4" loop="loop" controls="controls" src="/assets/why-join/join-and-sign-consti.mp4"/></div>
