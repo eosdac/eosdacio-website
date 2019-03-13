@@ -1,1 +1,4 @@
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/kNJbLJcma38?loop=1&playlist=kNJbLJcma38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<video id="why-join-video-1" class="video-js vjs-big-play-centered vjs-16-9" data-setup='{"controls": true, "autoplay": true, "muted": true, "loop": true}'>
+<source src="/assets/why-join/join-and-sign-consti_480p.mp4?480" type="video/mp4" label="SD" res="480" />
+<source src="/assets/why-join/join-and-sign-consti.mp4?1080" type="video/mp4" label="HD" res="1080"/>
+</video>
