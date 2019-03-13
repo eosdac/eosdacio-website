@@ -1,0 +1,75 @@
+Last update: 2019-03-13T16:57:55+01:00
+Checking translation for 'zh-hans' in path: ../../_i18n
+
+TODO:      ../../_i18n/zh-hans/history/section2.md
+TODO:      ../../_i18n/zh-hans/history/section1.md
+TODO:      ../../_i18n/zh-hans/how-to-vote/section2.md
+TODO:      ../../_i18n/zh-hans/how-to-vote/section3.md
+TODO:      ../../_i18n/zh-hans/how-to-vote/section1.md
+TODO:      ../../_i18n/zh-hans/how-to-vote/section4.md
+DUPLICATE: ../../_i18n/zh-hans/why-launch/section9-img.md
+  delete this file, it will automatically fallback to english
+TODO:      ../../_i18n/zh-hans/tools/exchange4.md
+TODO:      ../../_i18n/zh-hans/tools/smart-contracts-explained.md
+TODO:      ../../_i18n/zh-hans/tools/box2.md
+TODO:      ../../_i18n/zh-hans/tools/section2-img.md
+TODO:      ../../_i18n/zh-hans/tools/eosdactokens.md
+TODO:      ../../_i18n/zh-hans/tools/section3-img.md
+TODO:      ../../_i18n/zh-hans/tools/section2.md
+TODO:      ../../_i18n/zh-hans/tools/section3.md
+TODO:      ../../_i18n/zh-hans/tools/exchange1.md
+TODO:      ../../_i18n/zh-hans/tools/smart-contracts-header.md
+TODO:      ../../_i18n/zh-hans/tools/exchange9.md
+TODO:      ../../_i18n/zh-hans/tools/exchange6.md
+TODO:      ../../_i18n/zh-hans/tools/section1.md
+TODO:      ../../_i18n/zh-hans/tools/exchange.md
+TODO:      ../../_i18n/zh-hans/tools/exchange12.md
+TODO:      ../../_i18n/zh-hans/tools/box3.md
+TODO:      ../../_i18n/zh-hans/tools/exchange5.md
+TODO:      ../../_i18n/zh-hans/tools/exchange3.md
+TODO:      ../../_i18n/zh-hans/tools/exchange2.md
+TODO:      ../../_i18n/zh-hans/tools/exchange10.md
+TODO:      ../../_i18n/zh-hans/tools/exchange7.md
+TODO:      ../../_i18n/zh-hans/tools/box1.md
+TODO:      ../../_i18n/zh-hans/tools/exchange8.md
+TODO:      ../../_i18n/zh-hans/tools/exchange11.md
+TODO:      ../../_i18n/zh-hans/news/no-news.md
+TODO:      ../../_i18n/zh-hans/news/sec1.md
+UPDATE:    ../../_i18n/zh-hans/footer/social.md
+  english was modified at     2019-03-13 14:46:45 +0100
+  translation last updated at 2019-03-08 10:38:35 +0800
+TODO:      ../../_i18n/zh-hans/success-stories/section2-img.md
+TODO:      ../../_i18n/zh-hans/success-stories/section6.md
+TODO:      ../../_i18n/zh-hans/success-stories/section3-img.md
+TODO:      ../../_i18n/zh-hans/success-stories/section2.md
+TODO:      ../../_i18n/zh-hans/success-stories/section3.md
+TODO:      ../../_i18n/zh-hans/success-stories/open-source.md
+TODO:      ../../_i18n/zh-hans/success-stories/section5-img.md
+TODO:      ../../_i18n/zh-hans/success-stories/section6-img.md
+TODO:      ../../_i18n/zh-hans/success-stories/section1.md
+TODO:      ../../_i18n/zh-hans/success-stories/section5.md
+TODO:      ../../_i18n/zh-hans/success-stories/section4-img.md
+TODO:      ../../_i18n/zh-hans/success-stories/section4.md
+UPDATE:    ../../_i18n/zh-hans/why-join/section2-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-08 15:51:02 +0800
+UPDATE:    ../../_i18n/zh-hans/why-join/section5-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-08 15:51:02 +0800
+UPDATE:    ../../_i18n/zh-hans/why-join/section6-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-08 15:51:02 +0800
+TODO:      ../../_i18n/zh-hans/member-client/box2.md
+TODO:      ../../_i18n/zh-hans/member-client/box6.md
+TODO:      ../../_i18n/zh-hans/member-client/section2.md
+TODO:      ../../_i18n/zh-hans/member-client/box7.md
+TODO:      ../../_i18n/zh-hans/member-client/section1.md
+TODO:      ../../_i18n/zh-hans/member-client/box4.md
+TODO:      ../../_i18n/zh-hans/member-client/box5.md
+TODO:      ../../_i18n/zh-hans/member-client/box3.md
+TODO:      ../../_i18n/zh-hans/member-client/box1.md
+TODO:      ../../_i18n/zh-hans/support/box2.md
+TODO:      ../../_i18n/zh-hans/support/section2-img.md
+TODO:      ../../_i18n/zh-hans/support/section2.md
+TODO:      ../../_i18n/zh-hans/support/section1.md
+TODO:      ../../_i18n/zh-hans/support/box1.md
