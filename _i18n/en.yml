@@ -19,6 +19,7 @@ pages:
   support: "Support"
   tools: "Tools"
   news: "News"
+  token: "Token"
 newsletterForm:
   name: "Name"
   email: "Email *"
