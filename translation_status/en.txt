@@ -1,0 +1,231 @@
+Last update: 2019-03-13T16:57:47+01:00
+Checking translation for 'en' in path: ../../_i18n
+
+DUPLICATE: ../../_i18n/en.yml
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/history/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/history/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/error/404.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/how-to-vote/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/how-to-vote/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/how-to-vote/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/how-to-vote/section4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section8-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section9-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section9.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section8.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section6-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-launch/section7.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section8.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section6-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-vote/section5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/smart-contracts-explained.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/eosdactokens.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/smart-contracts-header.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange9.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange12.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange10.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange7.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/box1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange8.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/tools/exchange11.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/home/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/home/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/home/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/home/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/home/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/home/box1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/news/no-news.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/news/sec1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/footer/newsletter.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/footer/social.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/footer/links.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/open-source.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section6-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section4-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/success-stories/section4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section6-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/section5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/why-join/box1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/box6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/box7.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/box4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/box5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/member-client/box1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/vision-core-principles/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/vision-core-principles/core-principles.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/vision-core-principles/box6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/vision-core-principles/vision.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/vision-core-principles/box4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/vision-core-principles/box5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/vision-core-principles/box3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/vision-core-principles/box1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/support/box2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/support/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/support/section2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/support/section1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: ../../_i18n/en/support/box1.md
+  delete this file, it will automatically fallback to english
