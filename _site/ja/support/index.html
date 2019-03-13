@@ -12,16 +12,18 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
   <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1552002908">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1552493261">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1552002908">
+  <link rel="stylesheet" href="/assets/main.css?1552493261">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/ja/feed.xml" title="site.title" /><link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/ja/feed.xml" title="site.title" /><link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-2_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/voting-custodians_480p.mp4">
@@ -112,6 +114,34 @@
             
             
             
+            <a class="dropdown-item" href="/ko/support/">
+              <img src="/assets/flags/ko.png" />&nbsp;한국의
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/zh-hans/support/">
+              <img src="/assets/flags/zh-hans.png" />&nbsp;中国
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/vi/support/">
+              <img src="/assets/flags/vi.png" />&nbsp;Tiếng Việt
+            </a>
+            
+            
+            
+             
+            
+            
+            
             <a class="dropdown-item" href="/de/support/">
               <img src="/assets/flags/de.png" />&nbsp;Deutsch
             </a>
@@ -136,16 +166,6 @@
             
             
             
-             
-            
-            
-            
-            <a class="dropdown-item" href="/ko/support/">
-              <img src="/assets/flags/ko.png" />&nbsp;한국의
-            </a>
-            
-            
-            
             
             
             
@@ -160,24 +180,6 @@
             
             <a class="dropdown-item" href="/ru/support/">
               <img src="/assets/flags/ru.png" />&nbsp;Pусский
-            </a>
-            
-            
-            
-            
-            
-            
-            <a class="dropdown-item" href="/vi/support/">
-              <img src="/assets/flags/vi.png" />&nbsp;Tiếng Việt
-            </a>
-            
-            
-            
-            
-            
-            
-            <a class="dropdown-item" href="/zh-hans/support/">
-              <img src="/assets/flags/zh-hans.png" />&nbsp;中国
             </a>
             
             
@@ -377,9 +379,7 @@ $('#newsletterForm').submit(function(event) {
         </div>
         <div class="col-md-3">
           <h2 id="social-media">Social Media</h2>
-
-<p><br />
-<a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
+<p><a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
 <a href="https://github.com/eosdac"><i class="icon icon-social-github-com"></i></a>
 <a href="https://steemit.com/@eosdac"><i class="icon icon-social-steemit-com"></i></a>
 <a href="https://twitter.com/eosdac"><i class="icon icon-social-twitter-com"></i></a>
@@ -389,7 +389,10 @@ $('#newsletterForm').submit(function(event) {
 <a href="https://www.reddit.com/r/eosdac"><i class="icon icon-social-reddit-com"></i></a>
 <a href="https://vk.com/eosdac"><i class="icon icon-social-vk-com"></i></a>
 <a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
-<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a></p>
+<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a>
+<br />
+<a href="https://murmurdapp.com/#eosdac"><i class="icon icon-social-murmur"></i></a>
+<a href="https://t.me/eosdacio"><i class="icon icon-social-telegram"></i></a></p>
 
         </div>
       </div>
@@ -438,6 +441,8 @@ $('#newsletterForm').submit(function(event) {
       </div></div>
   </div>
 </footer>
+<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+<script src="/assets/videojs-resolution-switcher.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
   integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
   crossorigin="anonymous"></script>
@@ -445,7 +450,47 @@ $('#newsletterForm').submit(function(event) {
   src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
   integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
   crossorigin="anonymous"></script>
-<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
-</body>
+<script>
+$(document).ready(function() {
+  $('body').bootstrapMaterialDesign()
+  //initialize video players on why-join page
+  videojs('why-join-video-1', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-2', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-3', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+})
+</script></body>
 
 </html>

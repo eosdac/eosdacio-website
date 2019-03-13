@@ -649,7 +649,7 @@ img.bg {
   font-weight: 500; }
 
 .section li, .section p {
-  font-size: 1.2em; }
+  font-size: 1.2rem; }
 
 .section.dark {
   color: #ffffff;
@@ -817,6 +817,9 @@ nav .nav-buttons > a:first-of-type {
 .why-join .card img {
   margin-bottom: 15px;
   padding: 5px 100px; }
+
+.why-join div.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+  display: none; }
 
 .support .sec1 h1 {
   text-align: center;
