@@ -2,6 +2,6 @@
 ==============================================================
 
 <!--
-[영상 보기](https://www.youtube.com/watch?v=PbQpAJOP6iA){: .btn.solid.light }
+[영상 보기](https://youtu.be/tqDd8ALhpnw){: .btn.solid.light }
 [더 알아보기]({% translate_link why-vote %}){: .btn.outline.light }
 -->
