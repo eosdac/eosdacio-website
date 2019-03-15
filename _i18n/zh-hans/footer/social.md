@@ -1,7 +1,5 @@
 社交媒体
 ---
-
-\\
 [<i class="icon icon-social-discord-com"></i>](https://discord.io/eosdac)
 [<i class="icon icon-social-github-com"></i>](https://github.com/eosdac)
 [<i class="icon icon-social-steemit-com"></i>](https://steemit.com/@eosdac)
@@ -13,3 +11,6 @@
 [<i class="icon icon-social-vk-com"></i>](https://vk.com/eosdac)
 [<i class="icon icon-social-linkedin-com"></i>](https://www.linkedin.com/company/eosdac/)
 [<i class="icon icon-social-youtube-com"></i>](https://www.youtube.com/eosdac)
+\\
+[<i class="icon icon-social-murmur"></i>](https://murmurdapp.com/#eosdac)
+[<i class="icon icon-social-telegram"></i>](https://t.me/eosdacio)
