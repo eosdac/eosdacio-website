@@ -530,7 +530,7 @@ a, a:visited {
 
 a.btn {
   text-transform: none;
-  padding: 12px 80px;
+  padding: 12px 5px;
   margin-right: 20px;
   margin-top: 30px;
   white-space: normal;
@@ -858,6 +858,14 @@ nav .nav-buttons > a:first-of-type {
 @media (max-width: 992px) {
   .news a.btn {
     min-width: 150px; } }
+
+.tools .box img {
+  padding: 0;
+  max-height: 200px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px; }
 
 .core-principles .card {
   min-height: 95%; }

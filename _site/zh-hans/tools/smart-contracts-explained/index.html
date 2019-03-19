@@ -12,7 +12,7 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
   <meta property="og:description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1552493258">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1553039220">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
@@ -21,7 +21,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1552493258">
+  <link rel="stylesheet" href="/assets/main.css?1553039220">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/zh-hans/feed.xml" title="site.title" /><link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
@@ -69,6 +69,11 @@
         
         <li class="nav-item"><a class="nav-link" href="/zh-hans/tools/">
             工具</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/zh-hans/token/">
+            Token</a></li>
         
         
         
@@ -205,7 +210,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 id="eosdac-smart-contracts-explained">EosDAC smart contracts explained</h1>
+        <h1 id="eosdac-智能合约详解">eosDAC 智能合约详解</h1>
 
       </div>
     </div>
@@ -216,178 +221,177 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h3 id="whats-going-on-in-there">What’s going on in there?</h3>
-<p>Someone asked me the other day about all this EosDAC stuff what’s so special about all the work we have been doing on building this strange thing we are calling a DAC toolkit. How is it different from centralised solutions to organisation governance and operations? How is it secure? How have we designed and built the collection of smart contracts to ensure no single entity will be able harm the DAC through the smart contracts?</p>
+        <p>###到底发生了什么？
+前几天有人问我关于 eosDAC 的事，我们正在开发的这套我们称之为 DAC 工具包的东西，到底有什么特别之处。它与支持其它组织治理和运营的中心化的解决方案有何不同？它如何保证安全？智能合约集是如何设计和开发的，可以确保没有任何一个实体能够通过智能合约损害 DAC？</p>
 
-<p>There have been several articles and blog posts discussing the core beliefs and the how-to’s to operate a DAC using the code in this article I will focus on what the smart contracts are doing and how they work together to achieve secure autonomous governance. All the code is open source and available to view/use/fork on Github but then, not everyone reads C++.</p>
+<p>已经有几篇文章和博客讨论了 DAC 的核心理念以及如何使用本文中的代码来运营一个 DAC。在这篇文章中我将重点关注智能合约正在做什么，以及它们如何协同工作以实现安全的自主治理。所有的代码都是开源的，可以在 Github 上查看/使用/ fork，但并不是每个人都能读懂 C++。</p>
 
-<p>A primary consideration in all our smart contracts has been reusability for other DACS that may clone and use our source code. This was one of our core beliefs from the beginning and the justification for why some design decisions were more complex than they otherwise would have been if it was just for one use case. Our future goal would be to make these even more reusable so that multiple DACs could use our installed instances of the smart contracts and be able to tweak the settings for their own purpose without needing to maintain their own code. This way they would get updates along with the EosDAC team for feature updates and and general bug fixes.</p>
+<p>一个首要考量是我们所有的智能合约都可以通过简单的复制代码即在其它 DACs 进行重用。这是我们一开始的核心信念之一，这也是我们的设计决策比单一用例更复杂的原因。我们未来的目标是提升可重用性，以便使多个 DAC 可以使用我们已安装的智能合约实例，又能够根据自己的目标来调整设置，且无需维护自己的代码。通过这种方式，他们可以获得 eosDAC 团队的功能更新和常规错误修复等更新。</p>
 
-<p>The code contracts consist of a token contract (<code class="highlighter-rouge">eosdactokens</code>), an election and custodian managing contract (<code class="highlighter-rouge">dacustodian</code>), a worker proposal contract to manage all worker proposals and payment coordination and a separate escrow account (<code class="highlighter-rouge">dacescrow</code>) to securely hold funds for in-progress worker proposals to protect both the DAC and worker from potential loss of promised payments for their work.</p>
+<p>代码合约包括代币合约(<code class="highlighter-rouge">eosdactokens</code>)，一个选举和托管人管理合约(<code class="highlighter-rouge">dacustodian</code>)，一个负责管理所有工作人员提案及协商付款的工作提案合约(<code class="highlighter-rouge">dacproposals</code>)，以及一个单独的托管账户(<code class="highlighter-rouge">dacescrow</code>)，用于为正在进行中的工作人员提案保管资金，以保护 DAC 和工作人员免受可能的工作损失。</p>
 
 <h2 id="eosdactokens">EOSDACTOKENS</h2>
 
-<p>This is where it all started. The EOSDAC Token is held in this smart contract. It started as a clone from the main <code class="highlighter-rouge">eosio.token</code> contract code which is used for the EOS token and most likely the starting point for all the tokens that are running on all the EOS chains. We added some functionality to this contract to suit our needs for the launching of the DAC and the initial airdrop including the following:</p>
+<p>这就是一切开始的地方。EOSDAC 代币正是由这个智能合约产生。它起源于用于EOS 代币 eosio.token 主合约代码的复制，这个主合约很可能是所有 EOS 区块链上运行的所有代币的起点。我们在此合约中添加了一些功能，以满足我们启动 DAC 和初始空投的需求，包括以下内容：</p>
 
-<h3 id="ability-to-create-a-token-in-a-locked-state">Ability to create a token in a locked state.</h3>
-<p>The purpose of this was so that when we did the initial airdrop to the holders of the original Ethereum based tokens, back in June 2018, we could do thorough testing of the balances of the receiving accounts to ensure they matched the expected balances from the Ethereum snapshot before users could start trading the token. We take testing very seriously :) .</p>
+<h3 id="能够在锁定状态下创建令牌">能够在锁定状态下创建令牌。</h3>
+<p>这样做的目的是，当我们对早期基于以太坊网络的 EOS 代币的持有者进行初始空投后，回到 2018 年 6 月，我们可以对所有接收账户的余额进行全面测试，这样在用户可以交易代币之前，可以确保他们与以太坊网络快照的期望余额相同。我们非常重视测试:)。</p>
 
-<p>EOSDAC was one of the very first tokens to do an airdrop on the chain so there were many unknowns. Once the airdrop was completed and tested we could unlock the token to allow transfers. Importantly, there is no ability to lock a token again once it has been unlocked since this function could have enabled the possibility for token creators to manipulate the price through centralised control of the token liquidity.</p>
+<p>EOSDAC 是最早在区块链上进行空投的代币之一，因此有许多未知数。一旦空投完成并通过测试，我们就可以解锁代币并允许转账。更重要的是，一旦解锁了代币，就无法再锁定它，因为此功能可能使代码创建者能够通过集中控制代币的流动性的方法来操纵价格。</p>
 
-<h3 id="membership-terms-and-acceptance">Membership terms and acceptance.</h3>
-<p>Agreeing to terms of use as part of the DAC was seen by us as a fundamental core feature of the DAC smart contracts and therefore it made sense to include the functionality into the token contract. The terms would be agreed to by a user in order for them to become a member via performing the <code class="highlighter-rouge">memberreg</code> action on the contract.</p>
+<h3 id="会员条款及确认">会员条款及确认。</h3>
+<p>作为 DAC 的一部分，同意使用条款被我们视为 DAC 智能合约的基本核心功能，因此将此功能包含在代币合约中非常重要。当用户同意这些条款后，智能合约开始执行 <code class="highlighter-rouge">memberreg</code> 操作，然后用户就注册成为会员。</p>
 
-<p>To perform this action a user would need to supply a checksum of the terms they have actually agreed to and the contract action would ensure these checksums match with the known checksum of the latest terms before accepting their agreement and membership. This checksum logic is abstracted away from the end user through the front end user interface but provides cryptographic evidence that the user agreed to a particular set of terms and is ready for others to add their user interface to interact with the contract code. As long as they are able to provide the same checksum of known terms and conditions then they will able to successfully run the <code class="highlighter-rouge">memberreg</code> action. While this may seem like a verbose way to agree to terms and conditions we took this approach because it is like saying “I agree to <em>these</em> terms and conditions” rather than asking the user “Do you agree to the latest terms and conditions” with the user responding “yes” or “no”. We felt the latter would be less robust to ensure users don’t accept the wrong terms accidentally or via a user interface that is out of date with the contract.</p>
+<p>要执行这个操作，用户需要提供他们实际同意的条款的检验和，合约将确保这些校验和与最新条款的已知校验和相匹配，然后才能确认其协议和会员资格。这个校验和逻辑是通过前端用户界面由终端用户生成，并提供加密见证，表明用户同意一组特定术语，并准备好让其他人添加到他们的用户界面并与合约代码交互。只要他们能够提供与已知条款和条件相同的校验和，合约就能够成功运行 <code class="highlighter-rouge">memberreg</code>  操作。虽然这似乎是一种同意条款和条件的冗长方式，但我们采用这种方式，是因为它就像是在说“我同意这些条款和条件”而不是向用户询问“你是否同意最新的条款和条件”而用户回答“是”或“否”。我们认为后者不够健壮，它并不能确保用户不会意外地接受错误的术语或避免用户界面使用了过期的合约。</p>
 
-<p>In the interest of saving RAM usage for all the end users the contract only stores a reference to hash of the accepted terms stored once in the contract rather than storing a copy of the accepted hash for each user. This means each user only needs to store the version of accepted terms (8 bytes) and not the whole hash (32 bytes) and since RAM on chain is expensive every little saving helps.</p>
+<p>为了节省所有最终用户的 RAM 占用，合约仅一次性存储了确认条款哈希的引用，而不是为每个用户都存储确认条款的副本。这意味着每个用户只需要存储确认条款的版本(8个字节)而不是整个哈希串(32个字节)，因为链上的 RAM 非常昂贵，每节约一点都很有帮助。</p>
 
-<p>The state of each member’s acceptance of the latest terms is referred to repeatedly throughout the EOSDAC smart contracts to ensure user’s are not able to perform actions on the DAC without agreeing to the latest terms, including in the future when the terms are updated.</p>
+<p>这个会员接受最新条款的状态在整个 EOSDAC 智能合约中被反复引用，以确保用户无法在未同意最新条款的情况下对 DAC 执行操作，尤其是有将来更新条款的情况。</p>
 
 <h2 id="daccustodian">DACCUSTODIAN</h2>
 
-<p>This contract manages all the staking, nomination, voting, tallying of votes and appointment of custodians at the conclusion of each election period. The ultimate outcome from this contract’s actions is to manage the permissions on the DAC managing account (<code class="highlighter-rouge">dacauthority</code>) as configurable via the configs on the this contract since the managing account has pre-defined permissions to do anything in DAC including change the code and transfer funds. These allowed actions will be driven various multi-sig transactions leveraging off the the built-in sophisticated permission management tools available in the EOSIO protocol software. The parameters for the operations of the election process can be changed via a configuration object set on the contract via the <code class="highlighter-rouge">updateconfig</code> action. The functionality of this contract can be broken into the following broad sections:</p>
+<p>本合约管理每个选举周期结束时的所有抵押、提名、投票、选票统计和保管人任命。此合约操作的最终目标是用来管理 DAC 管理帐户 (<code class="highlighter-rouge">dacauthority</code>)  的权限，因为管理帐户具有在 DAC 中执行任何操作的预定义权限，包括更改代码和转移资金。这些许可的操作将利用 EOSIO 协议软件中提供的内置复杂权限管理工具来处理各种多签交易。要更改选举过程中的参数，可以用 <code class="highlighter-rouge">updateconfig</code> 操作来更新合约上的配置对象。 本合约的功能可分为以下几个部分：</p>
 
-<h3 id="staking">Staking</h3>
-<p>Before being able to successfully nominate as a candidate a member must first transfer EOSDAC as a staking amount using the <code class="highlighter-rouge">transfer</code> action on the token contract to this account. The memo must equal this contract’s account name (eg. “daccustodian”) in order for the transfer to be recognised as a staking transaction and the amount of required stake is configurable by the <code class="highlighter-rouge">lockupasset</code> field in the config object. Upon successfully staking there will be a pending stake amount in the contract for this candidate ready for the actual nomination action.</p>
+<h3 id="抵押">抵押</h3>
+<p>在成功提名为候选人之前，会员必须首先使用对此帐户代币合约的 <code class="highlighter-rouge">transfer</code> 操作将 EOSDAC 代币作为抵押数额进行转账。转账的 memo 必须设置为此合约的账户名称(例如“daccustodian”)，以便可以将这笔转账识别为一个抵押交易，且所需抵押的数额可由配置对象中的 <code class="highlighter-rouge">lockupasset</code> 字段配置。成功抵押后，该候选人的合约中将会有一定的抵押数额，可用于实际的提名操作。</p>
 
-<h3 id="candidate-nomination---nominatecand">Candidate nomination - <code class="highlighter-rouge">nominatecand</code>:</h3>
-<p>To become an elected custodian for the DAC a valid member must first nominate as a candidate using the <code class="highlighter-rouge">nominatecand</code> action. This requires the account name of the account nominating and a request pay amount of EOS. This action checks the user is a valid member and has staked sufficient EOSDAC tokens. It also checks that the requested pay amount does not exceed the <code class="highlighter-rouge">requested_pay_max</code> from the config and if all these conditions are met will add the user as a votable candidate for future voting actions.</p>
+<h3 id="候选人提名---nominatecand">候选人提名 - <code class="highlighter-rouge">nominatecand</code>:</h3>
+<p>一个有效会员要当选为 DAC 的托管人，首先要使用 <code class="highlighter-rouge">nominatecand</code> 操作来提名为候选人。这需要提供提名帐户的帐户名称，且需要支付一定数量的 EOS。合约操作检查用户的会员身份有效且已抵押了足够多的 EOSDAC 代币。它还检查已支付的金额是否超过了配置中的 <code class="highlighter-rouge">requested_pay_max</code> 的数量。如果所有这些条件都满足，合约将该用户添加为在下面投票操作中可投票的候选人。</p>
 
-<h3 id="voting---votecust">Voting - <code class="highlighter-rouge">votecust</code>:</h3>
-<p>The voting is performed by the <code class="highlighter-rouge">votecust</code> action and requires voter account and a list of candidates that the voter would like to vote for. The votes follow the following rules:</p>
+<h3 id="投票---votecust">投票 - <code class="highlighter-rouge">votecust</code>:</h3>
+<p>投票是通过 <code class="highlighter-rouge">votecust</code> 操作进行的，并且需要投票人账户和投票人将要投票支持的候选人名单。投票遵循以下规则：</p>
 
 <ul>
-  <li>Voting requires valid membership and agreement to the current member terms.</li>
-  <li>The weight of each vote is determined by the balance of EOSDAC the voter has in their account. (There is currently no staking required for voting.)</li>
-  <li>Once a vote has been placed that vote remains active until the voter changes the vote. This means that if the account balance falls to 0 and then has a balance added or one of the candidates resigns and then later returns the vote will still be active and applicable in the vote tallying.</li>
-  <li>All candidates voted for by a voter receive the same vote weight based on the EOSDAC balance.</li>
-  <li>There is a maximum number of candidates a voter can vote for, determined by a config setting.</li>
-  <li>To remove a vote a voter would need to vote with an empty list of candidates.</li>
-  <li>Voting and transferring tokens to and from a voting account will have a direct and immediate effect on the weight of each active vote but the only time the weight of votes matters is the block when the <code class="highlighter-rouge">newperiod</code> action is called (explained below).</li>
+  <li>投票需要有效的会员资格并同意当前的会员条款。</li>
+  <li>每次投票的权重由投票人在其账户中的 EOSDAC 余额确定。(目前不需要为投票进行抵押。)</li>
+  <li>一旦投票完成，投票将持续有效，直到投票人更改投票。这意味着如果帐户余额降至 0 然后再增加余额，或其中一个候选人放弃提名后再次提名，此投票仍将有效并适用于投票统计。</li>
+  <li>所有由投票人投票支持的候选人根据 EOSDAC 余额获得相同的投票权重。</li>
+  <li>投票人可以选择支持的候选人人数有一个上限，并取决于配置设置。</li>
+  <li>要取消投票，投票人需要清空已选择的候选人列表并再次投票。</li>
+  <li>在投票账户中投票和转移代币将对每个有效投票的权重产生直接和即时的影响，但对投票权重来说，重要时刻是当 <code class="highlighter-rouge">newperiod</code> 操作被调用的时候(下文解释)。</li>
 </ul>
 
-<h3 id="new-election-periods---newperiod">New election periods - <code class="highlighter-rouge">newperiod</code>:</h3>
-<p>For each valid candidate the vote weight will be continuously tracked based on changes triggered from the <code class="highlighter-rouge">votecust</code> action or the <code class="highlighter-rouge">transfer</code> action on the token contract if there is an active vote for the <code class="highlighter-rouge">from</code> or <code class="highlighter-rouge">to</code> accounts on the transfer action. With these values being continuously tracked the actual election (at the time of <code class="highlighter-rouge">newperiod</code> running) only needs to take a snapshot of the candidates ordered by the most votes at that moment. The number of candidates is configurable via the <code class="highlighter-rouge">numelected</code> field on the config. There are other checks required to be satisfied in order to successfully run the <code class="highlighter-rouge">newperiod</code> action including:</p>
+<h3 id="新选举周期---newperiod">新选举周期 - <code class="highlighter-rouge">newperiod</code>:</h3>
+<p>对于每个有效的候选人，如果有正在转账状态中的 <code class="highlighter-rouge">from</code> 或 <code class="highlighter-rouge">to</code> 账户的活跃投票，投票权重将基于代币合约中的 <code class="highlighter-rouge">votecust</code> 操作或 <code class="highlighter-rouge">transfer</code> 操作进行持续的跟踪。在连续跟踪这些值的情况下，新选举周期(在 <code class="highlighter-rouge">newperiod</code> 合约运行时)只需要对候选人的得票数进行快照并按投票最多进行排序。候选人的数量可通过配置中的 <code class="highlighter-rouge">numelected</code> 字段进行配置。为了成功运行 <code class="highlighter-rouge">newperiod</code> 操作，还需要进行其它检查，包括：</p>
 
 <ul>
-  <li>Ensure the initial number of voters exceeds the <code class="highlighter-rouge">initial_vote_quorum_percent</code> config.</li>
-  <li>Ensure on subsequent elections the number of voters exceeds <code class="highlighter-rouge">vote_quorum_percent</code> config.</li>
-  <li>Ensure the time period between calls to <code class="highlighter-rouge">newperiod</code> exceeds the <code class="highlighter-rouge">periodlength</code> time delay.</li>
+  <li>确保初始投票人数超过 <code class="highlighter-rouge">initial_vote_quorum_percent</code> 的配置。</li>
+  <li>确保在随后的选举中投票人数超过 <code class="highlighter-rouge">vote_quorum_percent</code> 的配置。</li>
+  <li>确保调用 <code class="highlighter-rouge">newperiod</code> 之间的时间间隔超过 <code class="highlighter-rouge">periodlength</code> 的时间延迟。</li>
 </ul>
 
-<p>If all these checks succeed the following events are performed:</p>
+<p>如果所有这些检查点都满足，则执行以下操作：</p>
 
 <ul>
-  <li>Custodian pay is distributed as per the median amount of the current custodians <code class="highlighter-rouge">requestedpay</code> amounts.</li>
-  <li>The new custodians are allocated based the ranking weight of their accumulated votes for the next period.</li>
-  <li>The permissions for operating the DAC accounts are updated to include the newly appointed custodians.</li>
-  <li>The current time is saved to use as a time reference for future calls the <code class="highlighter-rouge">newperiod</code> to ensure it’s not called too early for the next period.</li>
-  <li>For each candidate elected as a custodian their staked tokens will become locked up at this time to show they have some skin in the game. They will be able unstake their tokens once they are no longer a elected after a lockup period determined by <code class="highlighter-rouge">lockup_release_time_delay</code> from the config.</li>
+  <li>托管人工资按照当前托管人 <code class="highlighter-rouge">requestedpay</code> 金额的中位数进行分配。</li>
+  <li>根据下一个周期选票累计排名权重任命新的托管人。</li>
+  <li>更新 DAC 账户的操作权限，把新任命的托管人加进去。</li>
+  <li>保存当前时间，并作为将来调用 <code class="highlighter-rouge">newperiod</code> 的时间引用，以确保在下一个周期不会过早调用。</li>
+  <li>对于当选为托管人的每位候选人，他们抵押的代币将在此时被锁定，以表示他们利益共享、风险共担。一旦他们不再当选，且超过了在配置中由 <code class="highlighter-rouge">lockup_release_time_delay</code> 指定的锁定期，他们将能够赎回他们的代币。</li>
 </ul>
 
-<h3 id="other-actions">Other actions:</h3>
-<p>In addition to the happy path as explained above there are other actions supported in this contract including:</p>
+<h3 id="其它操作">其它操作:</h3>
+<p>除了上面解释的常规情形之外，本合约还支持其他操作，包括：</p>
 
 <ul>
-  <li>Withdraw candidate (<code class="highlighter-rouge">withdrawcand</code>): This would be called by an existing candidate, including one that is currently an elected custodian when they would like to remove themselves from the next period of elections. Their tokens will remain staked and if the tokens are also locked up they will remain locked until the release time expires. A good use case for this action may be a custodian going on holidays with the intention of returning soon (that’s the reason for keeping the unstake functionality separate). Otherwise this action could be used for any other reason for a candidate voluntarily withdrawing from participating in the DAC operations.</li>
-  <li>fire a candidate (<code class="highlighter-rouge">firecand</code>): This would be called by the currently elected custodians via the multi-sig auth account to remove a misbehaving candidate. This action has the option to lockup the candidates staked tokens if they are not already locked up.</li>
-  <li>fire a custodian (<code class="highlighter-rouge">firecust</code>): Similar to the <code class="highlighter-rouge">firecand</code> this action will remove a currently elected custodian as actioned by the other custodians. This will remove the custodian from elected custodian group, remove them as a potential candidate for future elections, replace the custodian with the next highest voted candidate and finally update the account permissions to reflect the new set of elected custodians.</li>
-  <li>resign a custodian (<code class="highlighter-rouge">resigncust</code>): This action must be run by an active custodian who would like to resign from being an active custodian. This would remove them from an eligible candidate and replace the custodian with the next highest voted candidate.</li>
-  <li>Update requested pay (<code class="highlighter-rouge">updatereqpay</code>): A candidate may update their requested pay as a custodian. This will not take effect until the next period to prevent mid period changes to custodian pay.</li>
-  <li>Claim pay (<code class="highlighter-rouge">claimpay</code>): This is the action called by an active custodian in order to receive the pay amount that is due to to be paid to them. Due to the legacy legal system we live in the payment is made via a service company for legal reasons beyond the scope of this document. From the contract’s perspective this is the action to pay a custodian for their services to the DAC as a custodian and after this action has been performed the custodian is considered paid.</li>
+  <li>候选人退出 (<code class="highlighter-rouge">withdrawcand</code>)：此合约将由现有候选人调用，包括想要从下一个选举期间退出选举的现任托管人。他们的代币将保持抵押状态，并一直保持锁定，直到释放时间到期。这个操作的一个很好的例子可能是托管人去度假了，并计划很快会回来(这就是保持赎回功能独立的原因)。另外，此操作可用于其他任何原因，以便候选人自愿退出 DAC 的运作。</li>
+  <li>除名候选人 (<code class="highlighter-rouge">firecand</code>)：当前现任候选人可以通过多签验证账户调用此合约来移除一个行为不端的候选人。如果候选人的抵押的代币未锁定，此操作有一个选项可以锁定它。</li>
+  <li>除名托管人 (<code class="highlighter-rouge">firecust</code>)：与 <code class="highlighter-rouge">firecand</code> 类似，此操作将由其他现任托管人来执行，来移除一个现任托管人。这将从现任托管人组中移除这个托管人，并将其删除为未来选举的潜在候选人，并用下一个最高得票的候选人替换，最后更新帐户权限把新当选的托管人加进去。</li>
+  <li>托管人辞职 (<code class="highlighter-rouge">resigncust</code>)：此操作必须由想要辞去托管人资格的现任托管人来执行。这将使他们从符合条件的候选人中删除，并用下一个最高得票的候选人替换。</li>
+  <li>更新要求的工资 (<code class="highlighter-rouge">updatereqpay</code>)：候选人可以更新他们作为托管人期望的工资。为避免在当前任期变更托管人的工资，此更新将在下一个任期生效。</li>
+  <li>申请支付 (<code class="highlighter-rouge">claimpay</code>)：这是由现任托管人发起的操作，以便可以收到应支付给他们的工资。鉴于我们生活在传统的法律体系中，付款是通过服务公司进行，有关法律原因的更多解释超出了本文的范围。从合约的角度来看，这是为他们作为托管人为 DAC 提供服务而应获得的报酬。在操作执行后，托管人应被视为已支付工资。</li>
   <li>
-    <p>Update config (<code class="highlighter-rouge">updateconfig</code>): There are several configurable options on the contract code to allow it to be customised for use without needing to recompile and deploy the code. This future plan is that this will allow different DACs to operate using the same deployed code but with their own custom configurations. The changes are made by setting a new config object via this action with the following options:</p>
+    <p>更新配置 (<code class="highlighter-rouge">updateconfig</code>):合约代码里有几个可配置选项，无需重新编译和部署代码即可自定义使用。未来的计划是将允许不同的 DAC 使用相同的已部署代码进行操作，但又都拥有各自的自定义配置。通过在以下合约选项中设置新的配置对象来进行自定义设置：</p>
 
     <ul>
-      <li><code class="highlighter-rouge">lockupasset</code>: The amount of EOSDAC token that are locked up by each candidate applying for election.</li>
-      <li><code class="highlighter-rouge">maxvotes</code> : The maximum number of votes that each member can make for a candidate. default of 5.</li>
-      <li><code class="highlighter-rouge">numelected</code> : Number of custodians to be elected for each election count.</li>
-      <li><code class="highlighter-rouge">periodlength</code> : Length of a period in seconds. Used to prevent early elections from being called on the <code class="highlighter-rouge">newperiod</code> action. default 7 days.</li>
-      <li><code class="highlighter-rouge">authaccount</code> : controlling account to have it’s permissions set with the elected custodians.</li>
-      <li><code class="highlighter-rouge">tokenholder</code> : The contract that holds the funds for the DAC. This is used as the source for custodian pay.</li>
-      <li><code class="highlighter-rouge">serviceprovider</code> :  The contract that will act as the service provider account for the DAC. This is used as the deliverer of pay to custodians and workers on worker proposals.</li>
-      <li><code class="highlighter-rouge">should_pay_via_service_provider</code> : If set to true the contract will direct all payments via the service provider rather than paying directly.</li>
-      <li><code class="highlighter-rouge">initial_vote_quorum_percent</code> :  Amount of token value in votes required to trigger the initial set of custodians</li>
+      <li><code class="highlighter-rouge">lockupasset</code>: 申请竞选的每位候选人锁定的 EOSDAC 代币数量。</li>
+      <li><code class="highlighter-rouge">maxvotes</code> : 每位会员可以投票支持的候选人的最大人数。默认值为 5。</li>
+      <li><code class="highlighter-rouge">numelected</code> : 每届选举的当选投管人人数。</li>
+      <li><code class="highlighter-rouge">periodlength</code> : 以秒为单位的每届任期的长度。用于避免调用 <code class="highlighter-rouge">newperiod</code> 操作提前进行选举。默认值为 7 天。</li>
+      <li><code class="highlighter-rouge">authaccount</code> : 为当选托管人设置权限的控制帐户。</li>
+      <li><code class="highlighter-rouge">tokenholder</code> : 保管 DAC 资金的合约。这是托管人工资的来源。</li>
+      <li><code class="highlighter-rouge">serviceprovider</code> : 此合约将用作 DAC 的服务提供商帐户。 被用于为托管人及提交提案的工作人员发放工资。</li>
+      <li><code class="highlighter-rouge">should_pay_via_service_provider</code> : 如果设置为 true，则合约将通过服务提供商来发放所有工资，而不是直接付款。</li>
+      <li><code class="highlighter-rouge">initial_vote_quorum_percent</code> :  触发首届托管人所需的投票的代币数量。</li>
       <li>
-        <p><code class="highlighter-rouge">vote_quorum_percent</code> : Amount of token value in votes required to allow a new set of custodians to be set after the initial threshold has been achieved - election period 2 and onwards.</p>
+        <p><code class="highlighter-rouge">vote_quorum_percent</code> : 在达到初始阈值后允许设置一组新的托管人所需的投票的代币数量 - 第2个选举周期及以后。</p>
 
-        <p>The required number of custodians to approve different levels of authenticated actions on the DAC smart contracts:</p>
+        <p>需要一定数量的托管人来批准 DAC 智能合约上不同级别的需要身份验证的操作：</p>
       </li>
-      <li><code class="highlighter-rouge">auth_threshold_high</code></li>
-      <li><code class="highlighter-rouge">auth_threshold_mid</code></li>
+      <li><code class="highlighter-rouge">auth_threshold_high</code>	* <code class="highlighter-rouge">auth_threshold_mid</code></li>
       <li><code class="highlighter-rouge">auth_threshold_low</code></li>
-      <li><code class="highlighter-rouge">lockup_release_time_delay</code> : The time before locked up stake can be released back to the candidate using the unstake action</li>
-      <li><code class="highlighter-rouge">requested_pay_max</code> : The maximum amount of pay a custodian can request for payment.</li>
+      <li><code class="highlighter-rouge">lockup_release_time_delay</code> : 可以使用赎回(unstake)操作将之前锁定抵押(stake)的代币退回给候选人的时间延迟。</li>
+      <li><code class="highlighter-rouge">requested_pay_max</code> : 托管人可以申请的最高工资。</li>
     </ul>
   </li>
 </ul>
 
 <h2 id="dacproposals">DACPROPOSALS</h2>
 
-<p>This contract is responsible for managing the worker proposals related to the DAC. It is once again built for configurability rather than just to suit our immediate needs in EosDAC.</p>
+<p>该合约负责管理与 DAC 相关的工作人员提案。它再次被构建并支持可配置性，而不仅仅是为了满足我们在 EosDAC 的即时需求。</p>
 
-<p>The general idea is that potential worker will have a piece of work they would like to propose to add value to the DAC in exchange for being paid in an amount of EOS based tokens. The proposal would be voted for approval for commencement and then completion by the current custodians and these actions would trigger payments to the proposer.</p>
+<p>一般的构想是，潜在的工作人员将发起提案做一些他们期望可以提升 DAC 价值的工作，并获取一定数量的基于 EOS 代币的酬劳。该提案将由现任托管人投票批准启动，之后还将确认工作完成，这些操作将触发向提案的工作人员付款。</p>
 
-<h3 id="create-proposal-createprop">Create proposal <code class="highlighter-rouge">createprop</code></h3>
-<p>A proposing worker would create a proposal and submit it to the blockchain for the review and voting by the current DAC custodians. To proposal would need to include the following:</p>
+<h3 id="发起提案-createprop">发起提案 <code class="highlighter-rouge">createprop</code></h3>
+<p>发起提案的工作人员将创建提案并将其提交给区块链，以供现任 DAC 托管人进行评估和投票。提案需要包括以下内容：</p>
 
 <ul>
-  <li><code class="highlighter-rouge">title</code> (String): to identify the proposal</li>
-  <li><code class="highlighter-rouge">summary</code> (String): a brief summary of the the purpose of the worker proposal</li>
-  <li><code class="highlighter-rouge">arbitrator</code> (EOS Account name): the account name of an independent arbitrator who may be called upon to satisfy disputes in the completion of a worker proposal.</li>
-  <li><code class="highlighter-rouge">pay_amount</code> (EOSAsset): an amount of EOS based tokens requested as the pay amount for the worker proposal.</li>
-  <li><code class="highlighter-rouge">content_hash</code> (ChecksumHash): a content hash to ensure details of a proposal stored off-chain are not modified after a proposal has been agreed to. This allows for much more extensive detail that would not be stored on chain while still maintaining data integrity.</li>
+  <li><code class="highlighter-rouge">title</code> (字符串): 用于标识提案</li>
+  <li><code class="highlighter-rouge">summary</code> (字符串): 关于工作人员提案的用处的简要概述</li>
+  <li><code class="highlighter-rouge">arbitrator</code> (EOS 账号名称): 独立仲裁员的账户名称，可在工作人员提案完成后要求协助解决争议。</li>
+  <li><code class="highlighter-rouge">pay_amount</code> (EOS 资产): 基于 EOS 代币的数额，作为支付给工作人员的的工资</li>
+  <li><code class="highlighter-rouge">content_hash</code> (检验和哈希值): 一个内容哈希值，用于确保提案通过后不会修改存储在链下的提案内容。这允许在保证数据完整性的同时，更详细的提案细节不用存储在链上。</li>
 </ul>
 
-<p>For each proposal minimal content data is required to be stored in the contract state and is instead only passed through for data integrity via transaction logs. Only the account and payment data is stored for utilisation in later actions within this contract.</p>
+<p>对于每个提案，最小内容数据需要存储在合约的状态中，而仅通过事务日志传递以实现数据的完整性。只保存了帐户和付款数据，以便在此合约的后续操作中使用。</p>
 
-<h3 id="voting-for-a-proposal-voteprop">Voting for a proposal <code class="highlighter-rouge">voteprop</code></h3>
-<p>Once a proposal has been created it would be in a state waiting for the current custodians to vote either ‘proposal_approve’ or ‘proposal_deny’ for a proposal with the required number of votes and number of ‘yes’ votes to be configurable in the contract. At this time there may be refinements to the proposal with canceling <code class="highlighter-rouge">cancel</code> of existing proposals and resubmitting changes based on feedback from the custodians until the proposals get to ready and positively-voted-for position.</p>
+<h3 id="对提案进行表决-voteprop">对提案进行表决 <code class="highlighter-rouge">voteprop</code></h3>
+<p>一旦提案被创建，将等候现任托管人进行投票表决，表决结果可以是 ‘提案通过(proposal_approve)’ 或 ‘提案拒绝(proposal_deny)’，该提案表决所需的”是”的投票数可以在合约中进行配置。如果是已有提案，也可以用取消 <code class="highlighter-rouge">cancel</code> 操作来重新对提案进行改进，并根据托管人的反馈意见重新修改并提交，直到提案准备就绪并表决通过。</p>
 
-<h3 id="start-work-on-an-accepted-proposal-startwork">Start work on an accepted proposal <code class="highlighter-rouge">startwork</code></h3>
-<p>It there have been sufficient positive votes for a proposal the proposer will be able to call this action to confirm that they will agree to work on the agreed proposal with the agreed terms, payment etc. At this point the agreed payment amount is transferred into an escrow account to ensure the funds can and will be paid to the proposer when the work is complete as approved by the custodians or the agreed arbitrator for the proposal.</p>
+<h3 id="提案通过后开始工作-startwork">提案通过后开始工作 <code class="highlighter-rouge">startwork</code></h3>
+<p>对于一项有足够支持票的提案，提案人可以调用这一操作来确认他们将同意按照商定的条款、款项等既定条件开始执行提案。此时，商定的款项将被转入托管账户，以确保工作完成后由托管人或者商定仲裁员确认后，该款项将可以支付给提案人。</p>
 
-<p>The locking of funds in an escrow account is a crucial step to protect the worker from potentially malicious custodians who could reverse an earlier proposal acceptance because they have a trusted arbitrator on the proposal to also be able to release the funds.</p>
+<p>在一个托管账户中锁定资金是一个关键步骤，这样可以保护工作人员免受那些可以撤销已通过提案的恶意托管人的危害，因为工作人员在这个提案上还有一个可信的仲裁员可以能够支付工资。</p>
 
-<h3 id="signal-completion-of-work-completework">Signal completion of work <code class="highlighter-rouge">completework</code></h3>
-<p>After a worker has completed their work they would signal to the custodians that work is believed to be complete and the custodians would need to assess the work before approving via another vote using <code class="highlighter-rouge">voteprop</code> but this time with a different choice of vote values to indicate <code class="highlighter-rouge">claim_approve</code> or <code class="highlighter-rouge">claim_deny</code>.</p>
+<h3 id="工作完成信号-completework">工作完成信号 <code class="highlighter-rouge">completework</code></h3>
+<p>在工作人员完成工作后，他们会向托管人发出信号，表示工作已按计划完成，托管人可以在投票之前评估工作情况，然后使用 <code class="highlighter-rouge">voteprop</code> 进行投票，但这次使用 <code class="highlighter-rouge">claim_approve</code> 或 <code class="highlighter-rouge">claim_deny</code> 来表示不同的投票结果。</p>
 
-<h3 id="claim-payment-for-completed-work-claim">Claim payment for completed work <code class="highlighter-rouge">claim</code></h3>
-<p>If there have been sufficient positive votes for the completed work from the custodians based on the current configurations then the proposer can call the action which will trigger the transfer of token payments to the worker. In practice for EosDAC the funds are sent to a service company account but effectively they are paid directly to the worker for their services.</p>
+<h3 id="为已完成的工作请求付款-claim">为已完成的工作请求付款 <code class="highlighter-rouge">claim</code></h3>
+<p>如果基于当前配置下托管人对已完成的工作投了足够多的赞同票，则提案人就可以调用该操作，该操作将触发向工作人员发起代币转账进行支付。在 EosDAC 的实践中，资金被发送到服务公司账户后直接作为服务薪酬支付给工作人员。</p>
 
-<h3 id="contract-configuration-updateconfig">Contract configuration <code class="highlighter-rouge">updateconfig</code></h3>
-<p>Various options are configurable for this contract including:</p>
+<h3 id="合约配置-updateconfig">合约配置 <code class="highlighter-rouge">updateconfig</code></h3>
+<p>该合约可以配置各种选项，包括:</p>
 
 <ul>
-  <li><code class="highlighter-rouge">service_account</code> (Eos account name)</li>
-  <li><code class="highlighter-rouge">proposal_threshold</code> number of required votes to participate in voting for a proposal.</li>
-  <li><code class="highlighter-rouge">proposal_approval_threshold_percent</code> required percentage of positive votes to approve a proposal</li>
-  <li><code class="highlighter-rouge">claim_threshold</code> number of required votes to participate in voting for completing a proposal.</li>
-  <li><code class="highlighter-rouge">claim_approval_threshold_percent</code> required percentage of positive votes to approve a proposal claim.</li>
-  <li><code class="highlighter-rouge">escrow_expiry</code> the expiry time set on the created escrow transaction (number of seconds). This has a default value of 30 days.</li>
+  <li><code class="highlighter-rouge">service_account</code> (EOS 账号名称)</li>
+  <li><code class="highlighter-rouge">proposal_threshold</code> 提案参与投票表决所需的投票数。</li>
+  <li><code class="highlighter-rouge">proposal_approval_threshold_percent</code> 批准提案所需的赞同票百分比。</li>
+  <li><code class="highlighter-rouge">claim_threshold</code> 确认提案完成所需的赞成票的票数。</li>
+  <li><code class="highlighter-rouge">claim_approval_threshold_percent</code> 确认提案完成所需的赞成票的百分比。</li>
+  <li><code class="highlighter-rouge">escrow_expiry</code> 在创建的托管交易上设置的过期时间(秒数)。其默认值为30天。</li>
 </ul>
 
 <h2 id="dacescrow">DACESCROW</h2>
-<p>This contract is responsible for holding the secured funds for worker proposals until the elected custodians or an agreed arbitrator releases the funds to the receiver or the escrow time limit expires which would allow returning of funds to the sender. The intention is that this contract would be locked to even prevent code modification from malicious custodians. This would be achieved via deleting the owner and active keys on the account after the contract code has been set. This desire for immutability is another reason for this contract to be separate and simple from the other code contracts in the code. The hope is that this code never needs to be modified. In the unfortunate (and hopefully very unlikely) scenario that this code does need to be modified the custodians would need to get the required agreement from the current block producers to reset the owner key for this account.</p>
+<p>该合约负责为提案工作人员保管担保资金，直到当选托管人或协议仲裁员向接收方发放资金或者托管时限到期，这样才能将资金返还给发送方。这么做的意图是锁定该合约以阻止恶意托管人修改代码。 这可以通过在部署合约代码后删除帐户的 owner 及 active 密钥来实现。将这个合约与其它合约代码进行代码级别的简单分离，是为了追求不可更改性。我们希望这个代码永远不需要修改。 在不幸(并且希望永远不会)的情况下，需要修改此代码，托管人需要从当前区块生产者获得必要的承诺以可以重置此帐户的 owner 密钥。</p>
 
-<h3 id="initialise-an-escrow-transaction---init">Initialise an escrow transaction - <code class="highlighter-rouge">init</code></h3>
-<p>An escrow transaction must be initialised specifying the all the required fields including the sender, intended receiver, expiry time, arbitrator, memo for the eventual transfer action. There is also an optional external key which can be used as a cross-contract reference key rather than only relying on the internal auto-incrementing key which would otherwise lead to key collisions in time.</p>
+<h3 id="初始化托管交易---init">初始化托管交易 - <code class="highlighter-rouge">init</code></h3>
+<p>必须初始化托管交易，并设定所有必需的字段，包括发送方、预期接收方、到期时间、仲裁方，最终转账操作的 memo。还有一个可选的外部密钥，可用作交叉合约参考密钥，而不仅仅依赖于内部自动递增密钥，因为这可能会导致即时密钥冲突。</p>
 
-<h3 id="transfer-funds-for-an-escrow---transfer">Transfer funds for an escrow - <code class="highlighter-rouge">transfer</code></h3>
-<p>Funds for an escrow would need to be transferred to escrow contract using the usual <code class="highlighter-rouge">transfer</code> action as seen and replicated by most EOS based token contracts. This contract’s code relies on the built in notifications that the transfer action directs to both the sender and receiver of accounts of the transfer. When a transfer notification is received by the escrow contract the <code class="highlighter-rouge">transfer</code> action implementation will verify the sender has an empty escrow record and assigns the amount transferred into that escrow record for later processing by the other actions in the escrow contract code. An initialised escrow record may be cancelled with the <code class="highlighter-rouge">cancel</code> action provided it is called before the transfer action has populated the escrow.</p>
+<h3 id="转账资金进行托管---transfer">转账资金进行托管 - <code class="highlighter-rouge">transfer</code></h3>
+<p>托管资金需要转账给托管合约，使用了比较常见的直接从大多数基于 EOS 的代币合约复制而来的普通的 <code class="highlighter-rouge">transfer</code> 操作。此合约的代码依赖于内置通知，即转账操作指向转账帐户的发件人和收件人。当托管合约收到转账通知时，<code class="highlighter-rouge">transfer</code> 操作将验证发件人是否有空的托管记录，并将转账到该托管记录中的款项分配给托管合约代码中的其他操作以供其稍后处理。如果在托管执行转账操作之前调用了 <code class="highlighter-rouge">cancel</code> 操作，则可以删除初始托管记录。</p>
 
-<h3 id="approval-or-un-approval-of-an-escrow---approve-and-unapprove">Approval or un-approval of an escrow - <code class="highlighter-rouge">approve</code> and <code class="highlighter-rouge">unapprove</code></h3>
-<p>Once an escrow has been initialised and populated with a transfer action the next step would be to approve the escrow either by the sender, the nominated arbitrator or receiver. Two approvals are required from any of these three accounts to allow the <code class="highlighter-rouge">claim</code> action to be performed. <code class="highlighter-rouge">unapprove</code> may be subsequently called to remove an existing approval by the relevant actor.</p>
+<h3 id="批准托管或取消批准托管---approve-和-unapprove">批准托管或取消批准托管 - <code class="highlighter-rouge">approve</code> 和 <code class="highlighter-rouge">unapprove</code></h3>
+<p>一旦托管完成初始化并执行转账操作，下一步将由发件人、指定的仲裁员或接收者批准托管。这三个账户中的任何一个都需要另外两个同意才能执行 <code class="highlighter-rouge">claim</code> 操作。随后可以调用 <code class="highlighter-rouge">unapprove</code> 操作来删除相关角色的已有批准。</p>
 
-<h3 id="claim-an-approved-escrow-payment---claim">Claim an approved escrow payment - <code class="highlighter-rouge">claim</code></h3>
-<p>The claim action can only be executed by the intended receiver for an escrow payment and will only succeed with the correct approval state for the escrow record. At this point the escrowed amount will be transferred to the nominated service company account so that payments can be processed to the intended receiver.</p>
+<h3 id="申请已批准的托管付款---claim">申请已批准的托管付款 - <code class="highlighter-rouge">claim</code></h3>
+<p>申请操作只能由预期的接收方执行才能进行托管付款，并且只有在托管记录处于正确的批准状态下才能成功。此时，托管款项将转账到指定的服务公司账户，以便可以将付款发送给预期的接收方。</p>
 
-<p><em>Note: The service company step is not included for technical reasons but is a legal requirement to have sufficient interfacing with the traditional legal world. As much as we would like to perform all actions in the safety of cryptographically secured smart contract environment the world is not ready :( .</em></p>
+<p>注意: 加入服务公司这一步并不是出于技术原因，而是由于要满足传统法律世界的法律要求。尽管我们希望在加密安全的智能合约环境中执行所有操作，但世界尚未做好准备 :( 。</p>
 
-<h3 id="refund-after-expiry---refund">Refund after expiry - <code class="highlighter-rouge">refund</code></h3>
-<p>While the funds in the escrow account must be locked up for a certain duration they must also be available after expiry time has passed if there has not been sufficient approval from the sender or the arbitrator otherwise there could be funds locked in the account permanently. The <code class="highlighter-rouge">refund</code> action provide this mechanism and can only be called by the sender if the expiry time has passed. Then the escrowed amount will be transferred back the sender and the escrow record will be removed to prevent a double refund scenario.</p>
+<h3 id="到期后退款---refund">到期后退款 - <code class="highlighter-rouge">refund</code></h3>
+<p>因为托管账户的资金必须被锁定一段时间，且到了过期时间后才能释放。但如果没有得到发送方或仲裁员的完全批准，账户里的资金则可能会被永久锁定。<code class="highlighter-rouge">refund</code> 操作提供了一种机制，到了过期时间后可由并仅由发送人调用。然后托管款项将会被转回给发送人，并删除托管记录以防止出现双重退款。</p>
 
-<p><a href="/zh-hans/tools/">Back</a></p>
+<p><a href="/zh-hans/tools/">返回</a></p>
 
       </div>
     </div>
@@ -472,9 +476,7 @@ $('#newsletterForm').submit(function(event) {
         </div>
         <div class="col-md-3">
           <h2 id="社交媒体">社交媒体</h2>
-
-<p><br />
-<a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
+<p><a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
 <a href="https://github.com/eosdac"><i class="icon icon-social-github-com"></i></a>
 <a href="https://steemit.com/@eosdac"><i class="icon icon-social-steemit-com"></i></a>
 <a href="https://twitter.com/eosdac"><i class="icon icon-social-twitter-com"></i></a>
@@ -484,7 +486,10 @@ $('#newsletterForm').submit(function(event) {
 <a href="https://www.reddit.com/r/eosdac"><i class="icon icon-social-reddit-com"></i></a>
 <a href="https://vk.com/eosdac"><i class="icon icon-social-vk-com"></i></a>
 <a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
-<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a></p>
+<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a>
+<br />
+<a href="https://murmurdapp.com/#eosdac"><i class="icon icon-social-murmur"></i></a>
+<a href="https://t.me/eosdacio"><i class="icon icon-social-telegram"></i></a></p>
 
         </div>
       </div>
@@ -517,6 +522,10 @@ $('#newsletterForm').submit(function(event) {
           <a class="nav-link" href="/zh-hans/tools/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">工具</a>
+          
+          <a class="nav-link" href="/zh-hans/token/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Token</a>
           
           
           
