@@ -1,4 +1,4 @@
-![Member Client](/assets/tools/logo-black.svg)
+![Member Client](/assets/tools/member-client.png)
 
 Member Client
 ---

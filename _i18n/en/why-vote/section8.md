@@ -6,4 +6,4 @@ As an EOS tokenholder, you have an ownership stake in EOS. Voting for an EOS Blo
 Our Block Producer name on EOS Mainnet is: `eosdacserver`
 
 [How to vote?]({% translate_link how-to-vote %}){: .btn.solid.dark.btn-raised }
-[Vote using Scatter](https://bloks.io/vote){: .btn.solid.light.btn-raised }
+[Vote using Scatter](https://www.eosx.io/tools/vote/?voteTo=eosdacserver){: .btn.solid.light.btn-raised }
