@@ -1,0 +1,1 @@
+![Deck](/assets/success-stories/beehivebudsco2.jpg)
