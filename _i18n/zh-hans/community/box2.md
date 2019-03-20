@@ -1,4 +1,4 @@
-![Telegram](/assets/support/telegram.svg)
+![Telegram](/assets/community/telegram.svg)
 
 社区讨论主要在 Telegram 上进行。
 <br><br>
