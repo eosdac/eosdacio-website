@@ -1,7 +1,6 @@
 /**
  * Reset some basic elements
  */
-@import url(styles.css);
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -792,7 +791,7 @@ nav .nav-buttons > a:first-of-type {
 
 .why-join .video {
   position: relative;
-  background-image: linear-gradient(to right, #1E2128, #272B35);
+  background: url(/assets/why-join/loading.gif) black no-repeat center center scroll;
   height: 50vh;
   min-height: 25rem;
   width: 100%;
@@ -821,17 +820,17 @@ nav .nav-buttons > a:first-of-type {
 .why-join div.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
   display: none; }
 
-.support .sec1 h1 {
+.community .sec1 h1 {
   text-align: center;
   padding-bottom: 30px; }
 
-.support .sec1 .box {
+.community .sec1 .box {
   text-align: center; }
 
-.support .sec1 .box img {
+.community .sec1 .box img {
   width: 50%; }
   @media (max-width: 992px) {
-    .support .sec1 .box img {
+    .community .sec1 .box img {
       width: 80%; } }
 
 .news .card a, .news .card a:hover {
