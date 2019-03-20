@@ -1,4 +1,4 @@
-![Telegram](/assets/support/telegram.svg)
+![Telegram](/assets/community/telegram.svg)
 
 커뮤니티 토론은 주로 Telegram에서 이루어집니다.
 <br><br>
