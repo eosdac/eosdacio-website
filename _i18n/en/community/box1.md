@@ -1,4 +1,4 @@
-![Discord](/assets/support/discord.svg)
+![Discord](/assets/community/discord.svg)
 
 Discord is where the action happens and is the main communication channel of eosDAC for everything from discussions, questions, support, and meetings.
 

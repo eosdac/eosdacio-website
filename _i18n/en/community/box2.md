@@ -1,4 +1,4 @@
-![Telegram](/assets/support/telegram.svg)
+![Telegram](/assets/community/telegram.svg)
 
 Telegram is where general community discussions\\
 take place.
