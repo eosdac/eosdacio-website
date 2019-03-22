@@ -1,8 +1,8 @@
-Last update: 2019-03-20T16:40:36+01:00
+Last update: 2019-03-22T18:06:26+01:00
 Checking translation for 'ko' in path: _i18n
 
 UPDATE:    _i18n/ko.yml
-  english was modified at     2019-03-20 14:14:56 +0100
+  english was modified at     2019-03-22 16:08:47 +0100
   translation last updated at 2019-02-18 15:20:04 +0100
 TODO:      _i18n/ko/history/section2.md
 TODO:      _i18n/ko/history/section1.md
@@ -16,11 +16,15 @@ TODO:      _i18n/ko/community/partner2.md
 UPDATE:    _i18n/ko/why-launch/section8-img.md
   english was modified at     2019-03-01 17:55:12 +0100
   translation last updated at 2019-03-01 23:45:25 +0900
-DUPLICATE: _i18n/ko/why-launch/section9-img.md
-  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-launch/section9-img.md
+  english was modified at     2019-03-21 12:22:32 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
 UPDATE:    _i18n/ko/why-launch/section3-img.md
   english was modified at     2019-03-01 17:55:12 +0100
   translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/why-launch/section9.md
+  english was modified at     2019-03-21 12:22:32 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
 UPDATE:    _i18n/ko/why-launch/section5-img.md
   english was modified at     2019-03-01 17:55:12 +0100
   translation last updated at 2019-03-01 23:45:25 +0900
@@ -34,7 +38,7 @@ UPDATE:    _i18n/ko/why-vote/section2.md
   english was modified at     2019-03-05 19:11:03 +0100
   translation last updated at 2019-03-03 20:36:47 +0900
 UPDATE:    _i18n/ko/why-vote/section8.md
-  english was modified at     2019-03-15 18:49:31 +0100
+  english was modified at     2019-03-22 16:08:31 +0100
   translation last updated at 2019-03-03 20:36:47 +0900
 UPDATE:    _i18n/ko/why-vote/section5-img.md
   english was modified at     2019-03-05 19:11:03 +0100
@@ -65,6 +69,9 @@ DUPLICATE: _i18n/ko/success-stories/section2-img.md
 TODO:      _i18n/ko/success-stories/section6.md
 DUPLICATE: _i18n/ko/success-stories/section3-img.md
   delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/success-stories/section2.md
+  english was modified at     2019-03-20 11:12:24 -0400
+  translation last updated at 2019-03-09 00:55:11 +0900
 DUPLICATE: _i18n/ko/success-stories/section5-img.md
   delete this file, it will automatically fallback to english
 DUPLICATE: _i18n/ko/success-stories/section6-img.md

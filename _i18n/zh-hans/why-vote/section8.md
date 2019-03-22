@@ -6,4 +6,4 @@
 我们在 EOS 主网的区块生产者名称是: `eosdacserver`
 
 [如何投票？]({% translate_link how-to-vote %}){: .btn.solid.dark.btn-raised }
-[使用 Scatter 投票](https://bloks.io/vote){: .btn.solid.light.btn-raised }
+[使用 Scatter 投票](https://www.eosx.io/tools/vote/?voteTo=eosdacserver){: .btn.solid.light.btn-raised }

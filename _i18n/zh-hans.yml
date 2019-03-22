@@ -2,7 +2,7 @@ site:
   title: "eosDAC"
   description: "社区共有的 EOS 区块生产者及去中心化自治社区推动者"
 header:
-  vote: "为 eosdacserver 投票"
+  vote: "投票支持 eosdacserver"
   mclient: "会员客户端"
 news:
   steemit: "Steemit"
@@ -13,12 +13,13 @@ news:
   prev: "前一页"
   next: "下一页"
 pages:
-  why-vote: "为什么要为 eosDAC 投票?"
+  why-vote: "为什么投票支持 eosDAC?"
   why-join: "为什么加入 eosDAC?"
   why-launch: "为什么启动 DAC?"
-  support: "社区支持"
+  support: "社区"
   tools: "工具"
   news: "新闻"
+  token: "代币"
 newsletterForm:
   name: "名字"
   email: "邮箱 *"

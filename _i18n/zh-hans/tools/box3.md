@@ -1,4 +1,4 @@
-![代币浏览器](/assets/tools/logo-black.svg)
+![代币浏览器](/assets/tools/token-explorer.png)
 
 代币浏览器
 ---
