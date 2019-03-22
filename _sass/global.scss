@@ -73,11 +73,11 @@ a.btn.outline.light {
     color: $light3;
     border: solid 2px $light3;
 }
-a.btn.solid.dark {
+button.btn.solid.dark, a.btn.solid.dark {
     background-color: $purple1;
     color: $light3 !important;
 }
-a:hover.btn.solid.dark {
+button:hover.btn.solid.dark, a:hover.btn.solid.dark {
     background-color: $purple2;
 }
 

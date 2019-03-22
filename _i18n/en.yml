@@ -31,3 +31,7 @@ scatterVote:
   voting: "Scatter voting..."
   thanks: "Thanks for voting!"
   proxy: "Voted proxy: "
+  modalHead: "You already selected 30 BPs"
+  modalBody: "Free up one spot, to cast a vote for"
+  cancel: "Cancel"
+  vote: "Vote now"
