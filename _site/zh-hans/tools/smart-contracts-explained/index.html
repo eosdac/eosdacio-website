@@ -12,8 +12,8 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
   <meta property="og:description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1553103481">
-  <link href="/assets/styles.css?1553103481s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1553274448">
+  <link href="/assets/styles.css?1553274448s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
@@ -22,7 +22,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1553103481">
+  <link rel="stylesheet" href="/assets/main.css?1553274448">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/zh-hans/feed.xml" title="site.title" /><link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
@@ -49,7 +49,7 @@
         
         
         <li class="nav-item"><a class="nav-link" href="/zh-hans/why-vote/">
-            为什么要为 eosDAC 投票?</a></li>
+            为什么投票支持 eosDAC?</a></li>
         
         
         
@@ -69,7 +69,7 @@
         
         
         <li class="nav-item"><a class="nav-link" href="/zh-hans/token/">
-            Token</a></li>
+            代币</a></li>
         
         
         
@@ -195,7 +195,7 @@
       </ul>
       <span class="navbar-text nav-buttons">
         <a href="/zh-hans/why-vote/#voting-matters" class="btn solid light btn-raised">
-          为 eosdacserver 投票
+          投票支持 eosdacserver
         </a>
         <a href="/zh-hans/member-client/" class="btn outline light btn-raised">
           会员客户端
@@ -222,44 +222,45 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p>###到底发生了什么？
-前几天有人问我关于 eosDAC 的事，我们正在开发的这套我们称之为 DAC 工具包的东西，到底有什么特别之处。它与支持其它组织治理和运营的中心化的解决方案有何不同？它如何保证安全？智能合约集是如何设计和开发的，可以确保没有任何一个实体能够通过智能合约损害 DAC？</p>
+        <h3 id="到底发生了什么">到底发生了什么？</h3>
+
+<p>前几天有人问我关于 eosDAC 的事，我们正在开发的这套我们称之为 DAC 工具包的东西，到底有什么特别之处。它与支持其它组织治理和运营的中心化的解决方案有何不同？它如何保证安全？智能合约集是如何设计和开发的，可以确保没有任何一个实体能够通过智能合约损害 DAC？</p>
 
 <p>已经有几篇文章和博客讨论了 DAC 的核心理念以及如何使用本文中的代码来运营一个 DAC。在这篇文章中我将重点关注智能合约正在做什么，以及它们如何协同工作以实现安全的自主治理。所有的代码都是开源的，可以在 Github 上查看/使用/ fork，但并不是每个人都能读懂 C++。</p>
 
-<p>一个首要考量是我们所有的智能合约都可以通过简单的复制代码即在其它 DACs 进行重用。这是我们一开始的核心信念之一，这也是我们的设计决策比单一用例更复杂的原因。我们未来的目标是提升可重用性，以便使多个 DAC 可以使用我们已安装的智能合约实例，又能够根据自己的目标来调整设置，且无需维护自己的代码。通过这种方式，他们可以获得 eosDAC 团队的功能更新和常规错误修复等更新。</p>
+<p>一个首要考量是我们所有的智能合约都可以通过简单的代码复制即在其它 DACs 进行重用。这是我们一开始的核心信念之一，这也是我们的设计决策比单一用例更复杂的原因。我们未来的目标是提升可重用性，以便使多个 DAC 可以使用我们已安装的智能合约实例，又能够根据自己的目标来调整设置，且无需维护自己的代码。通过这种方式，他们可以获得 eosDAC 团队的功能更新和常规错误修复等更新。</p>
 
-<p>代码合约包括代币合约(<code class="highlighter-rouge">eosdactokens</code>)，一个选举和托管人管理合约(<code class="highlighter-rouge">dacustodian</code>)，一个负责管理所有工作人员提案及协商付款的工作提案合约(<code class="highlighter-rouge">dacproposals</code>)，以及一个单独的托管账户(<code class="highlighter-rouge">dacescrow</code>)，用于为正在进行中的工作人员提案保管资金，以保护 DAC 和工作人员免受可能的工作损失。</p>
+<p>代码合约包括代币合约(<code class="highlighter-rouge">eosdactokens</code>)，一个选举和托管人管理合约(<code class="highlighter-rouge">dacustodian</code>)，一个负责管理所有工作人员提案及协调付款的工作提案合约(<code class="highlighter-rouge">dacproposals</code>)，以及一个单独的托管账户(<code class="highlighter-rouge">dacescrow</code>)，用于为正在进行中的工作人员提案保管资金，以保护 DAC 和工作人员免受可能的工作损失。</p>
 
 <h2 id="eosdactokens">EOSDACTOKENS</h2>
 
-<p>这就是一切开始的地方。EOSDAC 代币正是由这个智能合约产生。它起源于用于EOS 代币 eosio.token 主合约代码的复制，这个主合约很可能是所有 EOS 区块链上运行的所有代币的起点。我们在此合约中添加了一些功能，以满足我们启动 DAC 和初始空投的需求，包括以下内容：</p>
+<p>这就是一切开始的地方。EOSDAC 代币正是由这个智能合约产生。它起源于用于 EOS 代币 eosio.token 主合约代码的复制，这个主合约很可能是所有 EOS 区块链上运行的所有代币的起点。我们在此合约中添加了一些功能，以满足我们启动 DAC 和初始空投的需求，包括以下内容：</p>
 
 <h3 id="能够在锁定状态下创建令牌">能够在锁定状态下创建令牌。</h3>
-<p>这样做的目的是，当我们对早期基于以太坊网络的 EOS 代币的持有者进行初始空投后，回到 2018 年 6 月，我们可以对所有接收账户的余额进行全面测试，这样在用户可以交易代币之前，可以确保他们与以太坊网络快照的期望余额相同。我们非常重视测试:)。</p>
+<p>这样做的目的是，当我们对早期基于以太坊网络的 EOS 代币的持有者进行初始空投后，回到 2018 年 6 月，我们可以对所有接收账户的余额进行全面测试，这样在用户可以交易代币之前，确保他们与以太坊网络快照的期望余额相同。我们非常重视测试 :)。</p>
 
 <p>EOSDAC 是最早在区块链上进行空投的代币之一，因此有许多未知数。一旦空投完成并通过测试，我们就可以解锁代币并允许转账。更重要的是，一旦解锁了代币，就无法再锁定它，因为此功能可能使代码创建者能够通过集中控制代币的流动性的方法来操纵价格。</p>
 
 <h3 id="会员条款及确认">会员条款及确认。</h3>
 <p>作为 DAC 的一部分，同意使用条款被我们视为 DAC 智能合约的基本核心功能，因此将此功能包含在代币合约中非常重要。当用户同意这些条款后，智能合约开始执行 <code class="highlighter-rouge">memberreg</code> 操作，然后用户就注册成为会员。</p>
 
-<p>要执行这个操作，用户需要提供他们实际同意的条款的检验和，合约将确保这些校验和与最新条款的已知校验和相匹配，然后才能确认其协议和会员资格。这个校验和逻辑是通过前端用户界面由终端用户生成，并提供加密见证，表明用户同意一组特定术语，并准备好让其他人添加到他们的用户界面并与合约代码交互。只要他们能够提供与已知条款和条件相同的校验和，合约就能够成功运行 <code class="highlighter-rouge">memberreg</code>  操作。虽然这似乎是一种同意条款和条件的冗长方式，但我们采用这种方式，是因为它就像是在说“我同意这些条款和条件”而不是向用户询问“你是否同意最新的条款和条件”而用户回答“是”或“否”。我们认为后者不够健壮，它并不能确保用户不会意外地接受错误的术语或避免用户界面使用了过期的合约。</p>
+<p>要执行这个操作，用户需要提供他们实际同意的条款的检验和(checksum)，合约将确保这些检验和与最新条款的已知检验和相匹配，然后才能确认其条款和会员资格。这个检验和逻辑是通过前端用户界面由终端用户生成，并提供加密见证，表明用户同意一组特定术语，并准备好让其他人添加到他们的用户界面并与合约代码交互。只要他们能够提供与已知条款和条件相同的检验和，合约就能够成功运行 <code class="highlighter-rouge">memberreg</code>  操作。虽然这似乎是一种同意条款和条件的冗长方式，但我们采用这种方式，是因为它就像是在说“我同意这些条款和条件”，而不是向用户询问“你是否同意最新的条款和条件”而用户回答“是”或“否”。我们认为后者不够健壮，它并不能确保用户不会意外地接受错误的术语或避免用户界面使用了过期的合约。</p>
 
 <p>为了节省所有最终用户的 RAM 占用，合约仅一次性存储了确认条款哈希的引用，而不是为每个用户都存储确认条款的副本。这意味着每个用户只需要存储确认条款的版本(8个字节)而不是整个哈希串(32个字节)，因为链上的 RAM 非常昂贵，每节约一点都很有帮助。</p>
 
-<p>这个会员接受最新条款的状态在整个 EOSDAC 智能合约中被反复引用，以确保用户无法在未同意最新条款的情况下对 DAC 执行操作，尤其是有将来更新条款的情况。</p>
+<p>这个会员接受最新条款的状态在整个 eosDAC 智能合约中被反复引用，以确保用户无法在未同意最新条款的情况下对 DAC 执行操作，尤其是有将来更新条款的情况。</p>
 
 <h2 id="daccustodian">DACCUSTODIAN</h2>
 
-<p>本合约管理每个选举周期结束时的所有抵押、提名、投票、选票统计和保管人任命。此合约操作的最终目标是用来管理 DAC 管理帐户 (<code class="highlighter-rouge">dacauthority</code>)  的权限，因为管理帐户具有在 DAC 中执行任何操作的预定义权限，包括更改代码和转移资金。这些许可的操作将利用 EOSIO 协议软件中提供的内置复杂权限管理工具来处理各种多签交易。要更改选举过程中的参数，可以用 <code class="highlighter-rouge">updateconfig</code> 操作来更新合约上的配置对象。 本合约的功能可分为以下几个部分：</p>
+<p>本合约管理每个选举周期结束时的所有抵押、提名、投票、选票统计和托管人任命。此合约操作的最终目标是用来管理 DAC 管理帐户 (<code class="highlighter-rouge">dacauthority</code>)  的权限，因为管理帐户具有在 DAC 中执行任何操作的预定义权限，包括更改代码和转移资金。这些许可的操作将利用 EOSIO 协议软件中提供的内置复杂权限管理工具来处理各种多签交易。要更改选举过程中的参数，可以用 <code class="highlighter-rouge">updateconfig</code> 操作来更新合约上的配置对象。 本合约的功能可分为以下几个部分：</p>
 
 <h3 id="抵押">抵押</h3>
 <p>在成功提名为候选人之前，会员必须首先使用对此帐户代币合约的 <code class="highlighter-rouge">transfer</code> 操作将 EOSDAC 代币作为抵押数额进行转账。转账的 memo 必须设置为此合约的账户名称(例如“daccustodian”)，以便可以将这笔转账识别为一个抵押交易，且所需抵押的数额可由配置对象中的 <code class="highlighter-rouge">lockupasset</code> 字段配置。成功抵押后，该候选人的合约中将会有一定的抵押数额，可用于实际的提名操作。</p>
 
-<h3 id="候选人提名---nominatecand">候选人提名 - <code class="highlighter-rouge">nominatecand</code>:</h3>
-<p>一个有效会员要当选为 DAC 的托管人，首先要使用 <code class="highlighter-rouge">nominatecand</code> 操作来提名为候选人。这需要提供提名帐户的帐户名称，且需要支付一定数量的 EOS。合约操作检查用户的会员身份有效且已抵押了足够多的 EOSDAC 代币。它还检查已支付的金额是否超过了配置中的 <code class="highlighter-rouge">requested_pay_max</code> 的数量。如果所有这些条件都满足，合约将该用户添加为在下面投票操作中可投票的候选人。</p>
+<h3 id="候选人提名---nominatecand">候选人提名 - <code class="highlighter-rouge">nominatecand</code></h3>
+<p>一个有效会员要当选为 DAC 的托管人，首先要使用 <code class="highlighter-rouge">nominatecand</code> 操作来提名为候选人。这需要提供提名帐户的帐户名称，且需要支付一定数量的 EOS。合约将检查用户的会员身份有效且已抵押了足够多的 EOSDAC 代币。它还检查已支付的金额是否超过了配置中的 <code class="highlighter-rouge">requested_pay_max</code> 的数量。如果所有这些条件都满足，合约将该用户添加为在下面投票操作中可投票的候选人。</p>
 
-<h3 id="投票---votecust">投票 - <code class="highlighter-rouge">votecust</code>:</h3>
+<h3 id="投票---votecust">投票 - <code class="highlighter-rouge">votecust</code></h3>
 <p>投票是通过 <code class="highlighter-rouge">votecust</code> 操作进行的，并且需要投票人账户和投票人将要投票支持的候选人名单。投票遵循以下规则：</p>
 
 <ul>
@@ -272,7 +273,7 @@
   <li>在投票账户中投票和转移代币将对每个有效投票的权重产生直接和即时的影响，但对投票权重来说，重要时刻是当 <code class="highlighter-rouge">newperiod</code> 操作被调用的时候(下文解释)。</li>
 </ul>
 
-<h3 id="新选举周期---newperiod">新选举周期 - <code class="highlighter-rouge">newperiod</code>:</h3>
+<h3 id="新选举周期---newperiod">新选举周期 - <code class="highlighter-rouge">newperiod</code></h3>
 <p>对于每个有效的候选人，如果有正在转账状态中的 <code class="highlighter-rouge">from</code> 或 <code class="highlighter-rouge">to</code> 账户的活跃投票，投票权重将基于代币合约中的 <code class="highlighter-rouge">votecust</code> 操作或 <code class="highlighter-rouge">transfer</code> 操作进行持续的跟踪。在连续跟踪这些值的情况下，新选举周期(在 <code class="highlighter-rouge">newperiod</code> 合约运行时)只需要对候选人的得票数进行快照并按投票最多进行排序。候选人的数量可通过配置中的 <code class="highlighter-rouge">numelected</code> 字段进行配置。为了成功运行 <code class="highlighter-rouge">newperiod</code> 操作，还需要进行其它检查，包括：</p>
 
 <ul>
@@ -299,15 +300,15 @@
   <li>除名候选人 (<code class="highlighter-rouge">firecand</code>)：当前现任候选人可以通过多签验证账户调用此合约来移除一个行为不端的候选人。如果候选人的抵押的代币未锁定，此操作有一个选项可以锁定它。</li>
   <li>除名托管人 (<code class="highlighter-rouge">firecust</code>)：与 <code class="highlighter-rouge">firecand</code> 类似，此操作将由其他现任托管人来执行，来移除一个现任托管人。这将从现任托管人组中移除这个托管人，并将其删除为未来选举的潜在候选人，并用下一个最高得票的候选人替换，最后更新帐户权限把新当选的托管人加进去。</li>
   <li>托管人辞职 (<code class="highlighter-rouge">resigncust</code>)：此操作必须由想要辞去托管人资格的现任托管人来执行。这将使他们从符合条件的候选人中删除，并用下一个最高得票的候选人替换。</li>
-  <li>更新要求的工资 (<code class="highlighter-rouge">updatereqpay</code>)：候选人可以更新他们作为托管人期望的工资。为避免在当前任期变更托管人的工资，此更新将在下一个任期生效。</li>
-  <li>申请支付 (<code class="highlighter-rouge">claimpay</code>)：这是由现任托管人发起的操作，以便可以收到应支付给他们的工资。鉴于我们生活在传统的法律体系中，付款是通过服务公司进行，有关法律原因的更多解释超出了本文的范围。从合约的角度来看，这是为他们作为托管人为 DAC 提供服务而应获得的报酬。在操作执行后，托管人应被视为已支付工资。</li>
+  <li>更新期望的工资 (<code class="highlighter-rouge">updatereqpay</code>)：候选人可以更新他们作为托管人期望的工资。为避免在当前任期变更托管人的工资，此更新将在下一个任期生效。</li>
+  <li>申请支付 (<code class="highlighter-rouge">claimpay</code>)： 这是由现任托管人发起的操作，以便可以收到应支付给他们的工资。鉴于我们生活在传统的法律体系中，付款是通过服务公司进行的，有关法律原因的更多解释超出了本文的范围。从合约的角度来看，这是为他们作为托管人为 DAC 提供服务而应获得的报酬。在操作执行后，托管人应被视为已支付工资。</li>
   <li>
-    <p>更新配置 (<code class="highlighter-rouge">updateconfig</code>):合约代码里有几个可配置选项，无需重新编译和部署代码即可自定义使用。未来的计划是将允许不同的 DAC 使用相同的已部署代码进行操作，但又都拥有各自的自定义配置。通过在以下合约选项中设置新的配置对象来进行自定义设置：</p>
+    <p>更新配置 (<code class="highlighter-rouge">updateconfig</code>): 合约代码里有几个可配置选项，无需重新编译和部署代码即可自定义使用。未来的计划是将允许不同的 DAC 使用相同的已部署代码进行操作，但又都拥有各自的自定义配置。通过在以下合约选项中设置新的配置对象来进行自定义设置：</p>
 
     <ul>
       <li><code class="highlighter-rouge">lockupasset</code>: 申请竞选的每位候选人锁定的 EOSDAC 代币数量。</li>
       <li><code class="highlighter-rouge">maxvotes</code> : 每位会员可以投票支持的候选人的最大人数。默认值为 5。</li>
-      <li><code class="highlighter-rouge">numelected</code> : 每届选举的当选投管人人数。</li>
+      <li><code class="highlighter-rouge">numelected</code> : 每届选举的当选托管人人数。</li>
       <li><code class="highlighter-rouge">periodlength</code> : 以秒为单位的每届任期的长度。用于避免调用 <code class="highlighter-rouge">newperiod</code> 操作提前进行选举。默认值为 7 天。</li>
       <li><code class="highlighter-rouge">authaccount</code> : 为当选托管人设置权限的控制帐户。</li>
       <li><code class="highlighter-rouge">tokenholder</code> : 保管 DAC 资金的合约。这是托管人工资的来源。</li>
@@ -319,7 +320,8 @@
 
         <p>需要一定数量的托管人来批准 DAC 智能合约上不同级别的需要身份验证的操作：</p>
       </li>
-      <li><code class="highlighter-rouge">auth_threshold_high</code>	* <code class="highlighter-rouge">auth_threshold_mid</code></li>
+      <li><code class="highlighter-rouge">auth_threshold_high</code></li>
+      <li><code class="highlighter-rouge">auth_threshold_mid</code></li>
       <li><code class="highlighter-rouge">auth_threshold_low</code></li>
       <li><code class="highlighter-rouge">lockup_release_time_delay</code> : 可以使用赎回(unstake)操作将之前锁定抵押(stake)的代币退回给候选人的时间延迟。</li>
       <li><code class="highlighter-rouge">requested_pay_max</code> : 托管人可以申请的最高工资。</li>
@@ -329,9 +331,9 @@
 
 <h2 id="dacproposals">DACPROPOSALS</h2>
 
-<p>该合约负责管理与 DAC 相关的工作人员提案。它再次被构建并支持可配置性，而不仅仅是为了满足我们在 EosDAC 的即时需求。</p>
+<p>该合约负责管理与 DAC 相关的工作人员提案。它再次被构建并支持可配置性，而不仅仅是为了满足我们在 eosDAC 的即时需求。</p>
 
-<p>一般的构想是，潜在的工作人员将发起提案做一些他们期望可以提升 DAC 价值的工作，并获取一定数量的基于 EOS 代币的酬劳。该提案将由现任托管人投票批准启动，之后还将确认工作完成，这些操作将触发向提案的工作人员付款。</p>
+<p>一般的构想是，潜在的工作人员将发起提案做一些他们期望可以提升 DAC 价值的工作，并获取一定数量的基于 EOS 代币的酬劳。该提案将由现任托管人投票批准启动，之后还将确认工作完成，这些操作将触发向提案的工作人员支付薪酬。</p>
 
 <h3 id="发起提案-createprop">发起提案 <code class="highlighter-rouge">createprop</code></h3>
 <p>发起提案的工作人员将创建提案并将其提交给区块链，以供现任 DAC 托管人进行评估和投票。提案需要包括以下内容：</p>
@@ -357,8 +359,8 @@
 <h3 id="工作完成信号-completework">工作完成信号 <code class="highlighter-rouge">completework</code></h3>
 <p>在工作人员完成工作后，他们会向托管人发出信号，表示工作已按计划完成，托管人可以在投票之前评估工作情况，然后使用 <code class="highlighter-rouge">voteprop</code> 进行投票，但这次使用 <code class="highlighter-rouge">claim_approve</code> 或 <code class="highlighter-rouge">claim_deny</code> 来表示不同的投票结果。</p>
 
-<h3 id="为已完成的工作请求付款-claim">为已完成的工作请求付款 <code class="highlighter-rouge">claim</code></h3>
-<p>如果基于当前配置下托管人对已完成的工作投了足够多的赞同票，则提案人就可以调用该操作，该操作将触发向工作人员发起代币转账进行支付。在 EosDAC 的实践中，资金被发送到服务公司账户后直接作为服务薪酬支付给工作人员。</p>
+<h3 id="为已完成的工作申请付款-claim">为已完成的工作申请付款 <code class="highlighter-rouge">claim</code></h3>
+<p>如果基于当前配置下托管人对已完成的工作投了足够多的赞同票，则提案人就可以调用该操作，该操作将触发向工作人员发起代币转账进行支付。在 eosDAC 的实践中，资金被发送到服务公司账户后直接作为服务薪酬支付给工作人员。</p>
 
 <h3 id="合约配置-updateconfig">合约配置 <code class="highlighter-rouge">updateconfig</code></h3>
 <p>该合约可以配置各种选项，包括:</p>
@@ -387,7 +389,7 @@
 <h3 id="申请已批准的托管付款---claim">申请已批准的托管付款 - <code class="highlighter-rouge">claim</code></h3>
 <p>申请操作只能由预期的接收方执行才能进行托管付款，并且只有在托管记录处于正确的批准状态下才能成功。此时，托管款项将转账到指定的服务公司账户，以便可以将付款发送给预期的接收方。</p>
 
-<p>注意: 加入服务公司这一步并不是出于技术原因，而是由于要满足传统法律世界的法律要求。尽管我们希望在加密安全的智能合约环境中执行所有操作，但世界尚未做好准备 :( 。</p>
+<p>注意: 加入服务公司这一步并不是出于技术原因，而是由于要满足传统法律世界的法律要求。尽管我们希望在加密安全的智能合约环境中执行所有操作，但传统世界尚未做好准备 :( 。</p>
 
 <h3 id="到期后退款---refund">到期后退款 - <code class="highlighter-rouge">refund</code></h3>
 <p>因为托管账户的资金必须被锁定一段时间，且到了过期时间后才能释放。但如果没有得到发送方或仲裁员的完全批准，账户里的资金则可能会被永久锁定。<code class="highlighter-rouge">refund</code> 操作提供了一种机制，到了过期时间后可由并仅由发送人调用。然后托管款项将会被转回给发送人，并删除托管记录以防止出现双重退款。</p>
@@ -412,6 +414,7 @@
           <h2 id="重要链接">重要链接</h2>
 <p><a href="/zh-hans/why-vote/#core-principles">行为守则</a><br />
 <a href="/zh-hans/history/">eosDAC 历史</a><br />
+<a href="https://eosdac.zendesk.com/">帮助中心</a><br />
 <a href="/styleguide">风格指南</a><br />
 <a href="https://steemit.com/eos/@eosdac/statement-of-ownership-and-code-of-conduct">信息披露</a><br />
 <a href="/bp.json">BP 信息</a></p>
@@ -489,7 +492,7 @@ $('#newsletterForm').submit(function(event) {
 <a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
 <a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a>
 <br />
-<a href="https://murmurdapp.com/#eosdac"><i class="icon icon-social-murmur"></i></a>
+<a href="https://murmurdapp.com/userpost/eosdacmurmur"><i class="icon icon-social-murmur"></i></a>
 <a href="https://t.me/eosdacio"><i class="icon icon-social-telegram"></i></a></p>
 
         </div>
@@ -506,7 +509,7 @@ $('#newsletterForm').submit(function(event) {
           
           <a class="nav-link" href="/zh-hans/why-vote/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
-            color: white;">为什么要为 eosDAC 投票?</a>
+            color: white;">为什么投票支持 eosDAC?</a>
           
           <a class="nav-link" href="/zh-hans/why-join/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
@@ -522,7 +525,7 @@ $('#newsletterForm').submit(function(event) {
           
           <a class="nav-link" href="/zh-hans/token/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
-            color: white;">Token</a>
+            color: white;">代币</a>
           
           <a class="nav-link" href="/zh-hans/tools/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
