@@ -1,0 +1,14 @@
+.community .sec1 h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.community .sec1 .box {
+    text-align: center;
+}
+.community .sec1 .box img {
+    width: 50%;
+    @media (max-width: $break-point-mobile) {
+        width: 80%;
+    }
+}

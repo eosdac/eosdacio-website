@@ -1,0 +1,67 @@
+Last update: 2019-03-20T16:40:38+01:00
+Checking translation for 'zh-hans' in path: _i18n
+
+UPDATE:    _i18n/zh-hans.yml
+  english was modified at     2019-03-20 14:14:56 +0100
+  translation last updated at 2019-03-08 10:38:35 +0800
+TODO:      _i18n/zh-hans/history/section2.md
+TODO:      _i18n/zh-hans/history/section1.md
+TODO:      _i18n/zh-hans/community/partner6.md
+TODO:      _i18n/zh-hans/community/partner4.md
+TODO:      _i18n/zh-hans/community/partners.md
+TODO:      _i18n/zh-hans/community/partner1.md
+TODO:      _i18n/zh-hans/community/partner3.md
+TODO:      _i18n/zh-hans/community/partner5.md
+TODO:      _i18n/zh-hans/community/partner2.md
+TODO:      _i18n/zh-hans/how-to-vote/section2.md
+TODO:      _i18n/zh-hans/how-to-vote/section3.md
+TODO:      _i18n/zh-hans/how-to-vote/section1.md
+TODO:      _i18n/zh-hans/how-to-vote/section4.md
+TODO:      _i18n/zh-hans/why-launch/section9-img.md
+UPDATE:    _i18n/zh-hans/why-vote/section8.md
+  english was modified at     2019-03-15 18:49:31 +0100
+  translation last updated at 2019-03-15 10:45:26 +0800
+TODO:      _i18n/zh-hans/home/eosdactokens.md
+TODO:      _i18n/zh-hans/news/no-news.md
+TODO:      _i18n/zh-hans/news/sec1.md
+UPDATE:    _i18n/zh-hans/footer/social.md
+  english was modified at     2019-03-20 14:02:23 +0100
+  translation last updated at 2019-03-15 10:45:26 +0800
+UPDATE:    _i18n/zh-hans/footer/links.md
+  english was modified at     2019-03-20 14:17:32 +0100
+  translation last updated at 2019-03-08 10:38:35 +0800
+DUPLICATE: _i18n/zh-hans/success-stories/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/zh-hans/success-stories/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/zh-hans/success-stories/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/zh-hans/success-stories/section6-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/zh-hans/success-stories/section4-img.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/zh-hans/why-join/section2-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-08 15:51:02 +0800
+UPDATE:    _i18n/zh-hans/why-join/section5-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-08 15:51:02 +0800
+UPDATE:    _i18n/zh-hans/why-join/section6-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-08 15:51:02 +0800
+TODO:      _i18n/zh-hans/token/exchange4.md
+TODO:      _i18n/zh-hans/token/section2-img.md
+TODO:      _i18n/zh-hans/token/eosdactokens.md
+TODO:      _i18n/zh-hans/token/section2.md
+TODO:      _i18n/zh-hans/token/exchange1.md
+TODO:      _i18n/zh-hans/token/exchange9.md
+TODO:      _i18n/zh-hans/token/exchange6.md
+TODO:      _i18n/zh-hans/token/exchange.md
+TODO:      _i18n/zh-hans/token/exchange12.md
+TODO:      _i18n/zh-hans/token/exchange5.md
+TODO:      _i18n/zh-hans/token/exchange3.md
+TODO:      _i18n/zh-hans/token/exchange2.md
+TODO:      _i18n/zh-hans/token/exchange10.md
+TODO:      _i18n/zh-hans/token/exchange7.md
+TODO:      _i18n/zh-hans/token/exchange8.md
+TODO:      _i18n/zh-hans/token/exchange11.md

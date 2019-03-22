@@ -28,20 +28,20 @@ plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
   - jekyll-paginate-v2
-languages: ["en", "de", "es", "it", "ja", "ko", "pt-br", "ru", "vi", "zh-hans"]
-exclude_from_localizations: ["styleguide", "assets", "bp.json", "SOURCES", "scripts"]
+languages: ["en", "ko", "zh-hans", "vi", "ja", "de", "es", "it", "pt-br", "ru"]
+exclude_from_localizations: ["styleguide", "assets", "bp.json", "SOURCES", "scripts", "translation_status"]
 defaultLang: en
 languageNames:
   en: English
+  ko: 한국의
+  zh-hans: 中国
+  vi: Tiếng Việt
+  ja: 日本の
   de: Deutsch
   es: Español
   it: Italiano
-  ja: 日本の
-  ko: 한국의
   pt-br: Brasileiro
   ru: Pусский
-  vi: Tiếng Việt
-  zh-hans: 中国
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

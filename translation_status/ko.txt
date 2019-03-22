@@ -1,0 +1,109 @@
+Last update: 2019-03-20T16:40:36+01:00
+Checking translation for 'ko' in path: _i18n
+
+UPDATE:    _i18n/ko.yml
+  english was modified at     2019-03-20 14:14:56 +0100
+  translation last updated at 2019-02-18 15:20:04 +0100
+TODO:      _i18n/ko/history/section2.md
+TODO:      _i18n/ko/history/section1.md
+TODO:      _i18n/ko/community/partner6.md
+TODO:      _i18n/ko/community/partner4.md
+TODO:      _i18n/ko/community/partners.md
+TODO:      _i18n/ko/community/partner1.md
+TODO:      _i18n/ko/community/partner3.md
+TODO:      _i18n/ko/community/partner5.md
+TODO:      _i18n/ko/community/partner2.md
+UPDATE:    _i18n/ko/why-launch/section8-img.md
+  english was modified at     2019-03-01 17:55:12 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+DUPLICATE: _i18n/ko/why-launch/section9-img.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-launch/section3-img.md
+  english was modified at     2019-03-01 17:55:12 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/why-launch/section5-img.md
+  english was modified at     2019-03-01 17:55:12 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/why-launch/section6-img.md
+  english was modified at     2019-03-01 17:55:12 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/why-vote/section2-img.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section2.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section8.md
+  english was modified at     2019-03-15 18:49:31 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section5-img.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section5.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+TODO:      _i18n/ko/tools/smart-contracts-explained.md
+TODO:      _i18n/ko/tools/box2.md
+TODO:      _i18n/ko/tools/section3-img.md
+TODO:      _i18n/ko/tools/section3.md
+TODO:      _i18n/ko/tools/smart-contracts-header.md
+TODO:      _i18n/ko/tools/section1.md
+TODO:      _i18n/ko/tools/exchange.md
+TODO:      _i18n/ko/tools/box3.md
+TODO:      _i18n/ko/tools/box1.md
+TODO:      _i18n/ko/home/eosdactokens.md
+TODO:      _i18n/ko/news/no-news.md
+TODO:      _i18n/ko/news/sec1.md
+UPDATE:    _i18n/ko/footer/social.md
+  english was modified at     2019-03-20 14:02:23 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+UPDATE:    _i18n/ko/footer/links.md
+  english was modified at     2019-03-20 14:17:32 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+DUPLICATE: _i18n/ko/success-stories/section2-img.md
+  delete this file, it will automatically fallback to english
+TODO:      _i18n/ko/success-stories/section6.md
+DUPLICATE: _i18n/ko/success-stories/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section6-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section4-img.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-join/section2-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-09 00:55:11 +0900
+UPDATE:    _i18n/ko/why-join/section5-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-09 00:55:11 +0900
+UPDATE:    _i18n/ko/why-join/section6-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-09 00:55:11 +0900
+UPDATE:    _i18n/ko/member-client/box7.md
+  english was modified at     2019-03-07 01:46:28 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+TODO:      _i18n/ko/vision-core-principles/box2.md
+TODO:      _i18n/ko/vision-core-principles/core-principles.md
+TODO:      _i18n/ko/vision-core-principles/box6.md
+TODO:      _i18n/ko/vision-core-principles/vision.md
+TODO:      _i18n/ko/vision-core-principles/box4.md
+TODO:      _i18n/ko/vision-core-principles/box5.md
+TODO:      _i18n/ko/vision-core-principles/box3.md
+TODO:      _i18n/ko/vision-core-principles/box1.md
+TODO:      _i18n/ko/token/exchange4.md
+TODO:      _i18n/ko/token/section2-img.md
+TODO:      _i18n/ko/token/eosdactokens.md
+TODO:      _i18n/ko/token/section2.md
+TODO:      _i18n/ko/token/exchange1.md
+TODO:      _i18n/ko/token/exchange9.md
+TODO:      _i18n/ko/token/exchange6.md
+TODO:      _i18n/ko/token/exchange.md
+TODO:      _i18n/ko/token/exchange12.md
+TODO:      _i18n/ko/token/exchange5.md
+TODO:      _i18n/ko/token/exchange3.md
+TODO:      _i18n/ko/token/exchange2.md
+TODO:      _i18n/ko/token/exchange10.md
+TODO:      _i18n/ko/token/exchange7.md
+TODO:      _i18n/ko/token/exchange8.md
+TODO:      _i18n/ko/token/exchange11.md

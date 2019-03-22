@@ -16,9 +16,10 @@ pages:
   why-vote: "Why Vote for eosDAC?"
   why-join: "Why Join eosDAC?"
   why-launch: "Why Launch a DAC?"
-  support: "Support"
+  community: "Community"
   tools: "Tools"
   news: "News"
+  token: "Token"
 newsletterForm:
   name: "Name"
   email: "Email *"
@@ -26,3 +27,4 @@ newsletterForm:
   subscribe: "Subscribe"
   success: "Thank you, your records have been updated!"
   error: "Error"
+
