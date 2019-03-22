@@ -1,8 +1,8 @@
-Last update: 2019-03-20T16:40:40+01:00
+Last update: 2019-03-22T18:06:30+01:00
 Checking translation for 'vi' in path: _i18n
 
 UPDATE:    _i18n/vi.yml
-  english was modified at     2019-03-20 14:14:56 +0100
+  english was modified at     2019-03-22 16:08:47 +0100
   translation last updated at 2019-03-05 11:52:26 +0700
 TODO:      _i18n/vi/community/box2.md
 TODO:      _i18n/vi/community/partner6.md

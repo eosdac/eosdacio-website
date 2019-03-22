@@ -1,8 +1,8 @@
-Last update: 2019-03-20T16:40:41+01:00
+Last update: 2019-03-22T18:06:30+01:00
 Checking translation for 'de' in path: _i18n
 
 UPDATE:    _i18n/de.yml
-  english was modified at     2019-03-20 14:14:56 +0100
+  english was modified at     2019-03-22 16:08:47 +0100
   translation last updated at 2019-02-20 15:26:49 +0100
 TODO:      _i18n/de/history/section2.md
 TODO:      _i18n/de/history/section1.md
