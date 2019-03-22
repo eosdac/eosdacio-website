@@ -1,1 +1,4 @@
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/q113QPnZJ-Y?loop=1&playlist=q113QPnZJ-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<video id="why-join-video-2" class="video-js vjs-big-play-centered vjs-16-9" data-setup='{"controls": true, "autoplay": true, "muted": true, "loop": true}'>
+<source src="/assets/why-join/voting-custodians_480p.mp4?480" type="video/mp4" label="SD" res="480" />
+<source src="/assets/why-join/voting-custodians.mp4?1080" type="video/mp4" label="HD" res="1080"/>
+</video>

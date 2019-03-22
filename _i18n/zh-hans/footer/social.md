@@ -12,5 +12,5 @@
 [<i class="icon icon-social-linkedin-com"></i>](https://www.linkedin.com/company/eosdac/)
 [<i class="icon icon-social-youtube-com"></i>](https://www.youtube.com/eosdac)
 \\
-[<i class="icon icon-social-murmur"></i>](https://murmurdapp.com/#eosdac)
+[<i class="icon icon-social-murmur"></i>](https://murmurdapp.com/userpost/eosdacmurmur)
 [<i class="icon icon-social-telegram"></i>](https://t.me/eosdacio)
