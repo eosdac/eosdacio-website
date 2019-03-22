@@ -1,4 +1,4 @@
-![会员客户端](/assets/tools/logo-black.svg)
+![会员客户端](/assets/tools/member-client.png)
 
 会员客户端
 ---
