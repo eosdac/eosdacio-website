@@ -1,4 +1,4 @@
-Bộ Công Cụ Thành Viên eos**DAC**
+Cổng Thành Viên eos**DAC**
 ============================
 
 Những người sở hữu token eosDAC được mời đăng nhập vào\\

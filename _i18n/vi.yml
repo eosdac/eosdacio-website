@@ -1,3 +1,28 @@
 site:
   title: "eosDAC"
   description: "Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC"
+header:
+  vote: "Bỏ phiếu cho eosdacserver"
+  mclient: "Cổng Thành Viên"
+news:
+  steemit: "Steemit"
+  youtube: "Youtube"
+  twitter: "Twitter"
+  more: "Đọc thêm"
+  back: "Quay trở lại"
+  prev: "Trước"
+  next: "Tiếp"
+pages:
+  why-vote: "Vì Sao Nên Bỏ Phiếu Cho eosDAC?"
+  why-join: "Vì Sao Nên Tham Gia eosDAC?"
+  why-launch: "Vì Sao Nên Khởi Tạo DAC?"
+  support: "Hỗ trợ"
+  tools: "Bộ Công Cụ"
+  news: "Tin Tức"
+newsletterForm:
+  name: "Tên"
+  email: "Email *"
+  language: "Ngôn ngữ *"
+  subscribe: "Đăng ký"
+  success: "Xin cảm ơn, hồ sơ của bạn đã được cập nhật!"
+  error: "Lỗi"
