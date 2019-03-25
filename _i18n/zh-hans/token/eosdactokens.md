@@ -1,4 +1,4 @@
-**EOSDAC 代币**有什么**用？**
+**EOSDAC 代币**有什么**用处？**
 ===
 
 * EOSDAC 代币允许持有人在 [会员客户端](https://members.eosdac.io)签署 [章程](https://members.eosdac.io/constitution)并**成为 eosDAC 注册会员**。你拥有的代币越多，你可能获得的权益就越多。
