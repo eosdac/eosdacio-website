@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "eosDAC prepares transition arrangements into Custodian governance"
+title:  "eosDAC chuẩn bị sắp xếp chuyển đổi sang quản trị của Người Giám Hộ"
 date:   2018-12-15 00:00:01 +0100
-external_link: https://steemit.com/eosio/@eosdac/eosdac-prepares-transition-arrangements-into-custodian-governance
+external_link: https://steemit.com/eosio/@eosdacvietnam/eosdac-chuan-bi-sap-xep-chuyen-doi-sang-quan-tri-cua-nguoi-giam-ho
 ---
-eosDAC is a groundbreaking project which aims to help build the future of Decentralised Autonomous Communities(DACs). It has been an exciting journey since the initial airdrop and launch of the EOS Mainnet; eosDAC will imminently open voting for Custodians through its in-house coded and designed member client at members.eosdac.io. Custodian nominations and voting will proceed entirely on-chain. 
+eosDAC là một dự án đột phá nhằm mục đích giúp xây dựng tương lai của Các Cộng Đồng Tự Trị Phi Tập Trung (DACs). Đó là một hành trình thú vị kể từ khi đợt phân phát ban đầu và ra mắt Mạng Chính EOS; eosDAC sắp mở chức năng bỏ phiếu bầu ra Các Người Giám Hộ thông qua công cụ thành viên được mã hóa và thiết kế nội bộ của nó tại members.eosdac.io. Việc đề cử và bỏ phiếu cho Người Giám Hộ sẽ tiến hành hoàn toàn trên chuỗi. 
