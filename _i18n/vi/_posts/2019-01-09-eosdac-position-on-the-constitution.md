@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "eosDAC’s Position on the EOS Constitution"
+title:  "Vị Trí của eosDAC trên Hiến Pháp EOS"
 date:   2019-01-09 00:00:01 +0100
-external_link: https://steemit.com/eosdac/@eosdac/eosdac-s-position-on-the-eos-constitution
+external_link: https://steemit.com/eosdac/@eosdacvietnam/vi-tri-cua-eosdac-tren-hiep-phap-eos
 ---
-eosDAC’s primary concern is securing the EOS chain which includes the value of the tokens used in Delegated Proof of Stake voting. 
-eosDAC has always followed the interim Constitution and RegProducer Ricardian Contract to the best of our ability. Recently a claim was made in Telegram about eosDAC being the “most outspoken in claiming that BPs shouldn’t behave as if they were bound by the Constitution” (source) and “champions of BPs ignoring all governing documents” (source) based on Telegram comments from a member of the DAC (when asked for a source, this conversation was given as a representative sample).
+Mối quan tâm chính của eosDAC là bảo mật cho chuỗi EOS, nó bao gồm giá trị của các token được dùng vào việc bỏ phiếu trong cơ chế Bằng Chứng Ủy Quyền (Delegated Proof of Stake). 
+eosDAC luôn luôn tuân theo Hiến Pháp tạm thời và Hợp Đồng RegProducer Ricardian một cách tốt nhất có thể. Gần đây, một tuyên bố được đưa ra trên Telegram về việc eosDAC là "người thẳng thắn nhất trong tuyên bố rằng các nhà sản xuất block (BPs) không nên cư xử như thể họ bị ràng buộc bởi Hiến Pháp" (nguồn) và "BPs hàng đầu phớt lờ tất cả các tài liệu quản trị" (nguồn) dựa trên các lời bình luận trên Telegram từ một thành viên của DAC (khi được hỏi về nguồn dẫn, cuộc trao đổi này được đưa ra dưới dạng mẫu tiêu biểu).
