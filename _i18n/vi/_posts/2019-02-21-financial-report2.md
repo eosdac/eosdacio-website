@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Báo cáo tài chính từ nhà cung cấp dịch vụ – tháng 12 năm 2018"
+title:  "Báo cáo tài chính từ nhà cung cấp dịch vụ – đến 31 tháng 12 năm 2018"
 date:   2019-02-21 00:00:01 +0100
 external_link: /assets/news/2019-02-21/Financial-report-for-Dec-2018.pdf
 ---
