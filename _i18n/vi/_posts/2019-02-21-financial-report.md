@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Báo cáo tài chính từ nhà cung cấp dịch vụ – tháng 1 năm 2019"
+title:  "Báo cáo tài chính từ nhà cung cấp dịch vụ – đến 31 tháng 1 năm 2019"
 date:   2019-02-21 00:10:00 +0100
 external_link: /assets/news/2019-02-21/Financial-report-for-January-2019.pdf
 ---
