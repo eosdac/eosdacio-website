@@ -1,4 +1,4 @@
-**Token EOSDAC sử dụng** để làm gì?
+**Token EOSDAC dùng** để làm gì?
 ===
 
 * Token EOSDAC cung cấp cho chủ sở hữu **khả năng đăng ký trở thành thành viên của eosDAC** theo thỏa thuận của [hiến pháp](https://members.eosdac.io/constitution) trong [cổng thành viên](https://members.eosdac.io). Càng nhiều token, bạn càng có nhiều lợi ích.
