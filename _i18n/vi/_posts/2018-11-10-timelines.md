@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ác mốc thời gian và các dự án mã hóa"
+title:  "Các mốc thời gian và các dự án mã hóa"
 date:   2018-11-10T17:54:09
 external_link: https://steemit.com/eos/@eosdacvietnam/cac-moc-thoi-gian-va-cac-du-an-ma-hoa
 ---
