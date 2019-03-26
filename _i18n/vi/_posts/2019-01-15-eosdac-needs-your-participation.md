@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "eosDAC needs your participation!"
+title:  "eosDAC cần sự tham gia của bạn!"
 date:   2019-01-15 00:00:01 +0100
-external_link: https://steemit.com/eosio/@eosdac/eosdac-needs-your-participation
+external_link: https://steemit.com/eosio/@eosdacvietnam/eosdac-can-su-tham-gia-cua-ban
 ---
-At eosDAC we’re building a real live DAC block producer. Delegated proof of stake as a model of cryptographic block confirmation is already pretty cool, we think, since it spreads the block confirmation workload across block producers according to a voting mechanism.
+Tại eosDAC, chúng tôi đang xây dựng một nhà sản xuất khối thực sự. Chúng tôi nghĩ rằng cơ chế bằng chứng ủy quyền là một mô hình xác nhận khối mật mã khá tuyệt vời bởi vì nó phân tán khối lượng công việc xác nhận khối trên các nhà sản xuất khối dựa theo cơ chế bỏ phiếu.
