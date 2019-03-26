@@ -1,2 +1,2 @@
-**Truyền Thông** là tất cả
+**Trao Đổi Thông Tin** là tất cả
 ===
