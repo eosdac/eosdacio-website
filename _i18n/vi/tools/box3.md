@@ -1,4 +1,4 @@
-![Token Explorer](/assets/tools/logo-black.svg)
+![Token Explorer](/assets/tools/token-explorer.png)
 
 Công Cụ Tra Cứu Token
 ---
