@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "EOS chain stability should be the primary objective of governance"
+title:  "Sự ổn định của chuỗi EOS phải là mục tiêu chính của quản trị"
 date:   2018-12-08 00:00:01 +0100
-external_link: https://steemit.com/eosio/@eosdac/eos-chain-stability-should-be-the-primary-objective-of-governance
+external_link: https://steemit.com/eosio/@eosdacvietnam/su-on-dinh-cua-chuoi-eos-phai-la-muc-tieu-chinh-cua-quan-tri
 ---
-All parties on EOS should be concerned to preserve the stability of the chain. Stability occurs when parties behave in a manner consistent with the expectations they have set – when outcomes are predictable.
+Tất cả các bên trên EOS nên xem xét duy trì sự ổn định của chuỗi. Sự ổn định xảy ra khi các bên hành xử theo cách phù hợp với những kỳ vọng mà họ đã đặt ra - khi những kết quả có thể dự đoán được.
