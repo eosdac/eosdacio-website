@@ -555,11 +555,11 @@ a.btn.outline.light {
   color: #ffffff;
   border: solid 2px #ffffff; }
 
-a.btn.solid.dark {
+button.btn.solid.dark, a.btn.solid.dark {
   background-color: #4A1289;
   color: #ffffff !important; }
 
-a:hover.btn.solid.dark {
+button:hover.btn.solid.dark, a:hover.btn.solid.dark {
   background-color: #7C41BA; }
 
 .embed-responsive iframe {
@@ -734,7 +734,7 @@ nav .nav-item.dropdown img {
 nav .nav-buttons > a.btn {
   padding: .46875rem 1rem;
   margin-top: 0;
-  min-width: 0; }
+  min-width: 150px; }
 
 nav .nav-buttons > a:first-of-type {
   margin-right: 10px; }

@@ -1,9 +1,6 @@
-Last update: 2019-03-22T18:06:28+01:00
+Last update: 2019-03-27T14:53:24+01:00
 Checking translation for 'zh-hans' in path: _i18n
 
-UPDATE:    _i18n/zh-hans.yml
-  english was modified at     2019-03-22 16:08:47 +0100
-  translation last updated at 2019-03-22 10:09:23 +0800
 TODO:      _i18n/zh-hans/history/section2.md
 TODO:      _i18n/zh-hans/history/section1.md
 DUPLICATE: _i18n/zh-hans/community/partner6.md
@@ -18,6 +15,7 @@ DUPLICATE: _i18n/zh-hans/community/partner5.md
   delete this file, it will automatically fallback to english
 DUPLICATE: _i18n/zh-hans/community/partner2.md
   delete this file, it will automatically fallback to english
+TODO:      _i18n/zh-hans/how-to-vote/tokenpocket.md
 DUPLICATE: _i18n/zh-hans/why-launch/section9-img.md
   delete this file, it will automatically fallback to english
 UPDATE:    _i18n/zh-hans/why-launch/section9.md

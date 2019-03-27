@@ -1,4 +1,4 @@
-Last update: 2019-03-22T18:06:26+01:00
+Last update: 2019-03-27T14:53:22+01:00
 Checking translation for 'ko' in path: _i18n
 
 UPDATE:    _i18n/ko.yml
@@ -13,6 +13,7 @@ TODO:      _i18n/ko/community/partner1.md
 TODO:      _i18n/ko/community/partner3.md
 TODO:      _i18n/ko/community/partner5.md
 TODO:      _i18n/ko/community/partner2.md
+TODO:      _i18n/ko/how-to-vote/tokenpocket.md
 UPDATE:    _i18n/ko/why-launch/section8-img.md
   english was modified at     2019-03-01 17:55:12 +0100
   translation last updated at 2019-03-01 23:45:25 +0900
