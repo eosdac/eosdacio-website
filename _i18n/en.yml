@@ -35,3 +35,5 @@ scatterVote:
   modalBody: "Free up one spot, to cast a vote for"
   cancel: "Cancel"
   vote: "Vote now"
+  noSupport: "does not support eosDAC. Please consider another proxy!"
+  noProxy: "is not a proxy anymore. Please choose another proxy!"

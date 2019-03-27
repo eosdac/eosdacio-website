@@ -92,70 +92,102 @@ function oneClickVote(scatter, target, originalContent) {
             const proxy = vote.proxy
             let producers = vote.producers
             if(proxy !== '') {
-                // Re-cast vote for the current proxy (might not necessarily include eosdacserver)
-                castVote(api, account, [], proxy).then(function(result) {
-                    succHandler(scatter, target, '{% translate scatterVote.proxy %}' + proxy)
+                api.rpc.get_account(proxy).then(function(data) {
+                    if(data && data.voter_info && data.voter_info.is_proxy === 1) {
+                        const proxy_producers = data.voter_info.producers
+                        const eosdacserverVoted = proxy_producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                        if(eosdacserverVoted === true) {
+                            // Re-cast vote for the current proxy
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, '{% translate scatterVote.proxy %}' + proxy)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Re-cast vote for the current proxy, but notify user that it does not support eosdacserver
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, '{% translate scatterVote.proxy %}' + proxy)
+                                alert(proxy + ' {% translate scatterVote.noSupport %}')
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        }
+                    } else {
+                        errHandler(scatter, target, originalContent, proxy+" isn't a proxy anymore")
+                        alert(proxy + ' {% translate scatterVote.noProxy %}')
+                    }
                 }).catch(function(err) {
                     errHandler(scatter, target, originalContent, err)
                 })
             } else {
-                //TODO: check logic of member-client: https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue
-                const eosdacserverVoted = producers.some(function(bpName) { return bpName === EOSDACSERVER })
-                if(eosdacserverVoted === true) {
-                    // Re-cast vote for current set of producers (including eosdacserver)
-                    castVote(api, account, producers).then(function(result) {
-                        succHandler(scatter, target)
-                    }).catch(function(err) {
-                        errHandler(scatter, target, originalContent, err)
+                // Check status of all selected producers, e.g. if they are still registered
+                Promise.all(producers.map(p => api.rpc.get_producers(true, p, 1))).then(function(responses) {
+                    const reg_producers = responses.map(r => r.rows[0].owner)
+                    let new_producers = []
+                    // Add all selected AND registered producers into the new_producers array
+                    producers.forEach(p => {
+                        if(reg_producers.some(rp => rp === p)) new_producers.push(p)
                     })
-                } else {
-                    if(producers.length < 30) {
-                        // Add 'eosdacserver' to producers list and cast a vote
-                        producers.push(EOSDACSERVER)
+                    producers = new_producers
+                    const eosdacserverVoted = producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                    if(eosdacserverVoted === true) {
+                        // Re-cast vote for current set of producers (including eosdacserver)
                         castVote(api, account, producers).then(function(result) {
                             succHandler(scatter, target)
                         }).catch(function(err) {
                             errHandler(scatter, target, originalContent, err)
                         })
                     } else {
-                        // Show a modal dialog, to let the user remove one existing producer
-                        // Set values inside the modal dialog
-                        $('#voting_col1').empty()
-                        $('#voting_col2').empty()
-                        producers.sort().forEach(function(bpName, idx) {
-                            const itm = '<div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" name="bp'+idx+'" id="bp'+idx+'" value="'+bpName+'" checked><label class="custom-control-label" style="font-family:monospace;" for="bp'+idx+'">'+bpName+'</label></div>'
-                            if(idx < 15) {
-                                $(itm).appendTo('#voting_col1')
-                            } else {
-                                $(itm).appendTo('#voting_col2')
-                            }
-                        })
-                        // Register the submit callback, using local variables
-                        $('#votingForm').submit(function(ev) {
-                            ev.preventDefault()
-                            const producers = $("#votingForm").serializeArray().map(function(elem) {
-                                return elem.value
-                            })
-                            // Add 'eosdacserver' to producers, if user removed one other producer
-                            if(producers.length < 30) {
-                                producers.push(EOSDACSERVER)
-                            }
+                        if(producers.length < 30) {
+                            // Add 'eosdacserver' to producers list and cast a vote
+                            producers.push(EOSDACSERVER)
                             castVote(api, account, producers).then(function(result) {
-                                $('#votingModal').modal('hide')
                                 succHandler(scatter, target)
                             }).catch(function(err) {
-                                $('#votingModal').modal('hide')
                                 errHandler(scatter, target, originalContent, err)
                             })
-                        })
-                        // Register the modal's Cancel/Hide handler, using local variables
-                        $('#votingModal').on('hide.bs.modal', function (e) {
-                            errHandler(scatter, target, originalContent, 'Modal cancelled/hidden.')
-                        })
-                        // Show the voting modal
-                        $('#votingModal').modal('show')
+                        } else {
+                            // Show a modal dialog, to let the user remove one existing producer
+                            // Set values inside the modal dialog
+                            $('#voting_col1').empty()
+                            $('#voting_col2').empty()
+                            producers.sort().forEach(function(bpName, idx) {
+                                const itm = '<div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" name="bp'+idx+'" id="bp'+idx+'" value="'+bpName+'" checked><label class="custom-control-label" style="font-family:monospace;" for="bp'+idx+'">'+bpName+'</label></div>'
+                                if(idx < 15) {
+                                    $(itm).appendTo('#voting_col1')
+                                } else {
+                                    $(itm).appendTo('#voting_col2')
+                                }
+                            })
+                            // Register the submit callback, using local variables
+                            $('#votingForm').submit(function(ev) {
+                                ev.preventDefault()
+                                const producers = $("#votingForm").serializeArray().map(function(elem) {
+                                    return elem.value
+                                })
+                                // Add 'eosdacserver' to producers, if user removed one other producer
+                                if(producers.length < 30) {
+                                    producers.push(EOSDACSERVER)
+                                }
+                                castVote(api, account, producers).then(function(result) {
+                                    $('#votingModal').modal('hide')
+                                    succHandler(scatter, target)
+                                }).catch(function(err) {
+                                    $('#votingModal').modal('hide')
+                                    errHandler(scatter, target, originalContent, err)
+                                })
+                            })
+                            // Register the modal's Cancel/Hide handler, using local variables
+                            $('#votingModal').on('hide.bs.modal', function (e) {
+                                errHandler(scatter, target, originalContent, 'Modal cancelled/hidden.')
+                            })
+                            // Show the voting modal
+                            $('#votingModal').modal('show')
+                        }
                     }
-                }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
             }
         }).catch(function(err) {
             errHandler(scatter, target, originalContent, err)
