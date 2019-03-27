@@ -28,19 +28,16 @@ plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
   - jekyll-paginate-v2
-languages: ["en", "ko", "zh-hans", "vi", "ja", "de", "es", "it", "pt-br", "ru"]
+languages: ["en", "ko", "zh-hans", "vi", "ja", "es", "ru"]
 exclude_from_localizations: ["styleguide", "assets", "bp.json", "SOURCES", "scripts", "translation_status"]
 defaultLang: en
 languageNames:
   en: English
-  ko: 한국의
+  ko: 한국어
   zh-hans: 中国
   vi: Tiếng Việt
-  ja: 日本の
-  de: Deutsch
+  ja: 日本語
   es: Español
-  it: Italiano
-  pt-br: Brasileiro
   ru: Pусский
 
 # Exclude from processing.
