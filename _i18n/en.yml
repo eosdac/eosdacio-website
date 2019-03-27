@@ -27,4 +27,13 @@ newsletterForm:
   subscribe: "Subscribe"
   success: "Thank you, your records have been updated!"
   error: "Error"
-
+scatterVote:
+  voting: "Scatter voting..."
+  thanks: "Thanks for voting!"
+  proxy: "Voted proxy: "
+  modalHead: "You already selected 30 BPs"
+  modalBody: "Free up one spot, to cast a vote for"
+  cancel: "Cancel"
+  vote: "Vote now"
+  noSupport: "does not support eosDAC. Please consider another proxy!"
+  noProxy: "is not a proxy anymore. Please choose another proxy!"
