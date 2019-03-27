@@ -1,0 +1,10 @@
+/** Overwrite custom checkbox color in votingModal **/
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color: #4A1289;
+}
+.custom-control-input:active~.custom-control-label::before{
+  background-color: #B999DB;
+}
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before{
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #B999DB; 
+}
