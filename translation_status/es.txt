@@ -1,4 +1,4 @@
-Last update: 2019-03-22T18:06:30+01:00
+Last update: 2019-03-27T14:53:27+01:00
 Checking translation for 'es' in path: _i18n
 
 UPDATE:    _i18n/es.yml
@@ -20,6 +20,7 @@ TODO:      _i18n/es/community/box1.md
 TODO:      _i18n/es/how-to-vote/section2.md
 TODO:      _i18n/es/how-to-vote/section3.md
 TODO:      _i18n/es/how-to-vote/section1.md
+TODO:      _i18n/es/how-to-vote/tokenpocket.md
 TODO:      _i18n/es/how-to-vote/section4.md
 TODO:      _i18n/es/why-launch/section8-img.md
 TODO:      _i18n/es/why-launch/section2-img.md
