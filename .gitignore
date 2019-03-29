@@ -4,3 +4,4 @@ _site
 Gemfile.lock
 scripts/fetch-steem/node_modules
 scripts/fetch-steem/yarn.lock
+token_check/dbconnect.php
