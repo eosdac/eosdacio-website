@@ -16,9 +16,10 @@ pages:
   why-vote: "Vì Sao Nên Bỏ Phiếu Cho eosDAC?"
   why-join: "Vì Sao Nên Tham Gia eosDAC?"
   why-launch: "Vì Sao Nên Khởi Tạo DAC?"
-  support: "Hỗ trợ"
+  community: "Cộng Đồng"
   tools: "Bộ Công Cụ"
   news: "Tin Tức"
+  token: "Token"
 newsletterForm:
   name: "Tên"
   email: "Email *"
