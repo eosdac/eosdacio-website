@@ -6,4 +6,4 @@ Là một người sở hữu token EOS, bạn có quyền sở hữu trong EOS.
 Tên Nhà Sản Xuất Khối của chúng tôi trên Mạng Chính EOS là: `eosdacserver`
 
 [Hướng dẫn bỏ phiếu]({% translate_link how-to-vote %}){: .btn.solid.dark.btn-raised }
-[Bỏ phiếu bằng Scatter](https://bloks.io/vote){: .btn.solid.light.btn-raised }
+[Bỏ phiếu bằng Scatter](https://www.eosx.io/tools/vote/?voteTo=eosdacserver){: .btn.solid.light.btn-raised.scatter-vote-oneclick }

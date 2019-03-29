@@ -37,9 +37,9 @@ eosDAC đã hoàn thành việc phân phối token eosDAC vào ngày 15 tháng 5
 
 ![Token Burn](/assets/history/token-burn.png)
 
-**238,080,898.455** token bị thiêu hủy. Lượng token này sẽ được gửi vào tài khoản Ethereum không thể phục hồi 0x0000000000000000000000000000000000e05dac sau ngày hôm đó.
+**238.080.898,455** token bị thiêu hủy. Lượng token này sẽ được gửi vào tài khoản Ethereum không thể phục hồi 0x0000000000000000000000000000000000e05dac sau ngày hôm đó.
 
-Còn lại một nguồn cung lưu hành **961,919,101.545** token eosDAC.
+Còn lại một nguồn cung lưu hành **961.919.101,545** token eosDAC.
 
 Thông tin đầy đủ về quá trình hoàn thành phân phối và thiêu hủy token có thể tìm thấy ở đây: <https://steemit.com/eos/@eosdac/eosdac-airdrop-and-burn>
 
@@ -67,11 +67,11 @@ Hoán Đổi Token
 Sau khi khởi chạy mạng chính thành công, eosDAC đã hoàn thành việc hoán đổi token vào tuần thứ 3 của tháng 6. 
 
 Sau đây là kết quả.
- 1. Tổng cung - **994,895,254.98**
-   * Token được phân phối - **987,896,341.6**
-   * Bị khóa trong các hợp đồng DEX -  **4,473,804.66**
-   * Dự Phòng Thất Bại - **2,525,108.71**
- 2. Tổng số token bị thiêu hủy **205,097,655.6**
+ 1. Tổng cung - **994.895.254,98**
+   * Token được phân phối - **987.896.341,6**
+   * Bị khóa trong các hợp đồng DEX -  **4.473.804,66**
+   * Dự Phòng Thất Bại - **2.525.108,71**
+ 2. Tổng số token bị thiêu hủy **205.097.655,6**
 
 eosDAC sẽ cố gắng phục hồi số token bị kẹt trong các hợp đồng DEX như Forkdelta và Idex và số lượng dự phòng không thể được tạo ra. Báo cáo đầy đủ: <https://docs.google.com/document/d/1irdLXCz4yJqdLPAeG2EgLGvyQAlXZ-DivU0i-PTTKBY/edit>
 
