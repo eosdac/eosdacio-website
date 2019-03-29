@@ -9,38 +9,6 @@ include 'include_header.php';
 $action = isset($_POST['form_action']) ? $_POST['form_action'] : '';
 $error = '';
 ?>
-
-<!-- Copied from site, slightly modified -->
-<header class="banner navbar navbar-default navbar-static-top " role="banner">
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<div id="logo">
-<a href="https://eosdac.io/">
-<img class="logo-main logo-reg" src="https://eosdac.io/wp-content/uploads/2018/03/eosdaclogo1-200-text-new-250x50.png" height="50" width="250" alt="eosDAC">
-</a>
-</div>
-</div>
-<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-<ul id="menu-menu-1" class="nav navbar-nav"><li class="menu-checkpoint"><a href="https://eosdac.io/checkpoint/">Checkpoint</a></li>
-<li class="menu-team"><a href="https://eosdac.io/team/">Team</a></li>
-<li class="menu-operations"><a href="https://eosdac.io/operations/">Operations</a></li>
-<li class="menu-exchanges"><a href="https://eosdac.io/exchanges/">Exchanges</a></li>
-<li class="menu-legal"><a href="https://eosdac.io/terms/">Legal</a></li>
-<li class="menu-faq"><a href="https://eosdac.io/faq/">FAQ</a></li>
-<li class="menu-news"><a href="https://eosdac.io/news/">News</a></li>
-</ul>
-</li>
-</ul> </nav>
-</div>
-</header>
-<!-- End copy -->
-
     <div class="container">
     <form method="POST">
         <input type="hidden" name="form_action" value="">

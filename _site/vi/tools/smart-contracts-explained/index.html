@@ -12,18 +12,18 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
   <meta property="og:description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1553703263">
-  <link href="/assets/styles.css?1553703263s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1553879203">
+  <link href="/assets/styles.css?1553879203s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1553703263">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1553879203">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1553703263">
+  <link rel="stylesheet" href="/assets/main.css?1553879203">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/vi/feed.xml" title="site.title" /><link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
@@ -65,7 +65,7 @@
         
         
         <li class="nav-item"><a class="nav-link" href="/vi/community/">
-            Community</a></li>
+            Cộng Đồng</a></li>
         
         
         
@@ -99,6 +99,14 @@
         
         <li class="nav-item"><a class="nav-link" href="/vi/news/index.html">
             Tin Tức</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         <li class="nav-item dropdown">
@@ -215,9 +223,9 @@
 <p>EOSDAC là một trong những token đầu tiên thực hiện airdrop trên chuỗi nên có nhiều điều còn chưa biết. Một khi đợt airdrop hoàn thành và được kiểm tra, chúng tôi có thể mở khóa token để cho phép giao dịch. Quan trọng là không có khả năng khóa token lại một khi nó được mở khóa bởi vì chức năng này có thể cho phép những người tạo ra token có thể thao túng giá thông qua sự kiểm soát tập trung việc thanh khoản token.</p>
 
 <h3 id="Điều-khoản-thành-viên-và-sự-chấp-thuận">Điều khoản thành viên và sự chấp thuận.</h3>
-<p>Việc đồng ý với các điều khoản sử dụng như một phần của DAC được chúng tôi xem là một chức năng cốt lõi của các hợp đồng thông minh của DAC và do đó, việc đưa các chức năng vào hợp đồng là điều hợp lý. Các điều khoản sễ được người dùng chấp thuận để họ trở thành thành viên thông qua việc thực hiện lệnh <code class="highlighter-rouge">memberreg</code> trên hợp đồng.</p>
+<p>Việc đồng ý với các điều khoản sử dụng như một phần của DAC được chúng tôi xem là một chức năng cốt lõi của các hợp đồng thông minh của DAC và do đó, việc đưa các chức năng vào hợp đồng là điều hợp lý. Các điều khoản sẽ được người dùng chấp thuận để họ trở thành thành viên thông qua việc thực hiện lệnh <code class="highlighter-rouge">memberreg</code> trên hợp đồng.</p>
 
-<p>Để thực hiện lệnh này, người dùng cần kiểm tra toàn bộ các điều khoản mà họ đã thực sự đồng ý với nó và việc thực hiện hợp đồng sẽ đảm bảo việc tổng kiểm tra tđó khớp với việc tổng kiểm tra các điều khoản mới nhất trước khi chấp nhận thỏa thuận và tư cách thành viên của họ. Logic của việc tổng kiểm tra này được trừu tượng hóa khỏi người dùng cuối cùng thông qua giao diện người dùng được xử lý trước nhưng cung cấp bằng chứng mã hóa mà người dùng đồng ý với một bộ điều khoản cụ thể và sẵn sàng cho những bộ khác thêm vào giao diện người dùng của họ để tương tác với bộ mã hợp đồng. Miễn là họ có thể cung cấp việc tổng kiểm tra tương tự cấc điều khoản và quy định đã biết trước thì họ sẽ có thể thực hiện thành công lệnh <code class="highlighter-rouge">memberreg</code>. Mặc dù điều này trông có vẻ dài dòng để đồng ý các quy định và điều khoản, chúng tôi đã thực hiện phương pháp này bởi vì nó giống như nói “Tôi đồng ý với các điều khoản và quy định <em>này</em>” hơn là hỏi người dùng “Bạn có đồng ý với các điều khoản và quy định mới nhất không” với việc người dùng phản hồi “có” hoặc “không”. Chúng tôi đã nghĩ cách sau sẽ yếu hơn để đảm bảo người dùng không vô tình chấp thuận các điều khoản sai hoặc thông qua một giao diện người dùng đã hết hạn hợp đồng.</p>
+<p>Để thực hiện lệnh này, người dùng cần kiểm tra toàn bộ các điều khoản mà họ đã thực sự đồng ý với nó và việc thực hiện hợp đồng sẽ đảm bảo việc tổng kiểm tra đó khớp với việc tổng kiểm tra các điều khoản mới nhất trước khi chấp nhận thỏa thuận và tư cách thành viên của họ. Logic của việc tổng kiểm tra này được trừu tượng hóa khỏi người dùng cuối cùng thông qua giao diện người dùng được xử lý trước nhưng cung cấp bằng chứng mã hóa mà người dùng đồng ý với một bộ điều khoản cụ thể và sẵn sàng cho những bộ khác thêm vào giao diện người dùng của họ để tương tác với bộ mã hợp đồng. Miễn là họ có thể cung cấp việc tổng kiểm tra tương tự cấc điều khoản và quy định đã biết trước thì họ sẽ có thể thực hiện thành công lệnh <code class="highlighter-rouge">memberreg</code>. Mặc dù điều này trông có vẻ dài dòng để đồng ý các quy định và điều khoản, chúng tôi đã thực hiện phương pháp này bởi vì nó giống như nói “Tôi đồng ý với các điều khoản và quy định <em>này</em>” hơn là hỏi người dùng “Bạn có đồng ý với các điều khoản và quy định mới nhất không” với việc người dùng phản hồi “có” hoặc “không”. Chúng tôi đã nghĩ cách sau sẽ yếu hơn để đảm bảo người dùng không vô tình chấp thuận các điều khoản sai hoặc thông qua một giao diện người dùng đã hết hạn hợp đồng.</p>
 
 <p>Để tiết kiệm việc sử dụng RAM cho tất cả các người dùng cuối, hợp đồng chỉ lưu trữ một tham chiếu đến mã hash của các điều khoản được chấp thuận một lần trong hợp đồng thay vì lưu trữ một bản sao mã hash được chấp thuận của mỗi người dùng. Điều này có nghĩa là mỗi người dùng chỉ cần lưu trữ phiên bản của các điều khoản được chấp thuận (8 bytes) chứ không phải toàn bộ mã hash (32 bytes) và vì RAM trên chuỗi khá tốn kém nên mỗi lần tiết kiệm đều rất có ích.</p>
 
@@ -494,7 +502,7 @@ $('#newsletterForm').submit(function(event) {
           
           <a class="nav-link" href="/vi/community/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
-            color: white;">Community</a>
+            color: white;">Cộng Đồng</a>
           
           <a class="nav-link" href="/vi/token/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
@@ -515,7 +523,11 @@ $('#newsletterForm').submit(function(event) {
           
           <a class="nav-link" href="/vi/news/index.html"
             style="text-transform: none; display: inline-block; margin-top: 5px;
-            color: white;">Tin Tức</a></div>
+            color: white;">Tin Tức</a>
+          
+          
+          
+          </div>
       </div></div>
   </div>
 </footer>
