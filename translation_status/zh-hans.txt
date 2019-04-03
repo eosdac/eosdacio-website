@@ -1,64 +1,34 @@
-Last update: 2019-03-27T14:53:24+01:00
+Last update: 2019-04-03T14:55:40+02:00
 Checking translation for 'zh-hans' in path: _i18n
 
+UPDATE:    _i18n/zh-hans.yml
+  english was modified at     2019-03-27 16:38:13 +0100
+  translation last updated at 2019-03-24 07:30:00 +0800
 TODO:      _i18n/zh-hans/history/section2.md
 TODO:      _i18n/zh-hans/history/section1.md
-DUPLICATE: _i18n/zh-hans/community/partner6.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/community/partner4.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/community/partner1.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/community/partner3.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/community/partner5.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/community/partner2.md
-  delete this file, it will automatically fallback to english
-TODO:      _i18n/zh-hans/how-to-vote/tokenpocket.md
-DUPLICATE: _i18n/zh-hans/why-launch/section9-img.md
-  delete this file, it will automatically fallback to english
-UPDATE:    _i18n/zh-hans/why-launch/section9.md
-  english was modified at     2019-03-21 12:22:32 +0100
-  translation last updated at 2019-03-08 15:51:02 +0800
-UPDATE:    _i18n/zh-hans/why-vote/section8.md
-  english was modified at     2019-03-22 16:08:31 +0100
-  translation last updated at 2019-03-22 10:09:23 +0800
-DUPLICATE: _i18n/zh-hans/success-stories/section2-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/success-stories/section3-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/success-stories/section5-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/success-stories/section6-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/success-stories/section4-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/why-join/section2-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/why-join/section5-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/why-join/section6-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange4.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/section2-img.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange1.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange6.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange12.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange5.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange3.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange2.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange10.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange7.md
-  delete this file, it will automatically fallback to english
-DUPLICATE: _i18n/zh-hans/token/exchange11.md
-  delete this file, it will automatically fallback to english
+TODO:      _i18n/zh-hans/community/partner6.md
+TODO:      _i18n/zh-hans/community/partner4.md
+TODO:      _i18n/zh-hans/community/partner1.md
+TODO:      _i18n/zh-hans/community/partner3.md
+TODO:      _i18n/zh-hans/community/partner5.md
+TODO:      _i18n/zh-hans/community/partner2.md
+TODO:      _i18n/zh-hans/why-launch/section9-img.md
+TODO:      _i18n/zh-hans/success-stories/section2-img.md
+TODO:      _i18n/zh-hans/success-stories/section3-img.md
+TODO:      _i18n/zh-hans/success-stories/section5-img.md
+TODO:      _i18n/zh-hans/success-stories/section6-img.md
+TODO:      _i18n/zh-hans/success-stories/section4-img.md
+TODO:      _i18n/zh-hans/why-join/section2-img.md
+TODO:      _i18n/zh-hans/why-join/section5-img.md
+TODO:      _i18n/zh-hans/why-join/section6-img.md
+TODO:      _i18n/zh-hans/token/exchange4.md
+TODO:      _i18n/zh-hans/token/section2-img.md
+TODO:      _i18n/zh-hans/token/exchange1.md
+TODO:      _i18n/zh-hans/token/exchange6.md
+TODO:      _i18n/zh-hans/token/exchange12.md
+TODO:      _i18n/zh-hans/token/exchange5.md
+TODO:      _i18n/zh-hans/token/exchange3.md
+TODO:      _i18n/zh-hans/token/exchange2.md
+TODO:      _i18n/zh-hans/token/exchange10.md
+TODO:      _i18n/zh-hans/token/exchange7.md
+TODO:      _i18n/zh-hans/token/exchange11.md
