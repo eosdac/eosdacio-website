@@ -1,8 +1,8 @@
-Last update: 2019-03-27T14:53:22+01:00
+Last update: 2019-04-03T14:55:38+02:00
 Checking translation for 'ko' in path: _i18n
 
 UPDATE:    _i18n/ko.yml
-  english was modified at     2019-03-22 16:08:47 +0100
+  english was modified at     2019-03-27 16:38:13 +0100
   translation last updated at 2019-02-18 15:20:04 +0100
 TODO:      _i18n/ko/history/section2.md
 TODO:      _i18n/ko/history/section1.md
@@ -39,7 +39,7 @@ UPDATE:    _i18n/ko/why-vote/section2.md
   english was modified at     2019-03-05 19:11:03 +0100
   translation last updated at 2019-03-03 20:36:47 +0900
 UPDATE:    _i18n/ko/why-vote/section8.md
-  english was modified at     2019-03-22 16:08:31 +0100
+  english was modified at     2019-03-27 12:52:43 +0100
   translation last updated at 2019-03-03 20:36:47 +0900
 UPDATE:    _i18n/ko/why-vote/section5-img.md
   english was modified at     2019-03-05 19:11:03 +0100

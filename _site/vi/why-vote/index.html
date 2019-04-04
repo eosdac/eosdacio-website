@@ -12,20 +12,20 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
   <meta property="og:description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1553879203">
-  <link href="/assets/styles.css?1553879203s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1554394472">
+  <link href="/assets/styles.css?1554394472s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1553879203">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1554394472">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1553879203">
+  <link rel="stylesheet" href="/assets/main.css?1554394472">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/vi/feed.xml" title="site.title" /><link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/vi/feed.xml" title="site.title" /><link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-2_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/voting-custodians_480p.mp4">
@@ -649,6 +649,7 @@ $(document).ready(function() {
 <script src="/assets/eosjs/eosjs-jssig.js"></script>
 <script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js"></script>
 <script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js"></script>
 <script type="text/javascript">
 // This file needs to be included via the LIQUID template engine, in order to make the translations work!
 
@@ -808,7 +809,7 @@ function oneClickVote(scatter, target, originalContent) {
 }
 
 $(document).ready(function() {
-    ScatterJS.plugins( new ScatterEOS() )
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx() )
     ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
         if(!connected) {
             console.error('Scatter could not be found.')
