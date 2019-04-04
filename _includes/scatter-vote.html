@@ -39,6 +39,7 @@
 <script src="/assets/eosjs/eosjs-jssig.js"></script>
 <script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js"></script>
 <script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js"></script>
 <script type="text/javascript">
 // This file needs to be included via the LIQUID template engine, in order to make the translations work!
 
@@ -198,7 +199,7 @@ function oneClickVote(scatter, target, originalContent) {
 }
 
 $(document).ready(function() {
-    ScatterJS.plugins( new ScatterEOS() )
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx() )
     ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
         if(!connected) {
             console.error('Scatter could not be found.')

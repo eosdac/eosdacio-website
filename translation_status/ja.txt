@@ -1,8 +1,8 @@
-Last update: 2019-03-27T14:53:27+01:00
+Last update: 2019-04-03T14:55:44+02:00
 Checking translation for 'ja' in path: _i18n
 
 UPDATE:    _i18n/ja.yml
-  english was modified at     2019-03-22 16:08:47 +0100
+  english was modified at     2019-03-27 16:38:13 +0100
   translation last updated at 2019-02-18 15:20:04 +0100
 TODO:      _i18n/ja/history/section2.md
 TODO:      _i18n/ja/history/section1.md

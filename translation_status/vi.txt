@@ -1,41 +1,55 @@
-Last update: 2019-03-27T14:53:26+01:00
+Last update: 2019-04-03T14:55:42+02:00
 Checking translation for 'vi' in path: _i18n
 
-TODO:      _i18n/vi/community/partner6.md
-TODO:      _i18n/vi/community/partner4.md
-TODO:      _i18n/vi/community/partners.md
-TODO:      _i18n/vi/community/partner1.md
-TODO:      _i18n/vi/community/partner3.md
-TODO:      _i18n/vi/community/section1.md
-TODO:      _i18n/vi/community/partner5.md
-TODO:      _i18n/vi/community/partner2.md
-TODO:      _i18n/vi/how-to-vote/tokenpocket.md
+UPDATE:    _i18n/vi.yml
+  english was modified at     2019-03-27 16:38:13 +0100
+  translation last updated at 2019-03-26 11:34:39 +0700
+DUPLICATE: _i18n/vi/community/partner6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/community/partner4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/community/partner1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/community/partner3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/community/partner5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/community/partner2.md
+  delete this file, it will automatically fallback to english
 TODO:      _i18n/vi/tools/exchange.md
 DUPLICATE: _i18n/vi/success-stories/section2-img.md
   delete this file, it will automatically fallback to english
 DUPLICATE: _i18n/vi/success-stories/section3-img.md
   delete this file, it will automatically fallback to english
-UPDATE:    _i18n/vi/success-stories/section2.md
-  english was modified at     2019-03-20 11:12:24 -0400
-  translation last updated at 2019-03-19 14:07:14 +0700
 DUPLICATE: _i18n/vi/success-stories/section5-img.md
   delete this file, it will automatically fallback to english
 DUPLICATE: _i18n/vi/success-stories/section6-img.md
   delete this file, it will automatically fallback to english
 DUPLICATE: _i18n/vi/success-stories/section4-img.md
   delete this file, it will automatically fallback to english
-TODO:      _i18n/vi/token/exchange4.md
-TODO:      _i18n/vi/token/section2-img.md
-TODO:      _i18n/vi/token/section2.md
-TODO:      _i18n/vi/token/exchange1.md
-TODO:      _i18n/vi/token/exchange9.md
-TODO:      _i18n/vi/token/exchange6.md
-TODO:      _i18n/vi/token/exchange.md
-TODO:      _i18n/vi/token/exchange12.md
-TODO:      _i18n/vi/token/exchange5.md
-TODO:      _i18n/vi/token/exchange3.md
-TODO:      _i18n/vi/token/exchange2.md
-TODO:      _i18n/vi/token/exchange10.md
-TODO:      _i18n/vi/token/exchange7.md
-TODO:      _i18n/vi/token/exchange8.md
-TODO:      _i18n/vi/token/exchange11.md
+DUPLICATE: _i18n/vi/token/exchange4.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange9.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange12.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange10.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange7.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange8.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/vi/token/exchange11.md
+  delete this file, it will automatically fallback to english

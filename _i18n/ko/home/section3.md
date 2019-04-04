@@ -1,4 +1,4 @@
-**DAC**이 **뭡니까?** [<i class="icon icon-social-general"></i>]({% translate_link home %}#what-is-dac)
+**DAC**은 **무엇입니까?** [<i class="icon icon-social-general"></i>]({% translate_link home %}#what-is-dac)
 ===
 
 DAC(탈중앙 자치 커뮤니티)이란 기존 조직이 할 수 없었던 일을 블록체인을 이용해 가능하게 하는 디지털 조직입니다. 이 같은 점은 굉장히 중요한데, 오늘날 애플리케이션들을 소유하는 것이 기업과 조직인 것처럼 Dapp(디앱) 역시 무언가에 의해 소유될 것이기 때문입니다.
