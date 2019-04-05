@@ -1,1 +1,1 @@
-![XXX](https://via.placeholder.com/540x330/B999DB/7C41BA)
+![Bottom Top Hierarchy](/assets/why-launch/bottom-top-hierarchy.svg)
