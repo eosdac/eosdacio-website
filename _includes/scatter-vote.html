@@ -198,6 +198,18 @@ function oneClickVote(scatter, target, originalContent) {
     })
 }
 
+function adoptAuthenticatorByUseragent(idx, obj) {
+    const originalContent = obj.textContent
+    if(originalContent.includes('Scatter')) {
+        const UA = window.navigator.userAgent
+        // Detect EOS Lynx according to: https://developers.eoslynx.com/mobile
+        if(UA === 'EOSLynx IOS' || UA === 'EOSLynx Android') {
+            obj.textContent = originalContent.replace('Scatter', 'EOS Lynx')
+            console.info('Adopted for EOSLynx.')
+        }
+    }
+}
+
 $(document).ready(function() {
     ScatterJS.plugins( new ScatterEOS(), new ScatterLynx() )
     ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
@@ -221,6 +233,9 @@ $(document).ready(function() {
             oneClickVote(scatter, target, originalContent)
         })
         console.info('Scatter handler registered.')
+
+        // Adopt 'Vote using Scatter' button to 'Vote using EOS Lynx' if applicable
+        $('.scatter-vote-oneclick').each(adoptAuthenticatorByUseragent)
     })
 })
 </script>
