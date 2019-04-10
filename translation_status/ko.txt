@@ -1,4 +1,4 @@
-Last update: 2019-04-10T15:13:35+02:00
+Last update: 2019-04-10T20:29:17+02:00
 Checking translation for 'ko' in path: _i18n
 
 UPDATE:    _i18n/ko.yml

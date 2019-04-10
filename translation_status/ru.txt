@@ -1,4 +1,4 @@
-Last update: 2019-04-10T15:13:41+02:00
+Last update: 2019-04-10T20:29:23+02:00
 Checking translation for 'ru' in path: _i18n
 
 TODO:      _i18n/ru/history/section2.md
@@ -62,18 +62,10 @@ TODO:      _i18n/ru/success-stories/section1.md
 TODO:      _i18n/ru/success-stories/section5.md
 TODO:      _i18n/ru/success-stories/section4-img.md
 TODO:      _i18n/ru/success-stories/section4.md
-TODO:      _i18n/ru/why-join/box2.md
 TODO:      _i18n/ru/why-join/section2-img.md
-TODO:      _i18n/ru/why-join/section6.md
 TODO:      _i18n/ru/why-join/section3-img.md
-TODO:      _i18n/ru/why-join/section2.md
-TODO:      _i18n/ru/why-join/section3.md
 TODO:      _i18n/ru/why-join/section5-img.md
 TODO:      _i18n/ru/why-join/section6-img.md
-TODO:      _i18n/ru/why-join/section1.md
-TODO:      _i18n/ru/why-join/box3.md
-TODO:      _i18n/ru/why-join/section5.md
-TODO:      _i18n/ru/why-join/box1.md
 TODO:      _i18n/ru/member-client/box2.md
 TODO:      _i18n/ru/member-client/box6.md
 TODO:      _i18n/ru/member-client/section2.md
