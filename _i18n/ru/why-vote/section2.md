@@ -1,5 +1,5 @@
-**Technically excellent** block producer
+**Технический лидер** среди производителей блоков
 ===
 
- * eosDAC has pursued continual improvement to be one of the most technically excellent block producers since the very first testnet
- * eosDAC provides high CPU performance, to allow the EOS blockchain to reach the maximum TPS
+ * eosDAC постоянно совершенствуется, чтобы стать одним из самых технически превосходных БП еще со времен первой тестовой сети
+ * eosDAC обеспечивает высокую производительность CPU, что позволяет блокчейну EOS достигать максимального TPS
