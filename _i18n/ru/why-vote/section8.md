@@ -1,9 +1,9 @@
-**Voting** participation **matters**
+**Вопрос** об участии в **голосовании**
 ===
 
-As an EOS tokenholder, you have an ownership stake in EOS. Voting for an EOS Block Producer is like voting for who takes care of your property. Who you choose to take care of your property matters.
+Как у держателя токенов EOS, у вас есть доля собственности в EOS. Голосование за производителя блоков EOS - это выбор того, кто заботится о вашей собственности. Кого вы выбираете, имеет большое значение.
 
-Our Block Producer name on EOS Mainnet is: `eosdacserver`
+Наше имя производителя блоков в сети EOS: `eosdacserver`
 
-[How to vote?]({% translate_link how-to-vote %}){: .btn.solid.dark.btn-raised }
-[Vote using Scatter](https://www.eosx.io/tools/vote/?voteTo=eosdacserver){: .btn.solid.light.btn-raised.scatter-vote-oneclick }
+[Как проголосовать?]({% translate_link how-to-vote %}){: .btn.solid.dark.btn-raised }
+[Голосование с помощью Scatter](https://www.eosx.io/tools/vote/?voteTo=eosdacserver){: .btn.solid.light.btn-raised.scatter-vote-oneclick }
