@@ -75,7 +75,8 @@ function errHandler(scatter, target, originalContent, err, showAlert = true) {
     scatter.logout()
 
     // Do not show an alert() if the user rejected the transaction on purpose
-    if(err &&  err.code === 402 && (err.type === 'signature_rejected' || err.type === 'identity_rejected')) {
+    const rejected = ['signature_rejected', 'identity_rejected', 'Request Canceled']
+    if(err &&  (rejected.includes(err.type) || rejected.includes(err.message))) {
         showAlert = false
     }
     if(showAlert) alert('{% translate newsletterForm.error %}: ' + JSON.stringify(err))
