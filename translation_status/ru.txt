@@ -1,9 +1,6 @@
-Last update: 2019-04-03T14:55:44+02:00
+Last update: 2019-04-10T15:13:41+02:00
 Checking translation for 'ru' in path: _i18n
 
-UPDATE:    _i18n/ru.yml
-  english was modified at     2019-03-27 16:38:13 +0100
-  translation last updated at 2019-02-18 15:20:04 +0100
 TODO:      _i18n/ru/history/section2.md
 TODO:      _i18n/ru/history/section1.md
 TODO:      _i18n/ru/error/404.md
@@ -24,29 +21,14 @@ TODO:      _i18n/ru/how-to-vote/tokenpocket.md
 TODO:      _i18n/ru/how-to-vote/section4.md
 TODO:      _i18n/ru/why-launch/section8-img.md
 TODO:      _i18n/ru/why-launch/section2-img.md
-TODO:      _i18n/ru/why-launch/section6.md
 TODO:      _i18n/ru/why-launch/section9-img.md
 TODO:      _i18n/ru/why-launch/section3-img.md
-TODO:      _i18n/ru/why-launch/section2.md
-TODO:      _i18n/ru/why-launch/section3.md
-TODO:      _i18n/ru/why-launch/section9.md
-TODO:      _i18n/ru/why-launch/section8.md
 TODO:      _i18n/ru/why-launch/section5-img.md
 TODO:      _i18n/ru/why-launch/section6-img.md
-TODO:      _i18n/ru/why-launch/section1.md
-TODO:      _i18n/ru/why-launch/section5.md
-TODO:      _i18n/ru/why-launch/section4.md
-TODO:      _i18n/ru/why-launch/section7.md
 TODO:      _i18n/ru/why-vote/section2-img.md
-TODO:      _i18n/ru/why-vote/section6.md
 TODO:      _i18n/ru/why-vote/section3-img.md
-TODO:      _i18n/ru/why-vote/section2.md
-TODO:      _i18n/ru/why-vote/section3.md
-TODO:      _i18n/ru/why-vote/section8.md
 TODO:      _i18n/ru/why-vote/section5-img.md
 TODO:      _i18n/ru/why-vote/section6-img.md
-TODO:      _i18n/ru/why-vote/section1.md
-TODO:      _i18n/ru/why-vote/section5.md
 TODO:      _i18n/ru/tools/smart-contracts-explained.md
 TODO:      _i18n/ru/tools/box2.md
 TODO:      _i18n/ru/tools/section3-img.md
