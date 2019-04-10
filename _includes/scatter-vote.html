@@ -78,7 +78,7 @@ function errHandler(scatter, target, originalContent, err, showAlert = true) {
     if(err &&  err.code === 402 && (err.type === 'signature_rejected' || err.type === 'identity_rejected')) {
         showAlert = false
     }
-    if(showAlert) alert('Error: ' + JSON.stringify(err))
+    if(showAlert) alert('{% translate newsletterForm.error %}: ' + JSON.stringify(err))
 }
 
 function succHandler(scatter, target, msg = '{% translate scatterVote.thanks %}') {
@@ -95,7 +95,7 @@ function oneClickVote(scatter, target, originalContent) {
     scatter.login({ accounts: [network] }).then(function() {
         const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
         api.rpc.get_account(account.name).then(function(data) {
-            const vote = data.voter_info
+            const vote = null//data.voter_info
             if(!vote) {
                 console.error('voter_info = null:', JSON.stringify(data, null, 2))
                 throw 'account.voter_info is null'
