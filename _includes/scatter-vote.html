@@ -36,7 +36,6 @@
 
 <script src="/assets/eosjs/eosjs-api.js"></script>
 <script src="/assets/eosjs/eosjs-jsonrpc.js"></script>
-<script src="/assets/eosjs/eosjs-jssig.js"></script>
 <script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js"></script>
 <script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js"></script>
 <script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js"></script>
@@ -90,8 +89,8 @@ function succHandler(scatter, target, msg = '{% translate scatterVote.thanks %}'
 function oneClickVote(scatter, target, originalContent) {
     target.textContent = '{% translate scatterVote.voting %}'
 
-    const rpc = new eosjs_jsonrpc.default('https://'+host)
-    const api = new eosjs_api.default({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
+    const rpc = new eosjs_jsonrpc.JsonRpc('https://'+host)
+    const api = new eosjs_api.Api({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
 
     scatter.login({ accounts: [network] }).then(function() {
         const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
