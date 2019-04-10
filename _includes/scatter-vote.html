@@ -108,15 +108,13 @@ function oneClickVote(scatter, target, originalContent) {
         */
         api.rpc.get_account(account.name).then(function(data) {
             const vote = data.voter_info
-            let proxy, producers
-            if(vote && vote.proxy && vote.producers) {
+            let proxy = ''
+            let producers = []
+            // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
+            // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
+            if(vote !== null) {
                 proxy = vote.proxy
                 producers = vote.producers
-            } else {
-                // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
-                // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
-                proxy = ''
-                producers = []
             }
             if(proxy !== '') {
                 api.rpc.get_account(proxy).then(function(data) {
