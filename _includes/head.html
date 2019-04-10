@@ -39,4 +39,11 @@
   <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
   <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
   <link rel="canonical" href="https://eosdac.io/">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
 </head>
