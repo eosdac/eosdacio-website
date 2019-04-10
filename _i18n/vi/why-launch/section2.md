@@ -1,7 +1,7 @@
-Các cộng đồng **sẽ phá vỡ** các mô hình công ty
+Trao quyền lực cho **Cộng Đồng của bạn**
 ====
 
- * Công nghệ blockchain đang trao quyền lực cho các cộng đồng để phá vỡ các mô hình công ty
- * Theo thời gian, chúng ta sẽ thấy các cộng đồng này thách thức các tổ chức lớn hơn bằng việc nuôi dưỡng khái niệm về DACs
+ * Blockchain kết hợp với công nghệ DAC đang trao quyền lực cho các cộng đồng xây dựng giá trị riêng cho chính họ
+ * Theo thời gian, chúng ta có thể thấy các cộng đồng "DAC" tích tụ này sẽ thách thức các tổ chức truyền thống
  * DACs có thể là một cách mạnh mẽ để xây dựng một cộng đồng gắn kết xung quanh các dự án của bạn
 

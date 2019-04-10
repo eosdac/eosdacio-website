@@ -5,4 +5,4 @@
  * Thiết lập một DAC từ ban đầu là cực kỳ phức tạp
  * Nhà Máy Sản Xuất DAC sắp tới của chúng tôi sẽ cho phép bạn xây dựng và khởi tạo DAC riêng của bạn chỉ trong một khoảng thời gian ngắn
 
-[Những Câu Chuyện Thành Công]({% translate_link success-stories %}){: .btn.solid.dark.btn-raised }
+[Những Câu Chuyện Thành Công]({% translate_link success-stories %}){: .btn.solid.dark.btn-raised } Bộ Mã Nhà Máy Sản Xuất DAC{: .btn.solid.light.btn-raised }
