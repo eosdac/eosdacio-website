@@ -1,5 +1,5 @@
-**Server** Locations **around** the **world**
+**Серверы** расположены **по всему миру**
 ===
 
- * eosDAC uses a mix of cloud and bare metal servers in several locations around the world
- * eosDAC uses geographically decentralized server location in diverse jurisdictions
+ * eosDAC использует "облако на голом железе" сервера расположенные в нескольких местах по всему миру
+ * eosDAC использует географически децентрализованное расположение серверов в различных юрисдикциях
