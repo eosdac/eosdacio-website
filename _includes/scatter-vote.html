@@ -69,10 +69,16 @@ function castVote(api, account, producers, proxy = "") {
     return api.transact(transaction, { blocksBehind: 3, expireSeconds: 30 })
 }
 
-function errHandler(scatter, target, originalContent, err) {
+function errHandler(scatter, target, originalContent, err, showAlert = true) {
     console.error('Voting error:', err)
     target.textContent = originalContent
     scatter.logout()
+
+    // Do not show an alert() if the user rejected the transaction on purpose
+    if(err &&  err.code === 402 && (err.type === 'signature_rejected' || err.type === 'identity_rejected')) {
+        showAlert = false
+    }
+    if(showAlert) alert('Error: ' + JSON.stringify(err))
 }
 
 function succHandler(scatter, target, msg = '{% translate scatterVote.thanks %}') {
@@ -90,6 +96,11 @@ function oneClickVote(scatter, target, originalContent) {
         const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
         api.rpc.get_account(account.name).then(function(data) {
             const vote = data.voter_info
+            if(!vote) {
+                console.error('voter_info = null:', JSON.stringify(data, null, 2))
+                throw 'account.voter_info is null'
+            }
+
             const proxy = vote.proxy
             let producers = vote.producers
             if(proxy !== '') {
