@@ -1,6 +1,6 @@
-**Supporting eosDAC** development helps the **EOS ecosystem to grow**
+**Поддерживая eosDAC** вы помогаете **экосистеме EOS расти**
 ===
 
- * DACs can enable more small business on EOS
- * Digital decentralized communities can out compete centralized paper bureaucracies
- * eosDAC supports the growth of the EOS token value, by providing and improving DApps, chain security and educational content
+ * DAC-и помогают запускать больше проектов для малого бизнеса на EOS
+ * Цифровые децентрализованные сообщества могут успешно конкурировать с централизованной бумажной бюрократией
+ * eosDAC поддерживает рост стоимости токенов EOS, предоставляя и улучшая DApp-ы, безопасность сети и создаёт образовательный контент
