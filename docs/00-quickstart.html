@@ -1,0 +1,16 @@
+---
+layout: docs
+
+namespace: docs-quickstart
+permalink: /docs/00-quickstart
+---
+<div class="docs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          {% capture my_include %}{% include_relative 00-quickstart.md %}{% endcapture %}
+          {{ my_include | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>

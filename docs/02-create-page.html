@@ -1,0 +1,16 @@
+---
+layout: docs
+
+namespace: docs-create-page
+permalink: /docs/02-create-page
+---
+<div class="docs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          {% capture my_include %}{% include_relative 02-create-page.md %}{% endcapture %}
+          {{ my_include | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
