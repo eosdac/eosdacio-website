@@ -4,8 +4,6 @@ title:  "eosDAC invites you to EOS Alliance Chinese Community Meeting featuring 
 date:   2019-03-19T14:21:21
 external_link: https://steemit.com/eosio/@eosdac/eosdac-invites-you-to-eos-alliance-chinese-community-meeting-featuring-michael-yeates
 ---
-<center>![EOS Alliance Chinese Community Meeting (3).png](https://cdn.steemitimages.com/DQmZoGfNs8W74RMraCf7B9eWnN8DxEUXuvMz7FvqhufsnEf/EOS%20Alliance%20Chinese%20Community%20Meeting%20(3).png)</center>
-
 eosDAC team members will be partnering with the EOS Alliance to transform the Alliance into a decentralized autonomous non-profit organization (DAO - same as DAC) run entirely on the EOS blockchain. ([Read the post](https://medium.com/eos-new-york/the-eos-dao-progress-on-chain-99fc4a47e4ac))
 
 > The EOS Alliance organization has shown great courage by choosing to “walk the walk” and transition entirely on-chain, functioning as a DAO. -  EOS New York (eosDAC team partners)
