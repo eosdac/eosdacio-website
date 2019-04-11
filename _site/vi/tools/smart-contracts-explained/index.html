@@ -12,20 +12,28 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
   <meta property="og:description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1554394472">
-  <link href="/assets/styles.css?1554394472s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1554974379">
+  <link href="/assets/styles.css?1554974379s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1554394472">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1554974379">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1554394472">
+  <link rel="stylesheet" href="/assets/main.css?1554974379">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/vi/feed.xml" title="site.title" /><link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/vi/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+  <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
+  <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
+  <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
+  <link rel="alternate" hreflang="ja" href="https://eosdac.io/ja/">
+  <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
+  <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
+  <link rel="canonical" href="https://eosdac.io/">
+  <link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/interact-with-discord-2_480p.mp4">
   <link rel="prefetch" href="/assets/why-join/voting-custodians_480p.mp4">
@@ -99,6 +107,8 @@
         
         <li class="nav-item"><a class="nav-link" href="/vi/news/index.html">
             Tin Tức</a></li>
+        
+        
         
         
         
@@ -222,7 +232,7 @@
 
 <p>EOSDAC là một trong những token đầu tiên thực hiện airdrop trên chuỗi nên có nhiều điều còn chưa biết. Một khi đợt airdrop hoàn thành và được kiểm tra, chúng tôi có thể mở khóa token để cho phép giao dịch. Quan trọng là không có khả năng khóa token lại một khi nó được mở khóa bởi vì chức năng này có thể cho phép những người tạo ra token có thể thao túng giá thông qua sự kiểm soát tập trung việc thanh khoản token.</p>
 
-<h3 id="Điều-khoản-thành-viên-và-sự-chấp-thuận">Điều khoản thành viên và sự chấp thuận.</h3>
+<h3 id="điều-khoản-thành-viên-và-sự-chấp-thuận">Điều khoản thành viên và sự chấp thuận.</h3>
 <p>Việc đồng ý với các điều khoản sử dụng như một phần của DAC được chúng tôi xem là một chức năng cốt lõi của các hợp đồng thông minh của DAC và do đó, việc đưa các chức năng vào hợp đồng là điều hợp lý. Các điều khoản sẽ được người dùng chấp thuận để họ trở thành thành viên thông qua việc thực hiện lệnh <code class="highlighter-rouge">memberreg</code> trên hợp đồng.</p>
 
 <p>Để thực hiện lệnh này, người dùng cần kiểm tra toàn bộ các điều khoản mà họ đã thực sự đồng ý với nó và việc thực hiện hợp đồng sẽ đảm bảo việc tổng kiểm tra đó khớp với việc tổng kiểm tra các điều khoản mới nhất trước khi chấp nhận thỏa thuận và tư cách thành viên của họ. Logic của việc tổng kiểm tra này được trừu tượng hóa khỏi người dùng cuối cùng thông qua giao diện người dùng được xử lý trước nhưng cung cấp bằng chứng mã hóa mà người dùng đồng ý với một bộ điều khoản cụ thể và sẵn sàng cho những bộ khác thêm vào giao diện người dùng của họ để tương tác với bộ mã hợp đồng. Miễn là họ có thể cung cấp việc tổng kiểm tra tương tự cấc điều khoản và quy định đã biết trước thì họ sẽ có thể thực hiện thành công lệnh <code class="highlighter-rouge">memberreg</code>. Mặc dù điều này trông có vẻ dài dòng để đồng ý các quy định và điều khoản, chúng tôi đã thực hiện phương pháp này bởi vì nó giống như nói “Tôi đồng ý với các điều khoản và quy định <em>này</em>” hơn là hỏi người dùng “Bạn có đồng ý với các điều khoản và quy định mới nhất không” với việc người dùng phản hồi “có” hoặc “không”. Chúng tôi đã nghĩ cách sau sẽ yếu hơn để đảm bảo người dùng không vô tình chấp thuận các điều khoản sai hoặc thông qua một giao diện người dùng đã hết hạn hợp đồng.</p>
@@ -235,10 +245,10 @@
 
 <p>Hợp đồng này quản lý việc đặt cọc, đề cử, bỏ phiếu, kiểm phiếu và bổ nhiệm người giám hộ vào cuối mỗi cuộc bầu cử. Kết quả cuối cùng từ các lệnh của hợp đồng này là để quản lý các quyền hạn trên tài khoản quản lý của DAC (<code class="highlighter-rouge">dacauthority</code>) dưới dạng cấu hình thông qua các điều chỉnh trên hợp đồng này vì tài khoản quản lý có quyền được xác định trước để làm bất cứ gì trong DAC bao gồm thay đổi bộ mã và chuyển nguồn quỹ. Các hành động được phép sẽ là các giao dịch đa chữ ký khác nhau được điều khiển tận dụng các công cụ quản lý cấp phép phức tạp được tích hợp sẵn trong phần mềm giao thức EOSIO. Các tham số cho các hoạt động bầu cử này có thể được thay đổi thông qua một đối tượng cấu hình được thiết lập trong hợp đồng qua lệnh <code class="highlighter-rouge">updateconfig</code>. Chức năng của hợp đồng này có thể bị chia thành các thành phần mở rộng sau đây:</p>
 
-<h3 id="Đặt-cọc">Đặt cọc</h3>
+<h3 id="đặt-cọc">Đặt cọc</h3>
 <p>Trước khi có thể đề cử thành công là một ứng viên, một thành viên phải chuyển EOSDAC trước dưới dạng một khoản đặt cọc bằng cách sử dụng lệnh <code class="highlighter-rouge">transfer</code> trên hợp đồng token vào tài khoản này. Ghi chú phải đúng với tên tài khoản hợp đồng (ví dụ: “daccustodian”) để việc giao dịch được xem là một giao dịch đặt cọc và số lượng đặt cọc bắt buộc có thể được cấu hình bởi trường (field) <code class="highlighter-rouge">lockupasset</code> trong đối tượng cấu hình. Sau khi đặt cọc thành công, sẽ có một lượng đặt cọc được chờ xử lý trong hợp đồng cho ứng viên này sẵn sàng cho lệnh đề cử thực tế.</p>
 
-<h3 id="Đề-cử-ứng-viên---nominatecand">Đề cử ứng viên - <code class="highlighter-rouge">nominatecand</code>:</h3>
+<h3 id="đề-cử-ứng-viên---nominatecand">Đề cử ứng viên - <code class="highlighter-rouge">nominatecand</code>:</h3>
 <p>Để trở thành một giám hộ được bầu cho DAC, một thành viên hợp lệ phải đề cử làm ứng viên trước bằng cách sử dụng lệnh <code class="highlighter-rouge">nominatecand</code>. Việc này yêu cầu tên tài khoản của tài khoản đề cử và số tiền yêu cầu thanh toán bằng EOS. lệnh này kiểm tra người dùng là một thành viên hợp lệ và đã đặt cọc đủ số token EOSDAC. Nó cũng kiểm tra xem số tiền yêu cầu thanh toán không vượt quá <code class="highlighter-rouge">requested_pay_max</code> từ cấu hình và nếu các điều kiện này được đáp ứng thì sẽ thêm người dùng này vào với tư cách ứng viên có thể bỏ phiếu cho các lệnh bỏ phiếu tương lai.</p>
 
 <h3 id="bỏ-phiếu---votecust">Bỏ phiếu - <code class="highlighter-rouge">votecust</code>:</h3>
@@ -524,6 +534,7 @@ $('#newsletterForm').submit(function(event) {
           <a class="nav-link" href="/vi/news/index.html"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">Tin Tức</a>
+          
           
           
           

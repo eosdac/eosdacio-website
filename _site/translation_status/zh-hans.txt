@@ -1,4 +1,4 @@
-Last update: 2019-04-03T14:55:40+02:00
+Last update: 2019-04-11T11:18:21+02:00
 Checking translation for 'zh-hans' in path: _i18n
 
 UPDATE:    _i18n/zh-hans.yml
