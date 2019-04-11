@@ -1,4 +1,4 @@
-Last update: 2019-04-10T20:29:21+02:00
+Last update: 2019-04-11T11:18:23+02:00
 Checking translation for 'vi' in path: _i18n
 
 UPDATE:    _i18n/vi.yml
@@ -17,6 +17,8 @@ DUPLICATE: _i18n/vi/community/partner5.md
 DUPLICATE: _i18n/vi/community/partner2.md
   delete this file, it will automatically fallback to english
 TODO:      _i18n/vi/why-launch/section8-img.md
+TODO:      _i18n/vi/why-launch/section2-img.md
+TODO:      _i18n/vi/why-launch/section9-img.md
 TODO:      _i18n/vi/why-launch/section3-img.md
 TODO:      _i18n/vi/why-launch/section5-img.md
 TODO:      _i18n/vi/why-launch/section6-img.md
