@@ -27,3 +27,13 @@ newsletterForm:
   subscribe: "订阅"
   success: "谢谢你，你提交的信息已被记录！"
   error: "出错了"
+scatterVote:
+  voting: "Scatter 投票进行中..."
+  thanks: "感谢投票!"
+  proxy: "投票代理: "
+  modalHead: "你已经选择了30个区块生产者"
+  modalBody: "请释放一个位置进行投票"
+  cancel: "取消"
+  vote: "立即投票"
+  noSupport: "您没有支持 eosDAC。请投票支持eosDAC 或者选择另外一个代理！"
+  noProxy: "不再是代理人，请选择其他代理！"
