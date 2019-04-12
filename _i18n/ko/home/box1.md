@@ -1,4 +1,4 @@
-![투표하는 이유?](/assets/home/vote-for-dac.svg)
+![BP 투표](/assets/home/vote-for-dac.svg)
 
 왜 eosDAC에 투표해야 할까요?
 --------------------
