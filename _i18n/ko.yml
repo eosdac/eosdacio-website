@@ -35,5 +35,5 @@ scatterVote:
   modalBody: "투표하려면 한 팀을 취소하셔야 합니다"
   cancel: "취소"
   vote: "지금 투표"
-  noSupport: "- eosDAC에 투표하지 않는 프록시입니다. 다른 프록시에 투표하시는 건 어떨까요?
+  noSupport: "- eosDAC에 투표하지 않는 프록시입니다. 다른 프록시에 투표하시는 건 어떨까요?"
   noProxy: "- 존재하지 않는 프록시입니다. 다른 프록시를 선택해 주세요!"
