@@ -5,7 +5,7 @@ There have been several articles and blog posts discussing the core beliefs and 
 
 A primary consideration in all our smart contracts has been reusability for other DACS that may clone and use our source code. This was one of our core beliefs from the beginning and the justification for why some design decisions were more complex than they otherwise would have been if it was just for one use case. Our future goal would be to make these even more reusable so that multiple DACs could use our installed instances of the smart contracts and be able to tweak the settings for their own purpose without needing to maintain their own code. This way they would get updates along with the EosDAC team for feature updates and and general bug fixes. 
 
-The code contracts consist of a token contract (`eosdactokens`), an election and custodian managing contract (`dacustodian`), a worker proposal contract to manage all worker proposals and payment coordination and a separate escrow account (`dacescrow`) to securely hold funds for in-progress worker proposals to protect both the DAC and worker from potential loss of promised payments for their work.
+The code contracts consist of a token contract (`eosdactokens`), an election and custodian managing contract (`daccustodian`), a worker proposal contract to manage all worker proposals and payment coordination and a separate escrow account (`dacescrow`) to securely hold funds for in-progress worker proposals to protect both the DAC and worker from potential loss of promised payments for their work.
 
 ## EOSDACTOKENS
 
