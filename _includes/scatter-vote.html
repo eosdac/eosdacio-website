@@ -235,7 +235,7 @@ function adoptAuthenticatorByUseragent(idx, obj) {
 }
 
 $(document).ready(function() {
-    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx() )
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx({ Api: eosjs_api.Api, JsonRpc: eosjs_jsonrpc.JsonRpc }) )
     ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
         if(!connected) {
             console.error('Scatter could not be found.')
