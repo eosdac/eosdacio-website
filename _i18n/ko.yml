@@ -1,3 +1,39 @@
 site:
   title: "eosDAC"
-  description: "The Community-Owned EOS Block Producer and DAC Enabler"
+  description: "커뮤니티 소유의 EOS 블록 프로듀서 & DAC 협력체"
+header:
+  vote: "BP 투표: eosdacserver"
+  mclient: "회원 클라이언트"
+news:
+  steemit: "Steemit"
+  youtube: "Youtube"
+  twitter: "Twitter"
+  more: "더 보기"
+  back: "뒤로"
+  prev: "이전"
+  next: "다음"
+pages:
+  why-vote: "eosDAC에 투표해야 하는 이유"
+  why-join: "eosDAC에 참여해야 하는 이유"
+  why-launch: "나만의 DAC을 만드는 이유"
+  community: "커뮤니티"
+  tools: "툴"
+  news: "뉴스"
+  token: "토큰"
+newsletterForm:
+  name: "이름"
+  email: "이메일 *"
+  language: "언어 *"
+  subscribe: "구독"
+  success: "감사합니다. 내용이 업데이트되었습니다!"
+  error: "오류"
+scatterVote:
+  voting: "Scatter로 투표 중..."
+  thanks: "투표 감사합니다!"
+  proxy: "프록시 투표: "
+  modalHead: "이미 30팀의 BP를 선택했습니다"
+  modalBody: "투표하려면 한 팀을 취소하셔야 합니다"
+  cancel: "취소"
+  vote: "지금 투표"
+  noSupport: "- eosDAC에 투표하지 않는 프록시입니다. 다른 프록시에 투표하시는 건 어떨까요?
+  noProxy: "- 존재하지 않는 프록시입니다. 다른 프록시를 선택해 주세요!"
