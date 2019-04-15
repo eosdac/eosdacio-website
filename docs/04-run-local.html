@@ -1,0 +1,16 @@
+---
+layout: docs
+
+namespace: docs-run-local
+permalink: /docs/04-run-local
+---
+<div class="docs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          {% capture my_include %}{% include_relative 04-run-local.md %}{% endcapture %}
+          {{ my_include | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>

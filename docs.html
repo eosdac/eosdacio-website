@@ -1,0 +1,16 @@
+---
+layout: docs
+
+namespace: docs
+permalink: /docs/
+---
+<div class="docs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          {% capture my_include %}{% include_relative docs/README.md %}{% endcapture %}
+          {{ my_include | markdownify | replace: ".md", "" }}
+      </div>
+    </div>
+  </div>
+</div>

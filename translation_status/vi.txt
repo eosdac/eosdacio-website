@@ -1,4 +1,4 @@
-Last update: 2019-04-11T11:18:23+02:00
+Last update: 2019-04-15T12:18:27+02:00
 Checking translation for 'vi' in path: _i18n
 
 UPDATE:    _i18n/vi.yml
@@ -8,6 +8,7 @@ DUPLICATE: _i18n/vi/community/partner6.md
   delete this file, it will automatically fallback to english
 DUPLICATE: _i18n/vi/community/partner4.md
   delete this file, it will automatically fallback to english
+TODO:      _i18n/vi/community/partner7.md
 DUPLICATE: _i18n/vi/community/partner1.md
   delete this file, it will automatically fallback to english
 DUPLICATE: _i18n/vi/community/partner3.md
@@ -22,6 +23,9 @@ TODO:      _i18n/vi/why-launch/section9-img.md
 TODO:      _i18n/vi/why-launch/section3-img.md
 TODO:      _i18n/vi/why-launch/section5-img.md
 TODO:      _i18n/vi/why-launch/section6-img.md
+UPDATE:    _i18n/vi/tools/smart-contracts-explained.md
+  english was modified at     2019-04-15 11:58:50 +0200
+  translation last updated at 2019-03-29 10:56:14 +0700
 TODO:      _i18n/vi/tools/exchange.md
 DUPLICATE: _i18n/vi/success-stories/section2-img.md
   delete this file, it will automatically fallback to english
