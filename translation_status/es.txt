@@ -1,4 +1,4 @@
-Last update: 2019-04-11T11:18:26+02:00
+Last update: 2019-04-15T12:18:30+02:00
 Checking translation for 'es' in path: _i18n
 
 UPDATE:    _i18n/es.yml
@@ -11,6 +11,7 @@ TODO:      _i18n/es/community/box2.md
 TODO:      _i18n/es/community/partner6.md
 TODO:      _i18n/es/community/partner4.md
 TODO:      _i18n/es/community/partners.md
+TODO:      _i18n/es/community/partner7.md
 TODO:      _i18n/es/community/partner1.md
 TODO:      _i18n/es/community/partner3.md
 TODO:      _i18n/es/community/section1.md
