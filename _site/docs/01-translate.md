@@ -7,6 +7,13 @@ So if you would like to translate `section1` of the `how-to-vote` page ([_i18n/e
 
 Some general translations, such as site title, header menu or footer content, are done in a YAML file, located at `_i18n/LANGUAGE.yml`, please refer to [_i18n/en.yml](https://github.com/eosdac/eosdacio-website/blob/master/_i18n/en.yml) for all translateable keys.
 
+### Translate a blog posts
+Translation of blog posts inside `_i18n/en/_posts/` is very similar to the translation of pages. Each blog posts is contained in a separate file, e.g. `2019-02-11-eosdac-dactivation-day-is-here-feb-11th-2019.md`.
+* Create a file of the same name inside `_i18n/LANGUAGE/_posts/`
+* Copy the english post's meta-data ([front matter](https://jekyllrb.com/docs/front-matter/)) and translate the `title` field.
+* If there is a fully translated version of this posts, adopt the `external_link` field to point to the translated version, otherwise keep the link to the english version.
+* Translate the first paragraph (up to 400 characters) of the blog post into your LANGUAGE. We only show the abstract (first paragraph), so you do not need to translate the whole article.
+
 ### Checking translation status
 We are providing a scripts, which help to identify content in need of a (updated) translation.
 * `show_files_to_be_translated.sh` inside the `_i18n/` folder

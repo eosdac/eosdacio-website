@@ -12,18 +12,18 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
   <meta property="og:description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1554974378">
-  <link href="/assets/styles.css?1554974378s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1555323923">
+  <link href="/assets/styles.css?1555323923s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1554974378">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1555323923">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1554974378">
+  <link rel="stylesheet" href="/assets/main.css?1555323923">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/zh-hans/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
   <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
@@ -57,13 +57,21 @@
       <ul class="navbar-nav mr-auto">
         
         
+        
+        
+        
+        
         <li class="nav-item"><a class="nav-link" href="/zh-hans/why-vote/">
             为什么投票支持 eosDAC?</a></li>
         
         
         
+        
+        
         <li class="nav-item"><a class="nav-link" href="/zh-hans/why-join/">
             为什么加入 eosDAC?</a></li>
+        
+        
         
         
         
@@ -77,6 +85,8 @@
         
         
         
+        
+        
         <li class="nav-item"><a class="nav-link" href="/zh-hans/token/">
             代币</a></li>
         
@@ -84,6 +94,8 @@
         
         <li class="nav-item"><a class="nav-link" href="/zh-hans/tools/">
             工具</a></li>
+        
+        
         
         
         
@@ -281,6 +293,17 @@
 		
     </div>
 	
+	 <div class="row">
+		<div class="col-sm-2">
+		<p><br />
+<a href="https://www.starteos.io/"><img src="/assets/community/starteos.png" alt="Starteos" /></a></p>
+<center>Starteos</center>
+
+		</div> 
+	  
+	
+	 </div>
+	
  </div> 
 </div>
         </div>
@@ -396,13 +419,17 @@ $('#newsletterForm').submit(function(event) {
         <div class="col-md-10">
           
           
+          
+          
           <a class="nav-link" href="/zh-hans/why-vote/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">为什么投票支持 eosDAC?</a>
           
+          
           <a class="nav-link" href="/zh-hans/why-join/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">为什么加入 eosDAC?</a>
+          
           
           <a class="nav-link" href="/zh-hans/why-launch/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
@@ -412,6 +439,7 @@ $('#newsletterForm').submit(function(event) {
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">社区</a>
           
+          
           <a class="nav-link" href="/zh-hans/token/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">代币</a>
@@ -419,6 +447,7 @@ $('#newsletterForm').submit(function(event) {
           <a class="nav-link" href="/zh-hans/tools/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">工具</a>
+          
           
           
           
@@ -492,13 +521,13 @@ $(document).ready(function() {
     <div class="modal-content">
     <form id="votingForm">
     <div class="modal-header">
-        <h5 class="modal-title" id="votingModalLabel">You already selected 30 BPs</h5>
+        <h5 class="modal-title" id="votingModalLabel">你已经选择了30个区块生产者</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
         </button>
     </div>
     <div class="modal-body">
-            Free up one spot, to cast a vote for <code class="highlighter-rouge">eosdacserver</code>
+            请释放一个位置进行投票 <code class="highlighter-rouge">eosdacserver</code>
         <br/><br/>
         <div class="container-fluid">
             <div class="row">
@@ -513,8 +542,8 @@ $(document).ready(function() {
     </div>
     <div class="modal-footer">
         <div style="padding: 0 16px;">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-            <button type="submit" class="btn solid dark btn-raised">Vote now</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+            <button type="submit" class="btn solid dark btn-raised">立即投票</button>
         </div>
     </div>
     </form>
@@ -563,13 +592,13 @@ function errHandler(scatter, target, originalContent, err) {
     scatter.logout()
 }
 
-function succHandler(scatter, target, msg = 'Thanks for voting!') {
+function succHandler(scatter, target, msg = '感谢投票!') {
     target.textContent = msg
     scatter.logout() //all done, goodbye!
 }
 
 function oneClickVote(scatter, target, originalContent) {
-    target.textContent = 'Scatter voting...'
+    target.textContent = 'Scatter 投票进行中...'
 
     const rpc = new eosjs_jsonrpc.default('https://'+host)
     const api = new eosjs_api.default({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
@@ -588,22 +617,22 @@ function oneClickVote(scatter, target, originalContent) {
                         if(eosdacserverVoted === true) {
                             // Re-cast vote for the current proxy
                             castVote(api, account, [], proxy).then(function(result) {
-                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                                succHandler(scatter, target, '投票代理: ' + proxy)
                             }).catch(function(err) {
                                 errHandler(scatter, target, originalContent, err)
                             })
                         } else {
                             // Re-cast vote for the current proxy, but notify user that it does not support eosdacserver
                             castVote(api, account, [], proxy).then(function(result) {
-                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
-                                alert(proxy + ' does not support eosDAC. Please consider another proxy!')
+                                succHandler(scatter, target, '投票代理: ' + proxy)
+                                alert(proxy + ' 您没有支持 eosDAC。请投票支持eosDAC 或者选择另外一个代理！')
                             }).catch(function(err) {
                                 errHandler(scatter, target, originalContent, err)
                             })
                         }
                     } else {
                         errHandler(scatter, target, originalContent, proxy+" isn't a proxy anymore")
-                        alert(proxy + ' is not a proxy anymore. Please choose another proxy!')
+                        alert(proxy + ' 不再是代理人，请选择其他代理！')
                     }
                 }).catch(function(err) {
                     errHandler(scatter, target, originalContent, err)

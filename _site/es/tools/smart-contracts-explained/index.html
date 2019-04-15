@@ -12,18 +12,18 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
   <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1554974383">
-  <link href="/assets/styles.css?1554974383s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1555323927">
+  <link href="/assets/styles.css?1555323927s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1554974383">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1555323927">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1554974383">
+  <link rel="stylesheet" href="/assets/main.css?1555323927">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/es/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
   <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
@@ -57,13 +57,21 @@
       <ul class="navbar-nav mr-auto">
         
         
+        
+        
+        
+        
         <li class="nav-item"><a class="nav-link" href="/es/why-vote/">
             Why Vote for eosDAC?</a></li>
         
         
         
+        
+        
         <li class="nav-item"><a class="nav-link" href="/es/why-join/">
             Why Join eosDAC?</a></li>
+        
+        
         
         
         
@@ -77,6 +85,8 @@
         
         
         
+        
+        
         <li class="nav-item"><a class="nav-link" href="/es/token/">
             Token</a></li>
         
@@ -84,6 +94,8 @@
         
         <li class="nav-item"><a class="nav-link" href="/es/tools/">
             Tools</a></li>
+        
+        
         
         
         
@@ -211,7 +223,7 @@
 
 <p>A primary consideration in all our smart contracts has been reusability for other DACS that may clone and use our source code. This was one of our core beliefs from the beginning and the justification for why some design decisions were more complex than they otherwise would have been if it was just for one use case. Our future goal would be to make these even more reusable so that multiple DACs could use our installed instances of the smart contracts and be able to tweak the settings for their own purpose without needing to maintain their own code. This way they would get updates along with the EosDAC team for feature updates and and general bug fixes.</p>
 
-<p>The code contracts consist of a token contract (<code class="highlighter-rouge">eosdactokens</code>), an election and custodian managing contract (<code class="highlighter-rouge">dacustodian</code>), a worker proposal contract to manage all worker proposals and payment coordination and a separate escrow account (<code class="highlighter-rouge">dacescrow</code>) to securely hold funds for in-progress worker proposals to protect both the DAC and worker from potential loss of promised payments for their work.</p>
+<p>The code contracts consist of a token contract (<code class="highlighter-rouge">eosdactokens</code>), an election and custodian managing contract (<code class="highlighter-rouge">daccustodian</code>), a worker proposal contract to manage all worker proposals and payment coordination and a separate escrow account (<code class="highlighter-rouge">dacescrow</code>) to securely hold funds for in-progress worker proposals to protect both the DAC and worker from potential loss of promised payments for their work.</p>
 
 <h2 id="eosdactokens">EOSDACTOKENS</h2>
 
@@ -488,13 +500,17 @@ $('#newsletterForm').submit(function(event) {
         <div class="col-md-10">
           
           
+          
+          
           <a class="nav-link" href="/es/why-vote/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">Why Vote for eosDAC?</a>
           
+          
           <a class="nav-link" href="/es/why-join/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">Why Join eosDAC?</a>
+          
           
           <a class="nav-link" href="/es/why-launch/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
@@ -504,6 +520,7 @@ $('#newsletterForm').submit(function(event) {
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">Community</a>
           
+          
           <a class="nav-link" href="/es/token/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">Token</a>
@@ -511,6 +528,7 @@ $('#newsletterForm').submit(function(event) {
           <a class="nav-link" href="/es/tools/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">Tools</a>
+          
           
           
           

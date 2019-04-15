@@ -1,18 +1,17 @@
-Last update: 2019-04-11T11:18:21+02:00
+Last update: 2019-04-15T12:18:25+02:00
 Checking translation for 'zh-hans' in path: _i18n
 
-UPDATE:    _i18n/zh-hans.yml
-  english was modified at     2019-03-27 16:38:13 +0100
-  translation last updated at 2019-03-24 07:30:00 +0800
-TODO:      _i18n/zh-hans/history/section2.md
-TODO:      _i18n/zh-hans/history/section1.md
 TODO:      _i18n/zh-hans/community/partner6.md
 TODO:      _i18n/zh-hans/community/partner4.md
+TODO:      _i18n/zh-hans/community/partner7.md
 TODO:      _i18n/zh-hans/community/partner1.md
 TODO:      _i18n/zh-hans/community/partner3.md
 TODO:      _i18n/zh-hans/community/partner5.md
 TODO:      _i18n/zh-hans/community/partner2.md
 TODO:      _i18n/zh-hans/why-launch/section9-img.md
+UPDATE:    _i18n/zh-hans/tools/smart-contracts-explained.md
+  english was modified at     2019-04-15 11:58:50 +0200
+  translation last updated at 2019-04-12 11:12:58 +0800
 TODO:      _i18n/zh-hans/success-stories/section2-img.md
 TODO:      _i18n/zh-hans/success-stories/section3-img.md
 TODO:      _i18n/zh-hans/success-stories/section5-img.md
