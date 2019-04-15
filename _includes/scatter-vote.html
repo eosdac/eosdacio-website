@@ -34,11 +34,11 @@
 </div>
 </div>
 
-<script src="/assets/eosjs/eosjs-api.js"></script>
-<script src="/assets/eosjs/eosjs-jsonrpc.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js"></script>
+<script src="/assets/eosjs/eosjs-api.js?{{site.time | date: '%s'}}"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?{{site.time | date: '%s'}}"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?{{site.time | date: '%s'}}"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?{{site.time | date: '%s'}}"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?{{site.time | date: '%s'}}"></script>
 <script type="text/javascript">
 // This file needs to be included via the LIQUID template engine, in order to make the translations work!
 
@@ -243,8 +243,8 @@ $(document).ready(function() {
         }
 
         // Scatter was successfully connected
-        const scatter = ScatterJS.scatter;
-        window.ScatterJS = null;
+        const scatter = ScatterJS.scatter
+        window.ScatterJS = null
         console.info('Scatter connected.')
 
         // Setup the click handler for '.scatter-vote-oneclick' links
