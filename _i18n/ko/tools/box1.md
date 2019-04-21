@@ -1,4 +1,4 @@
-![회원 클라이언트](/assets/tools/logo-black.svg)
+![회원 클라이언트](/assets/tools/member-client.png)
 
 회원 클라이언트
 ---
