@@ -1,4 +1,4 @@
-![토큰 익스플로러](/assets/tools/logo-black.svg)
+![토큰 익스플로러](/assets/tools/token-explorer.png)
 
 토큰 익스플로러
 ---
