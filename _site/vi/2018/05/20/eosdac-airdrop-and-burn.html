@@ -12,18 +12,18 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
   <meta property="og:description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1555323924">
-  <link href="/assets/styles.css?1555323924s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1556646162">
+  <link href="/assets/styles.css?1556646162s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1555323924">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1556646162">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1555323924">
+  <link rel="stylesheet" href="/assets/main.css?1556646162">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/vi/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
   <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
@@ -33,14 +33,13 @@
   <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
   <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
   <link rel="canonical" href="https://eosdac.io/">
-  <link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-2_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/voting-custodians_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/join-and-sign-consti.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-1.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-2.mp4">
-  <link rel="prefetch" href="/assets/why-join/voting-custodians.mp4">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
 </head>
 <body><header class="site-header" role="banner" style="border:0">
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs"
@@ -183,7 +182,7 @@
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Airdrop eosDAC và Thiêu Hủy</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2018-05-20T15:36:03+02:00" itemprop="datePublished">May 20, 2018
+      <time class="dt-published" datetime="2018-05-20T09:36:03-04:00" itemprop="datePublished">May 20, 2018
       </time></p>
   </header>
 
@@ -443,12 +442,11 @@ $(document).ready(function() {
 </div>
 </div>
 
-<script src="/assets/eosjs/eosjs-api.js"></script>
-<script src="/assets/eosjs/eosjs-jsonrpc.js"></script>
-<script src="/assets/eosjs/eosjs-jssig.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js"></script>
+<script src="/assets/eosjs/eosjs-api.js?1556646162"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?1556646162"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1556646162"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1556646162"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1556646162"></script>
 <script type="text/javascript">
 // This file needs to be included via the LIQUID template engine, in order to make the translations work!
 
@@ -478,10 +476,17 @@ function castVote(api, account, producers, proxy = "") {
     return api.transact(transaction, { blocksBehind: 3, expireSeconds: 30 })
 }
 
-function errHandler(scatter, target, originalContent, err) {
+function errHandler(scatter, target, originalContent, err, showAlert = true) {
     console.error('Voting error:', err)
     target.textContent = originalContent
     scatter.logout()
+
+    // Do not show an alert() if the user rejected the transaction on purpose
+    const rejected = ['signature_rejected', 'identity_rejected', 'Request Canceled']
+    if(err &&  (rejected.includes(err.type) || rejected.includes(err.message))) {
+        showAlert = false
+    }
+    if(showAlert) alert('Lỗi: ' + JSON.stringify(err))
 }
 
 function succHandler(scatter, target, msg = 'Thanks for voting!') {
@@ -490,17 +495,35 @@ function succHandler(scatter, target, msg = 'Thanks for voting!') {
 }
 
 function oneClickVote(scatter, target, originalContent) {
-    target.textContent = 'Scatter voting...'
+    target.textContent = 'Voting...'
 
-    const rpc = new eosjs_jsonrpc.default('https://'+host)
-    const api = new eosjs_api.default({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
+    const rpc = new eosjs_jsonrpc.JsonRpc('https://'+host)
+    const api = new eosjs_api.Api({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
 
     scatter.login({ accounts: [network] }).then(function() {
         const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
+        /*
+        We could also use get_table_rows() to get the voter_info,
+        but need to make sure that the result is for 'account.name'.
+        get_table_rows({
+            json: true,
+            code: 'eosio',
+            scope: 'eosio',
+            table: 'voters',
+            lower_bound: account.name,
+            limit: 1
+        })
+        */
         api.rpc.get_account(account.name).then(function(data) {
             const vote = data.voter_info
-            const proxy = vote.proxy
-            let producers = vote.producers
+            let proxy = ''
+            let producers = []
+            // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
+            // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
+            if(vote !== null) {
+                proxy = vote.proxy
+                producers = vote.producers
+            }
             if(proxy !== '') {
                 api.rpc.get_account(proxy).then(function(data) {
                     if(data && data.voter_info && data.voter_info.is_proxy === 1) {
@@ -607,8 +630,20 @@ function oneClickVote(scatter, target, originalContent) {
     })
 }
 
+function adoptAuthenticatorByUseragent(idx, obj) {
+    const originalContent = obj.textContent
+    if(originalContent.includes('Scatter')) {
+        const UA = window.navigator.userAgent
+        // Detect EOS Lynx according to: https://developers.eoslynx.com/mobile
+        if(UA === 'EOSLynx IOS' || UA === 'EOSLynx Android') {
+            obj.textContent = originalContent.replace('Scatter', 'EOS Lynx')
+            console.info('Adopted for EOSLynx.')
+        }
+    }
+}
+
 $(document).ready(function() {
-    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx() )
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx({ Api: eosjs_api.Api, JsonRpc: eosjs_jsonrpc.JsonRpc }) )
     ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
         if(!connected) {
             console.error('Scatter could not be found.')
@@ -616,8 +651,8 @@ $(document).ready(function() {
         }
 
         // Scatter was successfully connected
-        const scatter = ScatterJS.scatter;
-        window.ScatterJS = null;
+        const scatter = ScatterJS.scatter
+        //window.ScatterJS = null
         console.info('Scatter connected.')
 
         // Setup the click handler for '.scatter-vote-oneclick' links
@@ -630,6 +665,9 @@ $(document).ready(function() {
             oneClickVote(scatter, target, originalContent)
         })
         console.info('Scatter handler registered.')
+
+        // Adopt 'Vote using Scatter' button to 'Vote using EOS Lynx' if applicable
+        $('.scatter-vote-oneclick').each(adoptAuthenticatorByUseragent)
     })
 })
 </script>

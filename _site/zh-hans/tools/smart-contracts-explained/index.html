@@ -12,18 +12,18 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
   <meta property="og:description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1555323923">
-  <link href="/assets/styles.css?1555323923s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1556646161">
+  <link href="/assets/styles.css?1556646161s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1555323923">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1556646161">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1555323923">
+  <link rel="stylesheet" href="/assets/main.css?1556646161">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/zh-hans/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
   <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
@@ -33,14 +33,13 @@
   <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
   <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
   <link rel="canonical" href="https://eosdac.io/">
-  <link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-2_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/voting-custodians_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/join-and-sign-consti.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-1.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-2.mp4">
-  <link rel="prefetch" href="/assets/why-join/voting-custodians.mp4">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
 </head>
 <body><header class="site-header" role="banner" style="border:0">
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs"
@@ -230,12 +229,12 @@
 
 <p>这就是一切开始的地方。EOSDAC 代币正是由这个智能合约产生。它起源于用于 EOS 代币 eosio.token 主合约代码的复制，这个主合约很可能是所有 EOS 区块链上运行的所有代币的起点。我们在此合约中添加了一些功能，以满足我们启动 DAC 和初始空投的需求，包括以下内容：</p>
 
-<h3 id="能够在锁定状态下创建令牌">能够在锁定状态下创建令牌。</h3>
+<h3 id="能够在锁定状态下创建代币">能够在锁定状态下创建代币</h3>
 <p>这样做的目的是，当我们对早期基于以太坊网络的 EOS 代币的持有者进行初始空投后，回到 2018 年 6 月，我们可以对所有接收账户的余额进行全面测试，这样在用户可以交易代币之前，确保他们与以太坊网络快照的期望余额相同。我们非常重视测试 :)。</p>
 
 <p>EOSDAC 是最早在区块链上进行空投的代币之一，因此有许多未知数。一旦空投完成并通过测试，我们就可以解锁代币并允许转账。更重要的是，一旦解锁了代币，就无法再锁定它，因为此功能可能使代码创建者能够通过集中控制代币的流动性的方法来操纵价格。</p>
 
-<h3 id="会员条款及确认">会员条款及确认。</h3>
+<h3 id="会员条款及确认">会员条款及确认</h3>
 <p>作为 DAC 的一部分，同意使用条款被我们视为 DAC 智能合约的基本核心功能，因此将此功能包含在代币合约中非常重要。当用户同意这些条款后，智能合约开始执行 <code class="highlighter-rouge">memberreg</code> 操作，然后用户就注册成为会员。</p>
 
 <p>要执行这个操作，用户需要提供他们实际同意的条款的检验和(checksum)，合约将确保这些检验和与最新条款的已知检验和相匹配，然后才能确认其条款和会员资格。这个检验和逻辑是通过前端用户界面由终端用户生成，并提供加密见证，表明用户同意一组特定术语，并准备好让其他人添加到他们的用户界面并与合约代码交互。只要他们能够提供与已知条款和条件相同的检验和，合约就能够成功运行 <code class="highlighter-rouge">memberreg</code>  操作。虽然这似乎是一种同意条款和条件的冗长方式，但我们采用这种方式，是因为它就像是在说“我同意这些条款和条件”，而不是向用户询问“你是否同意最新的条款和条件”而用户回答“是”或“否”。我们认为后者不够健壮，它并不能确保用户不会意外地接受错误的术语或避免用户界面使用了过期的合约。</p>
@@ -633,12 +632,11 @@ $(document).ready(function() {
 </div>
 </div>
 
-<script src="/assets/eosjs/eosjs-api.js"></script>
-<script src="/assets/eosjs/eosjs-jsonrpc.js"></script>
-<script src="/assets/eosjs/eosjs-jssig.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js"></script>
+<script src="/assets/eosjs/eosjs-api.js?1556646161"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?1556646161"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1556646161"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1556646161"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1556646161"></script>
 <script type="text/javascript">
 // This file needs to be included via the LIQUID template engine, in order to make the translations work!
 
@@ -668,10 +666,17 @@ function castVote(api, account, producers, proxy = "") {
     return api.transact(transaction, { blocksBehind: 3, expireSeconds: 30 })
 }
 
-function errHandler(scatter, target, originalContent, err) {
+function errHandler(scatter, target, originalContent, err, showAlert = true) {
     console.error('Voting error:', err)
     target.textContent = originalContent
     scatter.logout()
+
+    // Do not show an alert() if the user rejected the transaction on purpose
+    const rejected = ['signature_rejected', 'identity_rejected', 'Request Canceled']
+    if(err &&  (rejected.includes(err.type) || rejected.includes(err.message))) {
+        showAlert = false
+    }
+    if(showAlert) alert('出错了: ' + JSON.stringify(err))
 }
 
 function succHandler(scatter, target, msg = '感谢投票!') {
@@ -682,15 +687,33 @@ function succHandler(scatter, target, msg = '感谢投票!') {
 function oneClickVote(scatter, target, originalContent) {
     target.textContent = 'Scatter 投票进行中...'
 
-    const rpc = new eosjs_jsonrpc.default('https://'+host)
-    const api = new eosjs_api.default({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
+    const rpc = new eosjs_jsonrpc.JsonRpc('https://'+host)
+    const api = new eosjs_api.Api({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
 
     scatter.login({ accounts: [network] }).then(function() {
         const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
+        /*
+        We could also use get_table_rows() to get the voter_info,
+        but need to make sure that the result is for 'account.name'.
+        get_table_rows({
+            json: true,
+            code: 'eosio',
+            scope: 'eosio',
+            table: 'voters',
+            lower_bound: account.name,
+            limit: 1
+        })
+        */
         api.rpc.get_account(account.name).then(function(data) {
             const vote = data.voter_info
-            const proxy = vote.proxy
-            let producers = vote.producers
+            let proxy = ''
+            let producers = []
+            // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
+            // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
+            if(vote !== null) {
+                proxy = vote.proxy
+                producers = vote.producers
+            }
             if(proxy !== '') {
                 api.rpc.get_account(proxy).then(function(data) {
                     if(data && data.voter_info && data.voter_info.is_proxy === 1) {
@@ -797,8 +820,20 @@ function oneClickVote(scatter, target, originalContent) {
     })
 }
 
+function adoptAuthenticatorByUseragent(idx, obj) {
+    const originalContent = obj.textContent
+    if(originalContent.includes('Scatter')) {
+        const UA = window.navigator.userAgent
+        // Detect EOS Lynx according to: https://developers.eoslynx.com/mobile
+        if(UA === 'EOSLynx IOS' || UA === 'EOSLynx Android') {
+            obj.textContent = originalContent.replace('Scatter', 'EOS Lynx')
+            console.info('Adopted for EOSLynx.')
+        }
+    }
+}
+
 $(document).ready(function() {
-    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx() )
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx({ Api: eosjs_api.Api, JsonRpc: eosjs_jsonrpc.JsonRpc }) )
     ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
         if(!connected) {
             console.error('Scatter could not be found.')
@@ -806,8 +841,8 @@ $(document).ready(function() {
         }
 
         // Scatter was successfully connected
-        const scatter = ScatterJS.scatter;
-        window.ScatterJS = null;
+        const scatter = ScatterJS.scatter
+        //window.ScatterJS = null
         console.info('Scatter connected.')
 
         // Setup the click handler for '.scatter-vote-oneclick' links
@@ -820,6 +855,9 @@ $(document).ready(function() {
             oneClickVote(scatter, target, originalContent)
         })
         console.info('Scatter handler registered.')
+
+        // Adopt 'Vote using Scatter' button to 'Vote using EOS Lynx' if applicable
+        $('.scatter-vote-oneclick').each(adoptAuthenticatorByUseragent)
     })
 })
 </script>

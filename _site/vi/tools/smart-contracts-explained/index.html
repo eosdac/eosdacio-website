@@ -12,18 +12,18 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
   <meta property="og:description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1555323924">
-  <link href="/assets/styles.css?1555323924s" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1556646162">
+  <link href="/assets/styles.css?1556646162s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1555323924">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1556646162">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1555323924">
+  <link rel="stylesheet" href="/assets/main.css?1556646162">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/vi/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
   <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
@@ -33,14 +33,13 @@
   <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
   <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
   <link rel="canonical" href="https://eosdac.io/">
-  <link rel="prefetch" href="/assets/why-join/join-and-sign-consti_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-1_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-2_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/voting-custodians_480p.mp4">
-  <link rel="prefetch" href="/assets/why-join/join-and-sign-consti.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-1.mp4">
-  <link rel="prefetch" href="/assets/why-join/interact-with-discord-2.mp4">
-  <link rel="prefetch" href="/assets/why-join/voting-custodians.mp4">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
 </head>
 <body><header class="site-header" role="banner" style="border:0">
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs"
@@ -244,7 +243,7 @@
 
 <p>EOSDAC là một trong những token đầu tiên thực hiện airdrop trên chuỗi nên có nhiều điều còn chưa biết. Một khi đợt airdrop hoàn thành và được kiểm tra, chúng tôi có thể mở khóa token để cho phép giao dịch. Quan trọng là không có khả năng khóa token lại một khi nó được mở khóa bởi vì chức năng này có thể cho phép những người tạo ra token có thể thao túng giá thông qua sự kiểm soát tập trung việc thanh khoản token.</p>
 
-<h3 id="điều-khoản-thành-viên-và-sự-chấp-thuận">Điều khoản thành viên và sự chấp thuận.</h3>
+<h3 id="Điều-khoản-thành-viên-và-sự-chấp-thuận">Điều khoản thành viên và sự chấp thuận.</h3>
 <p>Việc đồng ý với các điều khoản sử dụng như một phần của DAC được chúng tôi xem là một chức năng cốt lõi của các hợp đồng thông minh của DAC và do đó, việc đưa các chức năng vào hợp đồng là điều hợp lý. Các điều khoản sẽ được người dùng chấp thuận để họ trở thành thành viên thông qua việc thực hiện lệnh <code class="highlighter-rouge">memberreg</code> trên hợp đồng.</p>
 
 <p>Để thực hiện lệnh này, người dùng cần kiểm tra toàn bộ các điều khoản mà họ đã thực sự đồng ý với nó và việc thực hiện hợp đồng sẽ đảm bảo việc tổng kiểm tra đó khớp với việc tổng kiểm tra các điều khoản mới nhất trước khi chấp nhận thỏa thuận và tư cách thành viên của họ. Logic của việc tổng kiểm tra này được trừu tượng hóa khỏi người dùng cuối cùng thông qua giao diện người dùng được xử lý trước nhưng cung cấp bằng chứng mã hóa mà người dùng đồng ý với một bộ điều khoản cụ thể và sẵn sàng cho những bộ khác thêm vào giao diện người dùng của họ để tương tác với bộ mã hợp đồng. Miễn là họ có thể cung cấp việc tổng kiểm tra tương tự cấc điều khoản và quy định đã biết trước thì họ sẽ có thể thực hiện thành công lệnh <code class="highlighter-rouge">memberreg</code>. Mặc dù điều này trông có vẻ dài dòng để đồng ý các quy định và điều khoản, chúng tôi đã thực hiện phương pháp này bởi vì nó giống như nói “Tôi đồng ý với các điều khoản và quy định <em>này</em>” hơn là hỏi người dùng “Bạn có đồng ý với các điều khoản và quy định mới nhất không” với việc người dùng phản hồi “có” hoặc “không”. Chúng tôi đã nghĩ cách sau sẽ yếu hơn để đảm bảo người dùng không vô tình chấp thuận các điều khoản sai hoặc thông qua một giao diện người dùng đã hết hạn hợp đồng.</p>
@@ -257,10 +256,10 @@
 
 <p>Hợp đồng này quản lý việc đặt cọc, đề cử, bỏ phiếu, kiểm phiếu và bổ nhiệm người giám hộ vào cuối mỗi cuộc bầu cử. Kết quả cuối cùng từ các lệnh của hợp đồng này là để quản lý các quyền hạn trên tài khoản quản lý của DAC (<code class="highlighter-rouge">dacauthority</code>) dưới dạng cấu hình thông qua các điều chỉnh trên hợp đồng này vì tài khoản quản lý có quyền được xác định trước để làm bất cứ gì trong DAC bao gồm thay đổi bộ mã và chuyển nguồn quỹ. Các hành động được phép sẽ là các giao dịch đa chữ ký khác nhau được điều khiển tận dụng các công cụ quản lý cấp phép phức tạp được tích hợp sẵn trong phần mềm giao thức EOSIO. Các tham số cho các hoạt động bầu cử này có thể được thay đổi thông qua một đối tượng cấu hình được thiết lập trong hợp đồng qua lệnh <code class="highlighter-rouge">updateconfig</code>. Chức năng của hợp đồng này có thể bị chia thành các thành phần mở rộng sau đây:</p>
 
-<h3 id="đặt-cọc">Đặt cọc</h3>
+<h3 id="Đặt-cọc">Đặt cọc</h3>
 <p>Trước khi có thể đề cử thành công là một ứng viên, một thành viên phải chuyển EOSDAC trước dưới dạng một khoản đặt cọc bằng cách sử dụng lệnh <code class="highlighter-rouge">transfer</code> trên hợp đồng token vào tài khoản này. Ghi chú phải đúng với tên tài khoản hợp đồng (ví dụ: “daccustodian”) để việc giao dịch được xem là một giao dịch đặt cọc và số lượng đặt cọc bắt buộc có thể được cấu hình bởi trường (field) <code class="highlighter-rouge">lockupasset</code> trong đối tượng cấu hình. Sau khi đặt cọc thành công, sẽ có một lượng đặt cọc được chờ xử lý trong hợp đồng cho ứng viên này sẵn sàng cho lệnh đề cử thực tế.</p>
 
-<h3 id="đề-cử-ứng-viên---nominatecand">Đề cử ứng viên - <code class="highlighter-rouge">nominatecand</code>:</h3>
+<h3 id="Đề-cử-ứng-viên---nominatecand">Đề cử ứng viên - <code class="highlighter-rouge">nominatecand</code>:</h3>
 <p>Để trở thành một giám hộ được bầu cho DAC, một thành viên hợp lệ phải đề cử làm ứng viên trước bằng cách sử dụng lệnh <code class="highlighter-rouge">nominatecand</code>. Việc này yêu cầu tên tài khoản của tài khoản đề cử và số tiền yêu cầu thanh toán bằng EOS. lệnh này kiểm tra người dùng là một thành viên hợp lệ và đã đặt cọc đủ số token EOSDAC. Nó cũng kiểm tra xem số tiền yêu cầu thanh toán không vượt quá <code class="highlighter-rouge">requested_pay_max</code> từ cấu hình và nếu các điều kiện này được đáp ứng thì sẽ thêm người dùng này vào với tư cách ứng viên có thể bỏ phiếu cho các lệnh bỏ phiếu tương lai.</p>
 
 <h3 id="bỏ-phiếu---votecust">Bỏ phiếu - <code class="highlighter-rouge">votecust</code>:</h3>
@@ -647,12 +646,11 @@ $(document).ready(function() {
 </div>
 </div>
 
-<script src="/assets/eosjs/eosjs-api.js"></script>
-<script src="/assets/eosjs/eosjs-jsonrpc.js"></script>
-<script src="/assets/eosjs/eosjs-jssig.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js"></script>
+<script src="/assets/eosjs/eosjs-api.js?1556646162"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?1556646162"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1556646162"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1556646162"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1556646162"></script>
 <script type="text/javascript">
 // This file needs to be included via the LIQUID template engine, in order to make the translations work!
 
@@ -682,10 +680,17 @@ function castVote(api, account, producers, proxy = "") {
     return api.transact(transaction, { blocksBehind: 3, expireSeconds: 30 })
 }
 
-function errHandler(scatter, target, originalContent, err) {
+function errHandler(scatter, target, originalContent, err, showAlert = true) {
     console.error('Voting error:', err)
     target.textContent = originalContent
     scatter.logout()
+
+    // Do not show an alert() if the user rejected the transaction on purpose
+    const rejected = ['signature_rejected', 'identity_rejected', 'Request Canceled']
+    if(err &&  (rejected.includes(err.type) || rejected.includes(err.message))) {
+        showAlert = false
+    }
+    if(showAlert) alert('Lỗi: ' + JSON.stringify(err))
 }
 
 function succHandler(scatter, target, msg = 'Thanks for voting!') {
@@ -694,17 +699,35 @@ function succHandler(scatter, target, msg = 'Thanks for voting!') {
 }
 
 function oneClickVote(scatter, target, originalContent) {
-    target.textContent = 'Scatter voting...'
+    target.textContent = 'Voting...'
 
-    const rpc = new eosjs_jsonrpc.default('https://'+host)
-    const api = new eosjs_api.default({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
+    const rpc = new eosjs_jsonrpc.JsonRpc('https://'+host)
+    const api = new eosjs_api.Api({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
 
     scatter.login({ accounts: [network] }).then(function() {
         const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
+        /*
+        We could also use get_table_rows() to get the voter_info,
+        but need to make sure that the result is for 'account.name'.
+        get_table_rows({
+            json: true,
+            code: 'eosio',
+            scope: 'eosio',
+            table: 'voters',
+            lower_bound: account.name,
+            limit: 1
+        })
+        */
         api.rpc.get_account(account.name).then(function(data) {
             const vote = data.voter_info
-            const proxy = vote.proxy
-            let producers = vote.producers
+            let proxy = ''
+            let producers = []
+            // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
+            // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
+            if(vote !== null) {
+                proxy = vote.proxy
+                producers = vote.producers
+            }
             if(proxy !== '') {
                 api.rpc.get_account(proxy).then(function(data) {
                     if(data && data.voter_info && data.voter_info.is_proxy === 1) {
@@ -811,8 +834,20 @@ function oneClickVote(scatter, target, originalContent) {
     })
 }
 
+function adoptAuthenticatorByUseragent(idx, obj) {
+    const originalContent = obj.textContent
+    if(originalContent.includes('Scatter')) {
+        const UA = window.navigator.userAgent
+        // Detect EOS Lynx according to: https://developers.eoslynx.com/mobile
+        if(UA === 'EOSLynx IOS' || UA === 'EOSLynx Android') {
+            obj.textContent = originalContent.replace('Scatter', 'EOS Lynx')
+            console.info('Adopted for EOSLynx.')
+        }
+    }
+}
+
 $(document).ready(function() {
-    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx() )
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx({ Api: eosjs_api.Api, JsonRpc: eosjs_jsonrpc.JsonRpc }) )
     ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
         if(!connected) {
             console.error('Scatter could not be found.')
@@ -820,8 +855,8 @@ $(document).ready(function() {
         }
 
         // Scatter was successfully connected
-        const scatter = ScatterJS.scatter;
-        window.ScatterJS = null;
+        const scatter = ScatterJS.scatter
+        //window.ScatterJS = null
         console.info('Scatter connected.')
 
         // Setup the click handler for '.scatter-vote-oneclick' links
@@ -834,6 +869,9 @@ $(document).ready(function() {
             oneClickVote(scatter, target, originalContent)
         })
         console.info('Scatter handler registered.')
+
+        // Adopt 'Vote using Scatter' button to 'Vote using EOS Lynx' if applicable
+        $('.scatter-vote-oneclick').each(adoptAuthenticatorByUseragent)
     })
 })
 </script>
