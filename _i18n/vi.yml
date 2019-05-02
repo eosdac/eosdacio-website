@@ -27,3 +27,13 @@ newsletterForm:
   subscribe: "Đăng ký"
   success: "Xin cảm ơn, hồ sơ của bạn đã được cập nhật!"
   error: "Lỗi"
+scatterVote:
+  voting: "Đang bỏ phiếu..."
+  thanks: "Cám ơn bạn đã bỏ phiếu!"
+  proxy: "Proxy bỏ phiếu: "
+  modalHead: "Bạn đã bỏ phiếu cho 30 BPs"
+  modalBody: "Bỏ một vị trí để bỏ phiếu cho"
+  cancel: "Hủy bỏ"
+  vote: "Bỏ phiếu ngay"
+  noSupport: "không hỗ trợ eosDAC. Vui lòng xem xét proxy khác!"
+  noProxy: "không còn là proxy. Vui lòng chọn proxy khác!"
