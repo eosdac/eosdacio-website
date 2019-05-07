@@ -77,7 +77,9 @@ Micheal Yeates from eosDAC found a DDOS bug that qualified for 10k EOS developer
  2. Всего токенов сожжено - **205097655.6**
 
 eosDAC will try to recover the tokens that are stuck in DEX contracts like Forkdelta and Idex and the ones for which fallbacks couldn’t be generated
-Full report: <https://docs.google.com/document/d/1irdLXCz4yJqdLPAeG2EgLGvyQAlXZ-DivU0i-PTTKBY/edit>
+eosDAC попытается восстановить токены, которые застряли на DEX в контрактах, таких как Fork delta и Index, и те которые не удалось перенести
+Полный отчет: <https://docs.google.com/document/d/1irdLXCz4yJqdLPAeG2EgLGvyQAlXZ-DivU0i-PTTKBY/edit>
+
 
 Prioritizing DAC Factory and Partnering with Object Computing
 ===
