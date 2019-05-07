@@ -24,24 +24,24 @@ eosDAC разделяет то же видение, что DAC cмогут из�
 
 Инструментарий DAC должен создаваться, учитывая все винтики машины DAC.
 
-![DAC Enabler](/assets/history/dac-enabler.png)
+![Запускаем DAC](/assets/history/dac-enabler.png)
 
-Over time, other DAC structures and tools could be supported. It is also envisaged that other individuals, groups, and DACs will join and build upon the toolkit. Beyond software, the toolkit will also include best practices alongside legal and regulatory guidance for different jurisdictions. This will include a case study on eosDAC’s endeavors.
+Со временем можно будет поддерживать другие структуры и инструменты DAC. Предполагается также, что другие участники, группы и DAC присоединятся к созданию такого инструментария и будут его развивать. Помимо программного обеспечения, инструментарий будет также включать передовой правовой и нормативный опыт для различных юрисдикций. Мы будем тщательно изучать все вызовы, возникающие перед eosDAC-первопроходцами.
 
-eosDAC will continue to work on suitable 'off-the-shelf' structures for DACs to interact with the worldwide legal and financial systems, in fact, everything that a new DAC will need in order to be established and flourish.
+eosDAC будет продолжать работать над подходящими "готовыми" структурами для DAC, взаимодействуя с мировыми правовыми и финансовыми системами, и будет изучать все, что потребуется новому DAC для успешного запуска и процветания.
 
-Airdrop completion and token burn on the Ethereum network.
+Завершение эирдропа и сжигание токенов в сети Ethereum.
 ===
 
-eosDAC finished airdropping eosDAC tokens on May 15 2018, the final figures of the airdrop were. 
+eosDAC закончили раздачу товенов eosDAC 15 мая 2018 года, и окончательные цифры были определены.
 
-![Token Burn](/assets/history/token-burn.png)
+![Сжигание Токенов](/assets/history/token-burn.png)
 
-**238,080,898.455** tokens were burned. This amount will be sent to the unrecoverable Ethereum account 0x0000000000000000000000000000000000e05dac later today.
+**238,080,898.455** токенов были сожжены. Эта сумма была отправлена на невосстанавливаемый счет Ethereum 0x0000000000000000000000000000000000e05dac.
 
-Leaving a circulating supply of  **961 919 101.545** eosDAC Tokens.
+Циркулирующее предложение **961 919 101.545** токенов eosDAC.
 
-Full information on airdrop completion and burn can be found here: <https://steemit.com/eos/@eosdac/eosdac-airdrop-and-burn>
+Полную информацию о завершении эирдропа и сжигании токенов можно найти здесь: <https://steemit.com/eos/@eosdac/eosdac-airdrop-and-burn>
 
 It was later identified that some supporting exchanges and 1 individual account were withheld and their tokens were burnt. After much discussion, it was decided to include these tokens during the eosDAC token swap to EOS network. 
 A full statement of inclusion of wallets in the eosDAC token transition to EOS Chain can be found here : 
