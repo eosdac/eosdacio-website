@@ -9,14 +9,14 @@
 
 Объявление о кандидате в производители блоков eosDAC можно найти здесь: <https://steemit.com/eos/@eosdac/eosdac-block-producer-candidate-information>
 
-Помимо производства блоков - активатор DAC
+Кроме производства блоков - активатор DAC
 ===
 
-eosDAC was born out of Dan Larimer’s concept of Decentralized Autonomous Communities or DACs, around which Block.one developed EOS software led by Dan Larimer and Brendan Blumer. 
+eosDAC родился из концепции децентрализованных автономных сообществ или DAC Дэна Ларимера, вокруг которой Block.one и разработал программное обеспечение для EOS во главе с Дэном Лаример и Брендан Блумер. 
 
-Block.One’s early presentations talked about EOS.IO software ushering in ‘The Era of DACs’.(watch here). They showed how DACs were more transparent, auditable, trustworthy and inclusive than existing companies and how this would result in DACs being ultra competitive.
+На своих ранних презентациях Block.One говорили о EOS.IO, как об открывающем "эру для DAC". Они показали, что DAC являются более прозрачными, проверяемыми, надежными и инклюзивными, чем все существующие компании, и это неизбежно приведет к тому, что DAC станут сверхконкурентными.
 
-eosDAC shares the same vision for how DACs can disrupt how business can be done. We believe that these new business models can challenge how we think about what a company will be. Blockchain technologies introduce new business opportunities which create value and give it back to the community, rather than only extracting resources from their environment. All connected parties to the DAC are incentivized to continually add value, therefore stimulating creativity and growth.
+eosDAC разделяет то же видение, что DAC cмогут изменить правила игры для бизнеса. Мы считаем, что такая бизнес-модель изменит, всё, что мы знаем о бизнесе и компаниях. Благодаря технологии блокчейн мы внедряем новые бизнес-возможности, которые создают ценности и возвращают их всему сообществу, а не только тратят ресурсы. У всех объеденных участников DAC появляется прямая заинтересованность в том, чтобы постоянно создавать продукты и идеи, и, следовательно, это стимулирует их творчество и рост.
 
 In order to function, DACs need tools that aren’t currently available. eosDAC will create these tools and, through its commitment to open source software, will share them as a DAC Toolkit that anyone can take and use to set up and run a DAC.
 
