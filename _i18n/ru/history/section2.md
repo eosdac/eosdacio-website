@@ -64,17 +64,17 @@ Micheal Yeates from eosDAC found a DDOS bug that qualified for 10k EOS developer
 
 Команда разработчиков eosDAC потратила бесчисленное количество часов на звонки и общение с другими БП, недели бессонных ночей и месяцы до для тестирования программного обеспечения EOSIO в тестовых сетях сообщества, чтобы обеспечить безопасный запуск сети EOS. 
 
-Token Swap
+Перенос Токенов
 ===
 
-After launching the mainnet launch success, eosDAC completed the token swap in the 3rd week of June. 
+После успешного запуска основной сети eosDAC также завершил перенос токенов на третьей неделе июня.
 
-Following was the outcome.
- 1. Total supply - **994,895,254.98**
-   * Token airdropped - **987896341.6**
-   * Locked in DEX contracts -  **4,473,804.66**
-   * Failed Fallback - **2,525,108.71**
- 2. Total tokens burned **205097655.6**
+Результат был следующим.
+ 1. Циркулирующее предложение - **994,895,254.98**
+   * Отправлено токенов - **987896341.6**
+   * Заблокированы на DEX в контрактах - **4,473,804.66**
+   * Неудачный перенос - **2,525,108.71**
+ 2. Всего токенов сожжено - **205097655.6**
 
 eosDAC will try to recover the tokens that are stuck in DEX contracts like Forkdelta and Idex and the ones for which fallbacks couldn’t be generated
 Full report: <https://docs.google.com/document/d/1irdLXCz4yJqdLPAeG2EgLGvyQAlXZ-DivU0i-PTTKBY/edit>
