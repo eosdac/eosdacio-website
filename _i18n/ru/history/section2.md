@@ -80,14 +80,13 @@ eosDAC will try to recover the tokens that are stuck in DEX contracts like Forkd
 eosDAC попытается восстановить токены, которые застряли на DEX в контрактах, таких как Fork delta и Index, и те которые не удалось перенести
 Полный отчет: <https://docs.google.com/document/d/1irdLXCz4yJqdLPAeG2EgLGvyQAlXZ-DivU0i-PTTKBY/edit>
 
-
-Prioritizing DAC Factory and Partnering with Object Computing
+Приоритизация DAC Фабрики и партнерство с Object Computing
 ===
 
-After completing the token distribution major focus was the DAC Factory, eosDAC partnered with OCI (https://objectcomputing.com/) who helped Block One build EOS and are one of the best in the business. OCI is helping eosDAC to code review our smart contracts and is working very closely with our tech team to accelerate the progress of on the DAC toolkit. 
+После завершения раздачи токенов основным направлением было создание DAC Фабрики, eosDAC активно сотрудничал с OCI (https://objectcomputing.com/), которые помогли Block One построить EOS и являются одними из лучших в мире. OCI помогли eosDAC в создании смарт-контрактов и работали в самом тесном взаимодействии с нашей технической командой, чтобы максимально ускорить процесс создания необходимых инструментов для DAC. 
 
-Read more here: <https://steemit.com/eos/@eosdac/eosdac-accelerates-progress-on-dac-toolkit-partners-with-object-computing>
-Just a few days ago eosDAC announced its first approved Worker Proposals, prioritizing block production and DAC toolkit. Read more here: <https://steemit.com/eosdac/@eosdac/eosdac-announces-first-approved-worker-proposals-prioritising-block-production-and-dac-toolkit>
+Читать далее: <https://steemit.com/eos/@eosdac/eosdac-accelerates-progress-on-dac-toolkit-partners-with-object-computing>
+eosDAC объявила о первых утвержденных рабочих предложениях, приоритизации производства блоков и инструментов для DAC. Читать далее: <https://steemit.com/eosdac/@eosdac/eosdac-announces-first-approved-worker-proposals-prioritising-block-production-and-dac-toolkit>
 
-Currently, the team is set to launch its MVP version of its DAC Toolkit soon, with Membership and Custodian Voting contracts. 
-You can follow the DAC Toolkit roadmap here: <https://trello.com/b/fbz4IHXP/dac-toolkit-roadmap>
+В настоящее время команда уже запустила версию инструментов для DAC с членством и голосованием за Хранителей. 
+Дорожная карта инструментов для DAC: <https://trello.com/b/fbz4IHXP/dac-toolkit-roadmap>
