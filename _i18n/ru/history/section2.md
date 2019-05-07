@@ -43,25 +43,26 @@ eosDAC закончили раздачу товенов eosDAC 15 мая 2018 г
 
 Полную информацию о завершении эирдропа и сжигании токенов можно найти здесь: <https://steemit.com/eos/@eosdac/eosdac-airdrop-and-burn>
 
-It was later identified that some supporting exchanges and 1 individual account were withheld and their tokens were burnt. After much discussion, it was decided to include these tokens during the eosDAC token swap to EOS network. 
-A full statement of inclusion of wallets in the eosDAC token transition to EOS Chain can be found here : 
+Позже было установлено, что некоторые счета из поддержавших раздачу бирж и 1 индивидуальный счет были случайно удержаны, а их токены были сожжены. После обсуждений было решено включить эти токены во время переноса токенов eosDAC в основную сеть EOS. 
+Полное заявление о включении кошельков в процесс перехода токенов eosDAC на блокчейн EOS можно найти здесь: 
 <https://steemit.com/eos/@eosdac/statement-on-inclusion-of-specific-exchange-wallets-in-the-eosdac-token-transition-to-the-eos-chain>
 
-eosDAC contributions in launching and securing the mainnet.
+Вклад eosDAC в запуск и обеспечение безопасности в основной сети.
 ===
 
-eosDAC was a part of the Ghostbusters team along with EOS Rio, HKEOS, Sw/eden, EOS Tribe, EOS 42 to name a few. 
+eosDAC помог с запуском основной сети в рамках команды Ghostbusters вместе с EOS Rio, HKEOS, Sw/eden, EOS Tribe, EOS 42 и некоторых еще.
 
-What is Ghostbusters?
+Что такое Ghostbusters?
 ---
 
-Ghostbusters started as an EOS testnet focused on researching and rehearsing the best practices for running the eosio software as securely as possible. It all started because we were worried about the lack of focus regarding infrastructure security.
-It was initiated as a research environment, not a launch initiative, it quickly attracted the attention of the community and other BPCs who were feeling the same way we do concerning security. Then people started recommending it as a launch approach.
+Ghostbusters начали как тестовая сеть EOS, сосредоточенная на исследовании и изучении лучших идей для максимально безопасного запуска программного обеспечения eosio. А началось всё с того, что мы были обеспокоены отсутствием серьезного внимания к инфраструктурной безопасности.
+Проект был инициирован как исследовательская среда, а не инициатива для запуска, но быстро привлек внимание сообщества и других кандидатов в БП, которые тоже были обеспокоены безопасностью сети. Затем люди начали рекомендовать его, как обязательный шаг для сети.
 
-Micheal Yeates from eosDAC found a DDOS bug that qualified for 10k EOS developer bounty. The bug allowed an attacker to consume 100% of the node's CPU. 
+Micheal Yeates from eosDAC found a DDOS bug that qualified for 10k EOS developer bounty. The bug allowed an attacker to consume 100% of the node's CPU.
+Майкл Йейтс из eosDAC нашел DDOS-ошибку, которая оценивалась в 10k EOS баунти для разработчиков. Ошибка позволяла злоумышленнику использовать 100% CPU ноды.
 <https://twitter.com/eosdac/status/1005154586188009473>
 
-eosDAC tech team spent a countless number of hours on never-ending zoom calls with other BPCs and weeks of sleepless nights to ensure a secured launch of EOS mainnet and months before testing the EOSIO software on the Community Testnets. 
+Команда разработчиков eosDAC потратила бесчисленное количество часов на звонки и общение с другими БП, недели бессонных ночей и месяцы до для тестирования программного обеспечения EOSIO в тестовых сетях сообщества, чтобы обеспечить безопасный запуск сети EOS. 
 
 Token Swap
 ===
