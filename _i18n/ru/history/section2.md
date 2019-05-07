@@ -18,11 +18,11 @@ eosDAC родился из концепции децентрализованны
 
 eosDAC разделяет то же видение, что DAC cмогут изменить правила игры для бизнеса. Мы считаем, что такая бизнес-модель изменит, всё, что мы знаем о бизнесе и компаниях. Благодаря технологии блокчейн мы внедряем новые бизнес-возможности, которые создают ценности и возвращают их всему сообществу, а не только тратят ресурсы. У всех объеденных участников DAC появляется прямая заинтересованность в том, чтобы постоянно создавать продукты и идеи, и, следовательно, это стимулирует их творчество и рост.
 
-In order to function, DACs need tools that aren’t currently available. eosDAC will create these tools and, through its commitment to open source software, will share them as a DAC Toolkit that anyone can take and use to set up and run a DAC.
+Чтобы функционировать, как DAC нужны инструменты, которые были недоступны. eosDAC создало такие инструменты, а благодаря созданию программномого обеспечения с открытым исходным кодом, будет делиться ими как инструментарием DAC, который любой сможет взять и использовать для настройки и запуска собственного DAC.
 
-This DAC toolkit will evolve organically and over time and will include the core concepts of membership, voting, custodians, and proposals. Any account holding EOSDAC tokens can become a Member and get rights to benefit from the DAC, stand as a custodian, vote for custodians and submit proposals. Custodians are the DAC decision makers and will be continually voted for and held accountable by members. Proposals will be voted for by custodians and once approved (subject to available funds being available) will be implemented, checked and paid for. All proposals will provide some deliverables and benefits to the DAC ecosystem.
+Этот инструментарий для DAC будет органично развиваться и со временем будет включать основные концепции сообщества: членство, голосование, хранители и рабочие предложения. Любая учетная запись с токенами EOSDAC может стать участником и получить все права на использование ресурсов DAC, выступать в качестве хранителя, голосовать за них и представлять рабочие предложения. Хранители являются управляющими органами DAC и будут постоянно выбираться и несут ответственность перед всеми участниками. Хранители будут голосовать за предложения, которые после их утверждения (при наличии свободных средств) будут осуществляться, проверяться и оплачиваться. Все предложения должны обеспечивать результаты и выгоду для экосистемы DAC.
 
-The DAC toolkit will need to make sure that all of the different cogs of the DAC machine run smoothly.
+Инструментарий DAC должен создаваться, учитывая все винтики машины DAC.
 
 ![DAC Enabler](/assets/history/dac-enabler.png)
 
