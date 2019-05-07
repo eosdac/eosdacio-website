@@ -1,2 +1,2 @@
-Новостная **лента** <small>subscribe [via RSS]({{ "/feed.xml" | relative_url }})</small>
+Новостная **лента** <small>подписаться [через RSS]({{ "/feed.xml" | relative_url }})</small>
 ===
