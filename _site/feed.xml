@@ -1,4 +1,214 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-05-06T00:15:30-04:00</updated><id>/feed.xml</id><title type="html">site.title</title><subtitle>site.description</subtitle><entry><title type="html">Weekly DAC Recap #1</title><link href="/2019/04/27/dac-weekly-1.html" rel="alternate" type="text/html" title="Weekly DAC Recap #1" /><published>2019-04-27T11:55:00-04:00</published><updated>2019-04-27T11:55:00-04:00</updated><id>/2019/04/27/dac-weekly-1</id><content type="html" xml:base="/2019/04/27/dac-weekly-1.html">&lt;h1 id=&quot;this-weeks-highlights&quot;&gt;This weeks highlights&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-05-26T12:18:59-04:00</updated><id>/feed.xml</id><title type="html">site.title</title><subtitle>site.description</subtitle><entry><title type="html">Why eosDAC Deserves EOS BP Support? (Updated)</title><link href="/2019/05/16/why-eosdac-deserves-eos-bp-support-updated.html" rel="alternate" type="text/html" title="Why eosDAC Deserves EOS BP Support? (Updated)" /><published>2019-05-16T11:07:33-04:00</published><updated>2019-05-16T11:07:33-04:00</updated><id>/2019/05/16/why-eosdac-deserves-eos-bp-support-updated</id><content type="html" xml:base="/2019/05/16/why-eosdac-deserves-eos-bp-support-updated.html">&lt;h1 id=&quot;1-technical-excellence&quot;&gt;1) Technical excellence&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmSwPc4woTJRUrv2398KFMzwEE1EpvocmUk5tBbBTKqsn7/image.png&quot; alt=&quot;&quot; /&gt;
+eosDAC’ significant contributions have been providing technical leadership for the chain. We have pursued continual improvement to be one of the most technically excellent block producers since the very first testnet:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;As part of Ghostbusters team, eosDAC played a key role in launching the Mainnet as secure as possible.
+&lt;a href=&quot;https://steemit.com/eos/@eosrio/understanding-the-eos-ghostbusters-security-approach&quot;&gt;Understanding the EOS Ghostbusters Security Approach&lt;/a&gt;
+&lt;a href=&quot;https://steemit.com/eos/@eosdac/ghostbusters-is-doing-a-mainnet-test-run&quot;&gt;Ghostbusters is doing a mainnet test run&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Coding for &lt;a href=&quot;https://github.com/eosdac/eosio.lost&quot;&gt;Genesis lost key solution&lt;/a&gt; to help EOS token holders who lost their genesis keys and allow them to access their funds again. &lt;a href=&quot;https://steemit.com/eosio/@eosdac/the-lost-key-solution-updates&quot;&gt;Read more&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fixing the chain issues as they arise behind the scenes and focusing on securing the chain&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Supporting a limited history api and providing tools to work with the new state history such as: https://github.com/eosdac/eosio-statereceiver (It’s a nodejs module which can be used to read data from the state history websocket) and https://github.com/eosdac/eosdac-api. The API and scrapper tools we have may be of use to you as well as you want to expose chain data to your web and mobile interfaces. (If you’d like to know why History API nodes are important, read &lt;a href=&quot;https://medium.com/@EosMetal/why-history-api-nodes-are-important-ea2ebaa674c1&quot;&gt;this post by EOS Metal&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;2-having-enough-funds-in-reserve-and-a-247-support-team&quot;&gt;2) Having enough funds in reserve and a 24/7 support team&lt;/h1&gt;
+&lt;p&gt;As of January 2019, eosDAC has total cash reserves of around £190k and can make grant requests of The DAC Foundation in Zug for further financial support to fund operations.&lt;/p&gt;
+
+&lt;h1 id=&quot;3-multiple-server-installation&quot;&gt;3) Multiple Server Installation&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRKjbPwwkuk2FkgapCnRKh1Q5MEnvbTWqNwF95AKBKdJK/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;eosDAC servers are geographically dispersed in diverse jurisdictions - hosting its own servers in M24seven’s privately owned data centres in Manchester, UK and Bucharest, Romania. M24seven’s state-of-the-art Tier 3 facilities provide comprehensive security, resilience and bandwidth capacity and are ranked Europe’s greenest for electricity consumption. 
+eosDAC also has an IBM based node  in South Korea, OVH based nodes in the UK and France and some AWS services running from either the London or Irish data centers.
+&lt;a href=&quot;https://eosdac.io/bp.json&quot;&gt;BP Info&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;4-our-tools-and-smart-contracts-are-fully-open-source-and-free-to-use-for-anybody&quot;&gt;4) Our tools and smart contracts are fully open source and free to use for anybody&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Code for one of the first airdrops on EOS: https://github.com/eosdac/airdrop&lt;/li&gt;
+  &lt;li&gt;The first native custom EOS token explorer: explorer.eosdac.io&lt;/li&gt;
+  &lt;li&gt;DAC Factory to launch your own DAC: https://github.com/eosdac/eosdac-factory&lt;/li&gt;
+  &lt;li&gt;Full list of smart contracts and explanations: https://eosdac.io/tools/smart-contracts-explained/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;5-another-layer-of-decentralization-onto-eos&quot;&gt;5) Another layer of decentralization onto EOS&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmWYpjpEmecA6pC6UZ7TNs1bc6sH56GyRZePjGTuVPkACV/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;eosDAC is owned by the eosDAC community and run by 12 elected Custodians. Using this decentralized governance provides stability of the chain - there is no single point of failure/control&lt;/p&gt;
+
+&lt;h1 id=&quot;6-supporting-eosdac-development-helps-the-eos-ecosystem-to-grow&quot;&gt;6) Supporting eosDAC development helps the EOS ecosystem to grow&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmUKY9chzcyqboPqAd91B1PANtY8dxWP67bUELCBt28h6r/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;eosDAC is pioneering building the first DAC and have always pursued the way for DACs to interface with the real world, with a legally advised constitution ready for other DACs to build up on: &lt;a href=&quot;members.eosdac.io&quot;&gt;Member Client&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;eosDAC Members are the most knowledgeable members in setting up and running a DAC - With its own DAC building experience, eosDAC has a mission of enabling DACs - we provide advice and assistance to DAC projects. Poker DAC and Telos DAC have distributed a portion of their tokens as an appreciation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;New projects in the ecosystem continuously turn to us for guidance and support. A few of those we are working with are listed here: https://eosdac.io/success-stories/&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;eosDAC have sponsored promising projects on EOS such as Chintai and Scatter in their early days&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;eosDAC core members are involved in launching EOS DAO&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;DAC Chain initiative&lt;/strong&gt;
+Having identified the resources that a DAC needs to start and grow, and the areas where EOS currently is not offering these, we have established the DAC Chain Initiative which will conduct exploratory exercises to address current issues on chain. The DAC Chain Initiative will examine issues such as RAM pricing, CPU supply, user-friendly account creation, and other topics. The outcome will be a set of recommendations to improve the mainnet or other chains. &lt;a href=&quot;https://steemit.com/eosdac/@eosdac/the-dac-chain-initiative-announcing-an-exploratory-into-how-usage-of-eos-side-chains-and-separate-chains-may-create-benefits-for&quot;&gt;Find out about the initiative.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We provide DAC Education: &lt;a href=&quot;https://www.youtube.com/watch?v=ahoFGzxE_NY&amp;amp;list=PLYkGdIbjAmeSGbnPxhSC8klmZKFHO8z_a&amp;amp;index=3&amp;amp;t=555s&quot;&gt;in-depth explanation on what is a DAC&lt;/a&gt; available in English, Chinese, Korean and Russian&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;7-active-worker-proposals-with-complete-financial-transparency-reports-updated-regularly-on-our-website--steemit-blog&quot;&gt;7) Active worker proposals with complete financial transparency, reports updated regularly on our website &amp;amp; Steemit blog.**&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;EOS Earnings and Expenditure publicly available on our &lt;a href=&quot;https://members.eosdac.io/custodian/dac-financials&quot;&gt;Member Client&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Fiat Financial Report published on a regular basis on our &lt;a href=&quot;https://eosdac.io/assets/news/2019-02-21/Financial-report-for-January-2019.pdf&quot;&gt;website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmTVV7JA9XwWNpyD5Ud3wMt6UW4UHMCvK8jVYiKCWkbVFf/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://plus.google.com/+eosdac&quot; target=&quot;_blank&quot;&gt;Google-plus&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">1) Technical excellence eosDAC’ significant contributions have been providing technical leadership for the chain. We have pursued continual improvement to be one of the most technically excellent block producers since the very first testnet:</summary></entry><entry><title type="html">Weekly DAC Recap #2</title><link href="/2019/05/05/weekly-dac-recap-2.html" rel="alternate" type="text/html" title="Weekly DAC Recap #2" /><published>2019-05-05T07:03:18-04:00</published><updated>2019-05-05T07:03:18-04:00</updated><id>/2019/05/05/weekly-dac-recap-2</id><content type="html" xml:base="/2019/05/05/weekly-dac-recap-2.html">&lt;h1 id=&quot;custodian-news&quot;&gt;Custodian News&lt;/h1&gt;
+&lt;p&gt;This week’s Custodian Board: They are re-elected every 7 days. If you want to engage in running eosDAC and make decisions for it, stake a minimum of 35000 EOSDAC and register yourself as a candidate on https://members.eosdac.io/&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/cream5eosdac&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mB81ivl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/dallasjohnso&quot;&gt;&lt;img src=&quot;https://i.imgur.com/xq6yE5Z.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/eosdackorean&quot;&gt;&lt;img src=&quot;https://i.imgur.com/sUYhAh3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/jbucksteiner&quot;&gt;&lt;img src=&quot;https://i.imgur.com/QWBqjPi.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/lukeeosproxy&quot;&gt;&lt;img src=&quot;https://i.imgur.com/BK709TN.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/spaceinvader&quot;&gt;&lt;img src=&quot;https://i.imgur.com/VEJoIOl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/greentreesom&quot;&gt;&lt;img src=&quot;https://i.imgur.com/7NL6b94.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/soyoungkimsk&quot;&gt;&lt;img src=&quot;https://i.imgur.com/4UQ7uRe.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/angeljeffrey&quot;&gt;&lt;img src=&quot;https://i.imgur.com/hTRYoRu.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/mryeateshere&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mJTH4UJ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/khaleesiwang&quot;&gt;&lt;img src=&quot;https://i.imgur.com/lTFlntS.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/investingwad&quot;&gt;&lt;img src=&quot;https://i.imgur.com/Cjz069H.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;New custodian elected:&lt;/strong&gt; Justin joins the Custodian board! Justin has been a strong DAC supporter all the way - he’s part of TelosDAC team - and also part of Brock Pierce Proxy ( #3 proxy on EOS) with Brock Pierce and Ben Sigman. We are happy to see him onboarding. His expertise will certainly add value to eosDAC’s operation! Welcome to eosDAC, Justin!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;this-weeks-highlights&quot;&gt;This weeks highlights&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Justin wrote &lt;a href=&quot;https://medium.com/@justinbuck/i-got-elected-as-an-eosdac-custodian-626ff0b86e22&quot;&gt;this beautiful article&lt;/a&gt; on liquid democracy in eosDAC and why he joined eosDAC:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“I’ll finish up with telling you why I think you should join eosDAC. Do you believe in the idea of transparent governance? If so, eosDAC is for you. Do you want to be involved in an ecosystem that may reward you for collaborating openly with other members of the network to enhance as well as build new revenue streams? If so, eosDAC is for you. Would you like to work alongside one of the strongest dev teams in EOSIO? If so, you guessed it, eosDAC is for you! I personally believe strongly in radical transparency and believability weighted voting in public and private networks both. These mechanisms, in conjunction with each other, lead us to the best form of meritocracy I have found. I’ll leave you with &lt;a href=&quot;https://www.ted.com/talks/ray_dalio_how_to_build_a_company_where_the_best_ideas_win?language=en&quot;&gt;a video on the topic of meritocracy&lt;/a&gt; that inspired me to form this line of reasoning.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The final step of Lost Key Solution submitted by Michael of eosDAC has been approved by 15 BPs.&lt;/strong&gt; Genesis account holders have until April 20, 2020 to request an account recovery through this automated solution! Use &lt;a href=&quot;https://eosauthority.com/lostkey&quot;&gt;this recovery tool&lt;/a&gt; once it’s ready (at the moment you can check whether you’re eligible). If you have used the tool to recover your keys, regained access to your EOS tokens, and would like to pay your gratitude to the people behind the scene, please support the following BPs who have worked hard on the solution:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;eosdacserver (eosDAC)&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;eosauthority (EOS Authority)&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;libertyblock (LibertyBlock)&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;argentinaeos (EOS Argentina)&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;eosnationftw (EOS Nation)&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;EOS Nation’s building WPS system on BOS network using the eosDAC Toolkit for the auditor and the custodians.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;em&gt;“Good things to say about the DAC toolkit and what eosDAC has enabled “us” the community - I don’t think the community, applications and developers realise how powerful the eosDAC Toolkit is - how relatively easy it is to out of the box and then you just adjust it” - Yves (EOS Nation)&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Watch this week’s EOS Radio episode featuring Luke (eosDAC), Eyal (Bancor), Myles (Aurora EOS) covering important topics such as &lt;strong&gt;Bancor, REX, how REX is integrated with Bancor, and Dan’s new EOS stablecoin idea&lt;/strong&gt; https://youtu.be/et095r8jXZo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;tech-updates&quot;&gt;Tech Updates:&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We’ve added support for EOS Lynx! You can now use the member client within that application by clicking the “Explorer” header ten times and entering in the https://members.eosdac.io url.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;New feature: “Financials” page shows token movements over time within the DAC and can be useful for budgeting and decision making.
+&lt;img src=&quot;https://cdn.steemitimages.com/DQmVy52zb9w2Tqoh7ZcFkRDRrKs646AJNNXH7nDXHNsBzCu/Untitled.png&quot; alt=&quot;Untitled.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;rex-is-live&quot;&gt;REX IS LIVE!&lt;/h1&gt;
+&lt;p&gt;EOS REX is a CPU and NET resource rental market in which holders of the core token of the blockchain can buy and sell slices of the REX pool in the form of REX tokens. Note that a REX token is not tradable with third parties, it is merely a convenient accounting unit which can only be directly bought and sold from and to the pool. Its value in terms of the core token always increases, but the return rate is determined by the level of rental activity.&lt;/p&gt;
+
+&lt;p&gt;Proceeds from RAM trading fees and account name auctions can be channeled to the pool, thus providing an additional return to REX holders. Blockchain users can rent CPU and Network resources from the REX pool. The duration of each loan is 30 days and its price is determined by an automated market maker.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmPsBWRjTSr3X7EoaNRbANJ8Tf9G4bbmkVvYrZDPH69H6q/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Watch &lt;a href=&quot;https://www.ted.com/talks/ray_dalio_how_to_build_a_company_where_the_best_ideas_win?language=en&quot;&gt;this video&lt;/a&gt; to learn about REX and how it benefits development on EOS, or read further on or &lt;a href=&quot;https://eosrex.io/#learnmore&quot;&gt;this page&lt;/a&gt;
+Available at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tokenpocket.pro/&quot;&gt;Token Pocket&lt;/a&gt; wallet or https://rex.tokenpocket.pro/#/&lt;/li&gt;
+  &lt;li&gt;https://eosrex.io&lt;/li&gt;
+  &lt;li&gt;https://bloks.io/rex&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://eosnova.io/&quot;&gt;Nova wallet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://eosauthority.com/rex?ref=n1proxyrocks&lt;/li&gt;
+  &lt;li&gt;https://eosdaq.com&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://eoslynx.com/&quot;&gt;Lynx wallet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/greymass/eos-voter&quot;&gt;Greymass Wallet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;eosDAC is proud to qualify for EOSREX.IO’s &lt;a href=&quot;https://bloks.io/account/eosrex.io&quot;&gt;Smart Proxy&lt;/a&gt; vote. Unlike ordinary proxies that support up to 30 block producers, EOSREX.IO proxy uses a smart contract to support a full list of block producers, from which a set of 30 producers is dynamically derived and voted every 24 hours.
+Check out EOSREX.IO’s &lt;a href=&quot;https://medium.com/@eosrexio/introducing-the-eosrex-io-smart-proxy-afefcc09ff31&quot;&gt;medium post&lt;/a&gt; to know about the qualification criteria and their voting philosophy.&lt;/p&gt;
+
+&lt;h1 id=&quot;celebrating-the-first-eos-anniversary&quot;&gt;Celebrating the First EOS Anniversary&lt;/h1&gt;
+&lt;p&gt;On June 2nd 2018, EOS mainnet was launched and June 2nd 2019 marks EOS first anniversary. Good folks at GenerEOS are are making a compilation of video snippets gathered from the community to celebrate and wish EOS a happy birthday. 
+As a community we  would love to gather as many small video snippets as we can from the community wishing EOS a happy birthday and we will compile it as a one video from the eosDAC Community. 
+Suggestions and directions for the video production from all the creative members in the community are welcome.&lt;/p&gt;
+
+&lt;p&gt;Add your videos snippets to &lt;a href=&quot;https://drive.google.com/drive/folders/16f_nbJHMheW4wMMNoexY5crxcpej9uHW?usp=sharing&quot;&gt;this google drive link&lt;/a&gt; by &lt;strong&gt;May 10th&lt;/strong&gt; to get featured in eosDAC community video.&lt;/p&gt;
+
+&lt;h1 id=&quot;eosdac-twitter-highlights&quot;&gt;eosDAC Twitter highlights&lt;/h1&gt;
+&lt;center&gt;![](https://cdn.steemitimages.com/DQmNQa6bXohQuQhMzUocwz8pC7zBKMDGHkJykN74XVeGVA3/image.png)
+![](https://cdn.steemitimages.com/DQmRafBo9soepGAuTW9Ws7HXoB25rWBSihZ2YhK66KknJE1/image.png)
+&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://plus.google.com/+eosdac&quot; target=&quot;_blank&quot;&gt;Google-plus&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Custodian News This week’s Custodian Board: They are re-elected every 7 days. If you want to engage in running eosDAC and make decisions for it, stake a minimum of 35000 EOSDAC and register yourself as a candidate on https://members.eosdac.io/</summary></entry><entry><title type="html">Weekly DAC Recap #1</title><link href="/2019/04/27/dac-weekly-1.html" rel="alternate" type="text/html" title="Weekly DAC Recap #1" /><published>2019-04-27T11:55:00-04:00</published><updated>2019-04-27T11:55:00-04:00</updated><id>/2019/04/27/dac-weekly-1</id><content type="html" xml:base="/2019/04/27/dac-weekly-1.html">&lt;h1 id=&quot;this-weeks-highlights&quot;&gt;This weeks highlights&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;eosDAC has submitted the Lost Key Solution to the mainnet for BPs approval! (&lt;a href=&quot;https://steemit.com/eosio/@eosdac/the-lost-key-solution-updates&quot;&gt;Read in detail&lt;/a&gt;) This means that if it’s approved, &lt;strong&gt;those who lost their Genesis private key since the mainnet launch can access their EOS funds!&lt;/strong&gt; &lt;a href=&quot;https://eosauthority.com/approval/view?scope=eosdacserver&amp;amp;name=createlost&amp;amp;lnc=en&quot;&gt;The first part: create eosio.lost account has been approved and executed today&lt;/a&gt;. The next step is to install the code.&lt;/li&gt;
@@ -256,660 +466,4 @@ If you are one of them, join &lt;a href=&quot;https://t.me/eoslostkeysolution&qu
 
 &lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
 
-&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://plus.google.com/+eosdac&quot; target=&quot;_blank&quot;&gt;Google-plus&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">eosDAC is pleased to report its EOS expenditure in December and January, reflecting our priorities: secure and reliable block production; continued preparation for the onset of elected Custodians of eosDAC; support for the eosDAC community and awareness of the token; and leadership around chain-level issues so as to support the EOS ecosystem in general and our community in particular.</summary></entry><entry><title type="html">eosDAC DACTIVATION DAY is Here! (Feb 11th 2019)</title><link href="/2019/02/11/eosdac-dactivation-day-is-here-feb-11th-2019.html" rel="alternate" type="text/html" title="eosDAC DACTIVATION DAY is Here! (Feb 11th 2019)" /><published>2019-02-11T05:32:36-04:00</published><updated>2019-02-11T05:32:36-04:00</updated><id>/2019/02/11/eosdac-dactivation-day-is-here-feb-11th-2019</id><content type="html" xml:base="/2019/02/11/eosdac-dactivation-day-is-here-feb-11th-2019.html">&lt;p&gt;&lt;strong&gt;The first Elections for eosDAC custodians have now reached 15% and the DAC is now in the hands of the community&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;EosDAC, the community owned block producer and DAC (Decentralised Autonomous Community) enabler, was envisioned through the idea of reusing design elements of the eosio software to allow many DACs to launch and thrive on the EOS blockchains. The open source eosDAC code, which has been developed over the last year, enables a delegated governance model, through which token holders can vote for 12 custodians on a week by week basis. The elected custodians then represent the community for all decisions the DAC makes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmTWHB72LqWB3zQXXchZytH5ekgPnxyY2h5Gue2FpLT1D2/members.png&quot; alt=&quot;members.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The voting was initiated 2 months ago - see https://steemit.com/eosdac/@eosdac/eosdac-custodian-candidate-voting-is-live - and there was a clause in eosDACs constitution stating that voting should reach a threshold of 15% before the elected custodians could take over (as per the EOS mainnet launch).  This 15% has now been reached.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmQCNYNCBwvdEsDB1JUakToV4UJFt2Zdfpix8y5k1JSRHH/votecustodians1.png&quot; alt=&quot;votecustodians1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The community will have full say over the direction of the DAC. As such there will be very interesting times ahead as custodians push the views of the community they represent.&lt;/p&gt;
-
-&lt;p&gt;The genesis interim custodian prioritised block production, tools development and community communication. Much has been achieved since the initial announcement of eosDAC but revenue is lower than was anticipated, therefore  prioritisation with a focus on community owned block production and enabling new DACs will be important.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
-
-&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://plus.google.com/+eosdac&quot; target=&quot;_blank&quot;&gt;Google-plus&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The first Elections for eosDAC custodians have now reached 15% and the DAC is now in the hands of the community</summary></entry><entry><title type="html">Tutorial: Launching Your Own DAC on the Jungle Test Network with eosDAC</title><link href="/2019/02/01/tutorial-launching-your-own-dac-on-the-jungle-test-network-with-eosdac.html" rel="alternate" type="text/html" title="Tutorial: Launching Your Own DAC on the Jungle Test Network with eosDAC" /><published>2019-02-01T12:01:42-04:00</published><updated>2019-02-01T12:01:42-04:00</updated><id>/2019/02/01/tutorial-launching-your-own-dac-on-the-jungle-test-network-with-eosdac</id><content type="html" xml:base="/2019/02/01/tutorial-launching-your-own-dac-on-the-jungle-test-network-with-eosdac.html">&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; You can now use the &lt;a href=&quot;https://steemit.com/dac/@eosdac/the-dac-factory&quot;&gt;DAC Factory script&lt;/a&gt; to automate much of what is described here.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmQ2gzprShnJdwdYn7chyQmcPmmdhgYw3DXcuTXp5s4FtY/do_you_want_to_build_a_dac.jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;strong&gt;The future is decentralized.&lt;/strong&gt; Lasting value will be created and maintained by communities and their network effect. Centralized hierarchies controlled by the unelected will increasingly be seen as an old, rigid model compared to dyanmic entities where everyone with skin in the game has a voice and those who create value are rewarded according to the consensus of the community expressed through elected custodians.&lt;/p&gt;
-
-&lt;p&gt;This is what eosDAC is working to build.&lt;/p&gt;
-
-&lt;p&gt;I’m regularly encouraged by friends in the cryptocurrency space excited about what eosDAC is doing who want to launch their own DACs using our open source technology. Our two reasons for existing are to be a community-owned EOS block producer and a DAC Enabler. The future vision for DAC Enabling includes a DAC Factory where anyone can launch their own DAC as easily as possible. We’re not there yet as it will take plenty of work to streamline the automation of customizations, account creation, set contract actions, and permissions configuration, but we will get there eventually.&lt;/p&gt;
-
-&lt;p&gt;Our first goal is to finish up the &lt;a href=&quot;https://members.eosdac.io/&quot;&gt;eosDAC Member Client&lt;/a&gt; to have all the functionality required to run a DAC with an easy-to-use, decentralized interface.  When we turned on Custodian voting a couple months ago, I wrote a post outlining some of the main EOS accounts that make the DAC run along with the Github repos involved: &lt;a href=&quot;https://steemit.com/eosdac/@eosdac/eosdac-custodian-candidate-voting-is-live&quot;&gt;eosDAC Custodian Candidate Voting Is Live!&lt;/a&gt;. I was thinking about this again recently with a post describing how Steem could organize itself as a DAC: &lt;a href=&quot;https://steemit.com/steemdac/@lukestokes/steemdac-a-plan-we-can-start-today-to-decentralize-steem-governance&quot;&gt;SteemDAC: A Plan We Can Start Today to Decentralize Steem Governance&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Most of the pieces are already in place for anyone to take what we already have today and launch their own DAC. Although this will be much easier in the future with the DAC Factory, I figured it would be useful to outline all the pieces involved for the many who are so excited about this they can’t seem to wait before experimenting with their own DAC.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I went ahead and recorded a full video walk through of this tutorial as well which you can see here:&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AvM0sA07IME&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;lets-get-started&quot;&gt;Let’s Get Started!&lt;/h1&gt;
-
-&lt;p&gt;The following is a tutorial for how you can launch your own DAC right now using what we’ve built so far. One of the most powerful and useful aspects of a DAC is that authority is distributed among elected custodians. This protects funds and code through a multisignature permissions system updated every newperiod to include the top token-holder-elected custodians. This account for eosDAC is dacauthority which you can see here: https://bloks.io/account/dacauthority&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;https://cdn.steemitimages.com/DQmRN7obgDRsj1rqhL3xgcyYDEGNc33vc3mxU8GdEaPXm6f/image.png&quot; /&gt;
-&lt;/center&gt;
-
-&lt;p&gt;This tutorial will walk you through everything, from start to finish, to create your own DAC authority account, along with all the other accounts and contracts which make the DAC function.&lt;/p&gt;
-
-&lt;p&gt;This tutorial was done on a Mac, but any computer with unix-based emulation will work as well.&lt;/p&gt;
-
-&lt;p&gt;To start, create a project folder (to make things easier, you can copy these commands together and run them all at once):&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir TestDAC
-cd TestDAC
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Get the version of EOS you want to work with, build, and install it (this will take some time).&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/EOS-Mainnet/eos.git
-cd eos
-git checkout mainnet-1.5.1
-git submodule update --init --recursive
-./eosio_build.sh -s EOS
-sudo ./eosio_install.sh 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you don’t have the necessary tools or libraries on your computer needed to build these libraries, check the readme file on the EOS Github.&lt;/p&gt;
-
-&lt;p&gt;You’ll also need eosio.cdt to compile your contracts:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd ..
-git clone https://github.com/EOSIO/eosio.cdt.git
-cd eosio.cdt
-git checkout v1.4.1
-git submodule update --init --recursive
-./build.sh
-sudo ./install.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Let’s set up a couple scripts to keep everything contained in this folder. Adjust this according to your own starting folder. Create keosd.sh as follows in the TestDAC folder:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;nv&quot;&gt;cwd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$cwd&lt;/span&gt;/eos/build/bin/keosd &lt;span class=&quot;nt&quot;&gt;--wallet-dir&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$cwd&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--http-server-address&lt;/span&gt; localhost:8900 &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Set that to executable and run it:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chmod +x keosd.sh 
-./keosd.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In a new terminal window, create a script for running cleos to connect with the Jungle test network. Create jungle.sh as follows:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;nv&quot;&gt;cwd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$cwd&lt;/span&gt;/eos/build/bin/cleos &lt;span class=&quot;nt&quot;&gt;--url&lt;/span&gt; http://jungle2.cryptolions.io:80/ &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And use it to create a wallet:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chmod +x jungle.sh 
-./jungle.sh wallet create --to-console;
-Creating wallet: default
-Save password to use in the future to unlock this wallet.
-Without password imported keys will not be retrievable.
-&quot;PW5................................................&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Save this wallet password in a password manager or some other secure location.&lt;/p&gt;
-
-&lt;p&gt;Create and save an EOS keypair which we’ll use for creating our accounts on the Jungle test network.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh create key --to-console
-Private key: 5K..................................................
-Public key: EOS6vuK27d4R1vqQmNQc1b7PjGLZ3cNABtD9HEDtPuyXdZKFkwirc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Next head over to the Jungle testnet monitor and create the various accounts we need to run the DAC. We’ll start with the authority account: https://monitor.jungletestnet.io/#account I’ll show the example names I used, but since those are already taken on Jungle, you’ll want to use your own. Throughout this tutorial, just replace the account listed here with the account you’ve created.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;https://cdn.steemitimages.com/DQmZevHjYJXJUeQTa3LPpqKjkTDojtyFy61v4emSMXfVaZ2/image.png&quot; /&gt;
-&lt;/center&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lukedacauth1&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;We also need a token account which holds all the token and membership code:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lukedactoken&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The custodian account which handles custodian voting and more:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lukedaccusto&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The main DAC account for holding DAC funds:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lukedachold1&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;And the multisig account where worker proposal payments will be managed:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lukedacmulti&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;You’ll want to create your own variations of these account names, just remember they have to be 12 characters long and can’t include any symbols, but only letters and numbers 1 though 5.&lt;/p&gt;
-
-&lt;p&gt;Hit up the Jungle testnet faucet for each account to ensure you have enough EOS needed for RAM, CPU, and Bandwidth:&lt;/p&gt;
-
-&lt;p&gt;https://api.monitor.jungletestnet.io/#faucet&lt;/p&gt;
-
-&lt;p&gt;Throughout this tutorial, replace your account names as needed.&lt;/p&gt;
-
-&lt;p&gt;Now unlock your wallet, import your private key, buy yourself some RAM, and stake some CPU/Bandwidth for each account (make sure keosd.sh is still running):&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh wallet unlock
-./jungle.sh wallet import
-./jungle.sh system buyram lukedactoken lukedactoken &quot;30.000 EOS&quot;
-./jungle.sh system delegatebw lukedactoken lukedactoken &quot;10.000 EOS&quot; &quot;50.000 EOS&quot;
-./jungle.sh system buyram lukedacmulti lukedacmulti &quot;30.000 EOS&quot;
-./jungle.sh system delegatebw lukedacmulti lukedacmulti &quot;10.000 EOS&quot; &quot;50.000 EOS&quot;
-./jungle.sh system buyram lukedachold1 lukedachold1 &quot;30.000 EOS&quot;
-./jungle.sh system delegatebw lukedachold1 lukedachold1 &quot;10.000 EOS&quot; &quot;50.000 EOS&quot;
-./jungle.sh system buyram lukedaccusto lukedaccusto &quot;30.000 EOS&quot;
-./jungle.sh system delegatebw lukedaccusto lukedaccusto &quot;10.000 EOS&quot; &quot;50.000 EOS&quot;
-./jungle.sh system buyram lukedacauth1 lukedacauth1 &quot;30.000 EOS&quot;
-./jungle.sh system delegatebw lukedacauth1 lukedacauth1 &quot;10.000 EOS&quot; &quot;50.000 EOS&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If this were on the real mainnet, you’d want to adjust those numbers based on your actual needs.&lt;/p&gt;
-
-&lt;p&gt;Next we’ll get into compiling and setting the code contracts for these accounts:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir daccontracts
-cd daccontracts
-git clone https://github.com/eosdac/eosdactoken.git
-git clone https://github.com/eosdac/daccustodian.git
-git clone https://github.com/eosdac/dacmultisigs.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You shouldn’t have to modify anything on the token contract, so you can set that as is (adjust paths and account names as needed):&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh set contract lukedactoken /Users/lukestokes/Documents/workspace/eosDAC/TestDAC/daccontracts/eosdactoken/output/jungle/eosdactokens -p lukedactoken
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;There are currently some tweaks we have to make for the daccustodian account, but in the future this may not be necessary.&lt;/p&gt;
-
-&lt;p&gt;Modifiy daccustodian/daccustodian.hpp:&lt;/p&gt;
-
-&lt;p&gt;Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;name authaccount = &quot;dacauthority&quot;_n;&lt;/code&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;name authaccount = &quot;lukedacauth1&quot;_n;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(but use the account name you created, as you should throughout this tutorial)&lt;/p&gt;
-
-&lt;p&gt;Modify the jungle compile script:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;diff --git a/output/jungle/compile.sh b/output/jungle/compile.sh
-index 8b180ff..8889d3b 100755
-&lt;/span&gt;&lt;span class=&quot;gd&quot;&gt;--- a/output/jungle/compile.sh
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+++ b/output/jungle/compile.sh
-&lt;/span&gt;&lt;span class=&quot;gu&quot;&gt;@@ -1,5 +1,5 @@
-&lt;/span&gt; #!/usr/bin/env bash
- 
-&lt;span class=&quot;gd&quot;&gt;-eosio-cpp -DTOKENCONTRACT='&quot;kasdactokens&quot;' -DTRANSFER_DELAY=20 -o output/jungle/daccustodian/daccustodian.wasm daccustodian.cpp
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+eosio-cpp -DTOKENCONTRACT='&quot;lukedactoken&quot;' -DTRANSFER_DELAY=20 -o output/jungle/daccustodian/daccustodian.wasm daccustodian.cpp
-&lt;/span&gt; 
- eosio-abigen daccustodian.hpp -contract daccustodian -output output/jungle/daccustodian/daccustodian.abi
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;and run it from the TestDAC/daccontracts/daccustodian directory:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./output/jungle/compile.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Next set it from the TestDAC directory:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh set contract lukedaccusto /Users/lukestokes/Documents/workspace/eosDAC/TestDAC/daccontracts/daccustodian/output/jungle/daccustodian -p lukedaccusto
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Next we’ll compile the dacmultisigs contract from TestDAC/daccontracts/dacmultisigs:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./output/jungle/compile.sh 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Set the contract from the TestDAC directory:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh set contract lukedacmulti /Users/lukestokes/Documents/workspace/eosDAC/TestDAC/daccontracts/dacmultisigs/output/jungle/dacmultisigs -p lukedacmulti
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;configuration&quot;&gt;Configuration&lt;/h2&gt;
-
-&lt;p&gt;Now let’s start configuring things.&lt;/p&gt;
-
-&lt;p&gt;The DAC is bound by the Constitution the members agree to. You can host your Constitution anywhere, but the current design hosts it on Github and uses a hash of the document to verify integrity. You should get your own legal advice as to what your Constitution should include, but for demonstration purposes only, I’m going to fork and clone the existing eosDAC Constitution and modify it slightly.&lt;/p&gt;
-
-&lt;p&gt;After forking on Github,&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@github.com:lukestokes/constitution.git
-cd constitution
-sed -i -- 's/eosDAC/TestDAC/g' constitution.md
-git diff
-git add .
-git commit -m &quot;Using TestDAC as an example&quot;
-git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Get the md5 hash of your constitution via:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;md5 constitution.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Use that and the raw file (with the specific commit you just made) to create a terms.json file in the TestDAC directory (it’s important to get the RAW link to the file):&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;echo '[&quot;https://raw.githubusercontent.com/lukestokes/constitution/50de655bf59656d317222dedeb3c417358a0ecd9/constitution.md&quot;, &quot;a2022da6e770e0b2c3e5d3a10a560dc9&quot;]' &amp;gt; terms.json
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And set the terms on the account:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh push action lukedactoken newmemterms terms.json -p lukedactoken
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If your wallet locks, you can unlock it with &lt;code class=&quot;highlighter-rouge&quot;&gt;./jungle.sh wallet unlock&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;You can validate that the terms were updated by using a block explorer: https://jungle.bloks.io/account/lukedactoken&lt;/p&gt;
-
-&lt;p&gt;Click Contract, Contract Tables, and then memberterms&lt;/p&gt;
-
-&lt;p&gt;Now update the token configuration:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;echo &quot;[lukedaccusto]&quot; &amp;gt; token_config.json
-./jungle.sh push action lukedactoken updateconfig token_config.json -p lukedactoken
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Create and issue your own DAC tokens. In this example I’m using TESTDAC. Note, you can only do this once, so don’t mess it up. :)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh push action lukedactoken create '[&quot;lukedactoken&quot;, &quot;10000000000.0000 TESTDAC&quot;, 0]' -p lukedactoken
-./jungle.sh push action lukedactoken issue '[&quot;lukedactoken&quot;, &quot;1000000000.0000 TESTDAC&quot;, &quot;Issue&quot;]' -p lukedactoken
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Get your config file for the DAC:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;echo '[[&quot;35000.0000 TESTDAC&quot;, 5, 12, 60, &quot;lukedacauth1&quot;, &quot;lukedachold1&quot;, &quot;&quot;, 1, 15, 3, 10, 9, 7, 7776000, &quot;50.0000 EOS&quot;]]' &amp;gt; dac_config.json
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The values in that dac_config.json map to the following settings:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(lockupasset)
-(maxvotes)
-(numelected)
-(periodlength)
-(authaccount)
-(tokenholder)
-(serviceprovider)
-(should_pay_via_service_provider)
-(initial_vote_quorum_percent)
-(vote_quorum_percent)
-(auth_threshold_high)
-(auth_threshold_mid)
-(auth_threshold_low)
-(lockup_release_time_delay)
-(requested_pay_max)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To fully understand how these parameters are used, you may need to read the Constitution and the code. For now, we’ll stick with similar values as what eosDAC is using. This can be updated at a later as needed.&lt;/p&gt;
-
-&lt;p&gt;Let’s set our config:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh push action lukedaccusto updateconfig dac_config.json -p lukedacauth1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Note: the permissions on this call are a little unique in that the contract as currently designed requires the lukedacauth1 account which is why we had to make modifications earlier. This will be improved in a future release so the initial set up can be authorized by _self.&lt;/p&gt;
-
-&lt;h2 id=&quot;set-up-the-front-end-client&quot;&gt;Set Up the Front End Client&lt;/h2&gt;
-
-&lt;p&gt;Okay! Now we’re ready to hook up the front end tools to our DAC contract accounts. Fork the https://github.com/eosdac/eosdactoolkit repo and make all your own customizations:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@github.com:lukestokes/eosdactoolkit.git
-cd eosdactoolkit/eosdac-material/src
-git checkout dev
-grep -lr --exclude-dir=&quot;.git&quot; -e &quot;eosDAC&quot; . | xargs sed -i '' -e 's/eosDAC/TestDAC/g'
-git commit -a -m &quot;Replacing eosDAC with TestDAC&quot;
-git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Follow the readme here to get going: https://github.com/eosdac/eosdactoolkit/tree/master/eosdac-material&lt;/p&gt;
-
-&lt;p&gt;Make changes to the jungle config file like so:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;diff --git a/eosdac-material/src/statics/config.jungle.json b/eosdac-material/src/statics/config.jungle.json
-index 5b4bd96..fc0f04b 100644
-&lt;/span&gt;&lt;span class=&quot;gd&quot;&gt;--- a/eosdac-material/src/statics/config.jungle.json
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+++ b/eosdac-material/src/statics/config.jungle.json
-&lt;/span&gt;&lt;span class=&quot;gu&quot;&gt;@@ -3,16 +3,16 @@
-&lt;/span&gt;     &quot;chainId&quot;: &quot;e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473&quot;,
-     &quot;name&quot;: &quot;jungle2&quot;,
-     &quot;default_node&quot;: &quot;http://jungle2.cryptolions.io:80&quot;,
-&lt;span class=&quot;gd&quot;&gt;-    &quot;authorityAccount&quot;: &quot;dacauthority&quot;,
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+    &quot;authorityAccount&quot;: &quot;lukedacauth1&quot;,
-&lt;/span&gt; 
-     &quot;tokenContracts&quot;:{
-       &quot;eosio.token&quot;:[{&quot;token&quot;: &quot;EOS&quot;, &quot;decimals&quot;: 4 }],
-&lt;span class=&quot;gd&quot;&gt;-      &quot;kasdactokens&quot;:[{&quot;token&quot;: &quot;KASDAC&quot;, &quot;decimals&quot;: 4}]
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+      &quot;lukedactoken&quot;:[{&quot;token&quot;: &quot;TESTDAC&quot;, &quot;decimals&quot;: 4}]
-&lt;/span&gt;     },
- 
-     &quot;tokenContract&quot;: {
-&lt;span class=&quot;gd&quot;&gt;-      &quot;name&quot;: &quot;kasdactokens&quot;,
--      &quot;token&quot;: &quot;KASDAC&quot;,
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+      &quot;name&quot;: &quot;lukedactoken&quot;,
-+      &quot;token&quot;: &quot;TESTDAC&quot;,
-&lt;/span&gt;       &quot;decimals&quot;: 4,
-       &quot;totalSupply&quot;: 1000000000.0000
-     },
-&lt;span class=&quot;gu&quot;&gt;@@ -22,12 +22,12 @@
-&lt;/span&gt;       &quot;decimals&quot;: 4
-     },
-     &quot;custodianContract&quot;: {
-&lt;span class=&quot;gd&quot;&gt;-      &quot;name&quot;: &quot;dacelections&quot;,
--      &quot;memo&quot;: &quot;dacelections&quot;,
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+      &quot;name&quot;: &quot;lukedaccusto&quot;,
-+      &quot;memo&quot;: &quot;lukedaccusto&quot;,
-&lt;/span&gt;       &quot;enable_voting&quot; : true
-     },
-     &quot;msigContract&quot;:{
-&lt;span class=&quot;gd&quot;&gt;-      &quot;name&quot;: &quot;dacmultisigs&quot;
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+      &quot;name&quot;: &quot;lukedacmulti&quot;
-&lt;/span&gt;     },
-     &quot;systemContract&quot;: {
-       &quot;name&quot;: &quot;eosio&quot;
-&lt;span class=&quot;gu&quot;&gt;@@ -35,7 +35,7 @@
-&lt;/span&gt;   },
-   &quot;api&quot;: {
-     &quot;bpNodeApiUrl&quot;: &quot;https://eosdac.io/topnodes.json&quot;,
-&lt;span class=&quot;gd&quot;&gt;-    &quot;memberClientApiUrl&quot;: &quot;http://ns3119712.ip-51-38-42.eu:3000&quot;
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+    &quot;memberClientApiUrl&quot;: &quot;http://localhost:3000&quot;
-&lt;/span&gt;   },
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Save and commit those changes:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git diff
-git commit -a -m &quot;Updating jungle config for our own needs.&quot;
-git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;From the eosdac-material folder, install what you need and run the dev server (note: using the deploy script will remove any local changes you have that have not been committed to git):&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd eosdac-material
-yarn install
-cd ..
-./deploy-eosdac-material.sh jungle dev true
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you have Scatter configured already for the Jungle test net, then you can add the lukedactoken@active account there to transfer tokens around as needed for more testing.&lt;/p&gt;
-
-&lt;p&gt;Congratulations! You’ve made great progress so far. Get yourself a beer or your drink of choice!&lt;/p&gt;
-
-&lt;h2 id=&quot;setting-up-our-chain-watchers-and-api&quot;&gt;Setting Up our Chain Watchers and API&lt;/h2&gt;
-
-&lt;p&gt;Now let’s get that Profile Watcher working. First start up a local copy of mongod in its own window:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mongod
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Then move on to the scraper. This tool watches the Jungle chain for member profiles and saves them to mongodb so they can easily be accessed by the member client later.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@github.com:lukestokes/Actionscraper-rpc.git
-cd Actionscraper-rpc
-git checkout dev
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Edit watchers/config.jungle.js as needed:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;diff --git a/watchers/config.jungle.js b/watchers/config.jungle.js
-index afc7af6..647ef86 100644
-&lt;/span&gt;&lt;span class=&quot;gd&quot;&gt;--- a/watchers/config.jungle.js
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+++ b/watchers/config.jungle.js
-&lt;/span&gt;&lt;span class=&quot;gu&quot;&gt;@@ -7,17 +7,17 @@ const config = {
-&lt;/span&gt; 
-     db: {
-         mongoUrl: 'mongodb://localhost:27017/',
-&lt;span class=&quot;gd&quot;&gt;-        dbName: 'eosdac'
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+        dbName: 'testdac'
-&lt;/span&gt;     },
- 
-     contracts:{
-&lt;span class=&quot;gd&quot;&gt;-        custodian: 'dacelections',
--        token: 'kasdactokens',
--        msig: 'dacmultisigs'
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+        custodian: 'lukedaccusto',
-+        token: 'lukedactoken',
-+        msig: 'lukedacmulti'
-&lt;/span&gt;     }
- 
- }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Get your config set up and start the watcher:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yarn install
-cp watchers/config.jungle.js watchers/config.js
-node watcher_custodian.js
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;On a production server, you’d want to use the start.sh script and pm2, but just running it via node is fine for our testing.&lt;/p&gt;
-
-&lt;p&gt;Now that we have our watcher going to look for profile changes, we need to get an API going for the member client to talk to by forking https://github.com/eosdac/memberclient-api:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@github.com:lukestokes/memberclient-api.git
-cd memberclient-api
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Make changes to the config file as needed and copy it to config.json&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;diff --git a/config.example.json b/config.example.json
-index ab85c52..86ae7f8 100644
-&lt;/span&gt;&lt;span class=&quot;gd&quot;&gt;--- a/config.example.json
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+++ b/config.example.json
-&lt;/span&gt;&lt;span class=&quot;gu&quot;&gt;@@ -14,7 +14,7 @@
-&lt;/span&gt;   },
- 
-   &quot;db&quot;: {
-&lt;span class=&quot;gd&quot;&gt;-    &quot;name&quot;: &quot;eosdac&quot;,
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+    &quot;name&quot;: &quot;testdac&quot;,
-&lt;/span&gt;     &quot;url&quot;: &quot;mongodb://localhost:27017/eosdac&quot;
-   },
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cp config.example.json config.json
-node api_endpoint.js 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Next up we’re going to modify the permissions on all these accounts so that everything will be controlled by lukedacauth1 which will get updated permissions every time a newperiod is called.&lt;/p&gt;
-
-&lt;p&gt;Using the tesnet permissions script here as a pattern: https://github.com/eosdac/DACtools/blob/master/eosdac-testnet/permissions.sh we can set everything up as we need.&lt;/p&gt;
-
-&lt;p&gt;First, let’s get some permissions files set up:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;echo '{
-    &quot;threshold&quot; : 1,
-    &quot;keys&quot; : [],
-    &quot;accounts&quot;: [{&quot;permission&quot;:{&quot;actor&quot;:&quot;lukedacauth1&quot;, &quot;permission&quot;:&quot;active&quot;}, &quot;weight&quot;:1}],
-    &quot;waits&quot;: []
-}' &amp;gt; resign.json
-
-echo '{
-    &quot;threshold&quot;: 2,
-    &quot;keys&quot;: [],
-    &quot;accounts&quot;: [
-        {&quot;permission&quot;:{&quot;actor&quot;:&quot;lukedacauth1&quot;, &quot;permission&quot;:&quot;med&quot;}, &quot;weight&quot;:2},
-        {&quot;permission&quot;:{&quot;actor&quot;:&quot;lukedaccusto&quot;, &quot;permission&quot;:&quot;eosio.code&quot;}, &quot;weight&quot;:1}
-    ],
-    &quot;waits&quot;: [{&quot;wait_sec&quot;:3600, &quot;weight&quot;:1}]
-}' &amp;gt; daccustodian_transfer.json
-
-echo '{
-    &quot;threshold&quot;: 1,
-    &quot;keys&quot;: [{&quot;key&quot;:&quot;EOS6vuK27d4R1vqQmNQc1b7PjGLZ3cNABtD9HEDtPuyXdZKFkwirc&quot;, &quot;weight&quot;:1}],
-    &quot;accounts&quot;: [
-        {&quot;permission&quot;:{&quot;actor&quot;:&quot;lukedaccusto&quot;, &quot;permission&quot;:&quot;eosio.code&quot;}, &quot;weight&quot;:1}
-    ],
-    &quot;waits&quot;: []
-}' &amp;gt; dacauthority_owner.json
-
-echo '{
-    &quot;threshold&quot;: 1,
-    &quot;keys&quot;: [{&quot;key&quot;:&quot;EOS6vuK27d4R1vqQmNQc1b7PjGLZ3cNABtD9HEDtPuyXdZKFkwirc&quot;, &quot;weight&quot;:1}],
-    &quot;accounts&quot;: [
-        {&quot;permission&quot;:{&quot;actor&quot;:&quot;lukedacauth1&quot;, &quot;permission&quot;:&quot;high&quot;}, &quot;weight&quot;:1}
-    ],
-    &quot;waits&quot;: []
-}' &amp;gt; dacauthority_active.json
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Now we can update things:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# These have to be set now because they are required in daccustodian_transfer.json
-# These permissions are set in new period to the custodians with each configured threshold
-./jungle.sh set account permission lukedacauth1 high EOS6vuK27d4R1vqQmNQc1b7PjGLZ3cNABtD9HEDtPuyXdZKFkwirc owner -p lukedacauth1@owner
-./jungle.sh set account permission lukedacauth1 med EOS6vuK27d4R1vqQmNQc1b7PjGLZ3cNABtD9HEDtPuyXdZKFkwirc high -p lukedacauth1@owner
-./jungle.sh set account permission lukedacauth1 low EOS6vuK27d4R1vqQmNQc1b7PjGLZ3cNABtD9HEDtPuyXdZKFkwirc med -p lukedacauth1@owner
-./jungle.sh set account permission lukedacauth1 one EOS6vuK27d4R1vqQmNQc1b7PjGLZ3cNABtD9HEDtPuyXdZKFkwirc low -p lukedacauth1@owner
-
-# resign dactokens account to dacauthority@active
-./jungle.sh set account permission lukedactoken active ./resign.json owner -p lukedactoken@owner
-./jungle.sh set account permission lukedactoken owner ./resign.json '' -p lukedactoken@owner
-
-# resign dacmultisigs account to dacauthority@active
-./jungle.sh set account permission lukedacmulti active ./resign.json owner -p lukedacmulti@owner
-./jungle.sh set account permission lukedacmulti owner ./resign.json '' -p lukedacmulti@owner
-
-# resign dacowner account to dacauthority@active, must allow timelocked transfers
-# from daccustodian@eosio.code
-# daccustodian_transfer.json allows the contract to make transfers with a time delay, or
-# dacauthority@med without a time delay.  dacowner must have permission in xfer to transfer tokens
-./jungle.sh set account permission lukedachold1 xfer ./daccustodian_transfer.json active -p lukedachold1@owner
-./jungle.sh set action permission lukedachold1 eosio.token transfer xfer -p lukedachold1@owner
-# Resign eosdacthedac
-./jungle.sh set account permission lukedachold1 active ./resign.json owner -p lukedachold1@owner
-./jungle.sh set account permission lukedachold1 owner ./resign.json '' -p lukedachold1@owner
-
-# Create xfer permission and give it permission to transfer TESTDAC tokens
-./jungle.sh set account permission lukedaccusto xfer ./daccustodian_transfer.json active -p lukedaccusto@owner
-./jungle.sh set action permission lukedaccusto lukedactoken transfer xfer -p lukedaccusto@owner
-# Resign daccustodian
-./jungle.sh set account permission lukedaccusto active ./resign.json owner -p lukedaccusto@owner
-./jungle.sh set account permission lukedaccusto owner ./resign.json '' -p lukedaccusto@owner
-
-# Allow high to call any action on daccustodian
-./jungle.sh set action permission lukedacauth1 lukedaccusto '' high -p lukedacauth1@owner
-# These 2 actions require a medium permission
-./jungle.sh set action permission lukedacauth1 lukedaccusto firecust med -p lukedacauth1@owner
-./jungle.sh set action permission lukedacauth1 lukedaccusto firecand med -p lukedacauth1@owner
-# Allow one to call the multisig actions
-./jungle.sh set action permission lukedacauth1 lukedacmulti '' one -p lukedacauth1@owner
-# set dacauthority@owner to point to daccustodian@eosio.code
-./jungle.sh set account permission lukedacauth1 active ./dacauthority_active.json owner -p lukedacauth1@owner
-# Only run this once you are done making any code changes:
-#./jungle.sh set account permission lukedacauth1 owner ./dacauthority_owner.json '' -p lukedacauth1@owner
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In the example above, we keep the key on owner and active in case something breaks in the code and you can’t quickly get a multisignature request together to fix it, but in production you’d want to remove the keys from dacauthority_active.json and dacauthority_owner.json and run that last commented out command.&lt;/p&gt;
-
-&lt;p&gt;Now you can go in and use your Jungle test net accounts to register as custodian candidates and vote. They will need TESTDAC tokens so you can transfer them around like so:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh transfer -c lukedactoken lukedactoken testdaccust1 &quot;50000.0000 TESTDAC&quot; &quot;&quot; -p lukedactoken
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In order to launch the DAC and call newperiod, you’ll need a full 12 custodians, so you can create a bunch on Jungle like so:&lt;/p&gt;
-
-&lt;p&gt;testdaccust1
-testdaccust2
-testdaccust3
-testdaccust4
-testdaccust5
-testdaccus11
-testdaccus12
-testdaccus13
-testdaccus14
-testdaccus15&lt;/p&gt;
-
-&lt;p&gt;Just use&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh create key --to-console
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;To create a key for them to use. You can either use the Scatter interface and your member client or you can do things via cleos.&lt;/p&gt;
-
-&lt;p&gt;To register as a member, stake TESTDAC tokens, nominate yourself as a custodian candidate, and vote for yourself via cleos you use the Constitution hash we saved above (make sure you import the key you need with &lt;code class=&quot;highlighter-rouge&quot;&gt;./jungle.sh wallet import&lt;/code&gt;) like so:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh push action lukedactoken memberreg '[&quot;testdaccust1&quot;, &quot;a2022da6e770e0b2c3e5d3a10a560dc9&quot;]' -p testdaccust1
-./jungle.sh transfer -c lukedactoken testdaccust1 lukedaccusto &quot;35000.0000 TESTDAC&quot; &quot;lukedaccusto&quot; -p testdaccust1
-./jungle.sh push action lukedaccusto nominatecand '[&quot;testdaccust1&quot;, &quot;1.0000 EOS&quot;]' -p testdaccust1
-./jungle.sh push action lukedaccusto votecust '[&quot;testdaccust1&quot;,[&quot;testdaccust1&quot;]]' -p testdaccust1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Assuming we have 12 custodian candidates in place, you can call newperiod to actually unlock the DAC:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./jungle.sh push action lukedaccusto newperiod '{&quot;message&quot;:&quot;New Period&quot;}' -p testdaccus15
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And that’s it! You now have your very own DAC to play with!&lt;/p&gt;
-
-&lt;p&gt;You should see the permissions of your authority account update like so:&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmVTYuWDAB4tc3WPxJrUmRMejhSUWK8X1JDFuXk8TTW3SN/image.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;For fun, let’s go ahead and customize the member client a bit by changing some colors:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;diff --git a/eosdac-material/src/css/themes/common.variables.styl b/eosdac-material/src/css/themes/common.variables.styl
-index a04237f..0c48881 100644
-&lt;/span&gt;&lt;span class=&quot;gd&quot;&gt;--- a/eosdac-material/src/css/themes/common.variables.styl
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+++ b/eosdac-material/src/css/themes/common.variables.styl
-&lt;/span&gt;&lt;span class=&quot;gu&quot;&gt;@@ -15,8 +15,8 @@
-&lt;/span&gt; // to match your app's branding.
- @import &quot;core-override.variables.styl&quot;
- 
-&lt;span class=&quot;gd&quot;&gt;-$primary   = #4a1289
--$secondary = #26A69A
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+$primary   = #1a9c41
-+$secondary = #076a61
-&lt;/span&gt; $tertiary  = #555
- 
- $neutral   = #E0E1E2
-&lt;span class=&quot;gu&quot;&gt;@@ -25,12 +25,12 @@ $negative  = #DB2828
-&lt;/span&gt; $info      = #31CCEC
- $warning   = #F2C037
- 
-&lt;span class=&quot;gd&quot;&gt;-$dark      = #272B35
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+$dark      = #2b3527
-&lt;/span&gt; $p-light   = #7c41ba
- $dark2     = #1E2128
- $dimwhite  = rgba(255,255,255,0.6)
- 
-&lt;span class=&quot;gd&quot;&gt;-$body-background = #272B35
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+$body-background = #2b3527
-&lt;/span&gt; $body-color = #ffffff
- $modal-body-color = $white
- $modal-background = $dark2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;And adding a different logo image (be sure to copy the image to the statics/img folder):&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;diff --git a/eosdac-material/src/layouts/default.vue b/eosdac-material/src/layouts/default.vue
-index b7e7ecf..8d51a3b 100644
-&lt;/span&gt;&lt;span class=&quot;gd&quot;&gt;--- a/eosdac-material/src/layouts/default.vue
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+++ b/eosdac-material/src/layouts/default.vue
-&lt;/span&gt;&lt;span class=&quot;gu&quot;&gt;@@ -7,7 +7,7 @@
-&lt;/span&gt;         &amp;lt;q-icon v-else name=&quot;icon-menu-9&quot; /&amp;gt;
-       &amp;lt;/q-btn&amp;gt;
-       &amp;lt;q-toolbar-title class=&quot;text-white q-pl-none&quot;&amp;gt;
-&lt;span class=&quot;gd&quot;&gt;-        &amp;lt; img src=&quot;statics/img/icon-signet-eosdacmemberclient175x48.svg&quot; style=&quot;height:48px;&quot; :title=&quot;$t('default.member_client')&quot;&amp;gt;
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+        &amp;lt; img src=&quot;statics/img/do_you_want_to_build_a_dac.jpg&quot; style=&quot;height:48px;&quot; :title=&quot;$t('default.member_client')&quot;&amp;gt;
-&lt;/span&gt;       &amp;lt;/q-toolbar-title&amp;gt;
-       &amp;lt;div class=&quot;xs-hide sm-hide md-hide&quot; &amp;gt;
-         &amp;lt;MenuDropdown class=&quot;no-pointer-events animate-fade&quot; v-if=&quot;getAccountName &amp;amp;&amp;amp; getRegistered &amp;amp;&amp;amp; getTokenBalance&quot; iconColor=&quot;white&quot; :label=&quot;$t('default.member_status')&quot; :statusLabel=&quot;1&quot; :sublabel=&quot;$t('default.registered')&quot; icon=&quot;icon-role-3&quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;sub&gt;(Note: the space added after the “&amp;lt;” above should be removed. It was included because of &lt;a href=&quot;https://github.com/steemit/condenser/issues/3200&quot;&gt;this bug&lt;/a&gt;.)&lt;/sub&gt;
-Here’s the result:&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmTK3P4YjiuYJJj4MxmxHfZruNaNYCH9WADcHoHBcUkDny/image.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;And that’s it! Congratulations! You’ve created your own Decentralized Autonomous Community on the Jungle test net! Customizing the member client involves learning a bit about Material Design, the Quasar framework, and Vue.js. You can also adjust your DAC settings by having more or less than 12 custodians, changing the voting weights, and more.&lt;/p&gt;
-
-&lt;p&gt;We’d love to get your feedback on this as you start to use it to organize and empower your own communities. To support this ongoing work, please vote for the EOS blockproducer &lt;code class=&quot;highlighter-rouge&quot;&gt;eosdacserver&lt;/code&gt; or use a proxy who supports us. We’d also really like to see more DACs launch and airdrop the tokens they create to our eosDAC members (currently just over 1,900 accounts) who have supoorted us and made this possible. Thank you!&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;&lt;em&gt;Luke with the incredible work and help of Michael, Dallas, Piecesnbits, Nod74, and many more.&lt;em&gt;&amp;lt;/sub&amp;gt;&lt;/em&gt;&lt;/em&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
-
-&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://plus.google.com/+eosdac&quot; target=&quot;_blank&quot;&gt;Google-plus&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Update: You can now use the DAC Factory script to automate much of what is described here.</summary></entry></feed>
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://plus.google.com/+eosdac&quot; target=&quot;_blank&quot;&gt;Google-plus&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">eosDAC is pleased to report its EOS expenditure in December and January, reflecting our priorities: secure and reliable block production; continued preparation for the onset of elected Custodians of eosDAC; support for the eosDAC community and awareness of the token; and leadership around chain-level issues so as to support the EOS ecosystem in general and our community in particular.</summary></entry></feed>

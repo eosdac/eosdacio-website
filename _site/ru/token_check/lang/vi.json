@@ -1,0 +1,21 @@
+{
+	"vi": {
+		"language": "Tiếng Việt",
+		"page_title": "Công Cụ Kiểm Tra Phân Phối Theo Snapshot Của eosDAC",
+		"welcome_message": "Chào mừng bạn đến với công cụ kiểm tra phân phối của eosDAC!",
+		"tool_explanation": "Sử dụng biểu mẫu này để kiểm tra xem số dư token eosDAC của bạn đã được chuyển lên mạng chính EOS chưa.",
+		"eos_account_name": "Tên Tài Khoản EOS",
+		"eos_public_key": "EOS Public Key",
+		"eos_fallback_public_key": "EOS Public Key (Dự Phòng)",
+		"ethereum_address": "Địa Chỉ Ví Ethereum",
+		"eos_token_amount": "Số Lượng Token EOS",
+		"eosdac_token_amount": "Số Lượng Token EOSDAC",
+		"entry_not_found": "Không tìm thấy mục nào. Vui lòng thử lại.",
+		"submit": "Gửi",
+		"start_over": "Kết thúc",
+		"search_value": "EOS Public Key, Tên Tài Khoản, hoặc Địa Chỉ Ví Ethereum",
+		"no_private_key": "Cảnh Báo: Vui lòng không nhập private key của bạn!",
+		"eos_transaction": "Giao Dịch EOS",
+		"view_online": "Xem Trực Tuyến"
+	}
+}
