@@ -11,12 +11,12 @@
 
 С этого контракта всё и началось. Токены EOSDAC хранятся в этом смарт-контракте. Все началось с копирования `eosio.token` - главного контракта для токенов, который используется и для токена EOS, а также является отправной точкой для всех токенов, работающих в сетях EOS. Мы добавили некоторые функциональные возможности к этому контракту, чтобы соответствовать нашим потребностям для запуска DAC и первоначального эирдропа, и включают в себя следующее:
 
-### Возможность создания токенов в заблокированном состоянии.
+### Возможность создания токенов в заблокированном состоянии
 Основная цель заключалась в том, чтобы во время первоначального дропа держателям оригинальных токенов на базе Ethereum в июне 2018 года, мы бы смогли провести тщательную проверку балансов аккаунтов получателей и убедились, что они соответствуют ожидаемым остаткам при снимке сети Ethereum и прежде чем пользователи смогут начать торговать своими токенами. Мы очень серьезно отнеслись к тестированию :)
 
 EOSDAC был одним первым токеном, который сделал эирдроп в сети EOS, так что многоt было неизвестно. Как только дроп был завершен и протестирован, мы смогли разблокировать токены и разрешить их передачу. Важно отметить, что нет возможности повторно заблокировать токен после того, как его разблокировали, так как эта функция могла бы позволить создателям токенов манипулировать ценой посредством централизованного контроля ликвидности токенов.
 
-### Условия и принятие участников.
+### Условия принятия участников
 Согласие с условиями использования в рамках DAC рассматривалось нами как фундаментальная ключевая особенность смарт-контрактов DAC, и поэтому имело смысл включить эту функциональность в контракт токенов. Пользователь становится зарегистрированным участником сообщества после подтверждения и выполнения действия `memberreg` по контракту. 
 
 To perform this action a user would need to supply a checksum of the terms they have actually agreed to and the contract action would ensure these checksums match with the known checksum of the latest terms before accepting their agreement and membership. This checksum logic is abstracted away from the end user through the front end user interface but provides cryptographic evidence that the user agreed to a particular set of terms and is ready for others to add their user interface to interact with the contract code. As long as they are able to provide the same checksum of known terms and conditions then they will able to successfully run the `memberreg` action. While this may seem like a verbose way to agree to terms and conditions we took this approach because it is like saying "I agree to *these* terms and conditions" rather than asking the user "Do you agree to the latest terms and conditions" with the user responding "yes" or "no". We felt the latter would be less robust to ensure users don't accept the wrong terms accidentally or via a user interface that is out of date with the contract. 
