@@ -9,10 +9,10 @@
 
 ## EOSDACTOKENS
 
-This is where it all started. The EOSDAC Token is held in this smart contract. It started as a clone from the main `eosio.token` contract code which is used for the EOS token and most likely the starting point for all the tokens that are running on all the EOS chains. We added some functionality to this contract to suit our needs for the launching of the DAC and the initial airdrop including the following:
+С этого контракта всё и началось. Токены EOSDAC хранятся в этом смарт-контракте. Все началось с копирования `eosio.token` - главного контракта для токенов, который используется и для токена EOS, а также является отправной точкой для всех токенов, работающих в сетях EOS. Мы добавили некоторые функциональные возможности к этому контракту, чтобы соответствовать нашим потребностям для запуска DAC и первоначального эирдропа, и включают в себя следующее:
 
-### Ability to create a token in a locked state.
-The purpose of this was so that when we did the initial airdrop to the holders of the original Ethereum based tokens, back in June 2018, we could do thorough testing of the balances of the receiving accounts to ensure they matched the expected balances from the Ethereum snapshot before users could start trading the token. We take testing very seriously :) .
+### Возможность создания токенов в заблокированном состоянии.
+Основная цель заключалась в том, чтобы во время первоначального дропа держателям оригинальных токенов на базе Ethereum в июне 2018 года, мы бы смогли провести тщательную проверку балансов аккаунтов получателей и убедились, что они соответствуют ожидаемым остаткам при снимке сети Ethereum и прежде чем пользователи смогут начать торговать своими токенами. Мы очень серьезно отнеслись к тестированию :)
 
 EOSDAC was one of the very first tokens to do an airdrop on the chain so there were many unknowns. Once the airdrop was completed and tested we could unlock the token to allow transfers. Importantly, there is no ability to lock a token again once it has been unlocked since this function could have enabled the possibility for token creators to manipulate the price through centralised control of the token liquidity.
 
