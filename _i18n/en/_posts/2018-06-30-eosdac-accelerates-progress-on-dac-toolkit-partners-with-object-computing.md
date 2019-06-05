@@ -3,8 +3,9 @@ layout: post
 title:  "eosDAC accelerates progress on DAC Toolkit, partners with Object Computing"
 date:   2018-06-30T18:31:27
 external_link: https://steemit.com/eos/@eosdac/eosdac-accelerates-progress-on-dac-toolkit-partners-with-object-computing
-image:  /assets/news/2018-06-30/img.png
 ---
+<center>![](https://cdn.steemitimages.com/DQmctzKeDVBw3Qfd9Ynajr3asT8zcherEK7XmodrPxbS4Ad/image.png)</center>
+
 Following on from the double successes of being voting in as a Block Producer and the move (and independent validation) of the eosDAC token to the EOS Mainnet, the eosDAC launch team is rapidly moving ahead with the work on it's foundational DAC Toolkit. This is essential work to allow eosDAC, and other DACs, to function effectively on the EOS chain and fulfill the promise of the powerful eosio software. 
 
 eosDAC developers have already provided a new token contract with built in membership functionality along with airdrop tools. The main focus points for the eosDAC development team are now the implementation of controls on funds, and contracts, alongside smart contracts and a user interface for membership and custodian elections. Due to the considerable funds that may be handled by DACs, the eosDAC launch team are putting in place measures to ensure that eosDACs tools are coded to the highest standards and extensively reviewed. 

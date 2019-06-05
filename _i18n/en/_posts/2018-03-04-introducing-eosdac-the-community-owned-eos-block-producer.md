@@ -3,7 +3,6 @@ layout: post
 title:  "Introducing eosDAC : The Community Owned EOS Block Producer"
 date:   2018-03-04T22:40:57
 external_link: https://steemit.com/eos/@eosdac/introducing-eosdac-the-community-owned-eos-block-producer
-image:  /assets/news/2018-03/04.png
 ---
 The EOSIO Software being developed by Block.one will facilitate the first highly scalable smart contract blockchains, with transaction fees covered through small levels of token inflation. This will allow the development of genuinely scalable decentralised applications, and online/onblock businesses which can be owned by their communities.
 
