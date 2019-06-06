@@ -76,20 +76,20 @@ EOSDAC был одним первым токеном, который сдела�
 	* `maxvotes` : Максимальное количество голосов, которое каждый участник может подать за кандидатов. (По умолчанию 5)
 	* `numelected` : Число хранителей, избираемых при каждом подсчете голосов.
 	* `periodlength` : Продолжительность периода в секундах. Используется для предотвращения досрочных выборов от вызова функции `newperiod`. (По умолчанию 7 дней)
-	* `authaccount` : controlling account to have it's permissions set with the elected custodians.
-	* `tokenholder` : The contract that holds the funds for the DAC. This is used as the source for custodian pay.
-	* `serviceprovider` :  The contract that will act as the service provider account for the DAC. This is used as the deliverer of pay to custodians and workers on worker proposals.
-	* `should_pay_via_service_provider` : If set to true the contract will direct all payments via the service provider rather than paying directly.
-	* `initial_vote_quorum_percent` :  Amount of token value in votes required to trigger the initial set of custodians
-	* `vote_quorum_percent` : Amount of token value in votes required to allow a new set of custodians to be set after the initial threshold has been achieved - election period 2 and onwards.
+	* `authaccount` : Контрольная учетная запись должна иметь разрешения, установленные избранными хранителями.
+	* `tokenholder` : Контракт, в котором хранятся средства DAC. Используется в качестве источника для оплаты хранителям.
+	* `serviceprovider` : Контракт, который будет выступать в качестве учетной записи поставщика услуг для DAC. Используется в качестве источника для оплаты хранителям и участникам по рабочим предложениям.
+	* `should_pay_via_service_provider` : Если установлено значение true, контракт будет направлять все платежи через поставщика услуг, а не напрямую.
+	* `initial_vote_quorum_percent` : Необходимое количество проголосовавших токенов, необходимых для запуска совета хранителей.
+	* `vote_quorum_percent` : Необходимое количество проголосовавших токенов, необходимых для запуска нового совета хранителей после достижения первоначального порога - 2ой период выборов и далее.
 
-		The required number of custodians to approve different levels of authenticated actions on the DAC smart contracts:	
+	Необходимое количество хранителей для утверждения различных уровней аутентифицированных действий в смарт-контрактах DAC:	
 
 	* `auth_threshold_high`
 	* `auth_threshold_mid`
 	* `auth_threshold_low`
-	* `lockup_release_time_delay` : The time before locked up stake can be released back to the candidate using the unstake action
-	* `requested_pay_max` : The maximum amount of pay a custodian can request for payment.
+	* `lockup_release_time_delay` : Время до того, как заблокированные токены будут возвращены кандидату с помощью действия unstack.
+	* `requested_pay_max` : Максимальная сумма оплаты, которую может запросить хранитель.
 
 ## DACPROPOSALS
 
