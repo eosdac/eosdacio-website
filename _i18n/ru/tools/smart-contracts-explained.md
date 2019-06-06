@@ -93,23 +93,23 @@ EOSDAC был одним первым токеном, который сдела�
 
 ## DACPROPOSALS
 
-This contract is responsible for managing the worker proposals related to the DAC. It is once again built for configurability rather than just to suit our immediate needs in EosDAC. 
+Этот контракт отвечает за управление рабочими предложениями DAC. Он снова построен с учетом максимальной конфигурируемости, а не только для решения задач eosDAC.
 
-The general idea is that potential worker will have a piece of work they would like to propose to add value to the DAC in exchange for being paid in an amount of EOS based tokens. The proposal would be voted for approval for commencement and then completion by the current custodians and these actions would trigger payments to the proposer. 
+Общая идея заключается в том, что у потенциального работника есть идея для реализации, которую он хотел бы предложить DAC в обмен на оплату в токенах EOS. Для утверждения предложения проголосуют текущие хранителями, а после выполнения работы будет произведена выплата автору предложения.
 
 
-### Create proposal `createprop` 
-A proposing worker would create a proposal and submit it to the blockchain for the review and voting by the current DAC custodians. To proposal would need to include the following:
+### Создать предложение `createprop` 
+Потенциальный работник создаёт раюочее предложение и отправляет его в блокчейн для рассмотрения и голосования текущими хранителями DAC. Предложение должно включать следующее:
 
-* `title` (String): to identify the proposal
-* `summary` (String): a brief summary of the the purpose of the worker proposal
-* `arbitrator` (EOS Account name): the account name of an independent arbitrator who may be called upon to satisfy disputes in the completion of a worker proposal.
-* `pay_amount` (EOSAsset): an amount of EOS based tokens requested as the pay amount for the worker proposal.
-* `content_hash` (ChecksumHash): a content hash to ensure details of a proposal stored off-chain are not modified after a proposal has been agreed to. This allows for much more extensive detail that would not be stored on chain while still maintaining data integrity.
+* `title` (String): Определение предложения.
+* `summary` (String): Краткое изложение цели предложения работника.
+* `arbitrator` (EOS Account name): Имя аккаунта независимого арбитра, который может быть вызван для решения возможных споров при завершении предложения работника.
+* `pay_amount` (EOSAsset): Сумма токенов EOS, запрошенная в качестве суммы оплаты для предложения работника.
+* `content_hash` (ChecksumHash): Хэш содержимого для обеспечения детализации предложения, хранящийся вне блокчейна, остается неизменным после согласования предложения. Это позволяет сохранить более подробную информацию, которая не будет храниться в бокчейне при сохранении целостности данных.
 
-For each proposal minimal content data is required to be stored in the contract state and is instead only passed through for data integrity via transaction logs. Only the account and payment data is stored for utilisation in later actions within this contract.
+Для каждого предложения только минимальные данные контента должны храниться в контракте, и для обеспечения целостности данных передаются через журналы транзакций. Только данные аккаунта и оплаты хранятся для использования в последующих действиях в рамках текущего контракта.
 
-### Voting for a proposal `voteprop`
+### Голосование за предложение `voteprop`
 Once a proposal has been created it would be in a state waiting for the current custodians to vote either 'proposal_approve' or 'proposal_deny' for a proposal with the required number of votes and number of 'yes' votes to be configurable in the contract. At this time there may be refinements to the proposal with canceling `cancel` of existing proposals and resubmitting changes based on feedback from the custodians until the proposals get to ready and positively-voted-for position.
 
 ### Start work on an accepted proposal `startwork`
