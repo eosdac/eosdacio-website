@@ -3,7 +3,6 @@ layout: post
 title:  "eosDAC Block Producer Candidate Information"
 date:   2018-03-20T16:30:24
 external_link: https://steemit.com/eos/@eosdac/eosdac-block-producer-candidate-information
-image:  /assets/news/2018-03/20.png
 ---
 eosDAC is keen to share with the community as many details as possible about how it will operate. As such we welcome the EOS Go initiative to collate a list of block producer candidates with a standard set of data. See https://forums.eosgo.io/discussion/330/grading-criteria-for-eos-block-producers-in-march-28-report - This is our data ...
 

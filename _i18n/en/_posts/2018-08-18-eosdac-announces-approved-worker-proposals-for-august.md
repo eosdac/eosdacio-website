@@ -3,7 +3,6 @@ layout: post
 title:  "eosDAC update on active workstreams and approved proposals"
 date:   2018-08-08T22:36:33
 external_link: https://steemit.com/eos/@eosdac/eosdac-announces-approved-worker-proposals-for-august
-image:  /assets/news/2018-08-09/img.png
 ---
 eosDAC is pleased to share with the community the outcome of the August worker proposal process, in which we again prioritise block production, increase investment in the DAC Tools and continue to support robust marketing and community growth. In delivering these workstreams we have sought to generate maximum value to token holders without cost escalation; our total wage bill is in line with the prior month.
 

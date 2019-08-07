@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "eosDACイントロダクション：コミュニティが所有するEOSブロック・プロデューサー"
+date:   2018-05-25T21:51:21
+external_link: https://steemit.com/eosdac/@eosdac/s7hcm-eosdac-eos
+---
+Block.oneによって開発されたEOSIOソフトウェアは、わずかなトークンインフレでトランザクション手数料をカバーし。最初の高度にスケーラブルなスマートコントラクトブロックチェーンを促進します。これは真にスケーラブルな分散型アプリケーションの開発と、コミュニティによって運営されるオンライン/オンブロックのビジネスを可能にします。
+
+BitcoinやEthereumのようなProof of Workアルゴリズムにおける'mining'の代わりに、EOSIOブロクチェーンはDelegated Proof of Stakeアルゴリズムを使用し、そこではトークン保有者が21のメインブロックプロデューサと100の予備プロデューサに投票します。
+
+これらのブロックプロデューサは企業クラスの分散型アプリケーションを扱える大規模なインフラを必要とし、また必要に応じてスケーリングできる存在である必要があります。ブロックプロデューサは、流通しているEOSトークンの限られたインフレ分から支払われます。
+
+![](https://cdn.steemitimages.com/DQmaGyfzQ1AevwaLm87ypicBQD8cUqtZbahA7nhyuQWmQRW/image.png)
+
+EOS.IOのブロック生成は誰もが貢献し、利益を得られるようオープンであるべきだというのがeosDACのビジョンです。このビジョンを実現するため。eosDACは世界中のEOSコミュニティのために働く有力なEOS.IOブロックプロデューサになることを目指す、発展した分散自立コミュニティ（DAC: Decentralised Autonomous Community）になります。これを行うにあたり、eosDACは機能するために必要なツールとスマートコントラクトを作成します。他のDACがEOS.IOブロックチェーン上で成長できるように、これらのツールはEOSコミュニティにシェアされます。
+
+eosDACはEOSブロックチェーン上のDACとして2018年6月の始めにローンチします。それまでにeosDACはlanuch Teamによって運営されます。launch teamは過去6ヶ月以上にわたりEOSコミュニティニ深く関わっており、すでにEOSコミュニティのテストネットでのブロック生成も行なっています。現在eosDACトークンはEthereumブロックチェーン上に存在していますが、これはEOSブロックチェーンが使用可能になった際にEOSブロックチェーンに転送されます。
+
+![](https://cdn.steemitimages.com/DQmahj8wJf4ZiqdZzLrQUcdSYSomJFwGNb6NJ2iFYJ6pAYZ/image.png)
+
+# eosDACトークン：EOSコミュニティによる過半数の所有
+EOSコミュニティ自身によって所有されるEOSブロックプロデューサを作るために、eosDACトークンの75%はEOSトークン所有者にエアドロップされます。トークンの20%はLaunch Team、AdvisorとWider Community Networkに与えられます。彼らの無償の時間的、体力的、財政的貢献無くして、eosDACは存在し得ませんでした。残りの5%のeosDACトークンはeosDAC Ltdに与えられ、資本準備金として使用されます。
+
+詳しくはこちらをご覧ください：http://www.eosdac.io

@@ -16,5 +16,5 @@ node index.js PERMLINK [AUTHOR=eosdac] > ../../_i18n/en/_posts/yyyy-mm-dd-PERMLI
 Example:
 
 ```bash
-node index.js on-timelines-and-crypto-projects > ../../_i18n/en/_posts/2018-11-10-on-timelines-and-crypto-projects.md
+node index.js @eosdac/on-timelines-and-crypto-projects > ../../_i18n/en/_posts/2018-11-10-on-timelines-and-crypto-projects.md
 ```
