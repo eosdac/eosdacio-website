@@ -1,6 +1,6 @@
 ![Anti Fraud](/assets/vision-core-principles/anti-fraud-icon160x160.svg)
 
-Electoral Fraud
+Respect Community Agreements
 ---
 
-eosDAC will never provide payment for votes from EOS token holders.
+eosDAC will use its best efforts to respect the organizational documents of chains where it produces blocks while acting in the interest of chain token holders.
