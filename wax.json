@@ -40,6 +40,17 @@
       "api_endpoint": "http://wax.eosdac.io",
       "ssl_endpoint": "https://wax.eosdac.io",
       "p2p_endpoint": "wax.eosdac.io:29876"
+    },{
+      "location": {
+        "name": "Germany",
+        "country": "DE",
+        "latitude": 50.3836,
+        "longitude": 8.0503
+      },
+      "node_type": "full",
+      "api_endpoint": "http://wax2.eosdac.io",
+      "ssl_endpoint": "https://wax2.eosdac.io",
+      "p2p_endpoint": "wax2.eosdac.io:29876"
     },
     {
       "location": {
