@@ -1,2 +1,0 @@
-EosDAC smart contracts explained
-===
