@@ -19,6 +19,7 @@ pages:
   community: "Community"
   tools: "Tools"
   news: "News"
+  block-production: "Block Production"
   token: "Token"
 newsletterForm:
   name: "Name"
