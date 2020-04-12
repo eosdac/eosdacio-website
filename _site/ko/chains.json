@@ -1,0 +1,9 @@
+{
+  "chains": {
+    "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906": "/bp.json",
+    "e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473": "/jungle.json",
+    "1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4": "/wax.json",
+    "d5a3d18fbb3c084e3b1f3fa98c21014b5f3db536cc15d08f9f6479517c6a3d86": "/bos.json",
+    "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f": "/worbli.json"
+  }
+}

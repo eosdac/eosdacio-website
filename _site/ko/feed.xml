@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/ko/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ko/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-04-13T03:55:11+05:30</updated><id>http://localhost:4000/ko/feed.xml</id><title type="html">site.title</title><subtitle>site.description</subtitle><entry><title type="html">KROWN, the first DAC using eosDAC technology on mainnet</title><link href="http://localhost:4000/ko/2019/08/05/krown-the-first-dac-using-eosdac-technology-on-mainnet.html" rel="alternate" type="text/html" title="KROWN, the first DAC using eosDAC technology on mainnet" /><published>2019-08-05T21:41:00+05:30</published><updated>2019-08-05T21:41:00+05:30</updated><id>http://localhost:4000/ko/2019/08/05/krown-the-first-dac-using-eosdac-technology-on-mainnet</id><content type="html" xml:base="http://localhost:4000/ko/2019/08/05/krown-the-first-dac-using-eosdac-technology-on-mainnet.html">&lt;p&gt;On May 22, KROWN DAC was launched on the EOS mainnet, fostered by eosDAC technology: https://dac.krown.club/ 
+This makes KROWN DAC &lt;strong&gt;the first production DAC using the DAC Factory!&lt;/strong&gt; Point and click creation of DACs using DAC Factory is being refined for &lt;a href=&quot;https://steemit.com/eosio/@eosdac/introducing-eosdac-dac-factory&quot;&gt;the upcoming DAC hosting solution&lt;/a&gt;, so Luke of eosDAC was present at the time of launching to assist. Later, Duane of CSX team uploaded a video as an appreciation for our assistance with the launch and continued support with the KROWN DAC and Token. Watch the video and see how excited the entire team is!&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/TxUPTNFwyBE&lt;/p&gt;
+
+&lt;p&gt;As a DAC enabler, we are happy to witness more and more DACs are in preparation to launch. We will introduce them one by one over the coming months.&lt;/p&gt;
+
+&lt;h1 id=&quot;about-krown-dac&quot;&gt;About KROWN DAC&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmd3kw7gFj7PxKxhxWAGDugh5tJ2TKPj8Bhfkkjba5apzi/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;KROWN DAC is a community-led project which has been initiated to provide a set of equitable tools for community and product leaders as well as members within communities. These tools encourage actions where the members are not only consumers but creators of content.&lt;/p&gt;
+
+&lt;p&gt;The members of KROWN DAC have been leading co-operatives for many years, looking for a way to integrate the blockchain technology with the management of co-ops. They were looking to find a solution to encourage collaborative community engagement over passive consumption. A system where consumers are rewarded for the value they contribute to products or services, which is the fundamental of DACs and what eosDAC has been promoting since its inception. We hope to see the KROWN DAC platform facilitating a healthy merchant/customer relationship that is beneficial to both sides of the spectrum.&lt;/p&gt;
+
+&lt;p&gt;You can also watch an Interview to learn more about KROWN DAC.&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=VkV9GDXEMMQ&lt;/p&gt;
+
+&lt;p&gt;Krown will be offering an initial airdrop over many weeks to communities who have developed communities on EOS. They will also be disbursing through many giveaways, contests and bounties. So, stay tuned and get involved with KROWN today: https://www.krown.club/
+Their &lt;a href=&quot;https://www.youtube.com/channel/UCDX-PANHzIu8JBTm8hFzD4g/featured&quot;&gt;Youtube channel&lt;/a&gt; is also a great place to learn about the team.&lt;/p&gt;
+
+&lt;h1 id=&quot;mission-of-eosdac&quot;&gt;Mission of eosDAC&lt;/h1&gt;
+
+&lt;center&gt;![eosdac-logo-grey-512_strokes.png](https://cdn.steemitimages.com/DQmV5ZDTbxrMPgPNbiNbyqWZeSx1sPFngx9oT1qMEqxhv9R/eosdac-logo-grey-512_strokes.png)&lt;/center&gt;
+
+&lt;p&gt;eosDAC is a community-owned block producer on the EOSIO blockchain and also, the DAC enabler. Following the recent launch of a couple of DACs, we will continue to serve the EOS community with our mission to incubate more DACs. We envision that in the future these fractals of DACs will be blooming, disrupting the traditional companies where things are still centralised. Over time we will see communities challenging larger organisation nurturing the concept of DACs.&lt;/p&gt;
+
+&lt;p&gt;Back in early 2018 when eosDAC just started developing tools for launching our own DAC, it was our grand mission to be a DAC enabler. Here we are only a year later - the seeds began to sprout. We cannot wait to see how many projects will be using the DAC structure by the end of 2019 and next year and many years into the future! Join us today - become an active worker, run as a Custodian candidate, vote for Custodians and support &lt;code class=&quot;highlighter-rouge&quot;&gt;eosdacserver&lt;/code&gt; (on EOS mainnet and WAX mainnet / &lt;code class=&quot;highlighter-rouge&quot;&gt;bosdacserver&lt;/code&gt; on BOS)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://trybe.one/user/12031&quot; target=&quot;_blank&quot;&gt;Trybe&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/1304716887&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;| &lt;a href=&quot;https://www.jinse.com/member/325694&quot; target=&quot;_blank&quot;&gt;Jinse&lt;/a&gt;| &lt;a href=&quot;https://www.jianshu.com/u/f6c4cc2261ae&quot; target=&quot;_blank&quot;&gt;Jianshu&lt;/a&gt;| &lt;a href=&quot;https://eos.live/user/eos_DAC&quot; target=&quot;_blank&quot;&gt;EOS Live&lt;/a&gt;| &lt;a href=&quot;https://con.beekuaibao.com/#/member/show/KBH/590627695588241408&quot; target=&quot;_blank&quot;&gt;BeeNews&lt;/a&gt;| &lt;a href=&quot;https://www.zhihu.com/people/eosdac/activities&quot; target=&quot;_blank&quot;&gt;Zhihu&lt;/a&gt;| &lt;a href=&quot;https://mp.weixin.qq.com/s/hyddN3LFpx34F4UygBI0AA7&quot; target=&quot;_blank&quot;&gt;Wechat&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">On May 22, KROWN DAC was launched on the EOS mainnet, fostered by eosDAC technology: https://dac.krown.club/ This makes KROWN DAC the first production DAC using the DAC Factory! Point and click creation of DACs using DAC Factory is being refined for the upcoming DAC hosting solution, so Luke of eosDAC was present at the time of launching to assist. Later, Duane of CSX team uploaded a video as an appreciation for our assistance with the launch and continued support with the KROWN DAC and Token. Watch the video and see how excited the entire team is!</summary></entry><entry><title type="html">Introducing eosDAC: DAC Factory</title><link href="http://localhost:4000/ko/2019/07/22/introducing-eosdac-dac-factory.html" rel="alternate" type="text/html" title="Introducing eosDAC: DAC Factory" /><published>2019-07-22T22:22:30+05:30</published><updated>2019-07-22T22:22:30+05:30</updated><id>http://localhost:4000/ko/2019/07/22/introducing-eosdac-dac-factory</id><content type="html" xml:base="http://localhost:4000/ko/2019/07/22/introducing-eosdac-dac-factory.html">&lt;p&gt;eosDAC is delighted to announce our plan for the premium DAC hosting service: DAC Factory! You will be able to create a Decentralized Autonomous Community(DAC) to fit the needs of your organization and community with just a few simple steps, all hassle-free.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRpdRSYx4vhCJYJDJ4e7km2VCjnMbNJUug6MDoiNxngVG/cloud%20web%20(2).png&quot; alt=&quot;cloud web (2).png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;wait---everything-eosdac-develops-is-open-source-why-is-this-service-premium&quot;&gt;Wait - Everything eosDAC develops is open-source. Why is this service premium?&lt;/h3&gt;
+
+&lt;p&gt;Yes. All the tools eosDAC has developed to create, launch and run our DAC are shared with the community: https://github.com/eosdac/eosdac-factory and https://github.com/eosdac. However, running a DAC requires some technical skills like state history node, running an API filler, API processor, and API itself - for these three different services you’d have to rent a server to run those yourself. On top of that, you’d also need to rent another server to host the member client itself. Even though there’s a &lt;a href=&quot;https://steemit.com/dac/@eosdac/tutorial-launching-your-own-dac-on-the-jungle-test-network-with-eosdac&quot;&gt;step-to-step guide&lt;/a&gt; provided by Luke, it can still be bewildering for people with limited technical backgrounds. The DAC Factory’s got you covered. We will provide this service for people who don’t want the hassle of running an entire DAC backend server themselves, so they can turn the key and move onto building their project quicker. However, again, the core of what we do will always be open source and available for the community.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-what-is-included-in-dac-factory-hosted-dac-solution&quot;&gt;So what is included in DAC Factory: Hosted DAC Solution?&lt;/h3&gt;
+
+&lt;p&gt;The DAC Factory will have four main categories to customize:
+&lt;strong&gt;The basics&lt;/strong&gt; - to set up the name of your very own DAC, description, ID (account name of DAC) and symbol
+&lt;strong&gt;Tokenomics&lt;/strong&gt; - such as token issuance, maximum supply and decimal
+&lt;strong&gt;Branding &amp;amp; URL&lt;/strong&gt; - homepage URL, logo, and different colour scheme for your DAC!
+&lt;strong&gt;Custodian Configurations&lt;/strong&gt; - you can decide the number of custodians to run the DAC, custodian period length, percentage of tokens that need to vote before the DAC can launch, the required amount of tokens to register as a Custodian, maximum votes, different permissions settings, pay for custodians and other details crucial to run a DAC.&lt;/p&gt;
+
+&lt;h3 id=&quot;pricing-and-community-feedback&quot;&gt;Pricing and Community Feedback&lt;/h3&gt;
+&lt;p&gt;There will be a monthly service fee for hosting your member client and contracts as well as keeping you up-to-date with the latest industry standards as we continue development of our own DAC. We are still discussing with the community on actual pricing and which currency the service user should pay in. We would love to hear YOUR input on these:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Would you pay $100 a month for this service?&lt;/li&gt;
+  &lt;li&gt;Should the payment be using EOSDAC tokens?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Leave comments down below or jump into discussions with other members on &lt;a href=&quot;https://discord.io/&quot;&gt;Discord.io/eosdac&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our goals for this service are to:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Enable ANYONE regardless of technical background to be able to launch and run their own DAC.&lt;/li&gt;
+  &lt;li&gt;Create additional revenue for eosDAC to be able to fund further development of DACs.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Exact product details, such as pricing, payment methods will be provided upon launching the service, but please give us any feedback you think would be helpful.&lt;/p&gt;
+
+&lt;p&gt;Thanks for your help and interest in DACs. Stay tuned for the followup updates!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://trybe.one/user/12031&quot; target=&quot;_blank&quot;&gt;Trybe&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/1304716887&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;| &lt;a href=&quot;https://www.jinse.com/member/325694&quot; target=&quot;_blank&quot;&gt;Jinse&lt;/a&gt;| &lt;a href=&quot;https://www.jianshu.com/u/f6c4cc2261ae&quot; target=&quot;_blank&quot;&gt;Jianshu&lt;/a&gt;| &lt;a href=&quot;https://eos.live/user/eos_DAC&quot; target=&quot;_blank&quot;&gt;EOS Live&lt;/a&gt;| &lt;a href=&quot;https://con.beekuaibao.com/#/member/show/KBH/590627695588241408&quot; target=&quot;_blank&quot;&gt;BeeNews&lt;/a&gt;| &lt;a href=&quot;https://www.zhihu.com/people/eosdac/activities&quot; target=&quot;_blank&quot;&gt;Zhihu&lt;/a&gt;| &lt;a href=&quot;https://mp.weixin.qq.com/s/hyddN3LFpx34F4UygBI0AA7&quot; target=&quot;_blank&quot;&gt;Wechat&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">eosDAC is delighted to announce our plan for the premium DAC hosting service: DAC Factory! You will be able to create a Decentralized Autonomous Community(DAC) to fit the needs of your organization and community with just a few simple steps, all hassle-free.</summary></entry><entry><title type="html">DAC Weekly Recap #8</title><link href="http://localhost:4000/ko/2019/07/12/dac-weekly-recap-8.html" rel="alternate" type="text/html" title="DAC Weekly Recap #8" /><published>2019-07-12T05:30:12+05:30</published><updated>2019-07-12T05:30:12+05:30</updated><id>http://localhost:4000/ko/2019/07/12/dac-weekly-recap-8</id><content type="html" xml:base="http://localhost:4000/ko/2019/07/12/dac-weekly-recap-8.html">&lt;h1 id=&quot;custodian-news&quot;&gt;Custodian News&lt;/h1&gt;
+&lt;p&gt;This week’s Custodian Board (Custodians are re-elected every seven days! If you want to engage in running eosDAC and make decisions for it, stake a minimum of 35000 EOSDAC and register yourself as a candidate on https://members.eosdac.io/)&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/angeljeffrey&quot;&gt;&lt;img src=&quot;https://i.imgur.com/hTRYoRu.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/brockpierce1&quot;&gt;&lt;img src=&quot;https://i.imgur.com/tA2pgmQ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/dallasjohnso&quot;&gt;&lt;img src=&quot;https://i.imgur.com/xq6yE5Z.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/cream5eosdac&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mB81ivl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/lukeeosproxy&quot;&gt;&lt;img src=&quot;https://i.imgur.com/BK709TN.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/spaceinvader&quot;&gt;&lt;img src=&quot;https://i.imgur.com/VEJoIOl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/greentreesom&quot;&gt;&lt;img src=&quot;https://i.imgur.com/7NL6b94.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/soyoungkimsk&quot;&gt;&lt;img src=&quot;https://i.imgur.com/4UQ7uRe.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/mryeateshere&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mJTH4UJ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/khaleesiwang&quot;&gt;&lt;img src=&quot;https://i.imgur.com/lTFlntS.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/eosdackorean&quot;&gt;&lt;img src=&quot;https://i.imgur.com/sUYhAh3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/jbucksteiner&quot;&gt;&lt;img src=&quot;https://i.imgur.com/KVxvdfY.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;this-weeks-highlights&quot;&gt;This week’s highlights&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We believe in transparency. Here is our &lt;a href=&quot;https://steemit.com/eosio/@eosdac/eosdac-eos-expenditure-period-february-2019-june-2019&quot;&gt;EOS Expenditure&lt;/a&gt; for the last five months. You can also check the overview of eosDAC accounts on &lt;a href=&quot;https://members.eosdac.io/&quot;&gt;eosDAC Member Client&lt;/a&gt; &amp;gt; eosDAC Activity &amp;gt; View Financials. 
+&lt;img src=&quot;https://cdn.steemitimages.com/DQmd6TNUwVYaE85fJTozsUiRjFjp2oBNE7ehbdvRq66yuEd/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;eosDAC is pleased to announce that we have registered on the WAX chain as a “Guild” candidate (=BPC). Anyone who owns WAX tokens, please vote for eosdacserver and then start to claim your WAX rewards for staking and voting! (read &lt;a href=&quot;https://steemit.com/eosio/@eosdac/eosdac-is-supporting-the-wax-chain&quot;&gt;this post&lt;/a&gt; for how to claim your staking rewards) and this for our &lt;a href=&quot;https://steemit.com/eosio/@eosdac/eosdac-wax-guild-candidacy-announcement&quot;&gt;WAX Guild candidacy information&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmREJ2jdiEUnCvZYj8rYJWbAN4tndu58d6rQYWatJ5zsXG/wax.png&quot; alt=&quot;wax.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Members of eosDAC were invited to present the governance of the DAC and the eosDAC Member client at the conference, to help more people understand what a DAC is and how the DAC is a truly decentralised community. &lt;a href=&quot;https://steemit.com/eosio/@eosdac/promoting-the-eos-community-and-dacs-in-china-or-sanya-summit&quot;&gt;Read more&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learn about how eosDAC is run by the token holder community and how it interfaces with the traditional legal world. Also, catch up with the latest updates such as other DACs using eosDAC Factory, Brock Pierce joined the eosDAC Custodian and more.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=QwCylIxtIs8&amp;amp;t=\&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Daniel and Saro of eosDAC visited the UK parliamentary working group on blockchain to monitor UK regulation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;![photo_2019-07-01_21-19-29.jpg](https://steemitimages.com/407x271/https://cdn.steemitimages.com/DQmNk4Ey2vY245VcebQJijbVrVMeAHTGwwrM95V4NpMMWc3/photo_2019-07-01_21-19-29.jpg)&lt;/center&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Have you been playing Prospectors? The state is the governing body in the game where holders of the PGL tokens act as the governing body. In the future it will turn in to a DAO, so All PGL holders will have the opportunity to vote on game changes! &lt;a href=&quot;https://decentium.org/illuminati.e/prospectors-5&quot;&gt;Read more&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmVdFaaKcMRPtGxrbEemuvwCf6aimnL2qd5XXg55N2fDD8/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Every community can be a DAC! EOS Community will join Burning Man, which itself is a decentralised community, as a CampDAO. CampDAO will be the first decentralised community using the blockchain technology at Burning Man. Learn more about the fascinating city of Burning Man and how DACs/DAOs can provide a natural structure and rotation of leadership from year to year. https://www.youtube.com/watch?v=lzHjLZOzFKs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;approved-msigs-of-the-week&quot;&gt;Approved Msigs of the Week&lt;/h1&gt;
+&lt;p&gt;We have &lt;strong&gt;13&lt;/strong&gt; msig proposals approved and executed since the last DAC Weekly Recap. Note that 2 of them are 2nd attempts as the first got failed due to some administration errors.&lt;/p&gt;
+
+&lt;p&gt;Regular deliverables
+&lt;a href=&quot;https://bloks.io/transaction/BC79CDF2859A695B7474C0E62D4102A88F3C77A3B505B77074EF9C74C5945334&quot;&gt;June: Block Production Payment&lt;/a&gt;
+&lt;a href=&quot;https://bloks.io/transaction/2EB562C7CCF91557429650CC6C27477063F53F08AA783F5119937EBEB06D8DD4&quot;&gt;June: Development Payment&lt;/a&gt;
+&lt;a href=&quot;https://bloks.io/transaction/E004DDB446C0270E7FF34707AFC92F393C48ACC7A2E9A7CDFC3D2D52A0AD60A69&quot;&gt;June: Community And Comms Payment&lt;/a&gt;
+&lt;a href=&quot;https://bloks.io/transaction/15EA225D514C26C31E643E8CE8F19996AE2C7C50813008953BCF13F41641A2B0&quot;&gt;June: DAC Process And Strategy Payment&lt;/a&gt;
+&lt;a href=&quot;https://bloks.io/transaction/C0F83D974E0FE7297E5FB4FAAFBF0A78A3178963822521B7B82BE7562E7BA414&quot;&gt;WP#444 DAC WEEKLY + Content + Assist Myra&lt;/a&gt;
+-&amp;gt;This failed to pay the actual worker due to some administrative errors. Successful payment of the duplicate &lt;a href=&quot;https://bloks.io/transaction/AA37D7A7E975A687CED2F9060CB180C21DE61E2EEE8BEA6F8D1CE64FB442D09A&quot;&gt;msig&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Others
+&lt;a href=&quot;https://bloks.io/transaction/50752A309C0546AE3E2FF3879107434398A3B71D610DD67F5E679F42A4FC9E0C&quot;&gt;Privex Server&lt;/a&gt;
+Pay Privex for our testnet server, already paid with txid &lt;code class=&quot;highlighter-rouge&quot;&gt;b888b2a57e33a39d682b8ecfcc26706733b40b4564beb2b5afdc15077bcb8c1f&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/0A4A464677DD086799D823AC4ACEB9581F0D48916DCD3AAC534B2A6C0B0E2FC8&quot;&gt;Fix For Failed Custodian Payments To Lukeeosproxy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/83099C086B44B368D320AFDD3638E450EDF0578DB37D6A7178C95CE6BF67419B&quot;&gt;Return Overpayment&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://members.eosdac.io/profile/pramodeosdac&quot;&gt;WP#451 Dac Factory UI Mockups&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/F526CE45BF140EA598210DF5412850F631CCCFB4A6E3CD7B6E4E6D2457FC1200&quot;&gt;Transfer EOSDAC For Tokens Stuck In ETH Based Dex IDEX/Etherdelta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/A2F066051AFBBDFB59C14E1EB958BA84E8ACCC437F7A75AAF0732001FE1DF395&quot;&gt;Apply To Be A Wax Guild&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/E6E1B3C71A76C15AE341FA266F7066CC2950F27488226B3D0819919791FB8EF7&quot;&gt;Unstake From Dacmultisigs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Transparency is the significant advantage of being a DAC. You can check all of the submitted &amp;amp; executed worker proposals on https://members.eosdac.io/custodian/review-msigs&lt;/p&gt;
+
+&lt;h1 id=&quot;eos-report&quot;&gt;EOS Report…&lt;/h1&gt;
+
+&lt;h3 id=&quot;eosio-18-upgrade---date-proposed-sept-23-2019&quot;&gt;EOSIO 1.8 Upgrade - Date Proposed: Sept 23, 2019.&lt;/h3&gt;
+&lt;p&gt;To all EOS BPs - The proposed date for the upgrade to v1.8 is Sept 23 @ 13:00 UTC. Please sign &lt;a href=&quot;https://eosauthority.com/polls_details?proposal=eosupgrade_20190709#status&quot;&gt;this reference&lt;/a&gt; to acknowledge the time.&lt;/p&gt;
+
+&lt;p&gt;When the date is 100% set, every single node on the network has to upgrade before the date. Any node which doesn’t upgrade will immediately be kicked off the network and will no longer receive blocks and no longer have any history.&lt;/p&gt;
+
+&lt;p&gt;EOS Developers as well have to make sure to have their dApps upgraded to 1.8 as well as there will be changes to the history nodes.&lt;/p&gt;
+
+&lt;p&gt;The main change in the 1.8v upgrade, which B1 needs for Voice, is the first payer. Up until now, if there are two authentications on a transaction, then they split the CPU/NET cost. However, in 1.8, the first listed authentication will pay, which means that Block.One will sign transactions on behalf of the user and also for Voice and then they pay for the CPU.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://trybe.one/user/12031&quot; target=&quot;_blank&quot;&gt;Trybe&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/1304716887&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;| &lt;a href=&quot;https://www.jinse.com/member/325694&quot; target=&quot;_blank&quot;&gt;Jinse&lt;/a&gt;| &lt;a href=&quot;https://www.jianshu.com/u/f6c4cc2261ae&quot; target=&quot;_blank&quot;&gt;Jianshu&lt;/a&gt;| &lt;a href=&quot;https://eos.live/user/eos_DAC&quot; target=&quot;_blank&quot;&gt;EOS Live&lt;/a&gt;| &lt;a href=&quot;https://con.beekuaibao.com/#/member/show/KBH/590627695588241408&quot; target=&quot;_blank&quot;&gt;BeeNews&lt;/a&gt;| &lt;a href=&quot;https://www.zhihu.com/people/eosdac/activities&quot; target=&quot;_blank&quot;&gt;Zhihu&lt;/a&gt;| &lt;a href=&quot;https://mp.weixin.qq.com/s/hyddN3LFpx34F4UygBI0AA7&quot; target=&quot;_blank&quot;&gt;Wechat&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Custodian News This week’s Custodian Board (Custodians are re-elected every seven days! If you want to engage in running eosDAC and make decisions for it, stake a minimum of 35000 EOSDAC and register yourself as a candidate on https://members.eosdac.io/)</summary></entry><entry><title type="html">eosDAC EOS Expenditure (Period February 2019 – June 2019)</title><link href="http://localhost:4000/ko/2019/07/10/eosdac-eos-expenditure-period-february-2019-june-2019.html" rel="alternate" type="text/html" title="eosDAC EOS Expenditure (Period February 2019 – June 2019)" /><published>2019-07-10T23:37:27+05:30</published><updated>2019-07-10T23:37:27+05:30</updated><id>http://localhost:4000/ko/2019/07/10/eosdac-eos-expenditure-period-february-2019-june-2019</id><content type="html" xml:base="http://localhost:4000/ko/2019/07/10/eosdac-eos-expenditure-period-february-2019-june-2019.html">&lt;p&gt;eosDAC is pleased to report its EOS expenditure in February 2019 – June 2019, reflecting our priorities: secure and reliable block production; development of DAC Factory, payments to eosDAC custodians; support for the eosDAC community and awareness of the token; and leadership around chain-level issues so as to support the EOS ecosystem in general and our community in particular.&lt;/p&gt;
+
+&lt;h3 id=&quot;eos-revenue-and-expenditure-for-the-period-1-february-2019--30-june-2019&quot;&gt;EOS revenue and expenditure for the period 1 February 2019 – 30 June 2019&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmXdvrmzAgYXwyzEfT8zpN9RShre3TtjfVMgyRYN4U9zMe/1feb.png&quot; alt=&quot;1feb.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;detailed-worker-proposal-expenditure&quot;&gt;Detailed Worker Proposal Expenditure&lt;/h2&gt;
+
+&lt;h3 id=&quot;payments-made-for-february&quot;&gt;Payments made for February&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmQDWGt1tNZK8pDzmtKAX3bfnwz3R9GgtV5iaAn3a2uLxN/1feb2.png&quot; alt=&quot;1feb2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;payments-made-for-march&quot;&gt;Payments made for March&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmNRod2SbsZuvjS6NWa4P684nzdbWUXxmFyCWSYnt6cme6/2march.png&quot; alt=&quot;2march.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;payments-made-for-april&quot;&gt;Payments made for April&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmeZuvcZgCAAvneZBDhs788cjV2TXrFyCLkiHUbyDh6m9C/3apri.png&quot; alt=&quot;3apri.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;payments-made-for-may&quot;&gt;Payments made for May&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmfCK2oyEKDXthgkxpr1wtoibdggcAL8CmTwvEtPsaAucW/4may.png&quot; alt=&quot;4may.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;payments-made-for-june&quot;&gt;Payments made for June&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmY5KHRbJuTyRw3FzthXQwWfFVWKiEZTzbAYrR2FEtmBKX/5june.png&quot; alt=&quot;5june.png&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://trybe.one/user/12031&quot; target=&quot;_blank&quot;&gt;Trybe&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/1304716887&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;| &lt;a href=&quot;https://www.jinse.com/member/325694&quot; target=&quot;_blank&quot;&gt;Jinse&lt;/a&gt;| &lt;a href=&quot;https://www.jianshu.com/u/f6c4cc2261ae&quot; target=&quot;_blank&quot;&gt;Jianshu&lt;/a&gt;| &lt;a href=&quot;https://eos.live/user/eos_DAC&quot; target=&quot;_blank&quot;&gt;EOS Live&lt;/a&gt;| &lt;a href=&quot;https://con.beekuaibao.com/#/member/show/KBH/590627695588241408&quot; target=&quot;_blank&quot;&gt;BeeNews&lt;/a&gt;| &lt;a href=&quot;https://www.zhihu.com/people/eosdac/activities&quot; target=&quot;_blank&quot;&gt;Zhihu&lt;/a&gt;| &lt;a href=&quot;https://mp.weixin.qq.com/s/hyddN3LFpx34F4UygBI0AA7&quot; target=&quot;_blank&quot;&gt;Wechat&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">eosDAC is pleased to report its EOS expenditure in February 2019 – June 2019, reflecting our priorities: secure and reliable block production; development of DAC Factory, payments to eosDAC custodians; support for the eosDAC community and awareness of the token; and leadership around chain-level issues so as to support the EOS ecosystem in general and our community in particular.</summary></entry><entry><title type="html">eosDAC WAX Guild Candidacy Announcement</title><link href="http://localhost:4000/ko/2019/07/07/eosdac-wax-guild-candidacy-announcement.html" rel="alternate" type="text/html" title="eosDAC WAX Guild Candidacy Announcement" /><published>2019-07-07T22:20:57+05:30</published><updated>2019-07-07T22:20:57+05:30</updated><id>http://localhost:4000/ko/2019/07/07/eosdac-wax-guild-candidacy-announcement</id><content type="html" xml:base="http://localhost:4000/ko/2019/07/07/eosdac-wax-guild-candidacy-announcement.html">&lt;center&gt;![eosdac-logo-grey-512_strokes.png](https://cdn.steemitimages.com/DQmV5ZDTbxrMPgPNbiNbyqWZeSx1sPFngx9oT1qMEqxhv9R/eosdac-logo-grey-512_strokes.png)&lt;/center&gt;
+&lt;h3 id=&quot;official-wax-guild-candidate-account-name-eosdacserver&quot;&gt;Official WAX Guild candidate account name: eosdacserver&lt;/h3&gt;
+
+&lt;h3 id=&quot;public-website&quot;&gt;Public Website&lt;/h3&gt;
+
+&lt;p&gt;http://eosdac.io
+(&lt;strong&gt;BP Info&lt;/strong&gt; at the bottom of the website: https://eosdac.io/bp.json)&lt;/p&gt;
+
+&lt;h3 id=&quot;social-media-outlets&quot;&gt;Social Media Outlets&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://trybe.one/user/12031&quot; target=&quot;_blank&quot;&gt;Trybe&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://bihu.com/people/1304716887&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.jinse.com/member/325694&quot; target=&quot;_blank&quot;&gt;Jinse&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.jianshu.com/u/f6c4cc2261ae&quot; target=&quot;_blank&quot;&gt;Jianshu&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://eos.live/user/eos_DAC&quot; target=&quot;_blank&quot;&gt;EOS Live&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://con.beekuaibao.com/#/member/show/KBH/590627695588241408&quot; target=&quot;_blank&quot;&gt;BeeNews&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.zhihu.com/people/eosdac/activities&quot; target=&quot;_blank&quot;&gt;Zhihu&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/hyddN3LFpx34F4UygBI0AA7&quot; target=&quot;_blank&quot;&gt;Wechat&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;node-names-for-community-testnet-participation&quot;&gt;Node names for community testnet participation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jungle Testnet &lt;code class=&quot;highlighter-rouge&quot;&gt;eosdacserval&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;BOS Testnet &lt;code class=&quot;highlighter-rouge&quot;&gt;bosdacserver&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;location-of-company-headquarters&quot;&gt;Location of company headquarters&lt;/h3&gt;
+
+&lt;p&gt;eosDAC exists on the EOS Blockchain run by contracts on the following accounts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;eosdactokens &lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;eosdacthedac&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;daccustodian&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dacmultisigs&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dacauthority&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dacoco GmbH is a company registered in Zug, Switzerland. It currently is mandated to act as the company interface to the traditional financial system.&lt;/p&gt;
+
+&lt;h3 id=&quot;expected-location-of-servers&quot;&gt;Expected location of servers&lt;/h3&gt;
+
+&lt;p&gt;The WAX nodes will initially be operated in Germany and Finland. However, eosDAC also has the infrastructure in the UK, France, Romania and South Korea.&lt;/p&gt;
+
+&lt;h3 id=&quot;type-of-servers-cloud-bare-metal-etc&quot;&gt;Type of servers (cloud, bare metal, etc.)&lt;/h3&gt;
+
+&lt;p&gt;Bare Metal with a little cloud&lt;/p&gt;
+
+&lt;h3 id=&quot;current-employee-list-and-pictures&quot;&gt;Current employee list and pictures&lt;/h3&gt;
+
+&lt;p&gt;12 Custodians including some of the most recognisable members of the EOS Community.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/angeljeffrey&quot;&gt;&lt;img src=&quot;https://i.imgur.com/hTRYoRu.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/brockpierce1&quot;&gt;&lt;img src=&quot;https://i.imgur.com/tA2pgmQ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/dallasjohnso&quot;&gt;&lt;img src=&quot;https://i.imgur.com/xq6yE5Z.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/cream5eosdac&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mB81ivl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/lukeeosproxy&quot;&gt;&lt;img src=&quot;https://i.imgur.com/BK709TN.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/spaceinvader&quot;&gt;&lt;img src=&quot;https://i.imgur.com/VEJoIOl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/greentreesom&quot;&gt;&lt;img src=&quot;https://i.imgur.com/7NL6b94.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/soyoungkimsk&quot;&gt;&lt;img src=&quot;https://i.imgur.com/4UQ7uRe.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/mryeateshere&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mJTH4UJ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/khaleesiwang&quot;&gt;&lt;img src=&quot;https://i.imgur.com/lTFlntS.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/eosdackorean&quot;&gt;&lt;img src=&quot;https://i.imgur.com/sUYhAh3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/jbucksteiner&quot;&gt;&lt;img src=&quot;https://i.imgur.com/KVxvdfY.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In addition, there are a number of other people working for more info on the custodian)through the worker proposal system. All information is transparently available on EOS Mainnet Blockchain.&lt;/p&gt;
+
+&lt;h3 id=&quot;relevant-background-qualifications&quot;&gt;Relevant background qualifications&lt;/h3&gt;
+
+&lt;p&gt;Custodians and workers have world-class experience in a wide variety of subject areas, but all have been respected members of the EOS and wider blockchain communities since well before the initial launch.&lt;/p&gt;
+
+&lt;p&gt;eosDAC has been operational as a block producer on the EOS Mainnet since launch and has produced over 1 million blocks. We also run nodes on BOS, Worbli and the Jungle Testnet. Luke Stokes also is a witness on Steem.&lt;/p&gt;
+
+&lt;h3 id=&quot;tech-specs-and-scaling&quot;&gt;Tech specs and scaling&lt;/h3&gt;
+
+&lt;p&gt;Minimum 128GB RAM, Min 3.5Ghz CPU processors. eosDAC already runs over a dozen servers supporting multiple EOSIO chains. All services will be monitored, and enhancements in services will be proposed and discussed using our community governance model.&lt;/p&gt;
+
+&lt;h3 id=&quot;community-benefit-project-outline&quot;&gt;Community benefit project outline&lt;/h3&gt;
+
+&lt;p&gt;eosDAC’s two primary focus areas are community-based block production on eosio chains and enabling new decentralised autonomous communities (DACs). We firmly believe that the DAC structure should be the de facto standard for organisations operating on blockchains. They are inherently more decentralised, more transparent, more accountable and (the way we have set it up) more secure than other types of governance.&lt;/p&gt;
+
+&lt;p&gt;Our DAC enabling work is focused on providing a hosted tool call the DAC factory which makes it easy for people to set up and operate decentralised communities.&lt;/p&gt;
+
+&lt;p&gt;All our tools are open source, and the DAC Factory tools are already being used by several communities on the EOS chain. We are continuing to improve these and make them easier to use and update.&lt;/p&gt;
+
+&lt;h3 id=&quot;join-eosdac&quot;&gt;Join eosDAC&lt;/h3&gt;
+
+&lt;p&gt;Anyone can participate in eosDAC. Join &lt;a href=&quot;https://discord.gg/MFhexW&quot;&gt;our community&lt;/a&gt; and if you want, you can submit &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSculmbT-JGo9eX7BtQfTGoLUFnQyeThOR-wPBx7DZiIeKtmpw/viewform&quot;&gt;work proposals&lt;/a&gt; or even run to be elected as a custodian. We value everyone in our community who brings positive energy and are particularly interested in getting more WAX enthusiasts and users on board to help shape our future.&lt;/p&gt;
+
+&lt;p&gt;Got an idea for a New Community on WAX? - contact us through our social media channels to see how we can work together.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://trybe.one/user/12031&quot; target=&quot;_blank&quot;&gt;Trybe&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/1304716887&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;| &lt;a href=&quot;https://www.jinse.com/member/325694&quot; target=&quot;_blank&quot;&gt;Jinse&lt;/a&gt;| &lt;a href=&quot;https://www.jianshu.com/u/f6c4cc2261ae&quot; target=&quot;_blank&quot;&gt;Jianshu&lt;/a&gt;| &lt;a href=&quot;https://eos.live/user/eos_DAC&quot; target=&quot;_blank&quot;&gt;EOS Live&lt;/a&gt;| &lt;a href=&quot;https://con.beekuaibao.com/#/member/show/KBH/590627695588241408&quot; target=&quot;_blank&quot;&gt;BeeNews&lt;/a&gt;| &lt;a href=&quot;https://www.zhihu.com/people/eosdac/activities&quot; target=&quot;_blank&quot;&gt;Zhihu&lt;/a&gt;| &lt;a href=&quot;https://mp.weixin.qq.com/s/hyddN3LFpx34F4UygBI0AA7&quot; target=&quot;_blank&quot;&gt;Wechat&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">![eosdac-logo-grey-512_strokes.png](https://cdn.steemitimages.com/DQmV5ZDTbxrMPgPNbiNbyqWZeSx1sPFngx9oT1qMEqxhv9R/eosdac-logo-grey-512_strokes.png) Official WAX Guild candidate account name: eosdacserver</summary></entry><entry><title type="html">eosDAC Joins the WAX Network</title><link href="http://localhost:4000/ko/2019/07/07/eosdac-is-supporting-the-wax-chain.html" rel="alternate" type="text/html" title="eosDAC Joins the WAX Network" /><published>2019-07-07T19:48:09+05:30</published><updated>2019-07-07T19:48:09+05:30</updated><id>http://localhost:4000/ko/2019/07/07/eosdac-is-supporting-the-wax-chain</id><content type="html" xml:base="http://localhost:4000/ko/2019/07/07/eosdac-is-supporting-the-wax-chain.html">&lt;p&gt;&lt;em&gt;The WAX blockchain mainnet is live! eosDAC is pleased to announce that we have registered on the WAX chain as a “Guild” candidate (=BPC).
+Anyone who owns WAX tokens, please vote for &lt;code class=&quot;highlighter-rouge&quot;&gt;eosdacserver&lt;/code&gt; and then start to claim your WAX rewards for staking and voting! (Instructions below)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmREJ2jdiEUnCvZYj8rYJWbAN4tndu58d6rQYWatJ5zsXG/wax.png&quot; alt=&quot;wax.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;eosdac-vision&quot;&gt;eosDAC Vision&lt;/h1&gt;
+&lt;p&gt;It is the vision of eosDAC that EOS.IO block production should be open for everyone to contribute and benefit. To realise this vision, eosDAC is an evolving Decentralised Autonomous Community (DAC) focused on EOS.IO Block Production serving the EOS communities worldwide. In doing this, eosDAC is creating the tools and smart contracts it needs to function. It will share these with the EOS communities to help other DACs thrive on the EOS.IO blockchains.&lt;/p&gt;
+
+&lt;h1 id=&quot;eosdacs-code-of-conduct&quot;&gt;eosDAC’s Code of Conduct&lt;/h1&gt;
+&lt;p&gt;The primary objective of eosDAC is to ensure that it is able to continuously produce blocks required by EOS.IO software driven blockchains. We want EOS.IO blockchains to flourish so we will engage with EOS communities with a view to initiating and supporting projects that benefit all EOS.IO blockchain communities. This will include tools for other DACs.&lt;/p&gt;
+
+&lt;h1 id=&quot;about-wax&quot;&gt;About WAX&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmSrfiTiZNJziFQYy6oXARioC2jCAn35zsQvyF4vRKawUL/Screenshot_2.png&quot; alt=&quot;Screenshot_2.png&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;WAX is the safest and most convenient way to create, buy, sell, and trade virtual items - to anyone, anywhere in the world.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hundreds of millions of people around the globe already trade digital and physical items. But the problems that plague the digital goods and trading community have stunted its growth far beneath its full potential.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;WAX has created a full suite of blockchain-based tools that allows anyone to trade digital or even physical items instantly and securely, to anyone, anywhere.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Participants of the Worldwide Asset eXchange gain access to a global community of collectors and traders, buyers and sellers, creators and gamers, merchants, dApp creators, and game developers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Buy and sell gift cards with confidence in a marketplace powered by WAX. Or build an online store with ease using our B2B tools. Create a digital version of the sneakers in your closet and then sell them to a buyer who lives half a world away.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;wax-token-swap-and-staking--voting-rewards&quot;&gt;WAX Token Swap and Staking &amp;amp; Voting Rewards&lt;/h1&gt;
+&lt;p&gt;If you are an owner of ERC‑20 WAX Tokens, swap them for Genesis WAX Protocol Tokens now. The token swap period ends on August 30, 2019, at 5 pm Pacific Time and afterwards, the ERC-20 WAX Tokens will be burned and permanently decommissioned. Here is a step-to-step video tutorial: https://tokenswap.wax.io/&lt;/p&gt;
+
+&lt;p&gt;The WAX rewards the holders who stake their tokens and vote for Guilds, to increase community participation in the selection of guilds and blockchain improvement proposals. How to get the WAX Staking Rewards:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmavnuTXyVQAw7DGETW3s1dpEVcPDgdt3cPstkCgsZtzqP/Stake-Vote-StakingRewards.png&quot; alt=&quot;Stake-Vote-StakingRewards.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stake your WAX Tokens. If your WAX Tokens are not staked, you will need to stake them using a Scatter wallet. If you have Genesis WAX Protocol Tokens, then they are already staked.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vote via your Scatter wallet. If you have Genesis WAX Protocol Tokens in a WAX Blockchain account, you will need to connect a Scatter wallet to the account to vote. All WAX Token holders can vote for up to 30 WAX Guilds. The strength of your vote for any particular guild depends on the number of WAX Tokens you have staked.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Earn WAX Staking Rewards. WAX Token holders who stake their tokens and then vote with them will earn additional WAX Tokens. These earnings are called WAX Staking Rewards and are issued directly from the WAX Blockchain.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;wax-tools-for-businesses&quot;&gt;WAX Tools for Businesses&lt;/h1&gt;
+&lt;p&gt;The Wax chain provides a set of tools and services that allow the community to build projects on WAX. From dApps developers to marketplace owners, video game creators, collectible traders and more, the following microservices are available:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://creator.wax.io/create-collectible&quot;&gt;WAX Creator&lt;/a&gt;: a self-service tool that allows anyone to create an NFT on the WAX Blockchain for free&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wax.io/blog/a-sneak-peek-of-wax-account-features&quot;&gt;WAX Account&lt;/a&gt;: similar to a wallet, except that it doesn’t store private keys, and provides more utility than a standard wallet&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wax.io/blog/wax-all-access-is-now-live&quot;&gt;WAX All Access&lt;/a&gt;: a single sign-on and OAUTH service&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wax.io/blog/wax-all-access-is-now-live&quot;&gt;WAX ExpressTrade&lt;/a&gt;: a free, instant peer-to-peer trading service&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://opskins.com/&quot;&gt;WAX Marketplace&lt;/a&gt;: create your own WAX Marketplace with our API or use OPSkins.com&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wax.io/blog/reimagining-the-block-explorer-with-the-wax-explorer&quot;&gt;WAX Explorer&lt;/a&gt;: unlike any block explorer you’ve seen before, featuring a user-friendly design, a visual representation of every item traded, and multiple 3D viewing and interactive features.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wax.io/blog/how-the-wax-rng-smart-contract-solves-common-problems-for-dapp-developers&quot;&gt;WAX Random Number Generator native blockchain service&lt;/a&gt;: an open source service that solves problems commonly experienced by dApp developers&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wax.io/blog/new-sell-your-games-on-the-wax-blockchain-and-well-share-the-commission-with-you&quot;&gt;WAX Seller Central&lt;/a&gt;: a self-service portal that game sellers can use to earn 10% of the commission every time their game re-sells to someone else&lt;/p&gt;
+
+&lt;p&gt;JOIN WAX TODAY AND VOTE FOR &lt;a href=&quot;https://wax.bloks.io/&quot;&gt;EOSDACSERVER&lt;/a&gt;!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://trybe.one/user/12031&quot; target=&quot;_blank&quot;&gt;Trybe&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/1304716887&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;| &lt;a href=&quot;https://www.jinse.com/member/325694&quot; target=&quot;_blank&quot;&gt;Jinse&lt;/a&gt;| &lt;a href=&quot;https://www.jianshu.com/u/f6c4cc2261ae&quot; target=&quot;_blank&quot;&gt;Jianshu&lt;/a&gt;| &lt;a href=&quot;https://eos.live/user/eos_DAC&quot; target=&quot;_blank&quot;&gt;EOS Live&lt;/a&gt;| &lt;a href=&quot;https://con.beekuaibao.com/#/member/show/KBH/590627695588241408&quot; target=&quot;_blank&quot;&gt;BeeNews&lt;/a&gt;| &lt;a href=&quot;https://www.zhihu.com/people/eosdac/activities&quot; target=&quot;_blank&quot;&gt;Zhihu&lt;/a&gt;| &lt;a href=&quot;https://mp.weixin.qq.com/s/hyddN3LFpx34F4UygBI0AA7&quot; target=&quot;_blank&quot;&gt;Wechat&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The WAX blockchain mainnet is live! eosDAC is pleased to announce that we have registered on the WAX chain as a “Guild” candidate (=BPC). Anyone who owns WAX tokens, please vote for eosdacserver and then start to claim your WAX rewards for staking and voting! (Instructions below)</summary></entry><entry><title type="html">Promoting the EOS Community and DACs in China | Sanya Summit</title><link href="http://localhost:4000/ko/2019/07/03/promoting-the-eos-community-and-dacs-in-china-or-sanya-summit.html" rel="alternate" type="text/html" title="Promoting the EOS Community and DACs in China | Sanya Summit" /><published>2019-07-03T03:31:51+05:30</published><updated>2019-07-03T03:31:51+05:30</updated><id>http://localhost:4000/ko/2019/07/03/promoting-the-eos-community-and-dacs-in-china-or-sanya-summit</id><content type="html" xml:base="http://localhost:4000/ko/2019/07/03/promoting-the-eos-community-and-dacs-in-china-or-sanya-summit.html">&lt;p&gt;With the vision of “Unlocking the new economy”, International Fintech Innovation Conference (IFIC) was held on 24-25 May in Hainan, China.&lt;/p&gt;
+
+&lt;h3 id=&quot;at-the-conference&quot;&gt;At the conference…&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmSGBQjj6it2eY3c5ENzYcn92acCpNfcqssd5SYv5RvDJ6/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The EOS community members from all over the globe came together to share the latest news from their regions,  discuss various developments in the EOS ecosystem share technology and governance ideas to explore the future of EOS.&lt;/p&gt;
+
+&lt;p&gt;The event provided opportunities to the community to foster connections as well as to see the great potential of EOS as a blockchain 3.0 project. In addition to members of the EOS community, many Chinese and global fintech experts, representatives of well-known organizations in the blockchain and IT industries joined to give talks on blockchain technology, EOS development, and other important topics from the industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmTABpPVtjKe3fTYXNXTniFt1FbL2WL36UwvwF9jSsgxHj/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Michael Yeates and Saro Mckenna of eosDAC were invited to present the governance of the DAC and eosDAC Member client at the conference, to help more people understand what a DAC is and how the DAC is a truly decentralized community. Here we have some quotes from their talks:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmPQd8sKvgSoExT64eWEWZpmNUnGxFV4p8JWjT2bGPiFS5/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“eosDAC is a team committed to lead the EOS development and governance .”&lt;/em&gt; - Michael Yeates&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Since the launch of the EOS mainnet, eosDAC has made every effort for the EOS community to apply the DAC governance approach to achieve our goal of fairness, transparency, and decentralization through a truly decentralized mechanism.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;And we are only the promoters of this mechanism, whether it is the community management, or the governance plan, or the implementation of the final plan, all of which are conducted by the members of the community through voting, and this is exactly a truly democratic community, which actually works.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;--why-do-i-have-to-vote&quot;&gt;- Why do I have to vote?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Voting is an essential part of how a DAC (also EOS itself) works. It is the most effective way for the token holder to exercise their power and voice out. In the future, today’s centralized, bureaucratic companies will be replaced by the decentralized digital community.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRgeyC6mBtUuLXHbzQEuLCEXmbi5FcMR2x1QG2caNwyn2/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“I am an absolute blockchain enthusiast and EOS fanatic.” - Saro McKenna&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“It is EOS’s greatest advantage to benefit every participant through EOSIO technology, and as a true decentralized autonomous community, eosDAC will continue to evolve to serve the entire EOS community. Currently, blockchain technology and EOS are still in the early stages of development, so we need more exploration and implementation to make this great goal come true. ”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;importance-of-dac&quot;&gt;Importance of DAC&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“DAC has its own operating mechanism; token holders vote for the custodians, and the custodians vote on the decentralized governance to ensure the stability of the chain.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;I am very happy to see the booming development of EOS today, the eosDAC team is also In the steady and rapid development, I believe that with the EOSIO technology, the development of DAC can be further improved.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmbUjUM43TNEkA5ip7dKsyhHXNbw9VNoN4MHJP9tjRHKGk/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is notable that this event was organized by the Sanya Municipal People’s Government, and local universities and leaders came forward to express their thoughts, which shows that China’s blockchain industry is making a great step forward.&lt;/p&gt;
+
+&lt;p&gt;We have lots more exciting news to share, including many DACs in a queue to be launched using eosDAC Member Client, so stay tuned, get involved, and make sure to vote for &lt;code class=&quot;highlighter-rouge&quot;&gt;eosdacserver&lt;/code&gt;!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">With the vision of “Unlocking the new economy”, International Fintech Innovation Conference (IFIC) was held on 24-25 May in Hainan, China.</summary></entry><entry><title type="html">DAC Weekly Recap #7</title><link href="http://localhost:4000/ko/2019/06/27/dac-weekly-recap-7.html" rel="alternate" type="text/html" title="DAC Weekly Recap #7" /><published>2019-06-27T19:42:27+05:30</published><updated>2019-06-27T19:42:27+05:30</updated><id>http://localhost:4000/ko/2019/06/27/dac-weekly-recap-7</id><content type="html" xml:base="http://localhost:4000/ko/2019/06/27/dac-weekly-recap-7.html">&lt;h1 id=&quot;custodian-news&quot;&gt;Custodian News&lt;/h1&gt;
+&lt;p&gt;This week’s Custodian Board (Custodians are re-elected every 7 days! If you want to engage in running eosDAC and make decisions for it, stake a minimum of 35000 EOSDAC and register yourself as a candidate on https://members.eosdac.io/)&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/angeljeffrey&quot;&gt;&lt;img src=&quot;https://i.imgur.com/hTRYoRu.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/brockpierce1&quot;&gt;&lt;img src=&quot;https://i.imgur.com/tA2pgmQ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/dallasjohnso&quot;&gt;&lt;img src=&quot;https://i.imgur.com/xq6yE5Z.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/cream5eosdac&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mB81ivl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/lukeeosproxy&quot;&gt;&lt;img src=&quot;https://i.imgur.com/BK709TN.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/spaceinvader&quot;&gt;&lt;img src=&quot;https://i.imgur.com/VEJoIOl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/greentreesom&quot;&gt;&lt;img src=&quot;https://i.imgur.com/7NL6b94.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/soyoungkimsk&quot;&gt;&lt;img src=&quot;https://i.imgur.com/4UQ7uRe.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/mryeateshere&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mJTH4UJ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/khaleesiwang&quot;&gt;&lt;img src=&quot;https://i.imgur.com/lTFlntS.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/eosdackorean&quot;&gt;&lt;img src=&quot;https://i.imgur.com/sUYhAh3.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/jbucksteiner&quot;&gt;&lt;img src=&quot;https://i.imgur.com/KVxvdfY.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;this-weeks-highlights&quot;&gt;This weeks highlights&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MORTYS DAC &amp;amp; RICKS DAC COMING!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have you been following the MORTY$ on EOS? The EOS Community have been obsessed with this “joke” currency, kind of like Dodgecoin, used to bribe people to create memes and other fun stuff and with much encouragement from @lukestokes, the community has decided to go DAC! The Custodians of Mortys DAC will be called the Counsel of Ricks ;)&lt;/p&gt;
+
+&lt;center&gt;![photo_2019-06-27_15-45-26.jpg](https://cdn.steemitimages.com/DQmXCKniQmyDDeLjYjpmxZUG9VK2nDQWt3XpCSgAZ8W3zaU/photo_2019-06-27_15-45-26.jpg)&lt;/center&gt;
+
+&lt;p&gt;It’s been set up on the Jungle testnet, so if you have a Jungle account, feel free to play around and see how a DAC operates - register as a member, create a profile, register as a Rick candidate, vote on Ricks, etc: https://mortys.lukestokes.info/. It is currently running on one of Luke’s personal servers, much credits to him!&lt;/p&gt;
+
+&lt;p&gt;There are many ideas to be explored on the testnet, like a token contract method to kill a Morty which could be executed by a counsel multisig (would burn their tokens). Will the Mortys rise up against the evil Ricks and vote them out, put in better ones and restore burned tokens to resurrect a Morty? Will those Ricks eventually turn evil as the power to collude overcomes them? We shall see! It will be fun to play around with the DAC, but at the same time explore the boundaries of real concerns on EOS:&lt;/p&gt;
+
+&lt;p&gt;1) All EOS contracts (including token contracts) are highly mutable. The concept of “property” is shaky right now because anyone with access to the contract can blow away someone’s tokens. We can highlight this reality.
+2) There is hope! Contracts can be protected by multisig and those multisig accounts can actually be elected! Utopia! Rainbows! A solution!!!
+3) Not so fast. In true Rick and Morty nihilistic style, your elected “trusted” multisig could be no better than a counsel of Ricks who will take you out, no matter what dimension you hide in.&lt;/p&gt;
+
+&lt;p&gt;The art of the MORTYS DAC universe will comment on and inform our reality. Join the ever growing &lt;a href=&quot;https://t.me/mortystoken&quot;&gt;$Morty community&lt;/a&gt; now and have fun with all the memes!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cafe DAC is using the DAC Factory software on the Jungle testnet now to get their Decentralized Autonomous Coffee and Freedom and Crypto loving Community working in a more organized way with elected custodians and worker proposals!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;eosDAC Makes Every Effort Possible to Decentralise - eosDAC website is hosted using the new EOS DNS service and IPFS. (eos://dac.io). Read &lt;a href=&quot;https://steemit.com/eosio/@eosdac/eosdac-makes-every-effort-possible-to-decentralise-how-the-dac-host-its-website&quot;&gt;the latest post!&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learn about the power and potential of open sourced systems and decentralized autonomous organizations or DAO/Cs. Great video by Brock Pierce team!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=Wf5gfjMfiHA&amp;amp;feature=youtu.be&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Luke Stokes of eosDAC was invited to #BuiltOnEOS Special 2.0. Exploring the potential of EOS, hosted by EOS Israel, to give a presentation about DACs! Other guests include Malcom Casselle from Wax and Beni Kakak from LiquidApps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmTTBANUpp7546iM3hQndxbH5Pa4Ls2FASMEBx6TYUAUbq/Screenshot_12.png&quot; alt=&quot;Screenshot_12.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;eosDAC Custodian meetings are open for all community members to join and we’d be doing this every second Wednesday. If you cannot make it to the meeting, alternatively you can catch up with the items discussed by listening to the recording &lt;a href=&quot;https://drive.google.com/open?id=1FcJCVeV-UU8ZKc7miGDlj16hc6b9DsCP&quot;&gt;here&lt;/a&gt;. Make sure to follow the &lt;a href=&quot;https://goo.gl/DSVjYA&quot;&gt;eosDAC Public Calendar&lt;/a&gt; to stay updated with all eosDAC events.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;approved-msigs-of-the-week&quot;&gt;Approved Msigs of the Week&lt;/h1&gt;
+&lt;p&gt;We have &lt;strong&gt;7&lt;/strong&gt; msig proposals approved and executed since the last DAC Weekly Recap.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/12C979353F12A661CE51D7D52F54DBE4E44B9667751CC3662FED7D5D093650FE&quot;&gt;CHOIR To Be An Official Name For An EosDAC Project Focused On VOICE&lt;/a&gt;
+CHOIRs are to VOICE as DACs are to EOS. An implementation of the envisaged DAC Factory targeted at VOICE users is a significant opportunity for eosDAC.&lt;/p&gt;
+
+&lt;p&gt;Once we have this as an agreed aim anyone will be able to put forward activities to help build out the branding and project plan/roadmap for CHOIR.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/53113D6DA4933775676E4C82525BD6284DF697CD98486D6C8E1585B31276DE19&quot;&gt;Sell RAM From Eosdactokens&lt;/a&gt;
+As people have moved the tokens around, eosdactokens has to use less and less ram. We can sell 13,000,000 bytes of RAM to return somewhere under 1400 EOS&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/2F50E9919D495569DA4475F08B5D07F022D35173F7D50AAEC9C9A731CD6EEA83&quot;&gt;Undelegate Excessive CPU/NET From Chintailease&lt;/a&gt;
+As part of our support of Chintai, we are delegating 3500 EOS worth of CPU/NET, this is not needed any more so this proposal will undelegate 3000 EOS of CPU and 9 EOS of NET from chintailease&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/3E8D61CB8F363C6C40D4F4B6B00AB21C84A3B5A3F1A3D83841A45929FFF0BF59&quot;&gt;Transfer RAM Proceeds To Eosdacthedac&lt;/a&gt;
+We sold RAM from eosdactokens, this will transfer the proceeds to our treasury acco&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/717B5FA8CCCD7F426ABB45FEFB6344501F4505C30524D9CBA8FBE82E622DFD1C&quot;&gt;June Development Team Payment&lt;/a&gt;
+Cover the development team payment in fiat for the month of June through eosDAC fiat reserves instead of the DAC foundation reserves. Total amount requested £ 13230. The breakdown can be found on &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1hT6Ofb51j3a5wW_jkfRe-0g-uo-iIIrdL1gGPuCh6yQ/edit#gid=652971142&amp;amp;range=B21&quot;&gt;this sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/98E225347A3702DF7D989CF9768775116B92C485430A67C7D3502D4673A4A7F0&quot;&gt;June: Translations Payment&lt;/a&gt;
+This is the payment to Dacoco covering regular deliverables in EOS for eosDAC Translations for the month of June. Details of the regular deliverables can be found in &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1kW4v_JiJtMdrj_NcZwk5TuNy0Ez-AolYoSmW-1RyY68/edit#gid=1949685563&amp;amp;range=B13&quot;&gt;the sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/AA3BD341A166FD200F783BF80A4C50E033CC972968C66D8975BC8F368DCBDD2E&quot;&gt;June: DAC Process And Strategy Payment&lt;/a&gt;
+This is the payment to Dacoco covering regular deliverables in EOS for eosDAC Management and Strategy for the month of June. Details of the regular deliverables can be found in &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1kW4v_JiJtMdrj_NcZwk5TuNy0Ez-AolYoSmW-1RyY68/edit#gid=1949685563&amp;amp;range=B13&quot;&gt;the sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Transparency is the major advantage of being a DAC. You can check all of the submitted &amp;amp; executed worker proposals on https://members.eosdac.io/custodian/review-msigs&lt;/p&gt;
+
+&lt;h1 id=&quot;eos-report&quot;&gt;EOS Report…&lt;/h1&gt;
+
+&lt;h3 id=&quot;eos-voting-system&quot;&gt;EOS Voting System&lt;/h3&gt;
+&lt;p&gt;Sparked by a &lt;a href=&quot;https://medium.com/eos-nodeone/bithumb-announces-start-of-eos-blockchain-voting-4231d734a45b&quot;&gt;surprising announcement&lt;/a&gt; by one of the largest Korean cryptocurrency exchanges, Bithumb, that they will start voting for EOS BPs with their own-account EOS tokens via proxies and gradually include customer account tokens, the EOS voting system has been the hottest potato of the community. Actively engaged in Telegram chats and Tweets, Dan Larlimer has recently published a new proposal for EOS voting system: &lt;a href=&quot;https://medium.com/@bytemaster/decentralizing-in-spite-of-pareto-principle-eda86bb8228b?sk=fc70524065b1cbded7f1462a4b87508f&quot;&gt;Decentralizing in Spite of Pareto Principle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In this article he points out that both PoW and PoS (including DPos) fall under the Pareto Principle, thus being “centralized” by the natural distribution of the underlying resource.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmfDUBjnVxbAX8yoTX6dcXPEYtWzGkfxmN6paCQ7QXhJjj/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;He suggests to utilize multiple objective metrics to decentralize control;&lt;/p&gt;
+
+&lt;p&gt;“Each Pareto distribution centralizes control into a few parties who have natural strengths; however, if you utilize multiple independent or ideally mutually exclusive measurements, then you can multiply the level of decentralization by the number of Pareto distributions.”&lt;/p&gt;
+
+&lt;p&gt;What are these metrics? Dan proposes to divide the 21 BPs into 4 categories:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;8 producers to be voted by EOS Staked²&lt;/li&gt;
+  &lt;li&gt;8 producers voted by Days staked * EOS staked²&lt;/li&gt;
+  &lt;li&gt;3 producers voted by RAM holders&lt;/li&gt;
+  &lt;li&gt;2 producers voted by (avg EOS burned / Day)²&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What do you think of this idea? Do you have a better idea? How do you view the current voting system? Leave a comment down below!&lt;/p&gt;
+
+&lt;h3 id=&quot;official-release-of-scatter-11-meteoric&quot;&gt;Official release of Scatter 11 Meteoric&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmPaZD7xgLpR1Higix1bsAN6MBYgvkKgzwKJifMdSXeVuL/image.png&quot; alt=&quot;&quot; /&gt;Upgrades and new features include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Intuitive UI&lt;/li&gt;
+  &lt;li&gt;Improved application explore experience&lt;/li&gt;
+  &lt;li&gt;Bitcoin integration: Generate a Bitcoin address and then send and receive BTC!&lt;/li&gt;
+  &lt;li&gt;RIDL integration: Multiple identities management. Preliminary access to the Firewall to keep the account safe from bad actors online.&lt;/li&gt;
+  &lt;li&gt;Easier access to historical data&lt;/li&gt;
+  &lt;li&gt;New network panel to manage different blockchain networks. Scatter will now automatically load accounts which are associated with private keys imported into Scatter.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Download &lt;a href=&quot;https://get-scatter.com/blog/were-proud-to-release-scatter-11-to-the-world&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Scatter team officially ended supporting Scatter Chrome Extension. If you are still using it, please remove it and upgrade to SCatter Desktop. The Chrome version is not secure.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, note that with the new Scatter 11, you have to go to &lt;code class=&quot;highlighter-rouge&quot;&gt;Settings =&amp;gt; Firewall =&amp;gt; Remove the eosio.msig approve restriction&lt;/code&gt; to approve any multisig action! See below screenshot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmaYAQbcssEmCHQhhaXUijNRkBhC4rNzanm1yNyADHgV3g/scatterremove.png&quot; alt=&quot;scatterremove.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;kerosene-lamp&quot;&gt;Kerosene lamp&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmaX25v7ZxFoqNpqjb5S4g1JMFixRAWHqFxhUP1QTtStt5/image.png&quot; alt=&quot;&quot; /&gt;
+Hyped for Prospectors.io? &lt;a href=&quot;https://prospectors.io/auction/?page=lamp&quot;&gt;Kerosene lamp&lt;/a&gt; is a promotion happening now by this massive multiplayer online economic strategy game. Powered by Simple Assets, Users pass the lamp from one to the next. Everyone who successfully passes the burning lamp gets a free ticket to start playing Prospectors.io three days early, on June 28th instead of July 1st. You have to keep the lantern burning to get your ticket. Simple Assets is developed by our fellow BP, CryptoLion (&lt;a href=&quot;https://medium.com/@cryptolions/simple-assets-multisig-9eb267c1ff1&quot;&gt;Read more&lt;/a&gt;) and eosDAC is part of Simple Assets Multi Sig on the Mainnet.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://plus.google.com/+eosdac&quot; target=&quot;_blank&quot;&gt;Google-plus&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Custodian News This week’s Custodian Board (Custodians are re-elected every 7 days! If you want to engage in running eosDAC and make decisions for it, stake a minimum of 35000 EOSDAC and register yourself as a candidate on https://members.eosdac.io/)</summary></entry><entry><title type="html">eosDAC Makes Every Effort Possible to Decentralise - How The DAC Host Its Website</title><link href="http://localhost:4000/ko/2019/06/23/eosdac-makes-every-effort-possible-to-decentralise-how-the-dac-host-its-website.html" rel="alternate" type="text/html" title="eosDAC Makes Every Effort Possible to Decentralise - How The DAC Host Its Website" /><published>2019-06-23T03:10:03+05:30</published><updated>2019-06-23T03:10:03+05:30</updated><id>http://localhost:4000/ko/2019/06/23/eosdac-makes-every-effort-possible-to-decentralise-how-the-dac-host-its-website</id><content type="html" xml:base="http://localhost:4000/ko/2019/06/23/eosdac-makes-every-effort-possible-to-decentralise-how-the-dac-host-its-website.html">&lt;p&gt;Thanks to EOS Cafe Block’s recent &lt;a href=&quot;https://medium.com/@eoscafeblock/eos-dns-decentralized-name-system-on-eos-ebec81f0d036&quot;&gt;EOS DNS release&lt;/a&gt;, eosDAC website is now hosted using the new EOS DNS service! If you haven’t already, install the Chrome extension to use the service. You can easily set it up following the instructions on https://eosdns.io/. Then type in eos://dac.io on your address bar now to access the eosDAC website - no https:// needed!&lt;/p&gt;
+
+&lt;p&gt;Note that EOS DNS here stands for &lt;strong&gt;D&lt;/strong&gt;ecentralized &lt;strong&gt;N&lt;/strong&gt;ame &lt;strong&gt;S&lt;/strong&gt;ystem on EOS, so don’t confuse it with the old DNS(Domain Name System). It is for the EOS holder to point their account name to an IP. For example, eosDAC setup &lt;a href=&quot;https://bloks.io/account/dac.io&quot;&gt;dac.io account&lt;/a&gt; to be directed to the website.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-why-does-it-all-matter-isnt-just-some-redirecting-service&quot;&gt;So why does it all matter? Isn’t just some redirecting service?&lt;/h2&gt;
+
+&lt;p&gt;Having a website involves some inevitable centralised elements: DNS name, website hosting… The normal DNS does not serve the needs of a DAC - having a multisig access to change it. On the other hand, using the EOS DNS enables the DAC to have the “dac.io” account directed to an IP. The “dac.io” account would be controlled via multisig by the Custodians, meaning whenever they decide to change the actual IP eos://dac.io is directed to, they can do so by signing the proposal, instead of relying on one person who might not be available at the time the website needs a redirection (or may not comply with the DAC). Plus, these EOS DNS records are stored on chain, not in a single centralised master server. Instead the user queries the blockchain directly. One step forward to decentralisation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmTxQ1K8hgeBF7zU7mqRF2QX23jzVsz8ikdFxe4g3Sm8wy/image.png&quot; alt=&quot;&quot; /&gt;
+https://bloks.io/transaction/3d4507960774954d66ddaa89671e378b72cf8d57235f642545401d61c44132da&lt;/p&gt;
+
+&lt;p&gt;So, visit eos://dac.io today! The website is actually also a product of eosDAC Community Members working together on &lt;a href=&quot;https://github.com/eosdac/eosdacio-website&quot;&gt;Github&lt;/a&gt;, everybody is invited to help with keeping this website up to date and translated in many languages. It is structured in a way, that anybody can easily modify the markdown files for the different pages of this website and create a pull request to this repository for review and approval. How fun!&lt;/p&gt;
+
+&lt;h2 id=&quot;eosdac-is-also-experimenting-with-ipfs&quot;&gt;eosDAC is also experimenting with IPFS&lt;/h2&gt;
+
+&lt;p&gt;On top of using the EOS DNS, eos://dac.io is currently hosted using IPFS. As mentioned, sometimes we cannot avoid but using a centralised method for hosting a website - HTTP.  HTTP downloads a file from a single computer at a time, instead of getting pieces from multiple computers simultaneously. There’s also a risk of increasing consolidation of control, etc. IPFS is the distributed web trying to solve these issues. 
+About IPFS&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I&lt;/strong&gt;nter&lt;strong&gt;P&lt;/strong&gt;lanetary &lt;strong&gt;F&lt;/strong&gt;ile &lt;strong&gt;S&lt;/strong&gt;ystem (IPFS) is a protocol and network designed to create a peer-to-peer method of storing and sharing hypermedia in a distributed file system. As opposed to a centrally located server, IPFS is built around a decentralized system of user-operators who hold a portion of the overall data, creating a resilient system of file storage and sharing.&lt;/p&gt;
+
+&lt;p&gt;Take a deeper look at the benefits and how it works: https://ipfs.io/&lt;/p&gt;
+
+&lt;p&gt;At the moment eosDAC is assessing whether we can keep using it for our website - we are always seeking to improve and decentralise where we can and try out new stuff!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;-Soyoung&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Thanks to EOS Cafe Block’s recent EOS DNS release, eosDAC website is now hosted using the new EOS DNS service! If you haven’t already, install the Chrome extension to use the service. You can easily set it up following the instructions on https://eosdns.io/. Then type in eos://dac.io on your address bar now to access the eosDAC website - no https:// needed!</summary></entry><entry><title type="html">DAC Weekly Recap #6</title><link href="http://localhost:4000/ko/2019/06/16/dac-weekly-recap-6.html" rel="alternate" type="text/html" title="DAC Weekly Recap #6" /><published>2019-06-16T21:26:27+05:30</published><updated>2019-06-16T21:26:27+05:30</updated><id>http://localhost:4000/ko/2019/06/16/dac-weekly-recap-6</id><content type="html" xml:base="http://localhost:4000/ko/2019/06/16/dac-weekly-recap-6.html">&lt;h1 id=&quot;custodian-news&quot;&gt;Custodian News&lt;/h1&gt;
+&lt;p&gt;This week’s Custodian Board (Custodians are re-elected every 7 days! If you want to engage in running eosDAC and make decisions for it, stake a minimum of 35000 EOSDAC and register yourself as a candidate on https://members.eosdac.io/)&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/angeljeffrey&quot;&gt;&lt;img src=&quot;https://i.imgur.com/hTRYoRu.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/brockpierce1&quot;&gt;&lt;img src=&quot;https://i.imgur.com/tA2pgmQ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/dallasjohnso&quot;&gt;&lt;img src=&quot;https://i.imgur.com/xq6yE5Z.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;a href=&quot;https://members.eosdac.io/profile/cream5eosdac&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mB81ivl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/lukeeosproxy&quot;&gt;&lt;img src=&quot;https://i.imgur.com/BK709TN.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/spaceinvader&quot;&gt;&lt;img src=&quot;https://i.imgur.com/VEJoIOl.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/greentreesom&quot;&gt;&lt;img src=&quot;https://i.imgur.com/7NL6b94.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/soyoungkimsk&quot;&gt;&lt;img src=&quot;https://i.imgur.com/4UQ7uRe.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/mryeateshere&quot;&gt;&lt;img src=&quot;https://i.imgur.com/mJTH4UJ.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/khaleesiwang&quot;&gt;&lt;img src=&quot;https://i.imgur.com/lTFlntS.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://members.eosdac.io/profile/kwonwoosang1&quot;&gt;&lt;img src=&quot;https://i.imgur.com/DUsDKll.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://members.eosdac.io/profile/jbucksteiner&quot;&gt;&lt;img src=&quot;https://i.imgur.com/KVxvdfY.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;this-weeks-highlights&quot;&gt;This weeks highlights&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://steemit.com/eosio/@eosdac/brock-pierce-a-child-actor-turned-video-game-entrepreneur-turned-crypto-titan-joins-eosdac-custodian-board&quot;&gt;Brock Pierce – a child actor turned video-game entrepreneur turned crypto titan joins eosDAC custodian board!&lt;/a&gt; Pierce’s proxy has been supporting eosDAC as a technically competent BP. He also has explicitly shown his appreciation towards what eosDAC is doing for the EOS ecosystem in his interview with the eosDAC team. He views himself as “a huge believer in DACs/DAOs” and believes the future is DAOism - eosDAC is honoured to have him onboard!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Security First!! &lt;strong&gt;Protect your EOS account&lt;/strong&gt; using EOS permission management
+Hoa(@eosdacvietnam) of eosDAC has uploaded the series of tutorials to improve your security - just follow these step-to-step guides, they are simpler than you might have thought!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;1) EOS Guide: &lt;a href=&quot;https://steemit.com/eos/@eosdacvietnam/eos-guide-how-to-use-waits-tx-delay&quot;&gt;How to use Waits (TX Delay)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2) EOS Guide: &lt;a href=&quot;https://steemit.com/eos/@eosdacvietnam/eos-guide-keep-your-eos-account-safe-using-multisig-structure&quot;&gt;Keep your EOS account SAFE using Multisig Structure&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3) EOS Guide: &lt;a href=&quot;https://steemit.com/eos/@eosdacvietnam/eos-guide-create-custom-eos-permissions-for-each-dapp&quot;&gt;Create Custom EOS Permissions For Each DApp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s a video demonstrating how to use multisignature permissions on bloks.io by Luke Stokes(@lukestokes)&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=-fU9DMktocU&amp;amp;feature=youtu.be&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Emanate has recently introduced the Emanate Music Co-operative and their plan for decentralised governance. eosDAC has been partnered with Emanate since 2018, and now that Emanate is close to launching, they have announced that &lt;strong&gt;eosDAC members will get an EMT airdrop as an incentive to join and help kick start the Musical Co-op!&lt;/strong&gt; (&lt;a href=&quot;https://medium.com/emanate-live/emanate-music-co-operative-1399f9aa17b7&quot;&gt;Read the announcement here&lt;/a&gt;) This will be one of the very first DACs being launched using the DAC Factory eosDAC has developed and a successful story of eosDAC incubating a DAC in not only technology wide but also in its structure and governance. Emanate is now in need of finding a group of pilot ‘Emanate Reps’ who will be the first  to earn rewards by contributing to the Emanate network, so if you are interested, &lt;a href=&quot;https://discordapp.com/invite/yBvsCnb&quot;&gt;join Emanate community&lt;/a&gt;  now!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rob Allen of eosDAC has presented a proposal for the BOS community to vote upon, which would assist the BOSCore ecosystem and accelerate the implementation of &lt;a href=&quot;https://t.me/boscorecommunity&quot;&gt;BOSCore community&lt;/a&gt; projects.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;![](https://cdn.steemitimages.com/DQmawxTQnicBHRMJupJDqBG12ZTpApPHwCcH62177XV9Nye/image.png)&lt;/center&gt;
+
+&lt;p&gt;Subscribe to @BOS_News 📣 to keep up to date with BOS (Business Operating System) BOSCore developments, BOS IBC,  3s LIB,  Community refererendum / WPS and lots more and don’t forget to vote for &lt;strong&gt;bosdacserver&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In May 2018, &lt;a href=&quot;https://www.coindesk.com/vermontdao-state-governor-signs-bill-clearing-way-blockchain-companies&quot;&gt;Vermont’s governor signed a bill allowing for the creation of so-called “blockchain-based limited liability companies”&lt;/a&gt;. A step forward from this, dOrg, a DAO on Ethereum, has recently that they have created &lt;a href=&quot;https://www.coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao&quot;&gt;the First Limited Liability DAO&lt;/a&gt;, a legal way to reference smart contracts as the legitimate source of authority for their company’s operations and governance. eosDAC is looking into this option as well - if you live in Vermont and would like to see if you can set up a registered LL DAC, please contact us via &lt;a href=&quot;https://discord.gg/&quot;&gt;Discord&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you would like to delegate to a proxy instead, here’s the list of proxies which support eosDAC:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://brockpierce.io/brock-pierce-eos-proxy/&quot;&gt;Brock Pierce Proxy&lt;/a&gt;
+&lt;a href=&quot;https://freedomproxy.org/&quot;&gt;Freedom Proxy&lt;/a&gt;
+&lt;a href=&quot;https://www.alohaeos.com/vote/proxy/colintcrypto&quot;&gt;Colin Talks Crypto&lt;/a&gt;
+&lt;a href=&quot;https://www.alohaeos.com/vote/proxy/lukeeosproxy&quot;&gt;Luke’s Proxy&lt;/a&gt;
+&lt;a href=&quot;https://www.alohaeos.com/vote/proxy/rexproxy.tp&quot;&gt;Token Pocket Proxy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you lease your tokens on &lt;a href=&quot;chintai.io&quot;&gt;Chintai&lt;/a&gt;, you’ll be supporting eosDAC via their proxy 
+If you you choose the default proxy to use REX, both &lt;a href=&quot;https://www.tokenpocket.pro/&quot;&gt;Token Pocket proxy&lt;/a&gt; and &lt;a href=&quot;https://www.alohaeos.com/vote/proxy/eosrex.io&quot;&gt;EOSREX proxy&lt;/a&gt; include eosDAC!&lt;/p&gt;
+
+&lt;h1 id=&quot;approved-msigs-of-the-week&quot;&gt;Approved Msigs of the Week&lt;/h1&gt;
+&lt;p&gt;We have &lt;em&gt;7&lt;/em&gt; msig proposals approved and executed since the last DAC Weekly Recap.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/B80F957C2B7B5C49BEE4569EB4034C436A7C51BD9FC331676C7598AD13A15505&quot;&gt;Transfer EOSDAC For Tokens Stuck In ETH Based Dex IDEX/Etherdelta&lt;/a&gt;
+&lt;a href=&quot;https://bloks.io/transaction/53FC75CD8E02CA3483A2237F04D4AA0D5CBD58B2F6B6EF1ABB0B1CD32A690FE4&quot;&gt;Transfer EOSDAC For Tokens Stuck In ETH Based Dex IDEX/Etherdelta&lt;/a&gt;
+&lt;a href=&quot;https://bloks.io/transaction/88B42E169C46B18D3B5F8A60EAF1BB8108632E9CF704DB1F126DAA6EF90942EA&quot;&gt;Transfer EOSDAC For Tokens Stuck In ETH Based Dex IDEX/Etherdelta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These are requests of eosDAC Erc 20 token holders who didnot withdraw their funds from DEXs before the token freeze hence their tokens got stuck in the DEXs. eosDAC has secured these tokens under &lt;code class=&quot;highlighter-rouge&quot;&gt;eosdactokens&lt;/code&gt; contractand is now releasing them to verified token holders.
+&lt;a href=&quot;https://bloks.io/transaction/2471ECB27030596C1C24059B88968CFAA06672E66A6997E31B82E7EA65CB3421&quot;&gt;Vietnamese Translation &amp;amp; Comms&lt;/a&gt;
+&lt;a href=&quot;https://bloks.io/transaction/2199F923554C5EB19469EA917B47B69238DD811740FC883114B5C040600302B8&quot;&gt;Chinese Translation&lt;/a&gt;
+&lt;a href=&quot;https://bloks.io/transaction/5FA19E4947D1C19C145708B3ECD259AF540E097E85B007ECAC2848570A1A2FF3&quot;&gt;Russian Translation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;eosDAC currently supports English, Korean, Chinese, Russian and Vietnamese (the member client is available in more languages) and these are payment for the translators.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bloks.io/transaction/8F4DE66B15E8D43506FE26F24E1290671CC2280867CFA3B6CE71F446B21A93E5&quot;&gt;May : Community And Comms Payment&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was the second attempt as the original proposal which was approved last time failed to be executed due to the DAC account not having enough funds. This can happen, we are all in iteration phase to improve the user experience of the client!&lt;/p&gt;
+
+&lt;p&gt;Transparency is the major advantage of being a DAC. You can check all of the submitted &amp;amp; executed worker proposals on https://members.eosdac.io/custodian/review-msigs&lt;/p&gt;
+
+&lt;h1 id=&quot;eos-report&quot;&gt;EOS Report…&lt;/h1&gt;
+
+&lt;h3 id=&quot;dan-larimer-interview-eos-20-voice-launch-eosvm-webauthn-webassembly&quot;&gt;Dan Larimer Interview: EOS 2.0, Voice Launch, EOSVM, WebAuthn, WebAssembly&lt;/h3&gt;
+&lt;p&gt;Watch Ivan’s exclusive interview with Dan Larimer to learn about EOS 2.0, Voice Launch, EOSVM, WebAuthn, WebAssembly.&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=-yU_hu_LGos&lt;/p&gt;
+
+&lt;h3 id=&quot;eosio-labs-release-webauthn-example-web-app-for-eosio-yubikey-support&quot;&gt;EOSIO Labs™ Release: WebAuthn Example Web App for EOSIO YubiKey Support&lt;/h3&gt;
+&lt;p&gt;During the B1June event, Block.one announced EOSIO 2 updates on the horizon, which is intended to bring enhanced performance and support for the latest web authentication standards to EOSIO™. EOSIO 2, the next major version of EOSIO, will make using blockchain applications even easier for the masses.&lt;/p&gt;
+
+&lt;p&gt;Continuing in the spirit of open innovation through EOSIO Labs™, Block.one have released a WebAuthn Example App to demonstrate how they intend to implement WebAuthn support for EOSIO, following the recent releases including Assert Manifest Security Model, Universal Authenticator Library and iOS and Chrome Extension Authenticator Reference Applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/eosio/eosio-labs-release-webauthn-example-web-app-for-eosio-yubikey-support-aa700eac8879&quot;&gt;Read more&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://eosdac.io/&quot;&gt;&lt;img src=&quot;https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PbQpAJOP6iA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;center&gt;&lt;h1&gt;Please vote for eosdacserver&lt;/h1&gt;&lt;/center&gt;
+
+&lt;p&gt;Join &lt;a href=&quot;https://eosdac.io/news/#newsletter&quot;&gt;our newsletter&lt;/a&gt; to stay informed and follow us on your favorite social media platform:&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/@eosdac&quot; target=&quot;_blank&quot;&gt;Steemit&lt;/a&gt; | &lt;a href=&quot;http://discord.io/eosdac&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt; | &lt;a href=&quot;https://t.me/eosdacio&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt; | &lt;a href=&quot;https://facebook.com/eosdac&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/eosdac&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; | &lt;a href=&quot;https://github.com/eosdac&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://instagram.com/eosdac&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt; | &lt;a href=&quot;https://linkedin.com/company/eosdac&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://medium.com/eosdac&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; | &lt;a href=&quot;https://www.reddit.com/r/EOSDAC/&quot; target=&quot;_blank&quot;&gt;Reddit&lt;/a&gt; | &lt;a href=&quot;https://www.youtube.com/eosdac&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; | &amp;lt;a href=”http://weibo.com/eosdac” target=”_blank”&amp;gt;Weibo&amp;lt;/a&amp;gt;| &lt;a href=&quot;https://vk.com/eosdac&quot; target=&quot;_blank&quot;&gt;VK&lt;/a&gt;| &lt;a href=&quot;https://bihu.com/people/586348&quot; target=&quot;_blank&quot;&gt;Bihu&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Custodian News This week’s Custodian Board (Custodians are re-elected every 7 days! If you want to engage in running eosDAC and make decisions for it, stake a minimum of 35000 EOSDAC and register yourself as a candidate on https://members.eosdac.io/)</summary></entry></feed>

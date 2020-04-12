@@ -1,0 +1,15 @@
+{
+    "name": "fetch-steem",
+    "version": "1.0.0",
+    "description": "Fetch a eosDAC post from Steemit.com and create a Jekyll post out of it.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Lukas 'slyon' Märdian",
+    "license": "MIT",
+    "dependencies": {
+        "dsteem": "^0.11.2"
+    }
+}

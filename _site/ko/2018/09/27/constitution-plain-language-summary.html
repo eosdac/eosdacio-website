@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    
+      eosDAC | 
+    
+  </title>
+  <meta property="og:title" content="eosDAC">
+  <meta property="og:site_name" content="eosDAC">
+  <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1586730311">
+  <link href="/assets/styles.css?1586730311s" rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1586730311">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
+  <link rel="stylesheet" href="/assets/main.css?1586730311">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/ko/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+  <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
+  <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
+  <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
+  <link rel="alternate" hreflang="ja" href="https://eosdac.io/ja/">
+  <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
+  <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
+  <link rel="canonical" href="https://eosdac.io/">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
+</head>
+<body><header class="site-header" role="banner" style="border:0">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs"
+    style="background-image:linear-gradient(to right, #4A1289, #7C41BA)">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/signet-white.svg" height="42" alt="eosDAC">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/why-vote/">
+            Why Vote for eosDAC?</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/why-join/">
+            Why Join eosDAC?</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/why-launch/">
+            Why Launch a DAC?</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/community/">
+            Community</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/token/">
+            Token</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/tools/">
+            Tools</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/news/index.html">
+            News</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="/assets/flags/en.png" />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </div>
+        </li>
+      </ul>
+      <span class="navbar-text nav-buttons">
+        <a href="/why-vote/#voting-matters" class="btn solid light btn-raised scatter-vote-oneclick">
+          Vote eosdacserver
+        </a>
+        <a href="https://members.eosdac.io/" class="btn outline light btn-raised">
+          Member Client
+        </a>
+      </span>
+    </div>
+  </nav>
+</header>
+<main class="page-content main" style="padding:0;" aria-label="Content">
+      <div class="">
+        <div>
+<div class="container">
+<div class="row" style="margin-top: 20px;">
+<div class="col-md-12">
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Constitution Plain Language Summary</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-09-27T15:09:12+05:30" itemprop="datePublished">Sep 27, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><em>This post about the eosDAC Constitution has been created to describe some aspects of the Constitution. This is not a legal document and does not replace the eosDAC Constitution itself (found at https://github.com/eosdac/constitution/blob/master/constitution.md). This post is written for a non-legal audience and only addresses some of the Constitutions’ paragraphs; it is incomplete and may be inaccurate. You cannot rely on this post to make legal or arbitration ar8guments. This post was written in English; if you are reading a translation, it may not reflect the intention of the original.</em></p>
+
+<h2 id="section-1--interpretation">Section 1 – Interpretation</h2>
+
+<p>This section defines the terms used elsewhere in the document.</p>
+
+<h2 id="section-2--core-principles">Section 2 – Core principles</h2>
+
+<p>The principles or Code of Conduct of eosDAC are written right into our Constitution: Excellence of Service Provision, Nurturing the Ecosystem, Openness and Transparency, Support of EOSIO Communities Worldwide, Fairness, Independence and Respect of the EOS Constitution. This means we must respect these principles in everything we do.</p>
+
+<h2 id="section-3--dac-tokens-and-membership">Section 3 – DAC Tokens and Membership</h2>
+
+<p>This section talks about owning EOSDAC tokens and being an eosDAC Member. To be a Member of the DAC you must hold tokens and also you have to register. If you cease to hold tokens you automatically cease to be a Member.</p>
+
+<p>As a Member you have the following rights which cannot be taken from you as long as you are a Member: the right to vote for Custodians in proportion to the number of tokens you have; the right to your proportion of any distributions and the right to be a co-owner of the DAC in common with every other member of the DAC. These rights can only be changed by Extraordinary Resolution (90%+ of Custodians voting in favour, with minimum 8 Custodians voting).</p>
+
+<p>As a Member, you also have certain obligations, which are especially: liability for the DAC, in common with all other members; consenting to be governed by the Constitution of the DAC. These rights can only be changed by Extraordinary Resolution (90%+ of Custodians voting in favour, with minimum 8 Custodians voting).</p>
+
+<p>The Custodian Board can vote to unregister a member if and only if he/she contravenes the Constitution in a way that expressly produces grounds for unregistering. In such a case, the Custodian board still has to pass a Special Resolution (75%+ of Custodians voting in favour, with minimum 8 Custodians voting).</p>
+
+<p>If the Custodian board makes a change to the Constitution which creates additional grounds not previously present for unregistering a member, that change would have to be passed by Extraordinary resolution (90%+ of Custodians voting in favour, with minimum 8 Custodians voting).</p>
+
+<p>eosDAC can request identifying documentation from any Member if necessary to comply with laws or regulations. The documentation could be things like certified copies of passports or utility bills. Not complying with this request would be grounds for Membership to be revoked, though that would still require a Special Resolution.</p>
+
+<p>The number of tokens in issue can only be changed by the Custodian board by Extraordinary Resolution (90%+ of Custodians voting in favour, with minimum 8 Custodians voting). The Custodian board cannot burn tokens belonging to Members.</p>
+
+<p>EOSDAC tokens can be transferred. The final stage is registering the new owner so that he/she is a Member. The old owner will no longer be a Member.</p>
+
+<p>You have the right to request your tokens are burnt, and thereby cease to be a Member of eosDAC.</p>
+
+<p>There are further paragraphs in this section not summarised here.</p>
+
+<h2 id="section-4--proposals-and-voting-of-members">Section 4 – Proposals and Voting of Members</h2>
+
+<p>This section talks about how Members can vote for Custodians and how Members can submit proposals to Custodians.</p>
+
+<p>Members vote using the weight of the tokens they own. Members vote for Custodians. Votes representing 2% of all tokens are required for a vote by Members to be valid (quorum). This is except for the very first time Custodians are voted in, when the minimum is 15%. Further rules describing mechanisms for voting, staking and so on are written in a separate document called the Voting Directive.</p>
+
+<p>Members can submit worker proposals to Custodians. The rules describing how they should submit the proposals and how the Custodian board should consider the proposals are written in a separate document called the Proposal Directive.</p>
+
+<h2 id="section-5--custodian-board">Section 5 – Custodian board</h2>
+
+<p>The twelve candidates receiving the most votes are elected as Custodians. Custodians must be Members of the DAC. Each Custodian has an equal vote; there is no Chair and no tie-breaking vote.</p>
+
+<p>Custodians are to be in place for one week at a time but can be re-elected unlimited numbers of times.</p>
+
+<p>When Custodians stand for election they must say how many EOS they want to be paid for that week (the maximum they can say is 250 EOS per week). Every Custodian serving together during a week term will receive the same pay, and that pay will be the median of the pay each of them requested when they stood for election.</p>
+
+<p>If a Custodian resigns or vacates in the middle of a one-week term, the next highest candidate (normally, the 13th highest) will automatically become a Custodian for the rest of the week term.</p>
+
+<p>The Custodians can decide by majority vote to require that all Custodians provide identifying information about themselves, such as name, address, email address and so on.</p>
+
+<p>If more than 75% of Custodians vote in favour of removing a Custodian (Special Resolution), that Custodian can be immediately removed.</p>
+
+<p>There is a separate document called the Nomination Directive that gives extra rules about how candidates can nominate themselves and how the elections happen.</p>
+
+<h2 id="section-6--power-of-the-custodian-board">Section 6 – Power of the Custodian board</h2>
+
+<p>The 12 elected Custodians (together called the Custodian board) run all aspects of the DAC.</p>
+
+<p>The Custodian board (after agreeing through proper voting) can make decisions about the DAC’s funds, sign contracts or instruct them to be signed by a service company, administer the assets and liabilities of the DAC and have power and control over any other procedural, administrative or financial aspect of the DAC.</p>
+
+<p>All actions of the Custodian board must come about through the Board having considered and properly approved a Proposal. The rules governing Proposals are set out in more detail in a document called the Proposal Directive.</p>
+
+<p>You as a Member are deemed to have authorised and you are responsible for the consequences of every decision and action (including omissions or mistakes) of the Custodian board, so long as the Custodians followed proper voting and Constitutional procedure when they made the decision or took the action. In the same way, you as a Member are deemed to have authorised and you are responsible for the consequences of all financial decisions made by the Custodian board. It does not matter whether you as a Member actually agreed or disagreed with any action or decision or were even aware of it (although proper Constitutional rules must have been followed by the Custodians).</p>
+
+<p>The Custodian board can appoint an agent by majority vote.</p>
+
+<p>As already mentioned, if a Custodian resigns he or she is automatically replaced by the next highest candidate. In the meantime, the remaining Custodians can keep going if they have quorum. If in the unlikely event there are not enough candidates willing to fill the minimum number of Custodians required for a quorum (usually 8), then by majority vote the remaining Custodians can appoint further Custodians to reach quorum.</p>
+
+<p>There are further technical paragraphs in this section not summarised here.</p>
+
+<h2 id="section-7--proceedings-of-the-custodian-board">Section 7 – Proceedings of the Custodian board</h2>
+
+<p>This section sets out how Custodian board meetings should be called and run.</p>
+
+<p>Meetings can happen by video, audio, messaging or other means. 24 hours’ notice should be given unless Custodians not attending give their consent.</p>
+
+<p>The Constitution sets out that all meetings, communications and voting shall be conducting in the English language.</p>
+
+<p>Voting procedure must follow the rules set out in a separate document called the Voting Directive.</p>
+
+<p>Custodians can submit proposals to the Custodian board for consideration. They are still allowed to vote on their own proposals.</p>
+
+<p>The Custodian board must publish on the blockchain the results of all proposals they considered. They must publish: whether the proposal was determined by Resolution, Special Resolution or Extraordinary Resolution; whether the proposal was accepted or rejected and the number of votes on each side; how each Custodian voted.</p>
+
+<p>A minimum number of eight Custodians must vote in order for the vote to be valid (quorum). Custodians can count for this total if they are able to vote in the ways described in a separate document called the Voting Directive.</p>
+
+<p>The Custodian board can decide to put an issue to the members to vote on in a Referendum. Custodians do not have to do this, and if they do, 75%+ of Custodians must vote in favour (minimum 8 Custodians voting).</p>
+
+<p>There are further procedural paragraphs in this section that are not summarised here.</p>
+
+<h2 id="section-8--conflict-of-interests">Section 8 – Conflict of interests</h2>
+
+<p>This short section says that if Custodians are deciding on an agreement or transaction with a person or organisation which one of the Custodians has a connection to, that Custodian should in good faith tell the other Custodians about their connection, before the vote. The Custodian does not have to absent his/herself from voting on that issue.</p>
+
+<h2 id="section-9--indemnification">Section 9 – Indemnification</h2>
+
+<p>This section says that if any legal costs or other expenses arise against somebody because of their work as a Custodian, consultant, officer, affiliate or any other type of agent of the DAC, then eosDAC will fully pay those legal costs and expenses. This is so long as the person was acting honestly and in good faith in the best interests of the DAC at the time. Furthermore, eosDAC will pay any legal bills and expenses in advance if required by the lawyers, in such a scenario.</p>
+
+<p>This section extends the same rules to all Members under certain circumstances.</p>
+
+<p>The Custodian board may put in place insurance policies to indemnify any person.</p>
+
+<p>The Custodian board may also decide to put in place an indemnification reserve.</p>
+
+<h2 id="section-10--distribution-of-assets-to-members">Section 10 – Distribution of assets to members</h2>
+
+<p>The Custodian board must ensure that the DAC always has prudent reserve funds in place, at a bare minimum to cover the normal expenditure of the DAC for six months.</p>
+
+<p>The Custodian board can decide to distribute some of the DAC’s assets to Members in proportion to the number of tokens held.</p>
+
+<p>The Custodian board is not allowed to make (and would be acting against the Constitution if it made) a distribution that left the DAC without enough funds to meet its liabilities and expenses as they fall due.</p>
+
+<p>The Custodian board can require that Members go through a process to say he/she wants to receive his/her distribution.</p>
+
+<p>There are further technical paragraphs in this section that are not summarised here.</p>
+
+<h2 id="11--accounting">11 – Accounting</h2>
+
+<p>All decisions, transactions and accounting should be made viewable on the website and/or on the blockchain.</p>
+
+<h2 id="12--audit">12 – Audit</h2>
+
+<p>The Custodian board can decide to appoint auditors by Special Resolution (75%+ of Custodians voting in favour, with minimum 8 Custodians voting).</p>
+
+<h2 id="13--notices">13 – Notices</h2>
+
+<p>It is a valid form of giving notice to Members, to post on the website or disseminate through other electronic forms or mediums as long as a majority of Custodians approve this format.</p>
+
+<h2 id="14--resolution-of-differences">14 – Resolution of Differences</h2>
+
+<p>If there is a contradiction or difference between the outcome of a Constitutionally-valid vote of Members and the outcome of a Constitutionally-valid Resolution of the Custodian board, then the vote of Members wins.</p>
+
+<h2 id="15--resolution-of-disputes">15 – Resolution of Disputes</h2>
+
+<p>If there is a dispute, the first stage is for Members and Custodians to act in good faith to resolve it (informal dispute resolution).</p>
+
+<p>After 90 days from when all parties were notified of the dispute, if it has not been resolved it will be decided by binding arbitration.</p>
+
+<p>Binding arbitration must happen according to rules of the London Court of International Arbitration (LCIA) which can only be modified by the agreement of all parties. One arbitrator is selected by the parties. The arbitrator’s decision is binding.</p>
+
+<p>Class arbitrations are prohibited. There are further detailed rules which are not summarised here.</p>
+
+<h2 id="section-16--voluntary-winding-up-and-dissolution">Section 16 – Voluntary winding up and dissolution</h2>
+
+<p>The Custodian board can vote to voluntarily wind up and dissolve eosDAC. This requires an Extraordinary resolution (90%+ approval by Custodians in favour, with minimum 8 Custodians voting). Net assets must be distributed to Members and Members will be released from any liability of Membership and any benefit of Membership.</p>
+
+<h2 id="section-17--amendment-of-constitution">Section 17 – Amendment of Constitution</h2>
+
+<p>The Custodian board can amend the Constitution by Special Resolution (75%+ of Custodians voting in favour, with minimum 8 Custodians voting). This is except for any amendment of the Constitution which would create new grounds for unregistering a Member.</p>
+
+<h2 id="section-18---terms-and-conditions">Section 18 - Terms and Conditions</h2>
+
+<p>The Terms and Conditions are part of the Constitution and are binding on Members. The Terms and Conditions can be changed by Special Resolution (75%+ of Custodians voting in favour, with minimum 8 Custodians voting)</p>
+
+<h2 id="section-19---applicable-law">Section 19 - Applicable Law</h2>
+
+<p>The laws of Anguilla are the laws by which the Constitution and any contractual relationships created by it should be interpreted and governed.</p>
+
+<h2 id="section-20---severability">Section 20 - Severability</h2>
+
+<p>By accepting a DAC token, whether at the original token distribution or through it being transferred to you by someone else, you have expressly agreed to be subject to the Constitution and the Terms and Conditions.</p>
+
+<p>There are further concepts not summarised here.</p>
+
+<p>Summary of thresholds required for Custodian Board votes</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type of resolution</th>
+      <th>Threshold to pass</th>
+      <th>Quorum</th>
+      <th>Type of decision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Extraordinary resolution</td>
+      <td>Not less than 90% of all Custodians</td>
+      <td>Minimum number of Custodians who must be voting: 8</td>
+      <td>Amending the Constitution in a way that allows members to be unregistered who would not have been able to be unregistered before the amendment (3.10)<br />Amending the ‘Benefits of Members’(3.4) and the ‘Obligations of Member’ (3.5)<br />Changing # of tokens in issue (3.2)<br />Winding up and dissolving the DAC (16)</td>
+    </tr>
+    <tr>
+      <td>Special Resolution</td>
+      <td>Not less than 75% of all Custodians</td>
+      <td>Minimum number of Custodians who must be voting: 8</td>
+      <td>All other Amendments to Constitution (17.1)<br />Changing the Terms and Conditions (18.1)<br />Changing the Nomination Directive (1.14)<br />Changing Proposal Directive (1.18)<br />Changing the Voting Directive (1.25)<br />Removing a Custodian with or without cause (5.9)<br />Unregistering a Member (only if grounds are expressly already given by Constitution) (3.10)<br />Changing maximum Custodian pay (5.5)<br />Putting a referendum to Members (7.13) <br />Appointing Auditors (12.1)</td>
+    </tr>
+    <tr>
+      <td>Resolution</td>
+      <td>Majority of all Custodians</td>
+      <td>Minimum number of Custodians who must be voting: 8</td>
+      <td>Everything not included above (7.7) including worker proposals<br />The form of giving notice to Members (13)<br />Appointing an agent (6.6)<br />Appointing Custodian(s) to reach quorum if no replacement Custodians are available through the mechanism described in paragraph 5.11 (6.7)</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div><a class="u-url" href="/ko/2018/09/27/constitution-plain-language-summary.html" hidden></a>
+</article>
+
+  <a href="https://steemit.com/eos/@eosdac/constitution-plain-language-summary">Read more ↗</a><br/><br/>
+
+
+<a href="/ko/news">Back</a>
+</div>
+</div>
+</div><div style="background-image:url(/assets/footer-bkgr.png);background-repeat:no-repeat;background-size:100% auto;margin-top:50px;">
+    <img src="/assets/spacer.gif" style="width:100%;"/>
+</div></div>
+      </div>
+    </main><footer class="site-footer h-card" style="border:0;padding:0;">
+  <div class="footer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 id="important-links">Important Links</h2>
+<p><a href="/why-vote/#core-principles">Code Of Conduct</a><br />
+<a href="/history/">eosDAC History</a><br />
+<a href="https://eosdac.zendesk.com/">Help Center</a><br />
+<a href="/styleguide">Styleguide</a><br />
+<a href="https://steemit.com/eos/@eosdac/statement-of-ownership-and-code-of-conduct">Disclosures</a><br />
+<a href="/bp.json">BP Info</a></p>
+
+        </div>
+        <div class="col-md-6">
+          <h2 id="newsletter">Newsletter</h2>
+
+          <form id="newsletterForm">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="name" class="bmd-label-floating">
+                    Name
+                </label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email" class="bmd-label-floating">
+                    Email *
+                </label>
+                <input type="email" class="form-control" id="email" name="email"
+                    required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="form-control" id="language" name="language" required>
+                <option value="">Language *</option>
+                <option value="English">&nbsp;&nbsp;&nbsp;&nbsp;English</option>
+                <option value="Russian">&nbsp;&nbsp;&nbsp;&nbsp;Pусский</option>
+                <option value="Korean">&nbsp;&nbsp;&nbsp;&nbsp;한국어</option>
+                <option value="Chinese">&nbsp;&nbsp;&nbsp;&nbsp;简体中文</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <button type="submit" id="submitButton" class="btn">
+                Subscribe
+            </button>
+        </div>
+    </div>
+</form>
+<script>
+$('#newsletterForm').submit(function(event) {
+    event.preventDefault();
+    $.post('https://toolkit-api.eosdac.io/subscribe', $(this).serialize())
+    .done( function(result) {
+        if(result && (result.message === 'subscribed_successfully' || result.message === 'already_subscribed')) {
+            alert('Thank you, your records have been updated!');
+            document.getElementById('newsletterForm').reset();
+        } else {
+            alert('Error:\n'+JSON.stringify(result));
+        }
+    })
+    .fail( function(xhr, textStatus, errorThrown) {
+        alert('Error '+xhr.status+':\n'+xhr.responseText);
+    });
+});
+</script>
+        </div>
+        <div class="col-md-3">
+          <h2 id="social-media">Social Media</h2>
+<p><a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
+<a href="https://github.com/eosdac"><i class="icon icon-social-github-com"></i></a>
+<a href="https://steemit.com/@eosdac"><i class="icon icon-social-steemit-com"></i></a>
+<a href="https://twitter.com/eosdac"><i class="icon icon-social-twitter-com"></i></a>
+<a href="https://www.instagram.com/eosdac"><i class="icon icon-social-instagram-com"></i></a>
+<br />
+<a href="https://facebook.com/eosdac"><i class="icon icon-social-facebook-com"></i></a>
+<a href="https://www.reddit.com/r/eosdac"><i class="icon icon-social-reddit-com"></i></a>
+<a href="https://vk.com/eosdac"><i class="icon icon-social-vk-com"></i></a>
+<a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
+<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a>
+<br />
+<a href="https://murmurdapp.com/userpost/eosdacmurmur"><i class="icon icon-social-murmur"></i></a>
+<a href="https://t.me/eosdacio"><i class="icon icon-social-telegram"></i></a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr style="padding: 10px 0; border-color: #BABDBE;" /><div class="row">
+        <div class="col-md-2">
+          <img src="/assets/signet-white.svg" height="50" alt="site.title">
+        </div>
+        <div class="col-md-10">
+          
+          
+          
+          
+          <a class="nav-link" href="/ko/why-vote/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Vote for eosDAC?</a>
+          
+          
+          <a class="nav-link" href="/ko/why-join/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Join eosDAC?</a>
+          
+          
+          <a class="nav-link" href="/ko/why-launch/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Launch a DAC?</a>
+          
+          <a class="nav-link" href="/ko/community/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Community</a>
+          
+          
+          <a class="nav-link" href="/ko/token/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Token</a>
+          
+          <a class="nav-link" href="/ko/tools/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Tools</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="nav-link" href="/ko/news/index.html"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">News</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          </div>
+      </div></div>
+  </div>
+</footer>
+<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+<script src="/assets/videojs-resolution-switcher.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+  integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+  crossorigin="anonymous"></script>
+<script
+  src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+  integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $('body').bootstrapMaterialDesign()
+  //initialize video players on why-join page
+  videojs('why-join-video-1', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-2', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-3', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+})
+</script>
+<!-- Voting Modal -->
+<div class="modal fade" id="votingModal" tabindex="-1" role="dialog" aria-labelledby="votingModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <form id="votingForm">
+    <div class="modal-header">
+        <h5 class="modal-title" id="votingModalLabel">You already selected 30 BPs</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+            Free up one spot, to cast a vote for <code class="highlighter-rouge">eosdacserver</code>
+        <br/><br/>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6" style="padding:0;padding-right:10px;" id="voting_col1">
+                    <!-- Will be filled via Javascript -->
+                </div>
+                <div class="col-6" style="padding:0;"  id="voting_col2">
+                    <!-- Will be filled via Javascript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div style="padding: 0 16px;">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn solid dark btn-raised">Vote now</button>
+        </div>
+    </div>
+    </form>
+    </div>
+</div>
+</div>
+
+<script src="/assets/eosjs/eosjs-api.js?1586730311"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?1586730311"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1586730311"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1586730311"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1586730311"></script>
+<script type="text/javascript">
+// This file needs to be included via the LIQUID template engine, in order to make the translations work!
+
+// Here is how to calculate the vote decay
+// https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue#L126
+// https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue#L169
+
+const host = 'public.eosinfra.io' //TODO: use eu.eosdac.io instead? -> CORS problem
+const network = {
+    blockchain:'eos',
+    protocol:'https',
+    host,
+    port:443,
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+}
+const EOSDACSERVER = 'eosdacserver'
+
+function castVote(api, account, producers, proxy = "") {
+    const transaction = {
+        actions: [{
+            account: 'eosio',
+            name: 'voteproducer',
+            authorization: [{ actor: account.name, permission: account.authority, }],
+            data: { producers: producers.sort(), proxy, voter: account.name }
+        }]
+    }
+    return api.transact(transaction, { blocksBehind: 3, expireSeconds: 30 })
+}
+
+function errHandler(scatter, target, originalContent, err, showAlert = true) {
+    console.error('Voting error:', err)
+    target.textContent = originalContent
+    scatter.logout()
+
+    // Do not show an alert() if the user rejected the transaction on purpose
+    const rejected = ['signature_rejected', 'identity_rejected', 'Request Canceled']
+    if(err &&  (rejected.includes(err.type) || rejected.includes(err.message))) {
+        showAlert = false
+    }
+    if(showAlert) alert('Error: ' + JSON.stringify(err))
+}
+
+function succHandler(scatter, target, msg = 'Thanks for voting!') {
+    target.textContent = msg
+    scatter.logout() //all done, goodbye!
+}
+
+function oneClickVote(scatter, target, originalContent) {
+    target.textContent = 'Voting...'
+
+    const rpc = new eosjs_jsonrpc.JsonRpc('https://'+host)
+    const api = new eosjs_api.Api({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
+
+    scatter.login({ accounts: [network] }).then(function() {
+        const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
+        /*
+        We could also use get_table_rows() to get the voter_info,
+        but need to make sure that the result is for 'account.name'.
+        get_table_rows({
+            json: true,
+            code: 'eosio',
+            scope: 'eosio',
+            table: 'voters',
+            lower_bound: account.name,
+            limit: 1
+        })
+        */
+        api.rpc.get_account(account.name).then(function(data) {
+            const vote = data.voter_info
+            let proxy = ''
+            let producers = []
+            // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
+            // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
+            if(vote !== null) {
+                proxy = vote.proxy
+                producers = vote.producers
+            }
+            if(proxy !== '') {
+                api.rpc.get_account(proxy).then(function(data) {
+                    if(data && data.voter_info && data.voter_info.is_proxy === 1) {
+                        const proxy_producers = data.voter_info.producers
+                        const eosdacserverVoted = proxy_producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                        if(eosdacserverVoted === true) {
+                            // Re-cast vote for the current proxy
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Re-cast vote for the current proxy, but notify user that it does not support eosdacserver
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                                alert(proxy + ' does not support eosDAC. Please consider another proxy!')
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        }
+                    } else {
+                        errHandler(scatter, target, originalContent, proxy+" isn't a proxy anymore")
+                        alert(proxy + ' is not a proxy anymore. Please choose another proxy!')
+                    }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
+            } else {
+                // Check status of all selected producers, e.g. if they are still registered
+                Promise.all(producers.map(p => api.rpc.get_producers(true, p, 1))).then(function(responses) {
+                    const reg_producers = responses.map(r => r.rows[0].owner)
+                    let new_producers = []
+                    // Add all selected AND registered producers into the new_producers array
+                    producers.forEach(p => {
+                        if(reg_producers.some(rp => rp === p)) new_producers.push(p)
+                    })
+                    producers = new_producers
+                    const eosdacserverVoted = producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                    if(eosdacserverVoted === true) {
+                        // Re-cast vote for current set of producers (including eosdacserver)
+                        castVote(api, account, producers).then(function(result) {
+                            succHandler(scatter, target)
+                        }).catch(function(err) {
+                            errHandler(scatter, target, originalContent, err)
+                        })
+                    } else {
+                        if(producers.length < 30) {
+                            // Add 'eosdacserver' to producers list and cast a vote
+                            producers.push(EOSDACSERVER)
+                            castVote(api, account, producers).then(function(result) {
+                                succHandler(scatter, target)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Show a modal dialog, to let the user remove one existing producer
+                            // Set values inside the modal dialog
+                            $('#voting_col1').empty()
+                            $('#voting_col2').empty()
+                            producers.sort().forEach(function(bpName, idx) {
+                                const itm = '<div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" name="bp'+idx+'" id="bp'+idx+'" value="'+bpName+'" checked><label class="custom-control-label" style="font-family:monospace;" for="bp'+idx+'">'+bpName+'</label></div>'
+                                if(idx < 15) {
+                                    $(itm).appendTo('#voting_col1')
+                                } else {
+                                    $(itm).appendTo('#voting_col2')
+                                }
+                            })
+                            // Register the submit callback, using local variables
+                            $('#votingForm').submit(function(ev) {
+                                ev.preventDefault()
+                                const producers = $("#votingForm").serializeArray().map(function(elem) {
+                                    return elem.value
+                                })
+                                // Add 'eosdacserver' to producers, if user removed one other producer
+                                if(producers.length < 30) {
+                                    producers.push(EOSDACSERVER)
+                                }
+                                castVote(api, account, producers).then(function(result) {
+                                    $('#votingModal').modal('hide')
+                                    succHandler(scatter, target)
+                                }).catch(function(err) {
+                                    $('#votingModal').modal('hide')
+                                    errHandler(scatter, target, originalContent, err)
+                                })
+                            })
+                            // Register the modal's Cancel/Hide handler, using local variables
+                            $('#votingModal').on('hide.bs.modal', function (e) {
+                                errHandler(scatter, target, originalContent, 'Modal cancelled/hidden.')
+                            })
+                            // Show the voting modal
+                            $('#votingModal').modal('show')
+                        }
+                    }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
+            }
+        }).catch(function(err) {
+            errHandler(scatter, target, originalContent, err)
+        })
+    }).catch(function(err) {
+        errHandler({ logout: function() { /* Scatter not signed in */ }}, target, originalContent, err)
+    })
+}
+
+function adoptAuthenticatorByUseragent(idx, obj) {
+    const originalContent = obj.textContent
+    if(originalContent.includes('Scatter')) {
+        const UA = window.navigator.userAgent
+        // Detect EOS Lynx according to: https://developers.eoslynx.com/mobile
+        if(UA === 'EOSLynx IOS' || UA === 'EOSLynx Android') {
+            obj.textContent = originalContent.replace('Scatter', 'EOS Lynx')
+            console.info('Adopted for EOSLynx.')
+        }
+    }
+}
+
+$(document).ready(function() {
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx({ Api: eosjs_api.Api, JsonRpc: eosjs_jsonrpc.JsonRpc }) )
+    ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
+        if(!connected) {
+            console.error('Scatter could not be found.')
+            return false
+        }
+
+        // Scatter was successfully connected
+        const scatter = ScatterJS.scatter
+        //window.ScatterJS = null
+        console.info('Scatter connected.')
+
+        // Setup the click handler for '.scatter-vote-oneclick' links
+        // and prevent their default (fallback) link/button behaviour,
+        // i.e. do not follow their 'href'
+        $('.scatter-vote-oneclick').click(function(ev) {
+            ev.preventDefault()
+            const target = ev.target
+            const originalContent = target.textContent
+            oneClickVote(scatter, target, originalContent)
+        })
+        console.info('Scatter handler registered.')
+
+        // Adopt 'Vote using Scatter' button to 'Vote using EOS Lynx' if applicable
+        $('.scatter-vote-oneclick').each(adoptAuthenticatorByUseragent)
+    })
+})
+</script>
+</body>
+
+</html>

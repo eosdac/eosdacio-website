@@ -1,0 +1,264 @@
+{
+    "project_logo": "assets/img/signet-black.svg",
+    "project_favicon": "https://members.eosdac.io/statics/icons/favicon-32x32.png",
+    "project_name": "eosDAC Style Guide",
+    "project_url": "https://styleguide.eosdac.io",
+    "copyright_start_year": "2018",
+    "client_name": null,
+    "client_url": "https://eosdac.io",
+    "creators": [
+        {
+            "name": "Members of eosDAC",
+            "url": "https://eosdac.io"
+        }
+    ],
+    "theme": {
+        "border_color": "eceff1",
+        "highlight_color": "#eceff1",
+        "brand_color": "#4A1289",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#1E2128",
+        "show_project_name": null,
+        "show_version": null,
+        "max_width": "1140",
+        "titles": {
+            "library_title": "Basic Styleguide V1.2",
+            "pages_title": "Overview",
+            "components_title": "Branding"
+        }
+    },
+    "assets": {
+        "css": [
+            "https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css",
+            "assets/style.css",
+            "assets/styles-eosdac.css"
+        ],
+        "js": [
+            "https://code.jquery.com/jquery-3.2.1.slim.min.js",
+            "https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js",
+            "https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": "https://members.eosdac.io/fonts/eosdac-iconfont-v1-8.ede466a9.woff",
+        "google_web_fonts": "https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700"
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/introduction.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "logo",
+            "title": "Logo",
+            "components": [
+                {
+                    "group": "logo",
+                    "name": "signet-positive",
+                    "title": "Signet positive",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "logo",
+                    "name": "signet-negative",
+                    "title": "Signet negative",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "logo",
+                    "name": "logo-positive",
+                    "title": "Logo positive",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "logo",
+                    "name": "logo-negative",
+                    "title": "Logo negative",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "colors",
+            "title": "Colors",
+            "components": [
+                {
+                    "group": "colors",
+                    "name": "primary-colors",
+                    "title": "Primary Colors",
+                    "type": "colors",
+                    "colors": [
+                        "#1E2128,#272B35,#2F333D",
+                        "#4A1289,#7C41BA,#B999DB",
+                        "#babdbe,#eceff1,#ffffff"
+                    ]
+                },
+                {
+                    "group": "colors",
+                    "name": "spot-colors",
+                    "title": "Spot Colors",
+                    "type": "colors",
+                    "colors": [
+                        "#303F9F",
+                        "#1976D2",
+                        "#00796B",
+                        "#827717",
+                        "#E65100"
+                    ]
+                },
+                {
+                    "group": "colors",
+                    "name": "status-colors",
+                    "title": "Status Colors",
+                    "type": "colors",
+                    "colors": [
+                        "#2962FF",
+                        "#F7840E",
+                        "#FA0000",
+                        "#09B200"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "typography",
+                    "name": "font",
+                    "title": "Font",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "typography",
+                    "name": "font-styles",
+                    "title": "Font Styles",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "typography",
+                    "name": "style-mixing",
+                    "title": "Sample Style mixing I",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "typography",
+                    "name": "style-mixing-2",
+                    "title": "Sample Style mixing II",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "icons",
+            "title": "Icons",
+            "components": [
+                {
+                    "group": "icons",
+                    "name": "icons-grid",
+                    "title": "Icon Grid",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "icons",
+                    "name": "icons-set",
+                    "title": "Icons",
+                    "width": "half"
+                },
+                {
+                    "group": "icons",
+                    "name": "icons-set-2",
+                    "title": "Icons II",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "templates",
+            "title": "Templates",
+            "components": [
+                {
+                    "group": "templates",
+                    "name": "announcements",
+                    "title": "Announcements",
+                    "width": "full",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "templates",
+                    "name": "video-intro",
+                    "title": "Video-Intro",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "templates",
+                    "name": "video-outro",
+                    "title": "Video-Outro",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "templates",
+                    "name": "video-thumbnail-1",
+                    "title": "Video-Thumbnail A",
+                    "width": "full",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "templates",
+                    "name": "video-thumbnail-2",
+                    "title": "Video-Thumbnail B",
+                    "width": "full",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        }
+    ],
+    "version": "1.9.5"
+}

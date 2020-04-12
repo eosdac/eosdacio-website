@@ -1,0 +1,1785 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    
+      eosDAC | The Community-Owned EOS Block Producer and DAC Enabler
+    
+  </title>
+  <meta property="og:title" content="eosDAC">
+  <meta property="og:site_name" content="eosDAC">
+  <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1586730311">
+  <link href="/assets/styles.css?1586730311s" rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1586730311">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
+  <link rel="stylesheet" href="/assets/main.css?1586730311">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/ko/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+  <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
+  <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
+  <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
+  <link rel="alternate" hreflang="ja" href="https://eosdac.io/ja/">
+  <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
+  <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
+  <link rel="canonical" href="https://eosdac.io/">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
+</head>
+<body><header class="site-header" role="banner" style="border:0">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs"
+    style="background-image:linear-gradient(to right, #4A1289, #7C41BA)">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/signet-white.svg" height="42" alt="eosDAC">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/why-vote/">
+            Why Vote for eosDAC?</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/why-join/">
+            Why Join eosDAC?</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/why-launch/">
+            Why Launch a DAC?</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/community/">
+            Community</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/token/">
+            Token</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/tools/">
+            Tools</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/news/index.html">
+            News</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="/assets/flags/en.png" />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+             
+            
+            
+            
+            <a class="dropdown-item" href="/ko/eos-news/">
+              <img src="/assets/flags/ko.png" />&nbsp;한국어
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/zh-hans/eos-news/">
+              <img src="/assets/flags/zh-hans.png" />&nbsp;简体中文
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/vi/eos-news/">
+              <img src="/assets/flags/vi.png" />&nbsp;Tiếng Việt
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/ja/eos-news/">
+              <img src="/assets/flags/ja.png" />&nbsp;日本語
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/es/eos-news/">
+              <img src="/assets/flags/es.png" />&nbsp;Español
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/ru/eos-news/">
+              <img src="/assets/flags/ru.png" />&nbsp;Pусский
+            </a>
+            
+            
+            
+          </div>
+        </li>
+      </ul>
+      <span class="navbar-text nav-buttons">
+        <a href="/why-vote/#voting-matters" class="btn solid light btn-raised scatter-vote-oneclick">
+          Vote eosdacserver
+        </a>
+        <a href="https://members.eosdac.io/" class="btn outline light btn-raised">
+          Member Client
+        </a>
+      </span>
+    </div>
+  </nav>
+</header>
+<main class="page-content main" style="padding:0;" aria-label="Content">
+      <div class="">
+        <div class="eos-news">
+	<div class="section head dark">
+		<div class="container">
+			<div class="col-md-12">
+				<h2 id="eos-news">EOS NEWS</h2>
+
+			</div>
+		</div>
+	</div>
+	
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>EOSIO TOOLS - Mar 25, 2020</p>
+
+<h1 id="eosio-release-recap">EOSIO Release Recap</h1>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/03/EOSIO-Software-Release-Recap-1024x585.jpg" alt="EOSIO Software Release
+Recap" /></p>
+
+<p>In the interest of community support we continue to patch earlier builds
+with various bug fixes and stability updates in parallel with the
+releases of our latest builds. </p>
+
+<p>This article contains a summary of the latest updates for EOSIO, EOSJS,
+eosio.contracts, and other developer resources.</p>
+
+<h2 id="eosio">EOSIO</h2>
+
+<h3 id="eosio-v203">EOSIO v2.0.3</h3>
+
+<p>On February 14, 2020 we released EOSIO v2.0.3. Updates introduced in
+this version of EOSIO focused on security, stability, and other fixes.</p>
+
+<h4 id="security">Security:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eos/pull/8643">Added</a> deadline to base58
+encoding</li>
+</ul>
+
+<h4 id="stability">Stability:</h4>
+
+<ul>
+  <li>As with EOSIO v1.8.12,
+<a href="https://github.com/EOSIO/eos/pull/8617">initialized</a> all
+net_plugin class member variables</li>
+</ul>
+
+<h4 id="other-changes">Other changes:</h4>
+
+<ul>
+  <li>As with EOSIO v1.8.12,
+<a href="https://github.com/EOSIO/eos/pull/8606">introduced</a> method to skip
+sync from genesis and resume from state tests</li>
+  <li>As with EOSIO v1.8.12,
+<a href="https://github.com/EOSIO/eos/pull/8612">replaced</a> Travis with
+Github Actions to triple the amount of concurrent jobs</li>
+  <li>As with EOSIO v1.8.12,
+<a href="https://github.com/EOSIO/eos/pull/8633">removed</a> an unnecessary
+install </li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8636">Bumped</a> script’s macOS
+version check to 10.14 as EOSIO will no longer build on older
+versions</li>
+</ul>
+
+<h3 id="eosio-v1812">EOSIO v1.8.12</h3>
+
+<p>On February 14, 2020 we also released EOSIO v1.8.12. Updates introduced
+in this version focused on stability and other changes.</p>
+
+<h4 id="stability-1">Stability:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eos/pull/8616">Initialized</a> all
+net_plugin class member variables</li>
+</ul>
+
+<h4 id="other-changes-1">Other changes:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eos/pull/8605">Introduced</a> method to skip
+sync from genesis and resume from state tests</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8611">Repl</a><a href="https://github.com/EOSIO/eos/pull/8611">a</a><a href="https://github.com/EOSIO/eos/pull/8611">ced</a>
+Travis with Github Actions to triple the amount of concurrent jobs</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8634">Removed</a> an unnecessary
+install</li>
+</ul>
+
+<h3 id="eosio-v202">EOSIO v2.0.2</h3>
+
+<p>On February 7, 2020, we released EOSIO v2.0.2. This update focuses on
+consolidated security patches, stability fixes, and other changes.</p>
+
+<h4 id="security-1">Security:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eos/pull/8595">Restricted</a> allowed block
+signature types</li>
+</ul>
+
+<h4 id="stability-2">Stability:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eos/pull/8526">Modified</a> internal state to
+reset handshake when a socket is closed prior to asynchronous
+callback to alleviate net_plugin of any confusion</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8546">Now</a> using post instead of
+dispatch to avoid reentrant calls in strand</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8552">Changed</a> definition of max
+consecutive rejected blocks from 3 to 13, accounting for the drop
+late blocks feature</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8560">Fixed</a> guards for read-only
+modes</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8561">Introduced</a> possible fix
+for occasional <a href="https://github.com/EOSIO/eos/issues/8542">node
+stall</a></li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8564">Reverted</a> consensus module
+that provided incorrect calculation for delayed starting time on
+production of initial block</li>
+</ul>
+
+<h4 id="other-changes-2">Other changes:</h4>
+
+<ul>
+  <li>As with EOSIO v1.8.11, introduced
+<a href="https://github.com/EOSIO/eos/pull/8571">two</a>
+<a href="https://github.com/EOSIO/eos/pull/8578">mechanisms</a>,
+cpu-effort-percent and last-block-cpu-effort-percent, to limit the
+window in which blocks may be produced</li>
+  <li>Reduced data limits on signatures, and introduced recommendation to
+utilize <a href="https://github.com/EOSIO/eosjs">eosjs v20</a> to generate
+proper signatures as other libraries may be
+<a href="https://github.com/EOSIO/eos/issues/8534">rejected</a> by nodes</li>
+  <li>As with EOSIO v1.8.11,
+<a href="https://github.com/EOSIO/eos/pull/8555">removed</a> unneeded check to
+see if a node is building a block</li>
+  <li>As with EOSIO v1.8.11,
+<a href="https://github.com/EOSIO/eos/pull/8557">introduced</a> a simplified
+on_incoming_block check to read-only mode</li>
+  <li>As with EOSIO v1.8.11,
+<a href="https://github.com/EOSIO/eos/pull/8568">expanded</a> watermark to
+prevent any delegate from ever producing the same slot or earlier</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8577">Introduced</a> the following
+documentation changes:
+    <ul>
+      <li>Removed of $ from shell codeblocks</li>
+      <li>Added backticks on proper names</li>
+      <li>Fixed typos, syntax errors</li>
+      <li>Removed outdated javascript example and protocol document from
+state history plugin pending further updates</li>
+      <li>Added <a href="https://testnet.eos.io/">Official Testnet URL</a> as needed</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8583">Modified</a> read only state
+to allow incoming transactions, facilitating interaction among peer
+to peer relay nodes between block producers and added warning log
+message</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8589">Removed</a> a duplicate log
+message</li>
+</ul>
+
+<h3 id="eosio-v1811">EOSIO v1.8.11</h3>
+
+<p>On February 7, 2020 we also released EOSIO v1.8.11. This update
+introduced patches to promote additional stability and other fixes.</p>
+
+<h4 id="stability-3">Stability:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eos/pull/8547">Changed</a> process priority
+from low to high for async_write to reduce latency under heavy
+strain, and scheduled sending sync blocks at low priority to prevent
+peer sync from overloading a node</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8566">Introduced</a> fixes for
+ro/immutable modes</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8572">Added</a> logic for handling
+unlinkable blocks resulting from 1.8.x syncing from 2.0.x peers</li>
+</ul>
+
+<h4 id="other-changes-3">Other changes:</h4>
+
+<ul>
+  <li>Introduced <a href="https://github.com/EOSIO/eos/pull/8507">two</a>
+<a href="https://github.com/EOSIO/eos/pull/8574">mechanisms</a>,
+cpu-effort-percent and last-block-cpu-effort-percent, to limit the
+window in which blocks may be produced</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8554">Removed</a> unneeded check to
+see if a node is building a block</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8554">Introduced</a> a simplified
+on_incoming_block check to read-only mode</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8569">Expanded</a> watermark to
+prevent any delegate from ever producing the same slot or earlier</li>
+</ul>
+
+<h3 id="eosio-v201">EOSIO v2.0.1</h3>
+
+<p>On January 28, 2020 we released the latest build of EOSIO to v2.0.1.
+This update focused on security, stability, and other improvements.</p>
+
+<h4 id="security-2"><a href="https://github.com/EOSIO/eos/pull/8514">Security</a>:</h4>
+
+<ul>
+  <li>As with EOSIO v1.8.10, enhanced security with earlier block
+validation</li>
+  <li>As with EOSIO v1.8.10, improved handling of deferred transactions
+during block confirmation</li>
+  <li>As with EOSIO v1.8.10, reduced the net plugin logging handshake size
+limits</li>
+</ul>
+
+<h4 id="stability-4">Stability:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eos/pull/8471">Removed</a> block id notify
+feature that caused issues with large numbers of connections</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8472">Changed</a> reports to
+indicate when a validation block produces a different block id</li>
+  <li>As with EOSIO v1.8.10, introduced changes to the handling of <a href="https://github.com/EOSIO/eos/pull/8496">late
+blocks</a> that makes them more
+likely to be dropped, improving production stability overall</li>
+  <li>As with EOSIO v1.8.10,
+<a href="https://github.com/EOSIO/eos/pull/8510">resolved</a> a crash on exit
+<a href="https://github.com/EOSIO/eos/issues/8450">error</a></li>
+</ul>
+
+<h4 id="other-changes-4">Other changes:</h4>
+
+<ul>
+  <li>As with EOSIO v1.8.10, updated the <a href="https://github.com/EOSIO/eos/pull/8430">FC
+repository</a> to eliminate a
+crash in logging</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8435">Updated</a> README.md to fix
+broken documentation links</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8452">Identified</a> an issue with
+Boost installation</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8457">Reverted</a> FC to its proper
+place following a <a href="https://github.com/EOSIO/eos/pull/8452">mistaken
+commit</a></li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8458">Added</a> a pipeline file for
+testing build script</li>
+  <li>As with EOSIO v1.8.10,
+<a href="https://github.com/EOSIO/eos/pull/8467">forked</a> to the
+EOSIO/anka-buildkite-plugin repo to reduce attack surfaces</li>
+  <li>As with EOSIO v1.8.10,
+<a href="https://github.com/EOSIO/eos/pull/8515">added</a> logic to prevent LRT
+pipelines from self triggering</li>
+</ul>
+
+<h3 id="eosio-v1810">EOSIO v1.8.10</h3>
+
+<p>On January 28, 2020 we also released EOSIO v1.8.10. This update focused
+on security, stability, and other changes.</p>
+
+<h4 id="security-improvements"><a href="https://github.com/EOSIO/eos/pull/8516">Security</a> Improvements:</h4>
+
+<ul>
+  <li>Enhanced security with earlier block validation</li>
+  <li>Improved handling of deferred transactions during block confirmation</li>
+  <li>Reduced the net plugin logging handshake size limits</li>
+</ul>
+
+<h4 id="stability-improvements">Stability Improvements:</h4>
+
+<ul>
+  <li>Updated the <a href="https://github.com/EOSIO/eos/pull/8429">FC repository</a>
+to eliminate a crash in logging</li>
+  <li>Introduced changes to the handling of <a href="https://github.com/EOSIO/eos/pull/8495">late
+blocks</a> that makes them more
+likely to be dropped, improving production stability overall</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8509">Resolved</a> a crash on exit
+<a href="https://github.com/EOSIO/eos/issues/8450">error</a></li>
+</ul>
+
+<h4 id="other-changes-5">Other changes:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eos/pull/8426">Fixed</a> discovery of openssl
+in tester cmake when OPENSSL_ROOT_DIR is not set</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8454">Added</a> better sleep
+pre-execute for Anka commands + boost fix</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8469">Forked</a> to the
+EOSIO/anka-buildkite-plugin repo to reduce attack surfaces</li>
+  <li><a href="https://github.com/EOSIO/eos/releases/tag/v1.8.10">Allowed</a> for
+aliases of variants in ABI</li>
+  <li><a href="https://github.com/EOSIO/eos/pull/8520">Added</a> logic to prevent LRT
+pipelines from self triggering</li>
+</ul>
+
+<h2 id="contracts">Contracts</h2>
+
+<h3 id="eosiocontracts-v191">eosio.contracts v1.9.1</h3>
+
+<p>On February 3, 2020 we released eosio.contracts v1.9.1. With this
+update, a number of bugfixes and changes were introduced.</p>
+
+<h4 id="system-contract">System Contract:</h4>
+
+<ul>
+  <li>We <a href="https://github.com/EOSIO/eosio.contracts/pull/446">identified</a>
+and patched a bug in the producer scheduling logic in
+<a href="https://github.com/EOSIO/eosio.contracts/releases/tag/v1.9.0">v1.9.0</a>
+of the system contract that, when triggered, include a pause in
+payments to block producers, block producer changes, and the closing
+of name auction. A simple update to v1.9.1 resolves this issue.</li>
+</ul>
+
+<h4 id="other-changes-6">Other changes:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eosio.contracts/pull/431">Introduced</a>
+logic to retry downloading the CDT binary, updated built/test
+commands to support the new logic, and improved logging output</li>
+  <li><a href="https://github.com/EOSIO/eosio.contracts/pull/443">Switched</a> out
+TravisCI in favor of Github Actions</li>
+  <li><a href="https://github.com/EOSIO/eosio.contracts/pull/436">Cleaned</a> details
+in annotations to be compatible with mdjavadoc generator</li>
+</ul>
+
+<h4 id="dependencies">Dependencies:</h4>
+
+<ul>
+  <li>It is important to note that, In this update, the eosio.system and
+eosio.bios contracts contained within can only be deployed on an
+EOSIO blockchain following the activation of the
+WTMSIG_BLOCK_SIGNATURES consensus upgrade. If starting a fresh
+blockchain, older versions of the eosio.bios contract (v1.7.x or
+v1.8.x) may be used to activate this protocol feature.</li>
+</ul>
+
+<h2 id="eosjs">EOSJS</h2>
+
+<h3 id="eosjs-v2100-rc2">EOSJS v21.0.0-rc2</h3>
+
+<p>Another February 7, 2020 release is the <a href="https://github.com/EOSIO/eosjs/releases/tag/v21.0.0-rc2">EOS JS
+v21.0.0</a>
+release candidate. This release candidate focuses on enhancing the
+elliptic library, introduces new commands as well as the use of minified
+files for production environments, and other changes.</p>
+
+<h4 id="elliptic-library">Elliptic library:</h4>
+
+<ul>
+  <li>Introduced helper functions to perform actions that sign, verify,
+and recovery key signatures</li>
+</ul>
+
+<h4 id="commands">Commands:</h4>
+
+<ul>
+  <li>Deprecated table_key parameter and replaced with index_position</li>
+  <li>Added yarn build-web command that creates both debug and minified
+files in dist_web</li>
+</ul>
+
+<h4 id="minified-files">Minified files:</h4>
+
+<ul>
+  <li>Introduced recommendation to use minified files as opposed to debug
+files in production environments to reduce load times on end user</li>
+</ul>
+
+<h4 id="other-changes-7">Other changes:</h4>
+
+<ul>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/649">Merged</a> pull request #649
+from EOSIO/develop-version-bump to lock versions</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/653">Added</a> functions from
+eosjs-ecc to PrivateKey/PublicKey/Signature classes to handle format
+conversions and call elliptical functions</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/656">Removed</a> the Travis CI
+configuration pending future updates</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/664">Introduced</a> zero padding
+to r and s signatures so they will generate signatures with the
+proper amount of bytes</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/666">Fixed</a> an issue with an
+invalid symbol</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/670">Removed</a> certain warnings
+and related documentation</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/672">Added</a> IMPORTANT.md and
+changed related section in the README.md document</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/676">Adjusted</a> minified and
+debug files created by yarn build-web to follow new minified file
+convention</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/675">Removed</a> usages of the now
+deprecated table_key command</li>
+  <li><a href="https://github.com/EOSIO/eosjs/pull/671">Updated</a> documentation to
+properly reference the new doc version</li>
+</ul>
+
+<h2 id="other-updates">Other Updates</h2>
+
+<h3 id="elemental-battles">Elemental Battles</h3>
+
+<p>In addition, on February 7, 2020 we updated the repository for Elemental
+Battles, an educational tutorial and card game, to <a href="https://github.com/EOSIO/eosio-card-game-repo/releases">eosio-card-game-repo
+v1.1.10</a>.</p>
+
+<h3 id="tropical-stay-app-v110">Tropical Stay App v1.1.0</h3>
+
+<p>We continue to explore innovative approaches to improve account security
+on EOSIO. On January 18, 2020, we released <a href="https://github.com/EOSIO/tropical-example-web-app/releases/tag/v1.1.0">Tropical Stay App to
+v1.1.0</a>.
+The Tropical Stay Example Application provides a guideline for
+developers on how to integrate multi factor authentication powered by
+WebAuthn with EOSIO web applications. WebAuthn allows applications to
+authenticate user credentials by way of hardware devices. This most
+recent version of Tropical Stay provides examples on how to set up a
+hardware authenticator, such as aYubiKey or an iOS device with TouchID
+or FaceID, with WebAuthn to validate account signatures.</p>
+
+<h2 id="stay-connected">Stay Connected</h2>
+
+<p>We are committed to the ongoing improvement of EOSIO software, tools,
+and resources. If you would like to offer feedback and work more closely
+with our team to improve EOSIO for developers, you can send our
+developer relations team an email at
+<a href="mailto:%20developers@block.one">developers@block.one</a>.</p>
+
+<p>To keep up-to-date with future announcements, you can also subscribe to
+our mailing list on the <a href="https://eos.io/#newsletter-signup">EOSIO
+website</a>. We are excited to be
+regularly improving the usability of the software for EOSIO developers
+as we continue to lay a foundation for the mass adoption of blockchain
+technology.</p>
+
+<p>. . .</p>
+
+<p><strong>Important Note</strong>: All material is provided subject to <a href="https://eos.io/important-notice/">this important
+notice</a> and you must familiarize
+yourself with its terms. The <a href="https://eos.io/important-notice/">notice</a>
+contains important information, limitations and restrictions relating to
+our software, publications, trademarks, third-party resources and
+forward-looking statements. By accessing any of our material, you accept
+and agree to the terms of the
+<a href="https://eos.io/important-notice/">notice</a>.</p>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="section">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        <p>EOSIO COMMUNITY - Mar 6, 2020</p>
+
+<h1 id="smartpress-is-the-smart-contract-cloud">Smartpress Is The Smart Contract Cloud</h1>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/03/Smartpress-BulitOnEOSIO-1024x585.jpg" alt="Smartpress is the smart contract
+cloud" /></p>
+
+<p>We interviewed Lachlan Greenbank, CEO and founder of Smartpress, about
+their platform that simplifies using EOSIO Smart Contracts for
+businesses.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/03/Smart-contract-cloud-logo-1024x307.png" alt="Smart contract cloud
+logo" /></p>
+
+<h2 id="could-you-introduce-smartpress-for-us">Could you introduce Smartpress for us?</h2>
+
+<p>Smartpress is a Software as a Service (SaaS) platform that lets you
+rapidly connect your apps to an EOSIO Smart Contract.</p>
+
+<p>We describe Smartpress as: “The Smart Contract Cloud”. It’s for those
+who would like to adopt Smart Contracts, verify transactions on a third
+party block explorer, and add security, trust, and validity to their
+data.</p>
+
+<p>We provide an API wrapper so that you can easily launch a Smart Contract
+on our platform. You can then create accounts for your users that you
+can map to your own internal IDs without having to worry about the
+blockchain layer.</p>
+
+<p>This makes life a lot easier for those teams who would like to enjoy the
+benefits of using an EOSIO blockchain, but who aren’t quite ready to
+take on all the complexities of Smart Contract development from scratch.
+They can get their app connected to a Smart Contract and get things
+flowing fairly quickly. If they like, down the line they can then take
+over completely. We will provide the Smart Contract(s) to them and sign
+over the active and owner keys.</p>
+
+<p>This effectively makes us an EOSIO adoption engine – we help companies
+get up and running with EOSIO Smart Contracts without having to think
+about hiring specialist blockchain developers. They can use Smart
+Contracts to improve the security and validation of their data with
+their current resources –  recently one of our customers who were using
+a JavaScript developer with only six months’ of experience found it very
+easy to integrate Smartpress with their frontend.</p>
+
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Code showing how easy it is to use Smartpress smart contracts using
+javascript" /></p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/03/Code-showing-how-smartpress-smart-contracts-using-javascript-1024x567.png" alt="Code showing how easy it is to use Smartpress smart contracts using
+javascript" /></p>
+
+<p>Smartpress documentation showing how EOSIO Smart Contract methods can be
+called with just a few lines of JavaScript.</p>
+
+<h2 id="what-inspired-you-to-create-smartpress">What inspired you to create Smartpress?</h2>
+
+<p>The inspiration came from our experience at the<a href="https://eos.io/news/hacking-on-one-year-on/">EOS Global
+Hackathon</a> event in Sydney
+in August 2018. There were hundreds of participants there, from
+different sectors and industries. Only a few of them (myself included)
+had significant experience setting up and writing EOSIO Smart Contracts.</p>
+
+<p>When the time came and we started hacking, most teams had to spend a
+couple of hours at least getting started with EOSIO, whereas we were up
+and running immediately. This gave my team an edge technically and
+timewise. But, most importantly, it allowed us to observe and identify
+this use case: What if you could set a few parameters, press a button
+and have an app produce secure code for you?</p>
+
+<p>We realized this would have saved hundreds of hours of effort at the
+hackathon, so we created Smartpress to save time for anyone new to
+blockchain and EOSIO technology. This software has the potential to
+reach millions of developers in the years to come, and we hope that our
+product will have a massive impact by saving them time and money.</p>
+
+<h2 id="why-did-you-decide-to-use-blockchain-technology-and-specifically-eosio">Why did you decide to use blockchain technology, and specifically EOSIO?</h2>
+
+<p>Blockchain can be used in a powerful yet simple way. A basic Smart
+Contract can be used to build trust with your users by allowing them to
+audit and verify the data themselves. This is what we believe blockchain
+is about: not trusting companies anymore and making them prove to you
+that they are doing what they say they are.</p>
+
+<p>EOSIO is the highest quality blockchain software out there. It is highly
+performant, which means that data publishing and validation can be done
+very quickly. The
+<a href="https://github.com/EOSIO/eosio.contracts">eosio.contracts</a> repository
+has a selection of useful basic contracts which offer functionality with
+vetted and robust code.</p>
+
+<p>We also believe in the leadership and vision of
+<a href="https://block.one/">Block.one</a>, and that they will continue to innovate
+and work to improve EOSIO as time goes on.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/03/Example-of-Smartpress-UI-1024x563.png" alt="Example of
+UI" /></p>
+
+<p>The simple and intuitive UI of the Smartpress platform make using EOSIO
+Smart Contracts easy</p>
+
+<h2 id="what-stage-is-smartpress-at">What stage is Smartpress at?</h2>
+
+<p>The Smartpress core platform is built and functioning. We have a number
+of paying customers and are ready to onboard new users at any time.
+Public EOSIO blockchains change over time, due to their governance, and
+adoption of changes to the core software. We are constantly working to
+keep up to date with these changes which is a compelling reason to use
+Smartpress:</p>
+
+<p>The user experience will stay close to constant due to the work we are
+doing on the backend of the platform.</p>
+
+<h2 id="what-are-the-challenges-you-had-to-overcome-and-how-did-you-do-it">What are the challenges you had to overcome, and how did you do it?</h2>
+
+<p>One of the challenges that we are facing right now is convincing people
+of the merits of using blockchain technology to solve their problems.
+It’s tricky to explain something new and technical to people.</p>
+
+<p>This all makes advertising difficult. So far we haven’t been able to
+find a scalable, repeatable model using common digital marketing tools.
+We’re getting closer to being able to predict that if we put in X amount
+of marketing dollars into a strategy, then we get out Y amount of
+revenue. Some days we have a lot of success, and some days we have none
+at all.</p>
+
+<p>In addition to improving the effectiveness of our digital marketing, we
+are focusing on a “warmer” approach to contacting potential customers.
+This involves meeting potential customers at events and conferences. We
+plan on attracting new users as a result of our scaling efforts as well.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/03/Example-of-Smartpress-UI-EOSIO-1024x560.png" alt="Example of UI
+EOSIO" /></p>
+
+<p>Smartpress makes it easy to map internal usernames to EOSIO blockchain
+account names\</p>
+
+<h2 id="what-are-your-plans-for-scaling">What are your plans for scaling?</h2>
+
+<p>We are actively scaling the business by growing the Smartpress customer
+base. We are planning on offering a suite of user focused products as
+well.</p>
+
+<p>Users will arrive on the site and see that Smartpress is the Smart
+Contract cloud, but they will also see a number of products which they
+can use built by Smartpress, on Smartpress. This will help us to onboard
+new users to Smartpress as well as educating the market as a whole about
+the benefits of blockchain technology.</p>
+
+<p>One product which we are working on will solve the problem of document
+verification. We can look at education providers to demonstrate why this
+would be so useful. If you want to verify that a candidate has completed
+a course in programming, for example, you would need to go to the course
+provider. You would probably need to go through a support process and
+they might send you a letter or an email after several hours of effort
+going back and forth.</p>
+
+<p>If they had used our new product, all you would have to do is drop the
+PDF of the certificate in, and we would tell you everything you need to
+know about it (when it was issued, which grade was attained, which
+course it was for, etc). In this way you can vet the candidate for the
+job instantly without having to rely on anyone else.</p>
+
+<p>I think these types of verification solutions are going to show people
+how quickly blockchain technology can be adopted to save people and
+businesses lots of time and effort. A lot of organizations could benefit
+from this service: universities dispensing degree certificates, local
+councils granting liquor licenses, construction companies who need to
+check workers’ forklift licences. They will all have the convenient
+option to use a Smartpress product to verify their documents instead of
+writing their own Smart Contracts and providing a website.</p>
+
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="A graphic showing how Smartpress can help save on developer
+salaries" /></p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/03/Help-save-onddevelopers-salaries.png" alt="A graphic showing how Smartpress can help save on developer
+salaries" /></p>
+
+<h2 id="what-eosio-community-initiatives-have-you-engaged-in-and-how-has-the-eosio-community-responded-to-smartpress">What EOSIO community initiatives have you engaged in, and how has the EOSIO Community responded to Smartpress?</h2>
+
+<p>We have hosted several meetups in Canberra to tell the community about
+EOSIO. We are planning to do a lot more outreach in Sydney now that we
+are based here. That includes going to meetups and events to tell people
+about Smartpress – general technology themed ones, not just blockchain.</p>
+
+<p>We were grand finalists in the EOS Global Hackathon series in 2018 which
+was a great opportunity to meet and connect with EOSIO community members
+from all over the world. That gave us a headstart with name recognition
+in the ecosystem, some great resources, and knowledge about where to go
+and who to talk to about all things EOSIO.</p>
+
+<h2 id="can-you-introduce-your-team-and-tell-us-what-makes-themit-special">Can you introduce your team and tell us what makes them/it special?</h2>
+
+<p>The only permanent member of Smartpress right now is me. I have a few
+contractors doing design and sales, though. When we originally won the
+Sydney EOS Global Hackathon and progressed to the Grand Finale in Cape
+Town, there were other core team members. They have since left the
+project, due to timing and family commitments.</p>
+
+<p>It is exhilarating (and terrifying) to be in total control of the
+company. I can hire people to do what needs to be done and set the
+strategic direction, but the consequence of this is that the success of
+the business rests solely on my shoulders. I am confident in my ability
+to lead and manage Smartpress to achieve profit and growth.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/03/Smartpress-founder-Lachlan-Greenbankp-pitching-1024x585.jpg" alt="Smartpress founder Lachlan Greenbank
+pitching" /></p>
+
+<p>Lachlan Greenbank pitches Smartpress at the EOS Global Hackathon Grand
+Finale in Cape Town</p>
+
+<p>I started out learning coding when I was 17. I went to a community
+college which was fairly laid back. I wasn’t particularly enthusiastic
+about higher education at that point in my life – I was more interested
+in hanging out and having fun with my friends. I turned out to be an apt
+student and even won a coding competition when I was there.</p>
+
+<p>After I gained my college diploma I studied an IT degree at ANU, which
+is actually the highest ranked university in Australia. I was two years
+into my degree when the EOS Global Hackathons started. I was also
+working at a small company and I quit my job there a couple of months
+before the events because I thought that EOSIO was something special. It
+turned out to be a huge opportunity and I am glad I took the risk and
+embarked on this adventure!</p>
+
+<h2 id="where-do-you-see-smartpress-in-the-future">Where do you see Smartpress in the future?</h2>
+
+<p>The core vision of Smartpress remains strong: making it easier for users
+and businesses to benefit from EOSIO blockchain technology. Our niche is
+simplicity, because I am a simple sort of dude. When I am building
+things I like plugging stuff in and getting it done without a whole lot
+of configuration and setup.</p>
+
+<p>So we are going to continue to attract customers to our platform by
+offering them a convenient and cost effective way to use Smart Contracts
+in their business activities. We will be releasing a suite of products
+that leverage our platform to offer useful functionality to customers.</p>
+
+<p>Because we are laser focused on providing value for our customers and
+demonstrating how our products can save time and effort, we remain
+resilient to a range of market conditions. If blockchain explodes in
+popularity then that’s great, and we are ready to scale up and onboard a
+million users over the next six months. If it takes another few years
+though, with slower growth, then we are ready for that too.</p>
+
+<h2 id="in-a-sentence-how-would-you-want-readers-to-remember-smartpress">In a sentence, how would you want readers to remember Smartpress?</h2>
+
+<p>Smartpress is the smart contract cloud.</p>
+
+<p>. . .</p>
+
+
+      </div>
+    </div>
+  </div>
+  
+   <div class="section">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        
+<p>EOSIO Community Feb 21, 2020</p>
+
+<h1 id="prospectors-is-a-gold-mining-economic-strategy-game">Prospectors is a Gold Mining Economic Strategy Game</h1>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/Prospectors-BuiltOnEOSIO-1024x585.jpg" alt="Prospectors is an economic strategy game which allows players to
+build, trade and
+mine" /></p>
+
+<p>We spoke to Nazar Chervinskiy, CEO and co-founder of Prospectors, the
+world’s first MMORTES (Massive Multiplayer Online Real-Time Economic
+Strategy) game that was built on EOSIO.</p>
+
+<h2 id="could-you-introduce-prospectors-for-us">Could you introduce Prospectors for us?</h2>
+
+<p>On the one hand, Prospectors is a game whose primary goal is to bring
+joy to its users; on the other, it is an alternate reality with robust
+economic rules and relations where anyone can become whoever they want.</p>
+
+<blockquote>
+  <p><strong>“Just like in the real world, in Prospectors there is more than one
+path to success.”</strong></p>
+</blockquote>
+
+<p>We sometimes get comments from our users like “I don’t totally
+understand Prospectors, but I play it anyway and I love it!”. It mirrors
+the real world – people don’t completely understand that either, but
+they can still enjoy it, which is cool.</p>
+
+<p>The game is set in the 19th century Wild West, with a map showing land
+tiles and above-ground resources like wood and stone. There are also
+resources hidden underground which must be sought out, like coal, clay
+and gold. Each of these resources has a different role to play in the
+construction of new buildings and the production of items.</p>
+
+<p>Every player has three assigned workers who can fulfill various tasks.
+Players can use their workers themselves, or have them work for other
+players in return for a salary. Any action in the game requires labour
+from a worker to complete it. No matter how active you are, you’ll still
+need some help from others in the game.</p>
+
+<h2 id="what-makes-prospectors-different-from-other-traditional-games-like-it">What makes Prospectors different from other, traditional games like it?</h2>
+
+<p>We’ve created a new type of game and called it MMORTES – Massive
+Multiplayer Online Real-Time Economic Strategy. This means players can
+interact to trade resources, build things, or mine for gold. This is
+underpinned by our leveraging of blockchain technology, which makes
+Prospectors more transparent and helps us to earn players’ trust.</p>
+
+<p>The game is also educational – it can help players learn about
+transactions and financial relationships. It offers the possibility of a
+side income derived from something they enjoy.</p>
+
+<p>Is Prospectors profitable for a player? It depends on the strategy they
+choose. Just like in the real world, there is more than one path to
+success, which makes pinpointing a winning formula difficult.</p>
+
+<blockquote>
+  <p><strong>“Players are responsible for their own destiny in Prospectors.”</strong></p>
+</blockquote>
+
+<p>They can try to realize themselves as ordinary workers, receiving
+salaries from other players or opt to be a builder, miner or courier.
+They can even start their own businesses, creating job opportunities for
+others.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/Prospectors-Mine-Gold-Build-Your-World-1024x452.jpg" alt="Prospectors - Mine Gold Build Your
+World" /></p>
+
+<h2 id="what-inspired-you-to-create-prospectors">What inspired you to create Prospectors?</h2>
+
+<p>I’ve been a fan of video games since childhood and always imagined what
+I would do if I had been in the game developers’ shoes.</p>
+
+<p>There was a period early in my career when I only had to work in the
+summer, which meant that I could spend all winter playing video games.
+That’s when I became acquainted with
+“<a href="https://www.travian.com/">Travian</a>”. This real-time massively
+multiplayer game was active and bustling with other players 24 hours a
+day, which made it very engaging.</p>
+
+<p>In 2014, I first dove into the world of blockchain technology and
+cryptocurrency. I thought back to Travian and the numerous communities
+of players constantly interacting on a vast game map. I dreamt of
+creating a game based on blockchain that would challenge and elevate
+this experience.</p>
+
+<p>For two years I discussed the possibilities of Prospectors with my
+cousin and co-founder Andriy Maslijevych. We wanted our game to stand
+out and decided that by offering players something in exchange for their
+time spent playing, we could achieve that. Their efforts add value to
+the game’s world and in return accumulate various digital assets they
+truly own and can sell anytime.</p>
+
+<p>We weren’t sure how our monetization model would be received by gamers.
+However, Steemit launched around this time, which proved the viability
+of users being rewarded for contributing value to their ecosystem.</p>
+
+<p>The newer Prospectors game map, set in the Yukon and interfacing with
+the WAX EOSIO blockchain, was inspired by the works of Jack London. His
+gritty tales of harsh conditions during the 1890s Klondike Gold Rush in
+the Yukon were extremely evocative. It seemed only appropriate to pay
+homage to the brave souls venturing to new lands in search of their
+fortune in our own unique way.</p>
+
+<h2 id="why-did-you-decide-to-use-blockchain-technology-and-specifically-eosio">Why did you decide to use blockchain technology, and specifically EOSIO?</h2>
+
+<p>We had been excited by blockchain technology, and were searching for new
+ways to apply it in the real world. We ended up making a totally
+blockchain powered game on EOSIO – all actions are in-line smart
+contract actions.</p>
+
+<p>We originally spent time using Ethereum smart contracts, but found the
+platform too slow and expensive for our needs.</p>
+
+<p>The primary argument for our use of blockchain technology stems from the
+operation of the virtual in-game currency, Prospectors Gold (PGL). We
+are striving to represent an alternate reality with full-fledged
+economic relations between its citizens.</p>
+
+<p>To provide this experience, players need to be able to trust that we
+cannot generate unlimited PGL for ourselves and believe us when we say
+we don’t know the locations where PGL is buried underneath the map.
+EOSIO blockchain technology allows us to be transparent about both of
+these things because PGL is defined and transacted by a smart contract.</p>
+
+<blockquote>
+  <p><strong>“Earning players’ trust is going to become increasingly more
+important in the highly competitive world of video gaming. EOSIO
+blockchain technology is a good tool to achieve this.”</strong></p>
+</blockquote>
+
+<p>We were well aware of the capabilities of competing blockchain platforms
+when we made the decision to use EOSIO. We were already familiar with
+the works of Dan Larimer and planned to use Bitshares then pivoted, when
+we heard the announcement of EOSIO. It has totally lived up to our
+expectations.</p>
+
+<h2 id="what-stage-is-prospectors-at">What stage is Prospectors at?</h2>
+
+<p>In terms of development, we are at, and plan to be at the open
+beta-version stage for at least another six months.</p>
+
+<p>Players can sign up and play the game in their browser right now, using
+a compatible wallet. We consider Prospectors to still be in open beta
+because we are actively extending the functionality of the game, and
+this will influence the economics. We would like to avoid interfering
+with the economic model of the game after the official stable release,
+though.</p>
+
+<p>As for the game itself, I would suggest that the current version is in a
+period of initial capital accumulation. The distribution of gold is
+happening according to “true proof of work” where more work in the game
+world earns more gold.</p>
+
+<p>We have so far built the core game, which is only around 10% of our
+planned functionality.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/An-in-game-view-of-Prospectors-1024x571.jpg" alt="An in-game view of
+Prospectors" /></p>
+
+<h2 id="what-are-the-challenges-you-had-to-overcome-and-how-did-you-do-it">What are the challenges you had to overcome, and how did you do it?</h2>
+
+<p>In the beginning there was just my cousin Andriy and I!</p>
+
+<blockquote>
+  <p><strong>“We had no experience of the video games industry so we had to learn
+everything along the way, which was a significant challenge for us!”</strong></p>
+</blockquote>
+
+<p>Creating a game as complex as Prospectors required a lot of time and
+effort. Balancing the economic model was particularly difficult, and
+economists we consulted didn’t even believe it would work. It is now
+running smoothly though, and needless to say we are happy to prove them
+wrong!</p>
+
+<p>We had no clue about marketing and lacked the funds for even a small PR
+campaign, so had to find our own ways to get our messages out there.</p>
+
+<p>We couldn’t have overcome these challenges without our magnificent team.
+Notably, many who joined us in the beginning left higher paying jobs.
+Through working on Prospectors, we all gained some totally priceless
+experience, and have become stronger together (emotionally at least!).</p>
+
+<h2 id="what-are-your-plans-for-scaling">What are your plans for scaling?</h2>
+
+<p>We currently have two main game worlds: Wild West and Yukon, which use
+the EOS and WAX blockchains respectively, and we plan to launch at least
+two more. Each new world will contain unique resources, and players will
+be able to travel between them using railways.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/The-two-worlds-available-in-Prospectors-Yukon-and-Wild-West-1024x477.jpg" alt="The two worlds available in Prospectors, Yukon and Wild
+West" /></p>
+
+<p>Players will become familiar with the railway game mechanic, because we
+are also planning to host temporary new maps which will contain
+resources to collect. They will have to work together, and can only take
+resources back with them if they successfully build a new railway.</p>
+
+<p>They will need to balance collecting resources with construction,
+otherwise no-one will take home anything.</p>
+
+<blockquote>
+  <p><strong>“We are hoping this innovative game design will give players a novel
+challenge, and attract new gamers to Prospectors.”</strong></p>
+</blockquote>
+
+<h2 id="what-eosio-community-initiatives-have-you-engaged-in-and-how-has-the-eosio-community-responded-to-prospectors">What EOSIO community initiatives have you engaged in, and how has the EOSIO Community responded to Prospectors?</h2>
+
+<p>We continually keep up with EOSIO community news, and we were the first
+project to start providing CPU for players.</p>
+
+<p>We contribute when we can to the development of EOSIO. When we were
+starting out on Prospectors, we discovered a bug which could totally
+break the Jungle testnet. This <a href="https://github.com/EOSIO/eos/issues/4821">critical
+vulnerability</a> could have been
+replicated on the EOS public network. We reported the problem to Block
+Producers, and they took steps to fix it. </p>
+
+<p>We are grateful to have an incredible community of players, some of whom
+came from the EOSIO community to Prospectors, and some the other way
+around. Positive comments from them have always kept our spirits high in
+the face of challenges.</p>
+
+<p>Some players loved the game so much they became contributors over time,
+volunteering to perform tasks like translation and even game
+development. Thanks to the efforts of these people, Prospectors is even
+better for everyone who plays.</p>
+
+<h2 id="can-you-introduce-your-team-and-tell-us-what-makes-themit-special">Can you introduce your team and tell us what makes them/it special?</h2>
+
+<p>Our team is comprised of 16 people with a similar world view and a
+shared belief in our project. Some have been friends with each other
+since childhood, and some have joined us along the way. Here are some of
+the core members of our team:</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/Yaroslav-Kikhtan.jpg" alt="Yaroslav
+Kikhtan" /></p>
+
+<p>Yaroslav Kikhtan</p>
+
+<p>Our CTO, Yaroslav Kikhtan, has 20+ years experience of software
+development. He never tires of learning, and reads everything from the
+theory of evolution to philology. He will not believe something unless
+it is backed up by grounded research in several different scientific
+publications. He is an advocate for more straightforward gameplay –
+after his censorship, the majority of our crazy ideas die in agony. He
+is an important counterweight in the development process though and
+produces robust, well structured code.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/Andriy-Masliyevych.jpg" alt="Andriy
+Masliyevych" /></p>
+
+<p>Andriy Masliyevych</p>
+
+<p>Andriy Masliyevych is one of our co-founders and a brilliant
+mathematician. His head contains seemingly unlimited amounts of
+information and he quickly fishes facts out as needed. He finds creative
+ways to solve programming problems, and is adept with blockchain
+technology.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/Max-Karkach.jpg" alt="Max
+Karkach" /></p>
+
+<p>Max Karkach</p>
+
+<p>Max Karkach is another co-founder and our lead graphic designer. He
+manages our artists and combines their output to produce the visible
+world of Prospectors as gamers experience it.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/Nazar-C.jpg" alt="Nazar
+Chervinskiy" /></p>
+
+<p>Nazar Chervinskiy</p>
+
+<p>As CEO, I mainly work on the game design of Prospectors, and also
+strategic planning for the whole company.</p>
+
+<p>Our team is fantastic and ready to support each other through hard
+times, long nights, and weekends. We celebrate our victories together,
+and I count my teammates as genuine comrades-in-arms.</p>
+
+<p><img src="https://eos.io/wp-content/uploads/2020/02/The-Prospectors-Team.jpg" alt="" /></p>
+
+<p>The Prospectors Team</p>
+
+<h2 id="where-do-you-see-prospectors-in-the-future">Where do you see Prospectors in the future?</h2>
+
+<p>As Dan Simmons wrote: “No book or poem is ever finished, merely
+abandoned.”</p>
+
+<p>We have a lot of imagination as a team, and usually have more ideas than
+time to implement them!</p>
+
+<p>While we have very ambitious plans for the future, I can only reveal a
+few things at present. Very soon, the game will allow the formation of
+Decentralized Autonomous Organizations (DAOs), which will allow players
+to group together to perform work and collect income. These DAOs will
+have various jobs available, each with different responsibilities and
+rewards. The EOSIO permissions system is perfect for offering this
+feature!</p>
+
+<p>Following on from this, we plan to offer players a chance to shape the
+experience of the game by introducing elective positions: a Sheriff and
+a DAO court. One of the challenges we face is dealing with
+multi-accounts (where one player uses multiple accounts to generate more
+resources than they should be able to), which are forbidden by the game
+rules. It is our hope that the community will help us in the fight
+against these cheaters through the DAO court – it may even prove to be a
+compelling new dimension to the game for enthusiastic players.</p>
+
+<blockquote>
+  <p><strong>“In time, we hope to pass 100% of the management and strategic
+decisions to Prospectors players – DAOs are the first step in
+achieving this.”</strong></p>
+</blockquote>
+
+<p>We would like to experiment with a number of different governance
+systems, starting with direct democracy via the delegation of voting
+rights.</p>
+
+<h2 id="in-a-sentence-how-would-you-want-readers-to-remember-prospectors">In a sentence, how would you want readers to remember Prospectors?</h2>
+
+<blockquote>
+  <p><strong>“Prospectors is set in a world of virtual Gold Rushes, where the
+gold you mine is defined and transferred by a smart contract to
+increase transparency and security.”</strong></p>
+</blockquote>
+
+<p>. . .</p>
+
+<p>Play the game now at <a href="https://prospectors.io/">Prospectors.io</a></p>
+
+      </div>
+    </div>
+  </div>
+  
+ 
+  
+  <div style="background-image:url(/assets/footer-bkgr.png);background-repeat:no-repeat;background-size:100% auto;margin-top:50px;">
+    <img src="/assets/spacer.gif" style="width:100%;"/>
+</div>
+</div>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card" style="border:0;padding:0;">
+  <div class="footer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 id="important-links">Important Links</h2>
+<p><a href="/why-vote/#core-principles">Code Of Conduct</a><br />
+<a href="/history/">eosDAC History</a><br />
+<a href="https://eosdac.zendesk.com/">Help Center</a><br />
+<a href="/styleguide">Styleguide</a><br />
+<a href="https://steemit.com/eos/@eosdac/statement-of-ownership-and-code-of-conduct">Disclosures</a><br />
+<a href="/bp.json">BP Info</a></p>
+
+        </div>
+        <div class="col-md-6">
+          <h2 id="newsletter">Newsletter</h2>
+
+          <form id="newsletterForm">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="name" class="bmd-label-floating">
+                    Name
+                </label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email" class="bmd-label-floating">
+                    Email *
+                </label>
+                <input type="email" class="form-control" id="email" name="email"
+                    required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="form-control" id="language" name="language" required>
+                <option value="">Language *</option>
+                <option value="English">&nbsp;&nbsp;&nbsp;&nbsp;English</option>
+                <option value="Russian">&nbsp;&nbsp;&nbsp;&nbsp;Pусский</option>
+                <option value="Korean">&nbsp;&nbsp;&nbsp;&nbsp;한국어</option>
+                <option value="Chinese">&nbsp;&nbsp;&nbsp;&nbsp;简体中文</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <button type="submit" id="submitButton" class="btn">
+                Subscribe
+            </button>
+        </div>
+    </div>
+</form>
+<script>
+$('#newsletterForm').submit(function(event) {
+    event.preventDefault();
+    $.post('https://toolkit-api.eosdac.io/subscribe', $(this).serialize())
+    .done( function(result) {
+        if(result && (result.message === 'subscribed_successfully' || result.message === 'already_subscribed')) {
+            alert('Thank you, your records have been updated!');
+            document.getElementById('newsletterForm').reset();
+        } else {
+            alert('Error:\n'+JSON.stringify(result));
+        }
+    })
+    .fail( function(xhr, textStatus, errorThrown) {
+        alert('Error '+xhr.status+':\n'+xhr.responseText);
+    });
+});
+</script>
+        </div>
+        <div class="col-md-3">
+          <h2 id="social-media">Social Media</h2>
+<p><a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
+<a href="https://github.com/eosdac"><i class="icon icon-social-github-com"></i></a>
+<a href="https://steemit.com/@eosdac"><i class="icon icon-social-steemit-com"></i></a>
+<a href="https://twitter.com/eosdac"><i class="icon icon-social-twitter-com"></i></a>
+<a href="https://www.instagram.com/eosdac"><i class="icon icon-social-instagram-com"></i></a>
+<br />
+<a href="https://facebook.com/eosdac"><i class="icon icon-social-facebook-com"></i></a>
+<a href="https://www.reddit.com/r/eosdac"><i class="icon icon-social-reddit-com"></i></a>
+<a href="https://vk.com/eosdac"><i class="icon icon-social-vk-com"></i></a>
+<a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
+<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a>
+<br />
+<a href="https://murmurdapp.com/userpost/eosdacmurmur"><i class="icon icon-social-murmur"></i></a>
+<a href="https://t.me/eosdacio"><i class="icon icon-social-telegram"></i></a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr style="padding: 10px 0; border-color: #BABDBE;" /><div class="row">
+        <div class="col-md-2">
+          <img src="/assets/signet-white.svg" height="50" alt="site.title">
+        </div>
+        <div class="col-md-10">
+          
+          
+          
+          
+          <a class="nav-link" href="/ko/why-vote/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Vote for eosDAC?</a>
+          
+          
+          <a class="nav-link" href="/ko/why-join/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Join eosDAC?</a>
+          
+          
+          <a class="nav-link" href="/ko/why-launch/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Launch a DAC?</a>
+          
+          <a class="nav-link" href="/ko/community/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Community</a>
+          
+          
+          <a class="nav-link" href="/ko/token/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Token</a>
+          
+          <a class="nav-link" href="/ko/tools/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Tools</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="nav-link" href="/ko/news/index.html"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">News</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          </div>
+      </div></div>
+  </div>
+</footer>
+<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+<script src="/assets/videojs-resolution-switcher.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+  integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+  crossorigin="anonymous"></script>
+<script
+  src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+  integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $('body').bootstrapMaterialDesign()
+  //initialize video players on why-join page
+  videojs('why-join-video-1', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-2', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-3', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+})
+</script>
+<!-- Voting Modal -->
+<div class="modal fade" id="votingModal" tabindex="-1" role="dialog" aria-labelledby="votingModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <form id="votingForm">
+    <div class="modal-header">
+        <h5 class="modal-title" id="votingModalLabel">You already selected 30 BPs</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+            Free up one spot, to cast a vote for <code class="highlighter-rouge">eosdacserver</code>
+        <br/><br/>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6" style="padding:0;padding-right:10px;" id="voting_col1">
+                    <!-- Will be filled via Javascript -->
+                </div>
+                <div class="col-6" style="padding:0;"  id="voting_col2">
+                    <!-- Will be filled via Javascript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div style="padding: 0 16px;">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn solid dark btn-raised">Vote now</button>
+        </div>
+    </div>
+    </form>
+    </div>
+</div>
+</div>
+
+<script src="/assets/eosjs/eosjs-api.js?1586730311"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?1586730311"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1586730311"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1586730311"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1586730311"></script>
+<script type="text/javascript">
+// This file needs to be included via the LIQUID template engine, in order to make the translations work!
+
+// Here is how to calculate the vote decay
+// https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue#L126
+// https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue#L169
+
+const host = 'public.eosinfra.io' //TODO: use eu.eosdac.io instead? -> CORS problem
+const network = {
+    blockchain:'eos',
+    protocol:'https',
+    host,
+    port:443,
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+}
+const EOSDACSERVER = 'eosdacserver'
+
+function castVote(api, account, producers, proxy = "") {
+    const transaction = {
+        actions: [{
+            account: 'eosio',
+            name: 'voteproducer',
+            authorization: [{ actor: account.name, permission: account.authority, }],
+            data: { producers: producers.sort(), proxy, voter: account.name }
+        }]
+    }
+    return api.transact(transaction, { blocksBehind: 3, expireSeconds: 30 })
+}
+
+function errHandler(scatter, target, originalContent, err, showAlert = true) {
+    console.error('Voting error:', err)
+    target.textContent = originalContent
+    scatter.logout()
+
+    // Do not show an alert() if the user rejected the transaction on purpose
+    const rejected = ['signature_rejected', 'identity_rejected', 'Request Canceled']
+    if(err &&  (rejected.includes(err.type) || rejected.includes(err.message))) {
+        showAlert = false
+    }
+    if(showAlert) alert('Error: ' + JSON.stringify(err))
+}
+
+function succHandler(scatter, target, msg = 'Thanks for voting!') {
+    target.textContent = msg
+    scatter.logout() //all done, goodbye!
+}
+
+function oneClickVote(scatter, target, originalContent) {
+    target.textContent = 'Voting...'
+
+    const rpc = new eosjs_jsonrpc.JsonRpc('https://'+host)
+    const api = new eosjs_api.Api({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
+
+    scatter.login({ accounts: [network] }).then(function() {
+        const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
+        /*
+        We could also use get_table_rows() to get the voter_info,
+        but need to make sure that the result is for 'account.name'.
+        get_table_rows({
+            json: true,
+            code: 'eosio',
+            scope: 'eosio',
+            table: 'voters',
+            lower_bound: account.name,
+            limit: 1
+        })
+        */
+        api.rpc.get_account(account.name).then(function(data) {
+            const vote = data.voter_info
+            let proxy = ''
+            let producers = []
+            // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
+            // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
+            if(vote !== null) {
+                proxy = vote.proxy
+                producers = vote.producers
+            }
+            if(proxy !== '') {
+                api.rpc.get_account(proxy).then(function(data) {
+                    if(data && data.voter_info && data.voter_info.is_proxy === 1) {
+                        const proxy_producers = data.voter_info.producers
+                        const eosdacserverVoted = proxy_producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                        if(eosdacserverVoted === true) {
+                            // Re-cast vote for the current proxy
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Re-cast vote for the current proxy, but notify user that it does not support eosdacserver
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                                alert(proxy + ' does not support eosDAC. Please consider another proxy!')
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        }
+                    } else {
+                        errHandler(scatter, target, originalContent, proxy+" isn't a proxy anymore")
+                        alert(proxy + ' is not a proxy anymore. Please choose another proxy!')
+                    }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
+            } else {
+                // Check status of all selected producers, e.g. if they are still registered
+                Promise.all(producers.map(p => api.rpc.get_producers(true, p, 1))).then(function(responses) {
+                    const reg_producers = responses.map(r => r.rows[0].owner)
+                    let new_producers = []
+                    // Add all selected AND registered producers into the new_producers array
+                    producers.forEach(p => {
+                        if(reg_producers.some(rp => rp === p)) new_producers.push(p)
+                    })
+                    producers = new_producers
+                    const eosdacserverVoted = producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                    if(eosdacserverVoted === true) {
+                        // Re-cast vote for current set of producers (including eosdacserver)
+                        castVote(api, account, producers).then(function(result) {
+                            succHandler(scatter, target)
+                        }).catch(function(err) {
+                            errHandler(scatter, target, originalContent, err)
+                        })
+                    } else {
+                        if(producers.length < 30) {
+                            // Add 'eosdacserver' to producers list and cast a vote
+                            producers.push(EOSDACSERVER)
+                            castVote(api, account, producers).then(function(result) {
+                                succHandler(scatter, target)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Show a modal dialog, to let the user remove one existing producer
+                            // Set values inside the modal dialog
+                            $('#voting_col1').empty()
+                            $('#voting_col2').empty()
+                            producers.sort().forEach(function(bpName, idx) {
+                                const itm = '<div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" name="bp'+idx+'" id="bp'+idx+'" value="'+bpName+'" checked><label class="custom-control-label" style="font-family:monospace;" for="bp'+idx+'">'+bpName+'</label></div>'
+                                if(idx < 15) {
+                                    $(itm).appendTo('#voting_col1')
+                                } else {
+                                    $(itm).appendTo('#voting_col2')
+                                }
+                            })
+                            // Register the submit callback, using local variables
+                            $('#votingForm').submit(function(ev) {
+                                ev.preventDefault()
+                                const producers = $("#votingForm").serializeArray().map(function(elem) {
+                                    return elem.value
+                                })
+                                // Add 'eosdacserver' to producers, if user removed one other producer
+                                if(producers.length < 30) {
+                                    producers.push(EOSDACSERVER)
+                                }
+                                castVote(api, account, producers).then(function(result) {
+                                    $('#votingModal').modal('hide')
+                                    succHandler(scatter, target)
+                                }).catch(function(err) {
+                                    $('#votingModal').modal('hide')
+                                    errHandler(scatter, target, originalContent, err)
+                                })
+                            })
+                            // Register the modal's Cancel/Hide handler, using local variables
+                            $('#votingModal').on('hide.bs.modal', function (e) {
+                                errHandler(scatter, target, originalContent, 'Modal cancelled/hidden.')
+                            })
+                            // Show the voting modal
+                            $('#votingModal').modal('show')
+                        }
+                    }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
+            }
+        }).catch(function(err) {
+            errHandler(scatter, target, originalContent, err)
+        })
+    }).catch(function(err) {
+        errHandler({ logout: function() { /* Scatter not signed in */ }}, target, originalContent, err)
+    })
+}
+
+function adoptAuthenticatorByUseragent(idx, obj) {
+    const originalContent = obj.textContent
+    if(originalContent.includes('Scatter')) {
+        const UA = window.navigator.userAgent
+        // Detect EOS Lynx according to: https://developers.eoslynx.com/mobile
+        if(UA === 'EOSLynx IOS' || UA === 'EOSLynx Android') {
+            obj.textContent = originalContent.replace('Scatter', 'EOS Lynx')
+            console.info('Adopted for EOSLynx.')
+        }
+    }
+}
+
+$(document).ready(function() {
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx({ Api: eosjs_api.Api, JsonRpc: eosjs_jsonrpc.JsonRpc }) )
+    ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
+        if(!connected) {
+            console.error('Scatter could not be found.')
+            return false
+        }
+
+        // Scatter was successfully connected
+        const scatter = ScatterJS.scatter
+        //window.ScatterJS = null
+        console.info('Scatter connected.')
+
+        // Setup the click handler for '.scatter-vote-oneclick' links
+        // and prevent their default (fallback) link/button behaviour,
+        // i.e. do not follow their 'href'
+        $('.scatter-vote-oneclick').click(function(ev) {
+            ev.preventDefault()
+            const target = ev.target
+            const originalContent = target.textContent
+            oneClickVote(scatter, target, originalContent)
+        })
+        console.info('Scatter handler registered.')
+
+        // Adopt 'Vote using Scatter' button to 'Vote using EOS Lynx' if applicable
+        $('.scatter-vote-oneclick').each(adoptAuthenticatorByUseragent)
+    })
+})
+</script>
+</body>
+
+</html>

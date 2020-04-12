@@ -1,0 +1,45 @@
+Last update: 2019-04-15T12:18:30+02:00
+Checking translation for 'ru' in path: _i18n
+
+TODO:      _i18n/ru/history/section2.md
+TODO:      _i18n/ru/community/partner6.md
+TODO:      _i18n/ru/community/partner4.md
+TODO:      _i18n/ru/community/partner7.md
+TODO:      _i18n/ru/community/partner1.md
+TODO:      _i18n/ru/community/partner3.md
+TODO:      _i18n/ru/community/partner5.md
+TODO:      _i18n/ru/community/partner2.md
+TODO:      _i18n/ru/why-launch/section8-img.md
+TODO:      _i18n/ru/why-launch/section2-img.md
+TODO:      _i18n/ru/why-launch/section9-img.md
+TODO:      _i18n/ru/why-launch/section3-img.md
+TODO:      _i18n/ru/why-launch/section5-img.md
+TODO:      _i18n/ru/why-launch/section6-img.md
+TODO:      _i18n/ru/why-vote/section2-img.md
+TODO:      _i18n/ru/why-vote/section3-img.md
+TODO:      _i18n/ru/why-vote/section5-img.md
+TODO:      _i18n/ru/why-vote/section6-img.md
+TODO:      _i18n/ru/tools/smart-contracts-explained.md
+TODO:      _i18n/ru/tools/section3-img.md
+TODO:      _i18n/ru/success-stories/section2-img.md
+TODO:      _i18n/ru/success-stories/section3-img.md
+TODO:      _i18n/ru/success-stories/section5-img.md
+TODO:      _i18n/ru/success-stories/section6-img.md
+TODO:      _i18n/ru/success-stories/section4-img.md
+TODO:      _i18n/ru/why-join/section2-img.md
+TODO:      _i18n/ru/why-join/section3-img.md
+TODO:      _i18n/ru/why-join/section5-img.md
+TODO:      _i18n/ru/why-join/section6-img.md
+TODO:      _i18n/ru/token/exchange4.md
+TODO:      _i18n/ru/token/section2-img.md
+TODO:      _i18n/ru/token/exchange1.md
+TODO:      _i18n/ru/token/exchange9.md
+TODO:      _i18n/ru/token/exchange6.md
+TODO:      _i18n/ru/token/exchange12.md
+TODO:      _i18n/ru/token/exchange5.md
+TODO:      _i18n/ru/token/exchange3.md
+TODO:      _i18n/ru/token/exchange2.md
+TODO:      _i18n/ru/token/exchange10.md
+TODO:      _i18n/ru/token/exchange7.md
+TODO:      _i18n/ru/token/exchange8.md
+TODO:      _i18n/ru/token/exchange11.md

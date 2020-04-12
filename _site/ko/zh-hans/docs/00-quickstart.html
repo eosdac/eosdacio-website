@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    
+      eosDAC | 社区共有的 EOS 区块生产者及去中心化自治社区推动者
+    
+  </title>
+  <meta property="og:title" content="eosDAC">
+  <meta property="og:site_name" content="eosDAC">
+  <meta name="description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
+  <meta property="og:description" content="社区共有的 EOS 区块生产者及去中心化自治社区推动者">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1586730398">
+  <link href="/assets/styles.css?1586730398s" rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1586730398">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
+  <link rel="stylesheet" href="/assets/main.css?1586730398">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/ko/zh-hans/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+  <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
+  <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
+  <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
+  <link rel="alternate" hreflang="ja" href="https://eosdac.io/ja/">
+  <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
+  <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
+  <link rel="canonical" href="https://eosdac.io/">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><a href="/docs">Start</a> – eosDAC.io docs <small class="text-muted">(hosted version on <a href="https://github.com/eosdac/eosdacio-website/tree/master/docs">GitHub</a>)</small></h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>
+    </div>
+    <div class="docs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          
+          <h1 id="quickstart">Quickstart</h1>
+<p>The website is structured in a way to have the code (HTML/CSS) separated from the content (<a href="https://kramdown.gettalong.org/syntax.html">Markdown</a>), so that contributors only need to edit easily readable markdown files and not touch any program code.</p>
+
+<h2 id="before-you-start">Before you start</h2>
+<p>Before you can edit any code or content of this website, you need to create your copy of this git repository. This can be done by forking the repo into your Github account, via the <strong>“Fork”</strong> button at the top right of the Github Web-UI: <a href="https://help.github.com/articles/fork-a-repo">https://help.github.com/articles/fork-a-repo</a></p>
+
+<p>This fork/copy of the website is just for you. You can experiment with it, change files, submit git commits – all without the fear of breaking anything on the upstream (original) eosDAC website repository. Once you’re happy with your changes, you can submit a pull request from your fork (<code class="highlighter-rouge">origin</code>) to the original eosDAC website git repository (<code class="highlighter-rouge">upstream</code>).</p>
+
+<h2 id="quickly-change-a-page-online">Quickly change a page online</h2>
+<p>If you want to quickly update a page, find the page and section of your content. Usually they are located in <code class="highlighter-rouge">_i18n/en/PAGE/SECTION.md</code>, news posts are located in <code class="highlighter-rouge">_i18n/en/_posts/DATE-POST.md</code>. Assets, such as images, are located in <code class="highlighter-rouge">assets/PAGE/IMAGE.png</code>. You can also use the search functionality inside the GitHub header menu.</p>
+
+<p>Once you found the relevant section, can use the integrated Github Markdown online-editor to propose a change directly from within the Github Web-UI.</p>
+
+<p>For example if you would like to change the first paragraph/section of the <a href="https://github.com/eosdac/eosdacio-website/blob/master/_i18n/en/how-to-vote/section1.md">how-to-vote</a> page, you could edit it <a href="https://github.com/eosdac/eosdacio-website/edit/master/_i18n/en/how-to-vote/section1.md">directly on Github</a>:</p>
+
+<p><img src="../assets/readme/edit1.jpg" alt="Find file" /></p>
+<hr />
+
+<p><img src="../assets/readme/edit2.jpg" alt="Change it" /></p>
+
+<h2 id="working-on-the-website">Working on the website</h2>
+<p>If you want to do regular work on the website, like adding pages, changing pages, updating translations, … you should not do this via the (limited Github Online-Editor), but rather use a real text or <a href="https://jbt.github.io/markdown-editor/">Markdown editor</a>, like <a href="https://code.visualstudio.com/">VS Code</a> or <a href="https://atom.io/">Atom</a>, and add, remove or modify the files in there. Using a text editor like <strong>VS Code</strong> allows you to use it’s full-text search across all website files, so that you can quickly find the content, which you would like to modify: <a href="https://code.visualstudio.com/docs/editor/codebasics#_search-across-files">https://code.visualstudio.com/docs/editor/codebasics#_search-across-files</a></p>
+
+<p>You can also watch this Youtube tutorial, showing how to propose a change to this website via the <strong>Github Desktop</strong> client on Windows: <a href="https://www.youtube.com/watch?v=uAlnTSHSMrI">https://www.youtube.com/watch?v=uAlnTSHSMrI</a></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

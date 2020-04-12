@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    
+      eosDAC | The Community-Owned EOS Block Producer and DAC Enabler
+    
+  </title>
+  <meta property="og:title" content="eosDAC">
+  <meta property="og:site_name" content="eosDAC">
+  <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1586730311">
+  <link href="/assets/styles.css?1586730311s" rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1586730311">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
+  <link rel="stylesheet" href="/assets/main.css?1586730311">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/ko/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+  <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
+  <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
+  <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
+  <link rel="alternate" hreflang="ja" href="https://eosdac.io/ja/">
+  <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
+  <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
+  <link rel="canonical" href="https://eosdac.io/">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><a href="/docs">Start</a> – eosDAC.io docs <small class="text-muted">(hosted version on <a href="https://github.com/eosdac/eosdacio-website/tree/master/docs">GitHub</a>)</small></h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>
+    </div>
+    <div class="docs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          
+          <h1 id="translate-a-page">Translate a page</h1>
+<p>The default language of this website is English [en], content in this language shall always be the primary source of truth.</p>
+
+<p>After <a href="https://help.github.com/articles/fork-a-repo">creating a fork</a> of this git repository, translating a page or section is very similar to updating a page, the only difference is that you have to create a file of the same name as in the english version in the sub-folder of your target language. All translateable content can be found inside the <code class="highlighter-rouge">_i18n/</code> folder.</p>
+
+<p>So if you would like to translate <code class="highlighter-rouge">section1</code> of the <code class="highlighter-rouge">how-to-vote</code> page (<a href="https://github.com/eosdac/eosdacio-website/blob/master/_i18n/en/how-to-vote/section1.md">_i18n/en/how-to-vote/section1.md</a>) into chinese, you would create the file <code class="highlighter-rouge">_i18n/zh-hans/how-to-vote/section1.md</code> and fill it with the translated content. That’s it!</p>
+
+<p>Some general translations, such as site title, header menu or footer content, are done in a YAML file, located at <code class="highlighter-rouge">_i18n/LANGUAGE.yml</code>, please refer to <a href="https://github.com/eosdac/eosdacio-website/blob/master/_i18n/en.yml">_i18n/en.yml</a> for all translateable keys.</p>
+
+<h3 id="translate-a-blog-posts">Translate a blog posts</h3>
+<p>Translation of blog posts inside <code class="highlighter-rouge">_i18n/en/_posts/</code> is very similar to the translation of pages. Each blog posts is contained in a separate file, e.g. <code class="highlighter-rouge">2019-02-11-eosdac-dactivation-day-is-here-feb-11th-2019.md</code>.</p>
+<ul>
+  <li>Create a file of the same name inside <code class="highlighter-rouge">_i18n/LANGUAGE/_posts/</code></li>
+  <li>Copy the english post’s meta-data (<a href="https://jekyllrb.com/docs/front-matter/">front matter</a>) and translate the <code class="highlighter-rouge">title</code> field.</li>
+  <li>If there is a fully translated version of this posts, adopt the <code class="highlighter-rouge">external_link</code> field to point to the translated version, otherwise keep the link to the english version.</li>
+  <li>Translate the first paragraph (up to 400 characters) of the blog post into your LANGUAGE. We only show the abstract (first paragraph), so you do not need to translate the whole article.</li>
+</ul>
+
+<h3 id="checking-translation-status">Checking translation status</h3>
+<p>We are providing a scripts, which help to identify content in need of a (updated) translation.</p>
+<ul>
+  <li><code class="highlighter-rouge">show_files_to_be_translated.sh</code> inside the <code class="highlighter-rouge">_i18n/</code> folder
+    <ul>
+      <li>Can be run via <code class="highlighter-rouge">./show_files_to_be_translated.sh</code> from within the <code class="highlighter-rouge">_i18n</code> folder</li>
+      <li>Prints files in need of an update to the console output</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">check_all.sh</code> inside the <code class="highlighter-rouge">scripts/translation-status/</code> folder
+    <ul>
+      <li>Can be run via <code class="highlighter-rouge">scripts/translation-status/check_all.sh</code> from within the root folder of this website’s git repository.</li>
+      <li>Prints it’s output into the <a href="../translation_status">translation_status</a> folder, one file per language (e.g. ko.txt, zh-hans.txt, …)</li>
+      <li>The text files inside <code class="highlighter-rouge">translation_status/</code> display website documents which are still <strong>TODO</strong>, need an <strong>UPDATE</strong> or are a <strong>DUPLICATE</strong> of the english version (and thus should be deleted from the translation)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The <code class="highlighter-rouge">check_all.sh</code> script should be run from time to time and the results inside <code class="highlighter-rouge">translation_status/</code> should be commited to the git repository, so everybody can see the current translation status, without needing to run the script himself.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

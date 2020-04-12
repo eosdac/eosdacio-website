@@ -1,0 +1,1 @@
+Spot colors can be used for various use cases. For example charts, flow charts, illustrations etc.

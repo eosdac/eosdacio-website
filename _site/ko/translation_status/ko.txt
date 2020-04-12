@@ -1,0 +1,82 @@
+Last update: 2019-04-15T12:18:23+02:00
+Checking translation for 'ko' in path: _i18n
+
+DUPLICATE: _i18n/ko/community/partner6.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/community/partner4.md
+  delete this file, it will automatically fallback to english
+TODO:      _i18n/ko/community/partner7.md
+DUPLICATE: _i18n/ko/community/partner1.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/community/partner3.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/community/partner5.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/community/partner2.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-launch/section8-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-launch/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-launch/section9-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-launch/section3-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-launch/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/why-launch/section6-img.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-vote/section2-img.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section2.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section8.md
+  english was modified at     2019-03-27 12:52:43 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section5-img.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+UPDATE:    _i18n/ko/why-vote/section5.md
+  english was modified at     2019-03-05 19:11:03 +0100
+  translation last updated at 2019-03-03 20:36:47 +0900
+TODO:      _i18n/ko/tools/smart-contracts-explained.md
+DUPLICATE: _i18n/ko/success-stories/section2-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section3-img.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/success-stories/section2.md
+  english was modified at     2019-03-20 11:12:24 -0400
+  translation last updated at 2019-03-09 00:55:11 +0900
+DUPLICATE: _i18n/ko/success-stories/section5-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section6-img.md
+  delete this file, it will automatically fallback to english
+DUPLICATE: _i18n/ko/success-stories/section4-img.md
+  delete this file, it will automatically fallback to english
+UPDATE:    _i18n/ko/why-join/section2-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-09 00:55:11 +0900
+UPDATE:    _i18n/ko/why-join/section5-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-09 00:55:11 +0900
+UPDATE:    _i18n/ko/why-join/section6-img.md
+  english was modified at     2019-03-13 16:45:04 +0100
+  translation last updated at 2019-03-09 00:55:11 +0900
+UPDATE:    _i18n/ko/member-client/box7.md
+  english was modified at     2019-03-07 01:46:28 +0100
+  translation last updated at 2019-03-01 23:45:25 +0900
+TODO:      _i18n/ko/token/exchange4.md
+TODO:      _i18n/ko/token/section2-img.md
+TODO:      _i18n/ko/token/exchange1.md
+TODO:      _i18n/ko/token/exchange9.md
+TODO:      _i18n/ko/token/exchange6.md
+TODO:      _i18n/ko/token/exchange12.md
+TODO:      _i18n/ko/token/exchange5.md
+TODO:      _i18n/ko/token/exchange3.md
+TODO:      _i18n/ko/token/exchange2.md
+TODO:      _i18n/ko/token/exchange10.md
+TODO:      _i18n/ko/token/exchange7.md
+TODO:      _i18n/ko/token/exchange8.md
+TODO:      _i18n/ko/token/exchange11.md

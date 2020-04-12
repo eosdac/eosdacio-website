@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    
+      eosDAC | The Community-Owned EOS Block Producer and DAC Enabler
+    
+  </title>
+  <meta property="og:title" content="eosDAC">
+  <meta property="og:site_name" content="eosDAC">
+  <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1586730429">
+  <link href="/assets/styles.css?1586730429s" rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1586730429">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
+  <link rel="stylesheet" href="/assets/main.css?1586730429">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/ko/ja/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+  <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
+  <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
+  <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
+  <link rel="alternate" hreflang="ja" href="https://eosdac.io/ja/">
+  <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
+  <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
+  <link rel="canonical" href="https://eosdac.io/">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
+</head>
+<body><header class="site-header" role="banner" style="border:0">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs"
+    style="background-image:linear-gradient(to right, #4A1289, #7C41BA)">
+    <a class="navbar-brand" href="/ja/">
+      <img src="/assets/signet-white.svg" height="42" alt="eosDAC">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/ja/why-vote/">
+            Why Vote for eosDAC?</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/ja/why-join/">
+            Why Join eosDAC?</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/ja/why-launch/">
+            Why Launch a DAC?</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/ja/community/">
+            Community</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/ja/token/">
+            Token</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/ja/tools/">
+            Tools</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/ja/block-production/">
+            Block Production</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ko/ja/news/index.html">
+            News</a></li>
+        
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="/assets/flags/ja.png" />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+            
+            
+            
+            <a class="dropdown-item" href="/bos-news/">
+              <img src="/assets/flags/en.png" />&nbsp;English
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/ko/bos-news/">
+              <img src="/assets/flags/ko.png" />&nbsp;한국어
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/zh-hans/bos-news/">
+              <img src="/assets/flags/zh-hans.png" />&nbsp;简体中文
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/vi/bos-news/">
+              <img src="/assets/flags/vi.png" />&nbsp;Tiếng Việt
+            </a>
+            
+            
+            
+             
+            
+            
+            
+            <a class="dropdown-item" href="/es/bos-news/">
+              <img src="/assets/flags/es.png" />&nbsp;Español
+            </a>
+            
+            
+            
+            
+            
+            
+            <a class="dropdown-item" href="/ru/bos-news/">
+              <img src="/assets/flags/ru.png" />&nbsp;Pусский
+            </a>
+            
+            
+            
+          </div>
+        </li>
+      </ul>
+      <span class="navbar-text nav-buttons">
+        <a href="/ja/why-vote/#voting-matters" class="btn solid light btn-raised scatter-vote-oneclick">
+          Vote eosdacserver
+        </a>
+        <a href="https://members.eosdac.io/" class="btn outline light btn-raised">
+          Member Client
+        </a>
+      </span>
+    </div>
+  </nav>
+</header>
+<main class="page-content main" style="padding:0;" aria-label="Content">
+      <div class="">
+        <div class="bos-news">
+	<div class="section head dark">
+		<div class="container">
+			<div class="col-md-12">
+				<h2 id="bos-news">BOS NEWS</h2>
+
+			</div>
+		</div>
+	</div>
+	
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+<h1 id="ibc-hub-ama-how-to-make-blockchain-realize-multi-chain-interaction-">**IBC Hub AMA: How to make blockchain realize multi-chain interaction **</h1>
+
+<p><em>This article is translated from the original Chinese publication of the
+same date transcribing an AMA with Simon.</em></p>
+
+<p>At 15:00 on April 8th, Beijing time, BOSCore developer Simon was a guest
+of the BOSCore ecosystem and shared “How the BOS IBC Hub allows the
+blockchain to achieve multi-chain interaction”.</p>
+
+<p><img src="https://i.imgur.com/RtOAWel.png" alt="" /></p>
+
+<h1 id="introduction"><strong>Introduction</strong></h1>
+
+<p>on 8 April 2020, Katherine from BOSCore started an AMA session with an
+announcement about the release of BOS IBC v4.0.0 and proceeded to
+introduce Simon Wang to answer questions provided by BOSCore and EOSIO
+community members from around the world.</p>
+
+<blockquote>
+  <p>Today we invited BOSCore developer Simon to answer questions from the
+community and talk with us in detail about the BOS IBC Hub, and what
+the Hub brings to BOSCore and the wider EOSIO ecosystem.</p>
+</blockquote>
+
+<h1 id="ama-question-and-answer-session"><strong>AMA Question and Answer session.</strong></h1>
+
+<p><strong><em>Q1: What is IBC Hub?</em></strong></p>
+
+<p>The IBC Hub implements Token cross-chain switch and relay functions, the
+Hub in this context functions as a central token exchange.</p>
+
+<p><img src="https://i.imgur.com/ly6CYoy.png" alt="" /></p>
+
+<p>A star-shaped cross-chain network is realized through the IBC Hub, the
+middle chain becomes the Hub Chain, and all the chains are called
+parallel chains.</p>
+
+<p>After BOS implements the Hub, Tokens from other parallel chains
+connected to BOS can be easily transferred between the connected chains,
+such as the EOS mainnet and Telos mainnet. They have already achieved
+cross-chain functionality with the BOS mainnet. With the deployment of
+the Hub, you can transfer from EOS to any destination account on the
+Telos mainnet without requiring a BOS account, as the hub acts
+independently enabling seamless transaction throughput to the
+destination account.</p>
+
+<p>The IBC Hub protocol is very flexible, you can transfer any registered
+Token, from one parallel chain to another parallel chain.</p>
+
+<p><a href="https://i.imgur.com/LTOs4RU.png"></a></p>
+
+<p><strong><em>Q2: What is the cross-chain implementation? How to achieve
+homogeneous cross-chain?</em></strong></p>
+
+<p>In fact, we have answered this question many times, the core principle
+is from the bitcoin white paper which mentions “ simple proof of payment
+,” known as Simple Payment Verification (SPV).</p>
+
+<p><a href="https://github.com/boscore/Documentation/blob/master/IBC/EOSIO_IBC_Priciple_and_Design.md">boscore/Documentation</a></p>
+
+<h2 id="boscoredocumentation">boscore/Documentation</h2>
+
+<h3 id="this-paper-introduces-the-technical-principle-of-ibc-the-contracts-and-ibc_plugin-developed-by-boscore-team-in-order">This paper introduces the technical principle of IBC, the contracts and ibc_plugin developed by boscore team. In order…</h3>
+
+<h4 id="githubcom">github.com</h4>
+
+<p>At present, Some protocols in the development stage can be said to be
+homogeneous cross-chains, E.g, two cross-chain projects Cosmos and
+polkadot. The so-called isomorphic interoperability means that the two
+chains have the same or similar block header structure and logic, such
+as EOSIO , BOSCore, and Telos are isomorphic chains. In fact, BOSCore
+and other chains are already quite different in certain core data
+structures, so they can achieve 3s LIB. For heterogeneous cross-chains,
+special bridges are required, for example, to achieve cross-chain with
+the Bitcoin network. In this regard, both Cosmos and polkadot are quite
+involved. Heterogeneous cross-chains are generally implemented by
+multiple witnesses.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q3: Cosmos also launched Cosmos Hub some time ago. Is there any
+similarity and difference with BOS Hub?</em></strong></p>
+
+<p>From the user’s point of view, we have referred to chains connected to
+BOS Hub as Parallel chains, Cosmos calls them Zone chains, BOS Hub and
+Cosmos Hub both support bi-directional token transfers between connected
+chains. Their implementation principles are also very closely based on
+light client and SPV proof technology .</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q4: Do you think cross-chain will develop into a standardized
+protocol in the future, just like TCP is to the Internet, instead of
+relying on a specific chain?</em></strong></p>
+
+<p>This is an important issue. At present, it seems that the world of
+public chains is still far away. However, due to national guidance and
+the participation of some standard-setting agencies in the field of
+alliance chains, cross-chain standards may appear earlier.</p>
+
+<p>Existing blockchains have their own data formats and consensus
+algorithms, such as bitcoin, ethereum, EOSIO, etc., which are very
+different. Therefore, the design of light clients in different chains is
+very different. Only when many blockchains use similar protocols can
+standards be formed when there are consensus and block data structure
+considerations involved.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q5: Can you introduce the development process of BOS IBC, did v1-v4
+have different function iterations? What do you think is the biggest
+challenge to achieve IBC V4?</em></strong></p>
+
+<ul>
+  <li>v1 implemented two-way cross-chain between the BOS main network and
+the EOS main network. At that time, the consensus of BOS and EOS was
+pipeline-bft.</li>
+  <li>v2 implements the batch-pbft consensus algorithm that supports BOS,
+which is BOS’s 3s LIB. Token cross-chain speed from BOS to EOS is
+faster.</li>
+  <li>v3 This is a small change. The code adds control to check the relay
+permissions. Because the underlying protocol is modified and it is
+not compatible with the previous version.</li>
+  <li>v4 is the realization of the Hub protocol, and the chain that
+deploys the Hub version contract can be used as a central
+cross-chain exchange, switching and relaying tokens, memo data, and
+so on.</li>
+</ul>
+
+<p>The Hub protocol is based on the original IBC protocol. Because the IBC
+protocol itself is designed to be sufficiently complete and flexible, it
+is easier to implement the Hub protocol without too much difficulty.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q6 : The IBC protocol only supports simple value transfer, that is,
+sending tokens across chains. When will it support the transmission of
+more information, such as cross-chain action interoperability?</em></strong></p>
+
+<p>This needs to have enough demand to know how to abstract into a
+standard. At present, there are few needs in this regard, so currently
+cross-chain token and memo data is supported.</p>
+
+<p>If you have a project that needs this, you can transfer the custom
+parameter actions across the chains through the memo string of the
+transfer action.</p>
+
+<p>So in this sense, BOS IBC already supports the transmission of more
+information and cross-chain action interoperability.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q7: If someone wants to add their custom tokens to the IBC network,
+is it currently feasible? How to set it up?</em></strong></p>
+
+<p>Of course, it is very feasible, Tokens need to register to circulate on
+each chain, (refer to the GitHub documentation and contact BOSCore) the
+IBC team can audit registration and any token can be registered for IBC
+circulation.</p>
+
+<p>The audit is to check token parameters and see if there are any errors,
+it adds convenience for token holders, and can also prevent the
+counterfeiting of tokens. There are many parameters, and submitting
+information to the IBC contract requires the permission of the ibc.token
+contract, which requires multiple signatures to complete and is also
+decentralized in itself.</p>
+
+<p>Any project that would like to add a custom token can start the process
+by reviewing the information on github and completing a form to notify
+the IBC working group</p>
+
+<p><a href="https://github.com/boscore/ibc_contracts/blob/master/docs/Token_Registration_and_Management.md"></a></p>
+
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScXEupYaDOlSnW6sXW9hBm6285Y2B02UhU6Gh-qMGf9nfs_qQ/viewform?embedded=true">Find the for here</a></p>
+
+<h2 id="boscoreibc_contracts">boscore/ibc_contracts</h2>
+
+<h3 id="the-two-blockchains-connected-by-ibc-channel-are-peer-to-peer-chains-and-ibc-supports-the-transfer-of-assets-from-each">The two blockchains connected by IBC channel are peer-to-peer chains, and IBC supports the transfer of assets from each…</h3>
+
+<h4 id="githubcom-1">github.com</h4>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q8: All cross-chain communication is completed through Hub as the
+central agent. Will this violate the original intention of blockchain
+decentralization?</em></strong></p>
+
+<p>Good question, we provide a total of two protocols, they are layered:
+one is the IBC protocol, and the other is the HUB protocol.</p>
+
+<p>The HUB protocol is based on the IBC protocol, the purpose is to
+facilitate the conversion of one token across two chains. The IBC
+protocol is a completely decentralized peer-to-peer protocol that can
+form an arbitrary mesh structure to form a truly decentralized
+cross-chain network. And the HUB protocol is required to realize a token
+transfer across any two chains, the concept is switching and routing at
+the center of the chain network through to the destination. Cosmos and
+polkadot are similar star structures, IBC contract accounts are
+ultimately handed over to BP for multi-signature control, and
+individuals cannot operate, So it does not violate the original
+intention of decentralization.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q9 : What happens to tokens transferred from one chain to another?
+Will it burn on the chain that sends tokens?</em></strong></p>
+
+<p>Depends on the specific transfer direction, IBC token contracts on
+Parallel chains that issues the original token will not burn tokens
+unless it was released back to the native chain from other chains where
+it would burn.</p>
+
+<p>For real cross-chains, these tokens do not really cross over in essence
+but lock on the native chain, and then generate the same number of
+Tokens with the same name on the destination chain. When these tokens
+are transferred back to the original chain, they will burn, and then the
+original chain will transfer the locked token to the specified account.</p>
+
+<p>Through the IBC protocol , an anchor between tokens is realized, that is
+to say, the amount of mobile coins is conserved during the cross-chain
+process, just like the conservation of energy.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q10 : Who charges the fee? Is the network operating the contract or
+the block producers?</em></strong></p>
+
+<p>Relay charges, because relays promote transactions. The more
+straightforward point is that according to the spirit of PoW, the
+service fee is only charged for the work. There are many transactions in
+cross-chain protocols that require people to push the transactions. We
+designed the system so that whoever pushes this transaction will pay the
+transaction fee.</p>
+
+<h1 id="brainstorming"><strong>Brainstorming</strong></h1>
+
+<p><strong><em>Q1 : Do the chains connected together need to use the same EOSIO
+version?</em></strong></p>
+
+<p>No, different chains have their own version numbers, and there may be a
+lot of modifications, such as BOSCore.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q2: Is direct transfer between EOS and Wax allowed?</em></strong></p>
+
+<p>After Wax is connected to the BOS Hub direct transfers pass through the
+hub completing the transfer of funds between any destination parallel
+chain that is configured on the network to accept WAX transfers.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q3: How long does it take to cross-chain from BOS to EOS? How long
+will it take for the two chains to cross the chain after HUB goes
+live?</em></strong></p>
+
+<p>It is now less than 10 seconds, the Hub is online, and the calculation
+method of cross-chain between parallel chains is 3.5 minutes + 10
+seconds. 3.5 minutes is an approximate time, this is because other
+chains still use pipeline bft; 10 seconds is because BOS has 3s LIB.#</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q4.1: If BOS is the HUB and two EOSs are parallel chains, EOSA-&gt;
+BOS-&gt; EOSB, then EOSA and EOSB run a relay node respectively, must BOS
+run two relay nodes to connect with EOSA and EOSB ?</em></strong></p>
+
+<p>Yes.</p>
+
+<p><strong><em>Q4.2: Is it possible for BOS to only run one public relay node?</em></strong></p>
+
+<p>No, because different parallel chains belong to different networks, and
+the data structure may also be different, so it cannot be done.</p>
+
+<p><img src="https://i.imgur.com/LTOs4RU.png" alt="" /></p>
+
+<p><strong><em>Q5: At present, the memo field occupies more when cross-chaining. The
+current business needs require the memo to bring business information
+when sending a transaction. Is it possible to optimize this?</em></strong></p>
+
+<p>The logic of the IBC plug-in is more complicated. You can refer to
+net_plugin. If net_plugin is connected to multiple blockchain
+networks, its complexity will increase exponentially. There is little
+room for optimization at the protocol level. If you encounter a length
+limitation, we can see how to extend the memo length.</p>
+
+<p>Thank you for reading.</p>
+
+<h1 id="follow-boscore">Follow BOSCore</h1>
+
+<p><a href="https://www.boscore.io/">Website</a>|
+<a href="https://twitter.com/Boscore_BOS">Twitter</a>|
+<a href="https://t.me/boscorecommunity">Telegram</a> |
+<a href="https://www.facebook.com/BOSCore.io">Facebook</a>|
+<a href="https://github.com/boscore">Github</a></p>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="section">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        <p><img src="https://i.imgur.com/ojMitKP.png" alt="WAX to Use Chainlink Oracles to Bring Off-Chain Data and Resources to the WAX and EOSIO Ecosystem﻿" /></p>
+
+<p>Mar 18, 2020</p>
+
+<h1 id="wax-to-use-chainlink-oracles-to-bring-off-chain-data-and-resources-to-the-wax-and-eosio-ecosystem"><strong>WAX to Use Chainlink Oracles to Bring Off-Chain Data and Resources to the WAX and EOSIO Ecosystem﻿</strong></h1>
+
+<p><img src="https://i.imgur.com/mNH6oj1.png" alt="" /></p>
+
+<p>WAX is excited to announce its planned integration of Chainlink’s
+decentralized oracle network to securely and reliably access data and
+resources from outside the EOSIO ecosystem. WAX will use Chainlink to
+obtain market data for DeFi products, source real-world events for
+next-generation NFTs, and communicate cross-chain to other key
+ecosystems such as Ethereum.</p>
+
+<p>With this partnership, <strong>the entire WAX ecosystem gets</strong><strong>secure
+access</strong><strong>to a variety of off-chain resources, such as random number
+generation, token prices, sports events, IoT data, interoperability with
+other chains, existing payment systems, enterprise backends, and much
+more.</strong> This <strong>helps dApps avoid the major pitfalls with trying to
+deploy their own oracles</strong>, such as excessive delays, extra expenses,
+and even fatal security flaws.</p>
+
+<p>By building support for WAX, Chainlink becomes accessible to EOSIO-based
+chains for minimal cost, as all EOSIO chains utilize the same smart
+contract language and are architected virtually identical to one
+another. This will Chainlink the standard oracle solution used
+exclusively by WAX and all other dApps in the EOSIO ecosystem.</p>
+
+<h2 id="wax-building-next-generation-dapps-using-chainlink-oracles"><strong>WAX Building Next-Generation dApps using Chainlink Oracles</strong></h2>
+
+<p>The possibilities for easily integrating off-chain data into dApps on
+the WAX Blockchain are endless, especially for games. For example you
+can create a fantasy dApp game that retrieves live professional sports
+scores, game plays, lineups and more. Or pull crypto and stock market
+prices to create real-time accurate decentralized exchanges, games, and
+applications.</p>
+
+<p>That’s because by integrating Chainlink into the WAX Blockchain, a
+variety of real-world applications become possible thanks to a secure
+and reliable connection to existing non-blockchain infrastructure and
+other blockchain ecosystems.</p>
+
+<p>Some initial use cases we’re exploring using both WAX and Chainlink,
+include:</p>
+
+<ul>
+  <li>
+    <p><strong>Data-Driven NFTs on the WAX Blockchain</strong>. Using our existing
+partnerships, <a href="https://wax.io/blog/new-wax-and-topps-unveil-historic-blockchain-trading-card-partnership">such as with Topps for digital trading
+cards</a>,
+we can create NFTs that are subjective to real-world data. For
+example, a special baseball card that’s only issued if someone
+breaks the home run record.</p>
+  </li>
+  <li>
+    <p><strong>Ethereum NFTs and FTs on the WAX Blockchain.</strong>Chainlink provides a
+bridge for broadcasting events happening on either chain to the
+other one.</p>
+  </li>
+  <li>
+    <p><strong>Native DeFi products on the WAX Blockchain.</strong> Building our own
+and/or using existing Chainlink’s <a href="https://feeds.chain.link/">Price Reference
+Contracts</a> offer a secure, easy to deploy
+solution for quickly launching DeFi instruments that rely on
+accurate market data.</p>
+  </li>
+  <li>
+    <p><strong>A stablecoin for the -EOSIO ecosystem.</strong> This is something already
+in high demand and very needed for financial stability. Given their
+extensive experience building secure oracles, which is evident in
+adoption by other stablecoin/currency projects, Chainlink is the
+main and only trusted oracle for these applications.</p>
+  </li>
+</ul>
+
+<h2 id="why-chainlink"><strong>Why Chainlink</strong></h2>
+
+<p>Due to the way blockchains form consensus, they can only process
+computation using data already stored inside the blockchain while still
+retaining security. Similar to computer networks, blockchains can be far
+more effective when connected to data and systems outside their
+immediate network (off-chain).</p>
+
+<p>Connecting off-chain is important, but only if the actual data and
+delivery of that data is highly secure. What’s the point in having
+secure underlying smart contracts running on a decentralized blockchain
+if the connection off-chain is insecure?</p>
+
+<p>An oracle is a digital agent employed by a smart contract to retrieve
+and/or connect it to data and systems outside its native blockchain
+(off-chain). Oracles enable this off-chain connectivity for the smart
+contract by reformatting external connection points (APIs) so that two
+different software applications are compatible for data exchange. The
+oracles can then pull data into the smart contract and/or execute
+actions on external systems based on predefined instructions and
+endpoints.</p>
+
+<p>Chainlink is unique in that it’s a decentralized oracle network that
+currently provides decentralization at both the oracle and data source
+level. By using multiple independent Chainlink nodes, the user can
+protect against one oracle being a single point of failure. Similarly,
+using multiple data sources for sourcing market prices, the user can
+protect against one data source being a single source of truth.</p>
+
+<p>It has a growing pool of 30 independent node operators run by leading
+blockchain DevOps and security teams, many of which have extensive
+experience running POS nodes across multiple blockchain networks.
+Chainlink has a very expansive ecosystem of over 120+ projects,
+representing multiple different blockchains and large enterprises, as
+well as encompassing many different use cases, such as finance,
+insurance, and regulated gaming. It currently has 29 Data Feeds for DeFi
+(Price Reference Contracts) used by many top Ethereum dApps.</p>
+
+<p>“Having a reliable and secure Layer 2 solution that augments the value
+of our smart contract ecosystem is paramount to achieving real-world
+adoption of WAX’s distributed blockchain applications (dApps),” says
+Lukas Sliwka, Chief Technical Advisor, WAX. “WAX’s dApp developers gain
+far more functionality when they can integrate with data and systems
+outside the native blockchain, such as accessing token prices, sports
+stats, etc. Chainlink will bridge that gap as the standard framework for
+building provably secure and redundantly reliable oracle networks for
+WAX and the EOSIO ecosystem, ultimately leading to next-generation dApps
+that retrieve and respond to real-world data and events.”</p>
+
+<h2 id="about-chainlink"><strong>About Chainlink</strong></h2>
+
+<p>If you’re a developer and want to connect your smart contract to
+existing data and infrastructure outside the underlying blockchain,
+reach out to us <a href="https://chainlink.typeform.com/to/gEwrPO">here</a>! We can
+help you quickly and securely launch your data-enabled application
+or <a href="https://feeds.chain.link/">Chainlink Price Reference Data Contract</a>
+on mainnet today. You can also visit the <a href="https://docs.chain.link/">developer
+documentation</a> or join the technical
+discussion on <a href="https://discordapp.com/invite/aSK4zew">Discord</a>. Learn
+more by visiting the <a href="https://chain.link/">Chainlink website</a> or follow
+us on <a href="https://twitter.com/chainlink">Twitter</a>
+or <a href="https://www.reddit.com/r/Chainlink/">Reddit</a>.</p>
+
+<p><a href="https://chain.link/">Chainlink</a> is a decentralized oracle network that
+enables smart contracts to securely access off-chain data feeds, web
+APIs, and traditional bank payments. It is well known for providing
+highly secure and reliable oracles to large enterprises 
+(<a href="https://cloud.google.com/blog/products/data-analytics/building-hybrid-blockchain-cloud-applications-with-ethereum-and-google-cloud">Google</a>, <a href="https://www.forbes.com/sites/darrynpollock/2019/07/30/oracle-building-a-virtuous-cycle-of-innovation-with-start-ups-through-chainlink-and-blockchain/#34cfc294ffcc">Oracle</a>,
+and <a href="https://create.smartcontract.com/sibos17">SWIFT</a>) and leading smart
+contract development teams such
+as <a href="https://medium.com/web3foundation/web3-foundation-and-chainlink-announce-collaboration-df55ed462a3a">Polkadot/Substrate</a>, <a href="https://blog.synthetix.io/synthetix-and-chainlink/">Synthetix</a>, <a href="https://medium.com/loopring-protocol/chainlink-and-loopring-collaborate-on-oracles-for-zkrollup-dex-protocol-c1c8094afc27">Loopring</a>, <a href="https://medium.com/aave/the-aave-oracle-network-powered-by-chainlink-is-now-live-45bb8a5a8c4e">Aave</a>, <a href="https://medium.com/@OpenLawOfficial/openlaw-teams-with-chainlink-to-bring-real-world-info-to-smart-contracts-4e7a3dac80a8">OpenLaw</a>, <a href="https://blog.etherisc.com/etherisc-to-leverage-chainlink-oracles-for-decentralized-flight-insurance-product-9559b64d79c7">Etherisc</a>, <a href="https://medium.com/@Confluxchain/conflux-partners-with-chainlink-to-enable-secure-connections-between-the-blockchain-and-75b2ae8ef176">Conflux</a>,
+and many others.</p>
+
+<h2 id="about-wax-worldwide-asset-exchange"><strong>About WAX (Worldwide Asset eXchange)</strong></h2>
+
+<p>WAX is an all-in-one blockchain platform enabling developers to easily
+create, sell and trade digital goods to empower businesses to profit
+from the next era of digital commerce. For more information, please
+visit<a href="https://wax.io/">wax.io</a> and follow along
+on <a href="https://twitter.com/wax_io">Twitter</a>, <a href="https://www.youtube.com/channel/UCQPwMpYKMDiudnw41QwliHQ">YouTube</a>,
+and <a href="https://t.me/wax_io">Telegram</a>.</p>
+
+<p>Visit the <a href="https://developer.wax.io/">WAX Developer Hive</a> for all our
+developer resources, and join our communities to stay up to date on WAX
+developments:</p>
+
+<ul>
+  <li><a href="https://t.me/waxdevelopers">WAX Developer Telegram Channel</a></li>
+  <li><a href="https://t.me/wax_io">WAX Telegram Discussion Channel</a></li>
+  <li><a href="https://t.me/waxtokenannoucements">WAX Telegram Announcements
+Channel</a></li>
+  <li><a href="https://twitter.com/wax_io">WAX Twitter</a></li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  
+   <div class="section">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        
+<p><img src="https://i.imgur.com/ib1UTY5.png" alt="" /></p>
+
+<p>Mar 17, 2020</p>
+
+<h1 id="wax-on-the-future-of-nfts-non-fungible-tokens-in-2020-and-beyond"><strong>WAX ON: The future of NFTs (non-fungible tokens) in 2020 and beyond</strong></h1>
+
+<div class="text-center" style="max-width:560px; margin: 0 auto;"><div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube-nocookie.com/embed/6Nyz_yd_GJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div>
+
+<p><em>Video Transcript:</em></p>
+
+<p>I want to talk today about the future of NFTs, non-fungible tokens. Lots
+of hype about NFTs, ever since Ethereum came out with its ERC-721
+standard which really was a major innovation - being able to make every
+token unique, in some particular way, opened the door for things like
+dApp video gaming.</p>
+
+<p>I said there has been a lot of hype about NFTs. And hype usually means
+that what people are expecting to happen - in the near term - is a
+little less grand than what is really going to happen. And this happens
+ALL THE TIME in venture capital and the start-up culture. And there’s a
+very specific reason for that. It’s because we can SEE the tremendous
+potential of a new technology or (even better) a new business model. But
+what we can CAN’T see are all these little problems that are going to
+pop up once we start actually working with the new technology. This is
+just how capitalism, start up life, entrepreneurship works.</p>
+
+<p>And it’s exactly what I experienced in my early days at the idealab
+incubator - idealab was the first consumer internet incubator in the
+1990’s. And at idealab, we thought e-commerce was amazing. What an
+improvement over mail order catalogs or trying to find that ONE BOOK at
+your neighborhood book store. So we built a bunch of ecommerce sites:
+Etoys, Cooking.com, Tickets.com, Music.com. This was the early days of
+consumer internet. You could literally try to own a whole consumer
+category. But what happened was once we built all these ecommerce
+businesses we were like “Ok where is everybody?” Then we realized “Oh we
+need internet marketing.” Whatever that is, because of course, no one
+has ever done it. SO…how do you do that? So we figured out how to do
+internet marketing. And companies like Double Click got invented and
+made billions of dollars helping businesses do online advertising, and
+then of course got acquired by Google.</p>
+
+<p>So we figured out internet advertising, and we got people to show up to
+our e-commerce sites using these new advertising inventions and then we
+encountered another problem. “How come people aren’t buying much?” Well,
+that’s when we found out about the payments problem. Payments was a huge
+problem. Which is what led my partners and me to be the first
+institutional investors in PayPal. We needed an innovation like PayPal
+to make online shopping work, work for consumers, who demand
+convenience. And by the way, at the time, credit card companies wanted
+NOTHING to do with these questionable internet companies. In fact, even
+if you could get a merchant credit card account for your e-commerce
+company, you got charged 10%, 12%, 14% of the transaction in credit card
+fees.</p>
+
+<p>My point here is that as good as a new technology appears to be like
+e-commerce, there is always some hidden friction in bringing that
+technology to its full potential.</p>
+
+<p>So about NFTs, these non-fungible tokens. As I look out here at the
+beginning of 2020 at the hype around NFTs, there are things people
+believe are right around the corner that I think are going to take
+longer.</p>
+
+<p>So let me run through a few of what I think those are:</p>
+
+<p>The CONSENSUS view out there is that big video game companies are going
+to start rushing in to incorporate NFTs into their hit video games. That
+is not going to happen for a few years. You want to know why? Because
+those big video game companies learned a lot of the lessons back when
+they were small companies about adopting new technology and all the
+friction that comes with it. So they’re cautious. They’re going to move
+slow. As I’ve mentioned before, small, indie game developers will be the
+first ones to experiment with, and even succeed with, NFTS.</p>
+
+<p>Another consensus view right now about NFTs, is that people are just
+going to start trading them like crazy. Nope, not going to happen. At
+least not yet. Now, as a lot of you know, my partners and I spent the
+past 20 years, running video game virtual item marketplaces. We know
+this business. We also understand WHY people trade virtual items. At a
+minimum, the trading PROCESS has to be simple. The single biggest
+contribution to making that happen, is what we recently did with the WAX
+Cloud Wallet. We’ve made it very simple to set up a blockchain account
+and trade NFTs. There are now almost 500,000 customer accounts on the
+WAX Blockchain in the past maybe three months because of the WAX Cloud
+Wallet. But until large numbers of people move away from wallets like
+Scatter and MetaMask, NFT trading will be limited. It’s just an emergent
+behavior. You can’t just design some nice looking NFTs and expect people
+are going to magically start trading them. People need a reason to do
+things. And your job, if you’re a video game dApp designer, is to figure
+out what will cause people to start trading. And that is still a work in
+progress. Which is why I think massive trading right now is not going to
+happen.</p>
+
+<p>Let me mention one final consensus view about NFTs that’s wrong. That’s
+leasing them. Yep. Leasing your NFTs. This has recently been getting a
+lot of hype. But it’s not going to happen, in any material way, probably
+ever. Why do I have such a strong opinion about this? Because its been
+tried. Many times. For decades. Generally by people who don’t understand
+video gamers. There is no evidence that video gamers want to lease skins
+or NFTs. Just one possible problem that I see with the NFT leasing
+market, is the fact that people own video game skins to show off. It’s a
+way to say “Hey look at this expensive skin that I own, aren’t I
+impressive?” But if anyone can inspect the blockchain and see that you
+don’t own it, that you’re just a poser renting it, then you destroy the
+whole reason you wanted the skin in the first place. This is just one
+issue that I see, by the way. There’s many others.</p>
+
+<p>Here is my advice on this one, this leasing NFT concept. If you can’t
+come up with a super compelling reason why someone would want to rent or
+lease a skin, then don’t waste time on it.</p>
+
+<p>Let me finish here by saying that I have a few non-consensus views about
+the future of NFTs. And in another upcoming video, I’m going to share
+those with you. That’s it for now. If you liked what you heard on this
+video, please hit subscribe, make a comment, and I’ll talk to you next
+time.</p>
+
+<p><em>—</em></p>
+
+<p><em>Let us know what you think by joining the WAX community:</em></p>
+
+<p><a href="https://go.wax.io/Twitter"><em>Twitter</em></a></p>
+
+<p><a href="https://go.wax.io/Telegram"><em>Telegram</em></a></p>
+
+<p><a href="https://go.wax.io/Reddit"><em>Reddit</em></a></p>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="section">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        
+<p><img src="https://i.imgur.com/JX1K0Ql.png" alt="" /></p>
+
+<p>Mar 3, 2020</p>
+
+<h1 id="wax-introduces-the-biggest-worker-proposal-fund-in-the-history-of-blockchain"><strong>WAX Introduces the Biggest Worker Proposal Fund in the History of Blockchain</strong></h1>
+
+<p><em><strong>Update 3/18/2020:</strong> <a href="https://wax.io/blog/update-wax-labs-proposal-guidelines">Proposal
+Guidelines</a></em></p>
+
+<hr />
+
+<p><em>More than 75 million WAX Tokens, worth millions of dollars, are
+available for developers who grow the WAX Blockchain through
+decentralization and innovation<strong>over many years.</strong></em></p>
+
+<p><img src="https://i.imgur.com/6fli8Fm.png" alt="" /></p>
+
+<p>Introducing <em>WAX Labs</em>, a worker proposal system designed to grow the
+WAX Blockchain through decentralization and innovation. There
+are<strong>presently more than</strong> <a href="https://wax.bloks.io/account/eosio.saving"><strong>75
+million</strong></a> <strong>WAX tokens worth
+millions of dollars in the</strong><strong><em>WAX Labs</em></strong><strong>fund</strong>, which is allocated
+towards compensating developers who build upon the WAX Blockchain <strong>over
+many years</strong>, making <em>WAX Labs</em> the largest community-owned worker
+proposal system in the entire blockchain ecosystem.</p>
+
+<p>With such a well funded worker proposal system, WAX hopes to build the
+most extensive network of blockchain developers in the world.</p>
+
+<p><strong>Candidates can submit their projects for consideration, and WAX Token
+holders can vote on them, **<a href="http://labs.wax.io/">**here**</a></strong>.**</p>
+
+<h2 id="about-the-wax-labs-worker-proposal-system"><strong>About the WAX Labs worker proposal system:</strong></h2>
+
+<p><em>WAX Labs</em> incentivizes developers to build new projects on WAX, work on
+community needs, patches, and upgrades. In exchange for their time and
+effort contributing to the development of WAX, these developers will be
+eligible to receive WAX Tokens from the <em>WAX Labs</em> fund, which will
+provide support for WAX development efforts for <strong>many years to come.</strong></p>
+
+<p><strong>Projects that will have a clear positive and measurable impact on the
+WAX ecosystem are eligible to be funded.</strong> If you request more funds for
+your project than the Reviewers and voters feel is appropriate for the
+project’s anticipated value to the WAX ecosystem, the project may not be
+approved (but is eligible for resubmission). Projects will not be
+approved if they are functions of another role in the WAX ecosystem that
+also earns WAX Tokens (ie: WAX Guild functions).</p>
+
+<p>Through <em>WAX Labs</em>, the WAX Community benefits from a decentralized
+structure by reducing the reliance on a single source for new additions.
+This system is beneficial for everyone including:</p>
+
+<ul>
+  <li>The <strong>developers</strong>who are compensated for their efforts</li>
+  <li>The <strong>community</strong>for having access to additional resources</li>
+  <li>The <strong>WAX organization</strong>, which can leverage the creativity of the
+community to advance projects</li>
+</ul>
+
+<p><em>WAX Token holders: please be advised that voting for WAX Labs projects
+does not affect your vote strength or stake weight.</em></p>
+
+<h2 id="how-to-submit-a-project-to-wax-labs"><strong>How to submit a project to WAX Labs:</strong></h2>
+
+<ul>
+  <li>To submit a project for consideration, visit the WAX Labs portal
+<a href="https://labs.wax.io/">here</a>. Complete a candidate profile, then
+submit your project.</li>
+  <li>Reviewers, selected by a committee which is selected by the WAX
+Guilds, will assess your project. If the Reviewers approve your
+project, it will be put forth to the WAX Community who has 30 days
+to vote on whether to accept or reject it.</li>
+  <li>For your project to be accepted, 35% of the entire amount of WAX
+Tokens that are staked must be voted towards your project (ie: if
+there are 1 million total WAX Tokens staked, then 350,000 of those
+must be voted towards your project).</li>
+  <li>If your project is accepted, you will receive payments of WAX Tokens
+in order to fund your project in accordance with the schedule you
+requested during the submission process.</li>
+</ul>
+
+<p><em>Please note that WAX Labs will establish its own governance rules in
+order to ensure both project quality and project completion, including
+making payments based on achieving project milestones.</em></p>
+
+<p>If you have any questions, please join our communities:</p>
+
+<ul>
+  <li><a href="https://t.me/waxdevelopers">WAX Developer Telegram Channel</a></li>
+  <li><a href="https://t.me/wax_io">WAX Telegram Discussion Channel</a></li>
+  <li><a href="https://t.me/waxtokenannoucements">WAX Telegram Announcements
+Channel</a></li>
+  <li><a href="https://twitter.com/wax_io">WAX Twitter</a></li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  
+  <div class="section">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        <p><img src="https://i.imgur.com/MyFxGfY.png" alt="WAX and Topps Unveil Historic Blockchain Trading Card Partnership" /></p>
+
+<p>Mar 2, 2020</p>
+
+<h1 id="wax-and-topps-unveil-historic-blockchain-trading-card-partnership"><strong>WAX and Topps Unveil Historic Blockchain Trading Card Partnership</strong></h1>
+
+<p>WAX and The Topps Company, the most prestigious global producer of
+trading cards for MLB, Star Wars, WWE and Garbage Pail Kids, today
+unveiled a historic partnership to bring their vast licensing portfolio
+to the WAX Blockchain.</p>
+
+<p>Utilizing WAX’s blockchain technology, fans around the world can now
+discover, collect and trade officially-licensed digital Topps
+collectibles. Collectibles can be seamlessly sold, or traded instantly
+and securely, with anyone across the world. With blockchain
+collectibles, collectors can enjoy the fun of trading and sharing
+digital cards with others around the world through a secure and
+efficient medium. The digital cards are authenticated and tracked using
+WAX Blockchain technology to ensure providence and security.</p>
+
+<p>The first Topps blockchain trading cards will launch in Spring 2020 and
+will be available for purchase online using a credit card and the WAX
+Cloud Wallet, the most user-friendly blockchain wallet today. To get on
+the waitlist (and enter to win cards!), visit
+<a href="http://topps.wax.io/">topps.wax.io</a>.</p>
+
+<p>“Over the years, collectors of Topps trading cards have enjoyed the
+thrill of ripping open a pack of cards. This partnership allows us to
+bring that memorable collectible experience to an even wider audience.
+Our Garbage Pail Kids blockchain product will highlight recent
+advancements in technology and continues Topps’ history of developing
+innovative products,” said Tobin Lent, Vice President, General Manager
+of Topps Digital.</p>
+
+<p>Topps trading cards have regularly sold in secondary markets for
+hundreds of thousands of dollars, so it’s critical that WAX Blockchain
+technology guarantee Topps cards are authentic and that trades are
+secured.</p>
+
+<p>By interacting with Garbage Pail Kids cards on the WAX Blockchain,
+anyone can see the details of the cards’ information and trading
+history. This enables everyone involved to make informed purchases,
+sales, and trades, with anyone else in the world - instantly.</p>
+
+<p><img src="https://i.imgur.com/TPUdEYQ.png" alt="TOPPS ON THE WAX BLOCKCHAIN" /></p>
+
+<p>The blockchain records every aspect of every card’s transaction and
+stores it forever. These blockchain records can’t be changed by anyone,
+and can be seen by everyone. Therefore, since the blockchain removes all
+uncertainty, there’s no need to take a chance with a buyer or seller or
+blindly trust another trader.</p>
+
+<p>Data for Garbage Pail Kids cards on the blockchain includes:</p>
+
+<ul>
+  <li><strong>Detailed product specifications</strong> for each card including the date
+it was created, its rarity, images of the card, proof of its
+authenticity, and more. With this information, collectors know
+exactly which cards they are trading - no guesswork, no need to
+trust or verify other traders.</li>
+  <li><strong>Comprehensive ownership records</strong> that show who traded the card
+and when. Since everyone can see its full ownership history, no one
+can ever fake ownership of a card.</li>
+  <li><strong>Complete trade and sale history</strong>including how much money was paid
+for the cards and when. No one can ever fake previous sale prices or
+dates.</li>
+</ul>
+
+<p>“Topps is bringing their collectibles to the forefront of digital
+innovation and is determined to leverage the opportunities that the
+blockchain can provide. I believe the WAX Blockchain will have an
+important and positive impact on Topps future business models and the
+way they engage their fanbase. We are very pleased to welcome Topps in
+the WAX family of dApps.” said Evan Vandenberg, Director at WAX.</p>
+
+<p><strong>Resources</strong></p>
+
+<ul>
+  <li>To join the waitlist, visit <a href="https://topps.wax.io/">topps.wax.io</a></li>
+  <li>To stay abreast of WAX developments, partnerships and other
+announcements, <a href="https://wax.io/">sign up for the WAX newsletter</a>.</li>
+  <li>To develop your dApp for the WAX Blockchain,
+visit <a href="https://developer.wax.io/">developer.wax.io</a></li>
+</ul>
+
+<p><strong>About WAX (Worldwide Asset eXchange)</strong></p>
+
+<p>WAX is an all-in-one blockchain platform enabling developers to easily
+create, sell and trade digital goods to empower businesses to profit
+from the next era of digital commerce. For more information, please
+visit<a href="https://wax.io/">wax.io</a> and follow along
+on <a href="https://twitter.com/wax_io">Twitter</a>, <a href="https://www.youtube.com/channel/UCQPwMpYKMDiudnw41QwliHQ">YouTube</a>,
+and <a href="https://t.me/wax_io">Telegram</a>.</p>
+
+<p>Worldwide Asset eXchange™, WAX is a trademark and the sole property of
+Worldwide Asset eXchange.</p>
+
+<p><strong>About The Topps Company, Inc.</strong></p>
+
+<p>Founded in 1938, Topps is the leading creator and marketer of sports and
+related cards, entertainment products, and distinctive confectionery.
+Topps entertainment products include the NFL, MLB, UFC, MLS, WWE and
+other trading cards, sticker album collections, and collectible games.
+The Company’s confectionery brands include Bazooka® bubble gum, Ring
+Pop®, Push Pop®, Baby Bottle Pop® and Juicy Drop ® Pop lollipops. For
+additional information, visit Sports Cards and Entertainment Cards at
+Topps.com and follow us on facebook at facebook.com/Topps, on twitter
+@Toppscards, and now on Instagram @ToppsSports.</p>
+
+<p><em>—</em></p>
+
+<p><em>Let us know what you think by joining the WAX community:</em></p>
+
+<p><a href="https://go.wax.io/Twitter"><em>Twitter</em></a></p>
+
+<p><a href="https://go.wax.io/Telegram"><em>Telegram</em></a></p>
+
+<p><a href="https://go.wax.io/Reddit"><em>Reddit</em></a></p>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  
+   <div class="section">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        <p><img src="https://i.imgur.com/D5xGKUX.png" alt="One of the most popular" /></p>
+
+<p>Feb 4, 2020</p>
+
+<h1 id="one-of-the-most-popular-dapps-on-the-ethereum-blockchain-0xwarriors-is-coming-to-wax"><strong>One of the most popular dApps on the Ethereum blockchain, 0xWarriors, is coming to WAX</strong></h1>
+
+<p>One of the most popular dApps on Ethereum is coming to the WAX
+Blockchain. 0xGames, an open-economy game development company, is
+integrating the <a href="https://wax.io/">WAX Blockchain</a> into both their arena
+RPG game 
+<a href="https://0xwarriors.com/?utm_source=cointelegraph&amp;utm_medium=referral&amp;utm_campaign=WAX-to-WR">0xWarriors</a>
+ and race manager game
+ <a href="https://0xracers.com/?utm_source=cointelegraph&amp;utm_medium=referral&amp;utm_campaign=WAX-to-WR">0xRacers</a>
+ in February, 2020.</p>
+
+<p>The partnership is expected to promote cross-chain interaction for
+gamers and crypto enthusiasts alike. 0xRacers and 0xWarriors already
+boast the support of several chains, such as Ethereum, NEO, TRON, and
+EOS, increasing overall interplay in the player base.</p>
+
+<p>Players can buy, sell, and trade in-game items for 0xWarriors and
+0xRacers using WAX Tokens. These NFTs can be of various rarity values
+and, when equipped, allow gamers to customize their playing experience
+and to curate collections. For example, a player can pick a
+legendary-tier WAX helmet along with other equipable tokens and crush
+their enemies on the Combat Arenas. Should a warrior need to swap their
+WAX item to another one - it can be easily done on the in-game market
+supporting NFT trade.</p>
+
+<p>Read the full announcement on CoinTelegraph 
+<a href="https://cointelegraph.com/press-releases/open-economy-developers-integrate-wax-blockchain">here</a>.</p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/DpLnqrK.png" alt="" /></p>
+
+<p><em>—</em></p>
+
+<p><em>Let us know what you think by joining the WAX community:</em></p>
+
+<p><a href="https://go.wax.io/Twitter"><em>Twitter</em></a></p>
+
+<p><a href="https://go.wax.io/Telegram"><em>Telegram</em></a></p>
+
+<p><a href="https://go.wax.io/Reddit"><em>Reddit</em></a></p>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+ <div class="section">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        <p><img src="https://i.imgur.com/2FxL98h.png" alt="WAX and AIKON partner" /></p>
+
+<p>Jan 27, 2020</p>
+
+<h1 id="wax-and-aikon-partner-to-bring-more-enterprise-viability-to-the-wax-blockchain"><strong>WAX and AIKON partner to bring more enterprise viability to the WAX Blockchain</strong></h1>
+
+<p><img src="https://wax.io/uploads/aikon.png" alt="WAX and AIKON" /></p>
+
+<p>WAX and AIKON are excited to announce a partnership that will bring
+AIKON’s ORE ID blockchain identity service to the WAX Blockchain,
+<strong>making it easy for developers and companies to get their customers
+using WAX</strong>. AIKON will make their ORE ID API library, which is geared
+toward <strong>streamlining enterprise adoption of blockchain solutions</strong>,
+accessible to developers who build on WAX.</p>
+
+<p>By partnering with AIKON, <strong>the WAX community benefits from increased
+cross-chain compatibility, and it becomes easier for both small dApps
+and enterprise-level applications to move onto WAX</strong>. AIKON’s ORE ID
+provides numerous enterprise solutions including a completely seamless
+blockchain on-ramp experience for existing centralized apps, a single
+API library that supports multiple chains and data privacy conscious
+identities.</p>
+
+<ul>
+  <li><strong>ORE ID Enterprise</strong> provides one of the easiest ways for
+enterprise customers to transition their existing users to the
+blockchain and can be adapted to any onboarding experience.</li>
+  <li><strong>ORE ID libraries</strong> will support a multitude of chains including
+WAX, EOS, Ethereum, TRON and more, allowing developers to launch
+their dapps on multiple chains easily with one API.</li>
+  <li><strong>ORE ID as an identity solution</strong> was built with privacy and
+security in mind and provides tools to manage GDPR and CCPA
+compliance.</li>
+</ul>
+
+<p>With these solutions, <strong>dApps from other blockchains such as Ethereum
+and TRON can easily port their application over to the WAX Blockchain.</strong>
+And enterprises interested in adopting digital assets can leverage WAX’s
+powerful asset exchange tools by migrating their users to the WAX chain.</p>
+
+<p>AIKON has long been inspired by the team at WAX and the scale they’ve
+been able to accomplish. “Everyone on our team loves WAX - <strong>especially
+their focus on usability and mass adoption</strong>,” said Marc Blinder, CEO of
+AIKON. “ORE ID brings that same emphasis on usability for centralized
+companies that want to make the move to blockchain or dApps that want a
+single sign-on solution for multiple chains.”</p>
+
+<p>“WAX is really excited for AIKON to join the platform,” says Evan
+Vandenberg, Director of Business Development for WAX. “<strong>AIKON’s
+outstanding team has shown significant progress in onboarding
+enterprise-level customers, outside of the blockchain space, to utilize
+blockchain technology such as <a href="https://www.moonlighting.com/">Moonlighting.com</a>.</strong> I’m very excited
+that the AIKON team can bring their impressive tech offerings to the WAX
+development community. “</p>
+
+<p>Together, AIKON and WAX hope to provide that tipping point that large
+enterprises have been waiting for in their consideration to adopt a
+blockchain strategy.</p>
+
+<hr />
+
+<p>About AIKON:</p>
+
+<p>ORE ID was built from the ground up to leverage blockchain and manage
+access rights to a user’s data. We knew from the beginning that
+protecting a user would be critical to the mainstream adoption of
+blockchain technologies, and data privacy compliance is one of the most
+obvious, and in the current technological climate, paramount use cases
+that can really deliver value and security to the masses.</p>
+
+<hr />
+
+<p>Visit the <a href="https://developer.wax.io/">WAX Developer Hive</a> for all our
+developer resources, and join our communities to stay up to date on WAX
+developments:</p>
+
+<ul>
+  <li><a href="https://t.me/waxdevelopers">WAX Developer Telegram Channel</a></li>
+  <li><a href="https://t.me/wax_io">WAX Telegram Discussion Channel</a></li>
+  <li><a href="https://t.me/waxtokenannoucements">WAX Telegram Announcements
+Channel</a></li>
+  <li><a href="https://twitter.com/wax_io">WAX Twitter</a></li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+  <div style="background-image:url(/assets/footer-bkgr.png);background-repeat:no-repeat;background-size:100% auto;margin-top:50px;">
+    <img src="/assets/spacer.gif" style="width:100%;"/>
+</div>
+</div>
+
+
+      </div>
+    </main><footer class="site-footer h-card" style="border:0;padding:0;">
+  <div class="footer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 id="important-links">Important Links</h2>
+<p><a href="/ja/why-vote/#core-principles">Code Of Conduct</a><br />
+<a href="/ja/history/">eosDAC History</a><br />
+<a href="https://eosdac.zendesk.com/">Help Center</a><br />
+<a href="/styleguide">Styleguide</a><br />
+<a href="https://steemit.com/eos/@eosdac/statement-of-ownership-and-code-of-conduct">Disclosures</a><br />
+<a href="/bp.json">BP Info</a></p>
+
+        </div>
+        <div class="col-md-6">
+          <h2 id="newsletter">Newsletter</h2>
+
+          <form id="newsletterForm">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="name" class="bmd-label-floating">
+                    Name
+                </label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email" class="bmd-label-floating">
+                    Email *
+                </label>
+                <input type="email" class="form-control" id="email" name="email"
+                    required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="form-control" id="language" name="language" required>
+                <option value="">Language *</option>
+                <option value="English">&nbsp;&nbsp;&nbsp;&nbsp;English</option>
+                <option value="Russian">&nbsp;&nbsp;&nbsp;&nbsp;Pусский</option>
+                <option value="Korean">&nbsp;&nbsp;&nbsp;&nbsp;한국어</option>
+                <option value="Chinese">&nbsp;&nbsp;&nbsp;&nbsp;简体中文</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <button type="submit" id="submitButton" class="btn">
+                Subscribe
+            </button>
+        </div>
+    </div>
+</form>
+<script>
+$('#newsletterForm').submit(function(event) {
+    event.preventDefault();
+    $.post('https://toolkit-api.eosdac.io/subscribe', $(this).serialize())
+    .done( function(result) {
+        if(result && (result.message === 'subscribed_successfully' || result.message === 'already_subscribed')) {
+            alert('Thank you, your records have been updated!');
+            document.getElementById('newsletterForm').reset();
+        } else {
+            alert('Error:\n'+JSON.stringify(result));
+        }
+    })
+    .fail( function(xhr, textStatus, errorThrown) {
+        alert('Error '+xhr.status+':\n'+xhr.responseText);
+    });
+});
+</script>
+        </div>
+        <div class="col-md-3">
+          <h2 id="social-media">Social Media</h2>
+<p><a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
+<a href="https://github.com/eosdac"><i class="icon icon-social-github-com"></i></a>
+<a href="https://steemit.com/@eosdac"><i class="icon icon-social-steemit-com"></i></a>
+<a href="https://twitter.com/eosdac"><i class="icon icon-social-twitter-com"></i></a>
+<a href="https://www.instagram.com/eosdac"><i class="icon icon-social-instagram-com"></i></a>
+<br />
+<a href="https://facebook.com/eosdac"><i class="icon icon-social-facebook-com"></i></a>
+<a href="https://www.reddit.com/r/eosdac"><i class="icon icon-social-reddit-com"></i></a>
+<a href="https://vk.com/eosdac"><i class="icon icon-social-vk-com"></i></a>
+<a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
+<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a>
+<br />
+<a href="https://murmurdapp.com/userpost/eosdacmurmur"><i class="icon icon-social-murmur"></i></a>
+<a href="https://t.me/eosdacio"><i class="icon icon-social-telegram"></i></a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr style="padding: 10px 0; border-color: #BABDBE;" /><div class="row">
+        <div class="col-md-2">
+          <img src="/assets/signet-white.svg" height="50" alt="site.title">
+        </div>
+        <div class="col-md-10">
+          
+          
+          
+          
+          <a class="nav-link" href="/ko/ja/why-vote/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Vote for eosDAC?</a>
+          
+          
+          <a class="nav-link" href="/ko/ja/why-join/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Join eosDAC?</a>
+          
+          
+          <a class="nav-link" href="/ko/ja/why-launch/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Launch a DAC?</a>
+          
+          <a class="nav-link" href="/ko/ja/community/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Community</a>
+          
+          
+          <a class="nav-link" href="/ko/ja/token/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Token</a>
+          
+          <a class="nav-link" href="/ko/ja/tools/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Tools</a>
+          
+          
+          <a class="nav-link" href="/ko/ja/block-production/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Block Production</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="nav-link" href="/ko/ja/news/index.html"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">News</a>
+          </div>
+      </div></div>
+  </div>
+</footer>
+<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+<script src="/assets/videojs-resolution-switcher.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+  integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+  crossorigin="anonymous"></script>
+<script
+  src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+  integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $('body').bootstrapMaterialDesign()
+  //initialize video players on why-join page
+  videojs('why-join-video-1', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-2', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-3', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+})
+</script>
+<!-- Voting Modal -->
+<div class="modal fade" id="votingModal" tabindex="-1" role="dialog" aria-labelledby="votingModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <form id="votingForm">
+    <div class="modal-header">
+        <h5 class="modal-title" id="votingModalLabel">You already selected 30 BPs</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+            Free up one spot, to cast a vote for <code class="highlighter-rouge">eosdacserver</code>
+        <br/><br/>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6" style="padding:0;padding-right:10px;" id="voting_col1">
+                    <!-- Will be filled via Javascript -->
+                </div>
+                <div class="col-6" style="padding:0;"  id="voting_col2">
+                    <!-- Will be filled via Javascript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div style="padding: 0 16px;">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn solid dark btn-raised">Vote now</button>
+        </div>
+    </div>
+    </form>
+    </div>
+</div>
+</div>
+
+<script src="/assets/eosjs/eosjs-api.js?1586730429"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?1586730429"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1586730429"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1586730429"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1586730429"></script>
+<script type="text/javascript">
+// This file needs to be included via the LIQUID template engine, in order to make the translations work!
+
+// Here is how to calculate the vote decay
+// https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue#L126
+// https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue#L169
+
+const host = 'public.eosinfra.io' //TODO: use eu.eosdac.io instead? -> CORS problem
+const network = {
+    blockchain:'eos',
+    protocol:'https',
+    host,
+    port:443,
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+}
+const EOSDACSERVER = 'eosdacserver'
+
+function castVote(api, account, producers, proxy = "") {
+    const transaction = {
+        actions: [{
+            account: 'eosio',
+            name: 'voteproducer',
+            authorization: [{ actor: account.name, permission: account.authority, }],
+            data: { producers: producers.sort(), proxy, voter: account.name }
+        }]
+    }
+    return api.transact(transaction, { blocksBehind: 3, expireSeconds: 30 })
+}
+
+function errHandler(scatter, target, originalContent, err, showAlert = true) {
+    console.error('Voting error:', err)
+    target.textContent = originalContent
+    scatter.logout()
+
+    // Do not show an alert() if the user rejected the transaction on purpose
+    const rejected = ['signature_rejected', 'identity_rejected', 'Request Canceled']
+    if(err &&  (rejected.includes(err.type) || rejected.includes(err.message))) {
+        showAlert = false
+    }
+    if(showAlert) alert('Error: ' + JSON.stringify(err))
+}
+
+function succHandler(scatter, target, msg = 'Thanks for voting!') {
+    target.textContent = msg
+    scatter.logout() //all done, goodbye!
+}
+
+function oneClickVote(scatter, target, originalContent) {
+    target.textContent = 'Voting...'
+
+    const rpc = new eosjs_jsonrpc.JsonRpc('https://'+host)
+    const api = new eosjs_api.Api({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
+
+    scatter.login({ accounts: [network] }).then(function() {
+        const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
+        /*
+        We could also use get_table_rows() to get the voter_info,
+        but need to make sure that the result is for 'account.name'.
+        get_table_rows({
+            json: true,
+            code: 'eosio',
+            scope: 'eosio',
+            table: 'voters',
+            lower_bound: account.name,
+            limit: 1
+        })
+        */
+        api.rpc.get_account(account.name).then(function(data) {
+            const vote = data.voter_info
+            let proxy = ''
+            let producers = []
+            // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
+            // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
+            if(vote !== null) {
+                proxy = vote.proxy
+                producers = vote.producers
+            }
+            if(proxy !== '') {
+                api.rpc.get_account(proxy).then(function(data) {
+                    if(data && data.voter_info && data.voter_info.is_proxy === 1) {
+                        const proxy_producers = data.voter_info.producers
+                        const eosdacserverVoted = proxy_producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                        if(eosdacserverVoted === true) {
+                            // Re-cast vote for the current proxy
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Re-cast vote for the current proxy, but notify user that it does not support eosdacserver
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                                alert(proxy + ' does not support eosDAC. Please consider another proxy!')
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        }
+                    } else {
+                        errHandler(scatter, target, originalContent, proxy+" isn't a proxy anymore")
+                        alert(proxy + ' is not a proxy anymore. Please choose another proxy!')
+                    }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
+            } else {
+                // Check status of all selected producers, e.g. if they are still registered
+                Promise.all(producers.map(p => api.rpc.get_producers(true, p, 1))).then(function(responses) {
+                    const reg_producers = responses.map(r => r.rows[0].owner)
+                    let new_producers = []
+                    // Add all selected AND registered producers into the new_producers array
+                    producers.forEach(p => {
+                        if(reg_producers.some(rp => rp === p)) new_producers.push(p)
+                    })
+                    producers = new_producers
+                    const eosdacserverVoted = producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                    if(eosdacserverVoted === true) {
+                        // Re-cast vote for current set of producers (including eosdacserver)
+                        castVote(api, account, producers).then(function(result) {
+                            succHandler(scatter, target)
+                        }).catch(function(err) {
+                            errHandler(scatter, target, originalContent, err)
+                        })
+                    } else {
+                        if(producers.length < 30) {
+                            // Add 'eosdacserver' to producers list and cast a vote
+                            producers.push(EOSDACSERVER)
+                            castVote(api, account, producers).then(function(result) {
+                                succHandler(scatter, target)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Show a modal dialog, to let the user remove one existing producer
+                            // Set values inside the modal dialog
+                            $('#voting_col1').empty()
+                            $('#voting_col2').empty()
+                            producers.sort().forEach(function(bpName, idx) {
+                                const itm = '<div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" name="bp'+idx+'" id="bp'+idx+'" value="'+bpName+'" checked><label class="custom-control-label" style="font-family:monospace;" for="bp'+idx+'">'+bpName+'</label></div>'
+                                if(idx < 15) {
+                                    $(itm).appendTo('#voting_col1')
+                                } else {
+                                    $(itm).appendTo('#voting_col2')
+                                }
+                            })
+                            // Register the submit callback, using local variables
+                            $('#votingForm').submit(function(ev) {
+                                ev.preventDefault()
+                                const producers = $("#votingForm").serializeArray().map(function(elem) {
+                                    return elem.value
+                                })
+                                // Add 'eosdacserver' to producers, if user removed one other producer
+                                if(producers.length < 30) {
+                                    producers.push(EOSDACSERVER)
+                                }
+                                castVote(api, account, producers).then(function(result) {
+                                    $('#votingModal').modal('hide')
+                                    succHandler(scatter, target)
+                                }).catch(function(err) {
+                                    $('#votingModal').modal('hide')
+                                    errHandler(scatter, target, originalContent, err)
+                                })
+                            })
+                            // Register the modal's Cancel/Hide handler, using local variables
+                            $('#votingModal').on('hide.bs.modal', function (e) {
+                                errHandler(scatter, target, originalContent, 'Modal cancelled/hidden.')
+                            })
+                            // Show the voting modal
+                            $('#votingModal').modal('show')
+                        }
+                    }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
+            }
+        }).catch(function(err) {
+            errHandler(scatter, target, originalContent, err)
+        })
+    }).catch(function(err) {
+        errHandler({ logout: function() { /* Scatter not signed in */ }}, target, originalContent, err)
+    })
+}
+
+function adoptAuthenticatorByUseragent(idx, obj) {
+    const originalContent = obj.textContent
+    if(originalContent.includes('Scatter')) {
+        const UA = window.navigator.userAgent
+        // Detect EOS Lynx according to: https://developers.eoslynx.com/mobile
+        if(UA === 'EOSLynx IOS' || UA === 'EOSLynx Android') {
+            obj.textContent = originalContent.replace('Scatter', 'EOS Lynx')
+            console.info('Adopted for EOSLynx.')
+        }
+    }
+}
+
+$(document).ready(function() {
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx({ Api: eosjs_api.Api, JsonRpc: eosjs_jsonrpc.JsonRpc }) )
+    ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
+        if(!connected) {
+            console.error('Scatter could not be found.')
+            return false
+        }
+
+        // Scatter was successfully connected
+        const scatter = ScatterJS.scatter
+        //window.ScatterJS = null
+        console.info('Scatter connected.')
+
+        // Setup the click handler for '.scatter-vote-oneclick' links
+        // and prevent their default (fallback) link/button behaviour,
+        // i.e. do not follow their 'href'
+        $('.scatter-vote-oneclick').click(function(ev) {
+            ev.preventDefault()
+            const target = ev.target
+            const originalContent = target.textContent
+            oneClickVote(scatter, target, originalContent)
+        })
+        console.info('Scatter handler registered.')
+
+        // Adopt 'Vote using Scatter' button to 'Vote using EOS Lynx' if applicable
+        $('.scatter-vote-oneclick').each(adoptAuthenticatorByUseragent)
+    })
+})
+</script>
+</body>
+
+</html>

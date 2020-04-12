@@ -1,0 +1,33 @@
+Last update: 2019-04-15T12:18:25+02:00
+Checking translation for 'zh-hans' in path: _i18n
+
+TODO:      _i18n/zh-hans/community/partner6.md
+TODO:      _i18n/zh-hans/community/partner4.md
+TODO:      _i18n/zh-hans/community/partner7.md
+TODO:      _i18n/zh-hans/community/partner1.md
+TODO:      _i18n/zh-hans/community/partner3.md
+TODO:      _i18n/zh-hans/community/partner5.md
+TODO:      _i18n/zh-hans/community/partner2.md
+TODO:      _i18n/zh-hans/why-launch/section9-img.md
+UPDATE:    _i18n/zh-hans/tools/smart-contracts-explained.md
+  english was modified at     2019-04-15 11:58:50 +0200
+  translation last updated at 2019-04-12 11:12:58 +0800
+TODO:      _i18n/zh-hans/success-stories/section2-img.md
+TODO:      _i18n/zh-hans/success-stories/section3-img.md
+TODO:      _i18n/zh-hans/success-stories/section5-img.md
+TODO:      _i18n/zh-hans/success-stories/section6-img.md
+TODO:      _i18n/zh-hans/success-stories/section4-img.md
+TODO:      _i18n/zh-hans/why-join/section2-img.md
+TODO:      _i18n/zh-hans/why-join/section5-img.md
+TODO:      _i18n/zh-hans/why-join/section6-img.md
+TODO:      _i18n/zh-hans/token/exchange4.md
+TODO:      _i18n/zh-hans/token/section2-img.md
+TODO:      _i18n/zh-hans/token/exchange1.md
+TODO:      _i18n/zh-hans/token/exchange6.md
+TODO:      _i18n/zh-hans/token/exchange12.md
+TODO:      _i18n/zh-hans/token/exchange5.md
+TODO:      _i18n/zh-hans/token/exchange3.md
+TODO:      _i18n/zh-hans/token/exchange2.md
+TODO:      _i18n/zh-hans/token/exchange10.md
+TODO:      _i18n/zh-hans/token/exchange7.md
+TODO:      _i18n/zh-hans/token/exchange11.md
