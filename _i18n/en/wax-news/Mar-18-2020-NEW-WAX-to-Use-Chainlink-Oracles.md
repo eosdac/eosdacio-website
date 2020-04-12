@@ -1,4 +1,4 @@
-![](https://i.imgur.com/ojMitKP.png)
+![WAX to Use Chainlink Oracles to Bring Off-Chain Data and Resources to the WAX and EOSIO Ecosystem﻿](https://i.imgur.com/ojMitKP.png)
 
 
 Mar 18, 2020

@@ -1,10 +1,10 @@
 
-![] (https://i.imgur.com/JX1K0Ql.png)
+![](https://i.imgur.com/JX1K0Ql.png)
 
 
 Mar 3, 2020
 
-New: WAX Introduces the Biggest Worker Proposal Fund in the History of Blockchain
+**WAX Introduces the Biggest Worker Proposal Fund in the History of Blockchain**
 =================================================================================
 
 
@@ -37,8 +37,8 @@ most extensive network of blockchain developers in the world.
 **Candidates can submit their projects for consideration, and WAX Token
 holders can vote on them, **[**here**](http://labs.wax.io/)**.**
 
-About the WAX Labs worker proposal system:
-==========================================
+**About the WAX Labs worker proposal system:**
+---
 
 *WAX Labs* incentivizes developers to build new projects on WAX, work on
 community needs, patches, and upgrades. In exchange for their time and
@@ -66,8 +66,8 @@ This system is beneficial for everyone including:
 *WAX Token holders: please be advised that voting for WAX Labs projects
 does not affect your vote strength or stake weight.*
 
-How to submit a project to WAX Labs:
-====================================
+**How to submit a project to WAX Labs:**
+---
 
 -   To submit a project for consideration, visit the WAX Labs portal
     [here](https://labs.wax.io/). Complete a candidate profile, then
