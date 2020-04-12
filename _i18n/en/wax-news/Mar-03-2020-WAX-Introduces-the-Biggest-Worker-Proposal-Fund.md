@@ -1,10 +1,10 @@
 
-![WAX Introduces the Biggest Worker Proposal Fund in the History of Blockchain](https://i.imgur.com/JX1K0Ql.png)
+![] (https://i.imgur.com/JX1K0Ql.png)
 
 
 Mar 3, 2020
 
-**WAX Introduces the Biggest Worker Proposal Fund in the History of Blockchain**
+New: WAX Introduces the Biggest Worker Proposal Fund in the History of Blockchain
 =================================================================================
 
 
@@ -18,13 +18,13 @@ Guidelines](https://wax.io/blog/update-wax-labs-proposal-guidelines)*
 
 *More than 75 million WAX Tokens, worth millions of dollars, are
 available for developers who grow the WAX Blockchain through
-decentralization and innovation **over many years.***
+decentralization and innovation**over many years.***
 
 ![](https://i.imgur.com/6fli8Fm.png)
 
 Introducing *WAX Labs*, a worker proposal system designed to grow the
 WAX Blockchain through decentralization and innovation. There
-are **presently more than** [**75
+are**presently more than** [**75
 million**](https://wax.bloks.io/account/eosio.saving) **WAX tokens worth
 millions of dollars in the*****WAX Labs*****fund**, which is allocated
 towards compensating developers who build upon the WAX Blockchain **over
@@ -35,11 +35,10 @@ With such a well funded worker proposal system, WAX hopes to build the
 most extensive network of blockchain developers in the world.
 
 **Candidates can submit their projects for consideration, and WAX Token
-holders can vote on them, [here](http://labs.wax.io/)**
+holders can vote on them, **[**here**](http://labs.wax.io/)**.**
 
-
-**About the WAX Labs worker proposal system:**
----
+About the WAX Labs worker proposal system:
+==========================================
 
 *WAX Labs* incentivizes developers to build new projects on WAX, work on
 community needs, patches, and upgrades. In exchange for their time and
@@ -59,17 +58,16 @@ Through *WAX Labs*, the WAX Community benefits from a decentralized
 structure by reducing the reliance on a single source for new additions.
 This system is beneficial for everyone including:
 
--   The **developers** who are compensated for their efforts
--   The **community** for having access to additional resources
+-   The **developers**who are compensated for their efforts
+-   The **community**for having access to additional resources
 -   The **WAX organization**, which can leverage the creativity of the
     community to advance projects
 
 *WAX Token holders: please be advised that voting for WAX Labs projects
 does not affect your vote strength or stake weight.*
 
-
-**How to submit a project to WAX Labs:**
----
+How to submit a project to WAX Labs:
+====================================
 
 -   To submit a project for consideration, visit the WAX Labs portal
     [here](https://labs.wax.io/). Complete a candidate profile, then

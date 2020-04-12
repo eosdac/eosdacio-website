@@ -39,32 +39,3 @@ launch of Topps NFTs on WAX, more games, and a few surprises.
 
 *---*
 
-Related Articles
-----------------
-
-### Update: WAX Labs Proposal Guidelines
-
-Since the launch of the WAX Labs worker proposal system on March 11,
-we’ve been excited to see the number of projects submitted for funding!
-Here we’ve provided more specific guidelines for how to make your
-project more likely to be accepted into WAX Labs
-
-[Read More](https://wax.io/blog/update-wax-labs-proposal-guidelines)
-
-### NEW: WAX to Use Chainlink Oracles to Bring Off-Chain Data and Resources to the WAX and EOSIO Ecosystem﻿
-
-WAX is excited to announce its planned integration of Chainlink’s
-decentralized oracle network to securely and reliably access data and
-resources from outside the EOSIO ecosystem.
-
-[Read
-More](https://wax.io/blog/new-wax-to-use-chainlink-oracles-to-bring-off-chain-data-and-resources-to-the-wax-and-eosio-ecosystem)
-
-### New: WAX Introduces the Biggest Worker Proposal Fund in the History of Blockchain
-
-More than 75 million WAX Tokens, worth millions of dollars, are
-available for developers who grow the WAX Blockchain through
-decentralization and innovation over many years.
-
-[Read
-More](https://wax.io/blog/new-wax-introduces-the-biggest-worker-proposal-fund-in-the-history-of-blockchain)
