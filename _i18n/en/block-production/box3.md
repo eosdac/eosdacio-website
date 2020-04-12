@@ -1,9 +1,10 @@
 
-![EOSIO](/assets/block-production/eosio.png)
+[![BOS CORE](/assets/block-production/boscore.png)](https://boscore.io)
 
-EOSIO
+[BOSCore](https://boscore.io)
 ---
 
-EOSIO is a next-generation, open-source blockchain protocol with industry-leading transaction speed and flexible utility. 
+BOSCore is an EOSIO chain which has fastest finality and the first to provide IBC solution to realize the decentralization of DPoS concensus
 
-[Read EOSIO News](https://eosdac.io/eos-news)
+
+[Read BOSCore News](https://eosdac.io/boscore-news)
