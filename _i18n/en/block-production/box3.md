@@ -7,4 +7,4 @@
 BOSCore is an EOSIO chain which has fastest finality and the first to provide IBC solution to realize the decentralization of DPoS concensus
 
 
-[Read BOSCore News](https://eosdac.io/boscore-news)
+[Read BOSCore News]({% translate_link bos-news %})
