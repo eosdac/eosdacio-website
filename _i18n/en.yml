@@ -19,7 +19,7 @@ pages:
   community: "Community"
   tools: "Tools"
   news: "News"
-  block-production: "Block Production"
+  wax-news: "Wax News"
   token: "Token"
 newsletterForm:
   name: "Name"
