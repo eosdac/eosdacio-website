@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    
+      eosDAC | Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC
+    
+  </title>
+  <meta property="og:title" content="eosDAC">
+  <meta property="og:site_name" content="eosDAC">
+  <meta name="description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
+  <meta property="og:description" content="Cộng Đồng Sở Hữu Nhà Sản Xuất Khối EOS và Kích Hoạt DAC">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1597422797">
+  <link href="/assets/styles.css?1597422797s" rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1597422797">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
+  <link rel="stylesheet" href="/assets/main.css?1597422797">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/vi/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+  <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
+  <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
+  <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
+  <link rel="alternate" hreflang="ja" href="https://eosdac.io/ja/">
+  <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
+  <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
+  <link rel="canonical" href="https://eosdac.io/">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><a href="/docs">Start</a> – eosDAC.io docs <small class="text-muted">(hosted version on <a href="https://github.com/eosdac/eosdacio-website/tree/master/docs">GitHub</a>)</small></h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>
+    </div>
+    <div class="docs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          
+          <h1 id="create-a-new-page">Create a new page</h1>
+
+<p>To create a new page for the website, you need to</p>
+
+<ul>
+  <li>Create a new HTML page frame inside the website’s root directory, e.g. copy the <code class="highlighter-rouge">how-to-vote.html</code> file to <code class="highlighter-rouge">my-new-page.html</code></li>
+  <li>Adopt the <a href="https://jekyllrb.com/docs/front-matter/">front matter</a> (meta-data) of this new page frame (inside the HTML file):
+    <ul>
+      <li><code class="highlighter-rouge">layout</code> selects the header/footer frame from <code class="highlighter-rouge">_layouts/</code></li>
+      <li><code class="highlighter-rouge">title</code> is <strong>optional</strong> and should only be given, if this new page shall be visible in the main header- &amp; footer-menus. It specifies the translation key for the new page’s title -&gt; this key needs to be added (translated) in <code class="highlighter-rouge">_i18n/en.yml</code> -&gt; <code class="highlighter-rouge">pages:</code></li>
+      <li><code class="highlighter-rouge">namespace</code> is a unique id of this page (same for all languages), and can be used to link to this page via the <code class="highlighter-rouge">translate_link my-new-page</code> macro</li>
+      <li><code class="highlighter-rouge">permalink</code> is the browser visible URL of this page, should be SEO friendly</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: default
+title: pages.myNewPage
+
+namespace: my-new-page
+permalink: /my-new-page/
+---
+</code></pre></div></div>
+
+<ul>
+  <li>Create the file structure &amp; markdown files needed for your page content, e.g. create a <code class="highlighter-rouge">_i18n/en/my-new-page</code> folder, which contains <code class="highlighter-rouge">section1.md</code> &amp; <code class="highlighter-rouge">section2.md</code>
+    <ul>
+      <li>Include those markdown files inside the HTML page frame via the <code class="highlighter-rouge">translate_file my-new-page/section1.md</code> macro</li>
+      <li>Adopt the HTML structure/sections as needed (e.g. via Bootstrap CSS) and create corresponding markdown files inside your <code class="highlighter-rouge">_i18n/en/my-new-page/</code> folder, which you include into your HTML via the <code class="highlighter-rouge">translate_file</code> macro.</li>
+    </ul>
+  </li>
+  <li>Create an <strong>optional</strong> stylesheet inside <code class="highlighter-rouge">_sass/my-new-page.scss</code> and import it via <code class="highlighter-rouge">_sass/custom.scss</code> -&gt; <code class="highlighter-rouge">@import 'my-new-page.scss';</code>
+    <ul>
+      <li>Also adopt the main CSS class of the <code class="highlighter-rouge">my-new-page.html</code> page frame (first line of HTML, directly after the front-matter): <code class="highlighter-rouge">&lt;div class="my-new-page"&gt;</code></li>
+      <li>This way you can write CSS rules inside <code class="highlighter-rouge">my-new-page.scss</code>, which only apply for this page, e.g.: <code class="highlighter-rouge">.my-new-page p { color: red }</code></li>
+    </ul>
+  </li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

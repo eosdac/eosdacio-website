@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    
+      eosDAC | 
+    
+  </title>
+  <meta property="og:title" content="eosDAC">
+  <meta property="og:site_name" content="eosDAC">
+  <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1597422787">
+  <link href="/assets/styles.css?1597422787s" rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1597422787">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
+  <link rel="stylesheet" href="/assets/main.css?1597422787">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+  <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
+  <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
+  <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
+  <link rel="alternate" hreflang="ja" href="https://eosdac.io/ja/">
+  <link rel="alternate" hreflang="es" href="https://eosdac.io/es/">
+  <link rel="alternate" hreflang="ru" href="https://eosdac.io/ru/">
+  <link rel="canonical" href="https://eosdac.io/">
+  <script src="/assets/vconsole.min.js"></script>
+  <script>
+    // Init vConsole, if the ?debug=true parameter exists
+    if(window.location.search.substr(1).indexOf('debug=true') >= 0) {
+      var vConsole = new VConsole()
+    }
+  </script>
+</head>
+<body><header class="site-header" role="banner" style="border:0">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-tabs"
+    style="background-image:linear-gradient(to right, #4A1289, #7C41BA)">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/signet-white.svg" height="42" alt="eosDAC">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/why-vote/">
+            Why Vote for eosDAC?</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/why-join/">
+            Why Join eosDAC?</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/why-launch/">
+            Why Launch a DAC?</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/community/">
+            Community</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/token/">
+            Token</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/tools/">
+            Tools</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/wax-news/">
+            Wax News</a></li>
+        
+        
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/news/index.html">
+            News</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="/assets/flags/en.png" />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </div>
+        </li>
+      </ul>
+      <span class="navbar-text nav-buttons">
+        <a href="/why-vote/#voting-matters" class="btn solid light btn-raised scatter-vote-oneclick">
+          Vote eosdacserver
+        </a>
+        <a href="https://members.eosdac.io/" class="btn outline light btn-raised">
+          Member Client
+        </a>
+      </span>
+    </div>
+  </nav>
+</header>
+<main class="page-content main" style="padding:0;" aria-label="Content">
+      <div class="">
+        <div>
+<div class="container">
+<div class="row" style="margin-top: 20px;">
+<div class="col-md-12">
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Novedades sobre el Roadmap y los tiempos de entrega de eosDAC</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-08-07T22:48:03+01:00" itemprop="datePublished">Aug 7, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Notamos que algunos miembros de la comunidad eosDAC tienen dudas sobre los tiempos de entrega del DAC Toolkit que incluye el registro de miembros y las funcionalidades necesarias para votar a los Guardianes y tomar decisiones sobre el DAC según lo establecido en nuestra constitución. Esta publicación intenta evacuar esas dudas.</p>
+
+<hr />
+
+<p>This post is also available in English: <a href="https://steemit.com/eosdac/@eosdac/eosdac-roadmap-and-timeline-update">eosDAC Roadmap and Timeline Update</a>
+이 게시물은 한국어로도 제공됩니다: <a href="https://steemit.com/eos/@eosdac/6qbpb3-eosdac">eosDAC 로드맵 및 일정 업데이트</a>
+この投稿は日本語でもご覧になれます：<a href="https://steemit.com/eos/@zahanwu/eosdac">eosDAC ロードマップとスケジュールのアップデート</a>
+Этот пост также доступен на русском языке: <a href="https://steemit.com/eos/@shadow82/obnovlennaya-dorozhnaya-karta-eosdac">Обновленная дорожная карта eosDAC</a>
+这篇文章也有中文版: <a href="https://steemit.com/eos/@joselee88/eosdac">eosDAC 开发进程和时间表更新</a>
+—</p>
+
+<p>Antes de comenzar, es un buen momento para revisar nuestros ** Principios Básicos ** definidos en la Constitución de eosDAC, se puede leer completa aquí:</p>
+
+<h1 id="constitución-eosdac"><a href="https://github.com/eosdac/constitution/blob/master/constitution.md">Constitución eosDAC</a></h1>
+
+<hr />
+
+<h2 id="2-principios-básicos">2. <strong>PRINCIPIOS BÁSICOS</strong></h2>
+
+<p>    <strong>2.1</strong> La DAC será una comunidad autónoma descentralizada regida por esta Constitución y administrada a través de la tecnología blockchain.</p>
+
+<p>    <strong>2.2</strong> La DAC se basará en los siguientes principios básicos:</p>
+
+<p>        **2.2.1 Promover el Ecosistema: ** El objetivo principal de la DAC será promover y apoyar el ecosistema EOSIO</p>
+
+<p>        **2.2.2 Excelencia en el servicio: ** La DAC siempre se esforzará para garantizar que sea capaz de producir y garantizar la producción continua de bloques requeridos por las blockchain creadas por el software EOSIO.</p>
+
+<p>        **2.2.3 Apertura y transparencia: ** Todas las decisiones tomadas por las estructuras de gobierno de la DAC y todas las operaciones serán abiertas y transparentes.</p>
+
+<p>        **2.2.4 Promover las Comunidades EOSIO en todo el mundo: ** La DAC estará en contacto permanente con las comunidades, escuchará y apoyará proyectos que beneficien las comunidades EOSIO.</p>
+
+<p>        **2.2.5 Equidad: ** La DAC tratará a todos los miembros de manera justa, recompensará las contribuciones de manera apropiada y no buscará beneficiarse de manera injustificada. Ningún miembro debe tener menos información sobre una decisión que otro.</p>
+
+<p>        **2.2.6 Independencia: ** La DAC no buscará ejercer ninguna participación o influencia indebida sobre otros productores de bloques y tomará las medidas apropiadas para proteger su propia independencia.</p>
+
+<p>        **2.2.7 Respeto a la Constitución EOS: ** La DAC respetará las blockchain EOS en las que opere: en cada blockchain EOSIO, para la cual la DAC produce y garantiza la producción continua de bloques, tendrá su propia constitución u organización equivalente, la DAC hará todo lo posible para cumplir con las constituciones o documentos de organización mientras actúa para mediar el interés de todos los tenedores de tokens.</p>
+
+<p>    <strong>2.3</strong> En la medida de lo posible, las disposiciones hechas en la Constitución se interpretarán de manera coherente con los principios básicos.</p>
+
+<hr />
+
+<p>Destaquemos la sección 2.2.3:</p>
+
+<blockquote>
+  <p>2.2.3 Apertura y transparencia: todas las decisiones tomadas por el gobierno de la DAC y todas las operaciones de la misma serán abiertas y transparentes.</p>
+</blockquote>
+
+<p>eosDAC siempre buscará la forma más transparente para explicar todo lo que está haciendo.</p>
+
+<p>Algo para recordar mientras discutimos el progreso hecho hasta el momento es la singularidad de eosDAC como un proyecto cripto. A diferencia de muchos otros proyectos, eosDAC no tiene un equipo central ni una estructura de liderazgo centralizada. Lo que tenemos son miembros, propuestas de trabajo (que puede crear a través de <a href="https://eosdac.io/"> nuestro sitio web </a> haciendo clic en Involucrarse -&gt; Solicitar), y los Guardianes, que son votados por los miembros, van a aprobar o denegar las propuestas realizadas. Hasta que estos sistemas existan completamente en la blockchain a través de contratos inteligentes, como <a href="https://github.com/eosdac/eosdactoken"> eosdactoken </a>, <a href="https://github.com/ eosdac / daccustodian "> daccustodian </a> y <a href="https://github.com/eosdac/dacproposals"> dacproposals </a> con herramientas fáciles de usar como <a href=" https: // github.com/eosdac/eosdactoolkit">eosdactoolkit </a> para poder organizarnos de manera descentralizada, estamos trabajando con la junta de Guardianes interina, tal como se menciona en la constitución, quienes están aprobando o denegando las propuestas de trabajo con los comentarios de los miembros del Launch Team y la comunidad. También tenemos ingresos, como productor de bloques EOS (que es también, lamentablemente, un proyecto poco habitual en el mundo cripto).</p>
+
+<p>Con esta estructura descentralizada, es posible que algunos aspectos de lo que está haciendo eosDAC no estén bien comunicados, especialmente cuando consideramos la cantidad de idiomas que se hablan en nuestra comunidad. Esto puede conducir a resultados desafortunados y expectativas inadecuadas. En la medida de nuestras posibilidades, vamos a reforzar los compromisos que eosDAC realizó hasta ahora para respetar esos compromisos de forma oportuna.</p>
+
+<p>Presentamos el roadmap actualizado de eosDAC que puede ver en el <a href="https://eosdac.io/"> sitio web de eosDAC </a>:</p>
+
+<p><a href="https://eosdac.io/">
+<img src="https://cdn.steemitimages.com/DQmbjB2QbF5SiG8g1b4M9SKzQbcs2artKxz9KWwckqw3M9n/image.png" alt="" />
+<img src="https://cdn.steemitimages.com/DQmXLrAxChJMpRKBpEWQBjPGbCgxa6DJYQikMsw7JNUXqJV/image.png" alt="" />
+<img src="https://cdn.steemitimages.com/DQme6TVuSAkiHrT9gcaHSTgH6GK8pDArL6FRzsCeLbuCENG/image.png" alt="" />
+</a></p>
+
+<p>Tenga en cuenta que la fecha de entrega de algunas tareas puede estar ** sujeta a cambios **.</p>
+
+<p>Además del contenido a continuación, también hemos publicado varios videos en YouTube para ayudar con el proceso de transición.</p>
+
+<p><a href="https://www.youtube.com/watch?v=DQqQ105pLz0">8 de abril</a> - Video que explica el snapshot y airdrop, advirtiendo a la gente que no tengan sus EOS en exchanges que no admiten el airdrop (este video es un re-posteo del original).
+<a href="https://www.youtube.com/watch?v=uOFAG8Pq29k">8 de mayo</a> - Video que muestra cómo reclamar los eosDAC tokens de forma manual.
+<a href="https://www.youtube.com/watch?v=L6lBRr3gyqs">24 de mayo</a> - Video que explica cómo y cuándo registrar sus EOS y eosDAC tokens.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Declaraciones y acciones</th>
+      <th>Resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4 de marzo de 2018</td>
+      <td><a href="https://steemit.com/eos/@eosdac/introducing-eosdac-the-community-owned-eos-block-producer"> eosDAC se lanzó como una DAC en la blockchain EOS al comienzo de Junio de 2018 </a></td>
+      <td>❌ Aunque el token eosDAC se convirtió a EOSDAC en la mainnet de EOS y se implementaron procesos para las propuestas de trabajo fuera de la blockchain que fueron aprobadas por la junta de Guardianes, eosDAC aún no es una DAC sobre blockchain completamente funcional (aunque funciona como una DAC fuera de la blockchain). La estimación sobre las fechas de entrega fue incorrecta y excesivamente optimista. Gran parte del retraso se debe a la demora en el lanzamiento de la mainnet y al esfuerzo que nuestro equipo tuvo que realizar para ayudar a depurar el software EOS en lugar de programar para eosDAC (ver a continuación).</td>
+    </tr>
+    <tr>
+      <td>23 de marzo</td>
+      <td><a href="https://steemit.com/eos/@eosdac/eosdac-april-airdrop-eos-holders-relieved-as-exchange-aligns-for-snapshot">Airdrop snapshot y anuncio sobre el apoyo de exchanges al proyecto</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>“Todos los tenedores del token EOS que tengan más de 100* al final del Día 300 del EOS crowdsale (15 de abril de 2018, 01:00:00 UTC) recibirán 1 token eosDAC por cada token EOS que posean, estos tokens serán transferidos directamente en su billetera Ethereum (compatible con ERC20) “.</td>
+      <td>✅ Nos ajustamos a los tiempos del airdrop</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>“Las cuentas con menos de 100 tokens no recibirán el airdrop de forma automatica, pero podrán aplicar (hasta el 15 de mayo de 2018) a través de un método que no requerirá ningún dato personal, más cercano a la fecha del snapshot”</td>
+      <td>✅ Proporcionamos una herramienta a través de nuestro sitio web para cuentas con &lt;100 fichas y lo anunciamos a través de nuestro newsletter y telegram.</td>
+    </tr>
+    <tr>
+      <td>26 de marzo</td>
+      <td><a href="https://steemit.com/eos/@eosdac/calling-all-eos-token-holders-get-ready-for-the-eosdac-snapshot">El Airdrop explicado en detalle</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Es muy poco probable que su exchange incluya los tokens eosDAC a menos que lo confirme públicamente ¡ANTES del snapshot del 15 de abril!</td>
+      <td>✅ Exitoso</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>El snapshot de todos los titulares de token EOS se tomará el 15 de abril a la 01:00:00 UTC y el Airdrop de tokens eosDAC a un tipo de cambio de 1: 1 se realizará de acuerdo con la propiedad del token EOS en el momento del snapshot . El lanzamiento en sí mismo seguirá a fines de abril / principios de mayo.</td>
+      <td>✅ Exitoso</td>
+    </tr>
+    <tr>
+      <td>15 de abril</td>
+      <td>Airdrop en la red Ethereum</td>
+      <td>✅ Exitoso</td>
+    </tr>
+    <tr>
+      <td>15 de mayo</td>
+      <td><a href="https://steemit.com/eos/@eosdac/eosdac-values-roadmap-and-position-on-dividends">Declaración sobre “valores de eosDAC, Roadmap y posiciones al respecto de los dividendos por eosdac”</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Actividades en el lanzamiento de la blockchain de EOS</td>
+      <td>✅ El Launch Team participó activamente para aportar mucho valor</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Lanzamiento de EOSDAC en la blockchain EOS</td>
+      <td>✅ Exitoso siendo uno de los primeros logros de EOS, aunque con retrasos por el la demora en el inicio de la Mainnet EOSIO</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Producción de bloques</td>
+      <td>✅ No solo hemos proporcionado un excelente servicio de producción de bloques, sino que también hemos logrado estar en el top 21.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Lanzamiento de las funciones basicas de las DAC tools</td>
+      <td>✅ El <a href="https://docs.google.com/document/d/1wyg1VrIKI4NJ2Lt2yl5dPK9QfU_H3sfvhINIqCFu-DE/edit#heading=h.navdcimr0mb5">documento del diseño técnologico</a> se finalizó para que el código se pueda desarrollar en sintonía con la constitución.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>La votación de los Guardianes de eosDAC votados por la comunidad realizado por el Launch Team</td>
+      <td>❌ Este compromiso aún no se ha completado debido a las demoras en el lanzamiento de la mainnet y las expectativas inadecuadas en la estimación de tiempos de desarrollo. eosDAC no debería haberse comprometido con una versión posible en junio o julio de esta funcionalidad. Leer más a continuación.</td>
+    </tr>
+    <tr>
+      <td>23 de mayo</td>
+      <td><a href="https://steemit.com/eos/@eosdac/eosdac-airdrop-and-burn"> eosDAC Airdrop y congelamiento </a></td>
+      <td>✅ Exitoso</td>
+    </tr>
+    <tr>
+      <td>1 de junio</td>
+      <td>Tokens ERC20 congelados</td>
+      <td>✅ Exitoso</td>
+    </tr>
+    <tr>
+      <td>2 de junio</td>
+      <td>Snapshot de eosDAC en la blockchain de ethereum para el token EOSDAC EOS</td>
+      <td>✅ Exitoso</td>
+    </tr>
+    <tr>
+      <td>14 de junio</td>
+      <td>Todos los productores de bloques lanzaron conjuntamente la mainnet de EOS</td>
+      <td>La Mainnet debía lanzarse a principios de junio y se lanzó a mediados de junio. Los productores de bloques esperaban al menos un mes de pruebas con un código estable y completo antes del lanzamiento de la mainnet, pero eso no sucedió. El Launch Team de eosDAC, especialmente Michael Yeates, fue fundamental para ayudar a la blockchain con la resolución de problemas que retrasaron el lanzamiento. Sin su trabajo, el lanzamiento de la mainnet podría haber sido mucho más tarde.</td>
+    </tr>
+    <tr>
+      <td>26 de junio</td>
+      <td><a href="https://steemit.com/eosdac/@eosdac/the-eosdac-token-distribution-is-complete"> se completo la distribución del tokens eosDAC </a></td>
+      <td>✅ Terminó el Airdrop, incluido el gasto de EOS RAM para crear 29.572 cuentas EOS para los tenedores de eosDAC con menos de 1 EOS.</td>
+    </tr>
+    <tr>
+      <td>Última semana de junio</td>
+      <td>Enfocándonos en el DAC toolkit luego del gran esfuerzo para completar el Airdrop. Se evaluaron los recursos internos y se tomó la decisión de contratar a OCI para que nos asista.</td>
+      <td>✅ Nos integramos con éxito a OCI, que es una empresa muy respetada de programadores profundamente involucrados en eosio</td>
+    </tr>
+    <tr>
+      <td>1 de julio</td>
+      <td><a href="https://steemit.com/eos/@eosdac/eosdac-accelerates-progress-on-dac-toolkit-partners-with-object-computing"> Progreso en el DAC Toolkit de eosDAC, nos asociamos con Object Computing </a> La promesa “Elecciones de Guardianes - en julio de 2018 - Seguido por el traspaso a los Guardianes”.</td>
+      <td>❌ Esta comunicación fue un error y esta estimación no fue hecha por aquellos que realmente trabajan en el código, por lo que no fue precisa. Con el feriado del 4 de julio en EE. UU. Junto con algunas otras demoras menores debido a problemas de programación y salud del equipo de OCI, el aumento de nuestro compromiso con OCI también se retrasó un poco. eosDAC se disculpa por esta falta de comunicación y tratará de evitar estas declaraciones incorrectas en el futuro.</td>
+    </tr>
+    <tr>
+      <td>Durante julio</td>
+      <td>El equipo de desarrollo interno que programando activamente y revisando el desarrollo de OCI: el contrato del token, que incluye el contrato inteligente de los miembros, el de los guardianes y el desarrollo del token explorer</td>
+      <td>✅ Los miembros de eosDAC han avanzado mucho, se puede ver en el <a href="http://discord.io/eosdac"> canal de Discord <code class="highlighter-rouge">5-tech-and-development</code> </a> y en &lt; a href = “http://github.com/eosdac”&gt; Github &lt;/a&gt;. eosDAC también publicó un <a href="https://www.youtube.com/watch?v=fO9B2hzNvio"> video en YouTube </a> con novedades.</td>
+    </tr>
+    <tr>
+      <td>17 de julio</td>
+      <td><a href="https://steemit.com/eosdac/@eosdac/eosdac-announces-first-approved-worker-proposals-prioritising-block-production-and-dac-toolkit"> eosDAC anuncia las primeras propuestas de trabajao aprobados, Priorizando la producción de bloques y el DAC Toolkit </a></td>
+      <td>✅ Implementamos con éxito un sistema transparente y fuera de la blockchain</td>
+    </tr>
+    <tr>
+      <td>21 de julio</td>
+      <td><a href="https://eosdac.io/wp-content/uploads/2018/07/Incommsec-Ltd-financial-report-June-2018-FINAL.pdf"> Informes financieros de los proveedores de servicios durante junio &lt;/ a &gt;</a></td>
+      <td>✅ Estamos realizando de forma exitosa un seguimiento e informes de los pagos a nuestros proveedores de servicios</td>
+    </tr>
+    <tr>
+      <td>Tercer trimestre de 2018</td>
+      <td><a href="https://steemit.com/eos/@eosdac/eosdac-values-roadmap-and-position-on-dividends"> Las siguientes actividades están planificadas para el tercer trimestre de 2018 </a></td>
+      <td>✅ En progreso</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Producción de bloques</td>
+      <td>✅ En progreso</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Mejoras en la infraestructura</td>
+      <td>✅ Se ejecutan cuando el sistema lo requiere</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Desarrollo e implementación del DAC Toolkit</td>
+      <td>✅ El desarrollo se encuentra en constante progreso como se mencionó anteriormente. La primera versión del DAC Toolkit comprenderá el registro de miembros y la votación de los Guardianes. La creación de propuestas de trabajo, el flujo de trabajo y los pagos se agregaran en una próxima actualización como parte del desarrollo continuo del DAC Toolkit.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Transición completa del Launch Team a los Guardianes</td>
+      <td>✅ En progreso y dependiendo de alcanzar un quórum de miembros con derecho a voto que elijan a los Guardianes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Como pudo leerse anteriormente, eosDAC ha hecho un trabajo bastante bueno comunicando las expectativas y cumpliendolas, considerando que ser una Comunidad Autónoma Descentralizada es una experiencia completamente nueva. El Launch Team de eosDAC cometió tres errores importantes al comunicar las fechas de entrega sobre cuando la DAC funcionaria como una verdadera DAC (y no con una junta de Guardianes provisional) en la Mainnet EOS, y cuando el DAC Toolkit y la votación de los Guardianes estarían disponibles. Hoy, eosDAC funciona como una DAC (aunque todavía no en la blockchain) con propuestas de trabajo para que los miembros de la comunidad puedan contactarse directamente y definir las fechas de entrega para el trabajo del que son responsables. Una DAC no tiene un “equipo” más allá de los miembros que crean las propuestas de trabajo aceptadas que buscan agregar valor a la DAC. Esperamos que sea parte de la DAC y cree sus propios grupos de trabajo, para que juntos logren los objetivos del DAC. Si ve una necesidad no satisfecha en la DAC, tiene la posibilidad de crear una propuesta de trabajo y recibir un pago por el trabajo realizado.</p>
+
+<p>A medida que eosDAC continúa creciendo y mejorando sus procesos como los mencionados en el <a href="https://docs.google.com/document/d/1QGYNHotwWi4yjRK_aNO7hRKkv-iVS3ZTK9rSQAECrNk/edit"> Manual de operaciones </a>, los resultados y la claridad en la comunicación podran mejorar gracias a todos los que respaldan nuestra visión de ser un productor de bloques de excelencia y un promotor de DACs.</p>
+
+<p>Las Comunidades Autónomas Descentralizadas (DACs) desempeñan un papel importante en el futuro de los grupos de personas que buscan lograr objetivos compartidos. eosDAC se está posicionando para ser un referente para el resto de las comunidades. Si tiene necesidades de consultoría en DACs, no dude en ponerse en contacto con los miembros de eosDAC en nuestro canal de Discord.</p>
+
+<p>Gracias por el apoyo continuo y gracias a los miembros del Launch Team por el esfuerzo realizado que nos permitió llegar hasta aquí.</p>
+
+<p><img src="https://cdn.steemitimages.com/DQmRQWM3QtQ21wddAMCjbVRhB3rM7L4AGWLY9QpNmkXNLps/Screen%20Shot%202018-06-12%20at%2011.00.55%20PM.png" alt="Screen Shot 2018-06-12 at 11.00.55 PM.png" />
+Para comprender mejor qué es una DAC, mire este video:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t3dbweOyRdI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<center><h1>Por favor, vote por for eosdacserver</h1></center>
+
+<p>Sumate a <a href="https://eosdac.io/news/#newsletter">nuestro newsletter</a> para mantenerse informado y síganos en red social favorita:</p>
+
+<p><sub><a href="https://steemit.com/@eosdac" target="_blank">Steemit</a> | <a href="https://discord.gg/fX5Uag" target="_blank">Discord</a> | <a href="https://t.me/eosdac_espanol" target="_blank">Telegram</a> | <a href="https://facebook.com/eosdac" target="_blank">Facebook</a> | <a href="https://twitter.com/eosdac" target="_blank">Twitter</a> | <a href="https://plus.google.com/+eosdac" target="_blank">Google-plus</a> | <a href="https://github.com/eosdac" target="_blank">Github</a> | <a href="https://instagram.com/eosdac" target="_blank">Instagram</a> | <a href="https://linkedin.com/company/eosdac" target="_blank">Linkedin</a> | <a href="https://medium.com/eosdac" target="_blank">Medium</a> | <a href="https://www.reddit.com/r/EOSDAC/" target="_blank">Reddit</a> | <a href="https://www.youtube.com/eosdac" target="_blank">YouTube</a></sub></p>
+
+  </div><a class="u-url" href="/2018/08/07/novedades-sobre-el-roadmap-y-los-tiempos-de-entrega-de-eosdac.html" hidden></a>
+</article>
+
+  <a href="https://steemit.com/eos/@eosdac/novedades-sobre-el-roadmap-y-los-tiempos-de-entrega-de-eosdac">Read more ↗</a><br/><br/>
+
+
+<a href="/news">Back</a>
+</div>
+</div>
+</div><div style="background-image:url(/assets/footer-bkgr.png);background-repeat:no-repeat;background-size:100% auto;margin-top:50px;">
+    <img src="/assets/spacer.gif" style="width:100%;"/>
+</div></div>
+      </div>
+    </main><footer class="site-footer h-card" style="border:0;padding:0;">
+  <div class="footer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 id="important-links">Important Links</h2>
+<p><a href="http://eepurl.com/dmQ2dX">Newsletter</a><br />
+<a href="/why-vote/#core-principles">Code Of Conduct</a><br />
+<a href="/history/">eosDAC History</a><br />
+<a href="https://eosdac.zendesk.com/">Help Center</a><br />
+<a href="/styleguide">Styleguide</a><br />
+<a href="https://steemit.com/eos/@eosdac/statement-of-ownership-and-code-of-conduct">Disclosures</a><br />
+<a href="/bp.json">BP Info</a></p>
+
+        </div>
+		
+        <div class="col-md-6">
+          <h1 id="sign-up-to-our-newsletter"><a href="http://eepurl.com/dmQ2dX">Sign up to our Newsletter</a></h1>
+
+
+        <!--  <form id="newsletterForm">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="name" class="bmd-label-floating">
+                    Name
+                </label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email" class="bmd-label-floating">
+                    Email *
+                </label>
+                <input type="email" class="form-control" id="email" name="email"
+                    required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="form-control" id="language" name="language" required>
+                <option value="">Language *</option>
+                <option value="English">&nbsp;&nbsp;&nbsp;&nbsp;English</option>
+                <option value="Russian">&nbsp;&nbsp;&nbsp;&nbsp;Pусский</option>
+                <option value="Korean">&nbsp;&nbsp;&nbsp;&nbsp;한국어</option>
+                <option value="Chinese">&nbsp;&nbsp;&nbsp;&nbsp;简体中文</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <button type="submit" id="submitButton" class="btn">
+                Subscribe
+            </button>
+        </div>
+    </div>
+</form>
+<script>
+$('#newsletterForm').submit(function(event) {
+    event.preventDefault();
+    $.post('https://toolkit-api.eosdac.io/subscribe', $(this).serialize())
+    .done( function(result) {
+        if(result && (result.message === 'subscribed_successfully' || result.message === 'already_subscribed')) {
+            alert('Thank you, your records have been updated!');
+            document.getElementById('newsletterForm').reset();
+        } else {
+            alert('Error:\n'+JSON.stringify(result));
+        }
+    })
+    .fail( function(xhr, textStatus, errorThrown) {
+        alert('Error '+xhr.status+':\n'+xhr.responseText);
+    });
+});
+</script> -->
+        </div>
+		
+        <div class="col-md-3">
+          <h2 id="social-media">Social Media</h2>
+<p><a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
+<a href="https://github.com/eosdac"><i class="icon icon-social-github-com"></i></a>
+<a href="https://steemit.com/@eosdac"><i class="icon icon-social-steemit-com"></i></a>
+<a href="https://twitter.com/eosdac"><i class="icon icon-social-twitter-com"></i></a>
+<a href="https://www.instagram.com/eosdac"><i class="icon icon-social-instagram-com"></i></a>
+<br />
+<a href="https://facebook.com/eosdac"><i class="icon icon-social-facebook-com"></i></a>
+<a href="https://www.reddit.com/r/eosdac"><i class="icon icon-social-reddit-com"></i></a>
+<a href="https://vk.com/eosdac"><i class="icon icon-social-vk-com"></i></a>
+<a href="https://www.linkedin.com/company/eosdac/"><i class="icon icon-social-linkedin-com"></i></a>
+<a href="https://www.youtube.com/eosdac"><i class="icon icon-social-youtube-com"></i></a>
+<br />
+<a href="https://murmurdapp.com/userpost/eosdacmurmur"><i class="icon icon-social-murmur"></i></a>
+<a href="https://t.me/eosdacio"><i class="icon icon-social-telegram"></i></a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr style="padding: 10px 0; border-color: #BABDBE;" /><div class="row">
+        <div class="col-md-2">
+          <img src="/assets/signet-white.svg" height="50" alt="site.title">
+        </div>
+        <div class="col-md-10">
+          
+          
+          
+          
+          <a class="nav-link" href="/why-vote/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Vote for eosDAC?</a>
+          
+          
+          <a class="nav-link" href="/why-join/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Join eosDAC?</a>
+          
+          
+          <a class="nav-link" href="/why-launch/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Why Launch a DAC?</a>
+          
+          <a class="nav-link" href="/community/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Community</a>
+          
+          
+          <a class="nav-link" href="/token/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Token</a>
+          
+          <a class="nav-link" href="/tools/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Tools</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="nav-link" href="/wax-news/"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">Wax News</a>
+          
+          
+          <a class="nav-link" href="/news/index.html"
+            style="text-transform: none; display: inline-block; margin-top: 5px;
+            color: white;">News</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          </div>
+      </div></div>
+  </div>
+</footer>
+<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+<script src="/assets/videojs-resolution-switcher.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+  integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+  crossorigin="anonymous"></script>
+<script
+  src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+  integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $('body').bootstrapMaterialDesign()
+  //initialize video players on why-join page
+  videojs('why-join-video-1', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-2', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+  videojs('why-join-video-3', null, function() {
+    var player = this
+    window.player = player
+    player.on('fullscreenchange', function() {
+      if(player.isFullscreen()) {
+        label='SD'
+        if(screen.width>1280) label='HD'
+        player.currentResolution(label)
+      } else
+        player.currentResolution('SD')
+    })
+  }).videoJsResolutionSwitcher()
+})
+</script>
+<!-- Voting Modal -->
+<div class="modal fade" id="votingModal" tabindex="-1" role="dialog" aria-labelledby="votingModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <form id="votingForm">
+    <div class="modal-header">
+        <h5 class="modal-title" id="votingModalLabel">You already selected 30 BPs</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+            Free up one spot, to cast a vote for <code class="highlighter-rouge">eosdacserver</code>
+        <br/><br/>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6" style="padding:0;padding-right:10px;" id="voting_col1">
+                    <!-- Will be filled via Javascript -->
+                </div>
+                <div class="col-6" style="padding:0;"  id="voting_col2">
+                    <!-- Will be filled via Javascript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div style="padding: 0 16px;">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn solid dark btn-raised">Vote now</button>
+        </div>
+    </div>
+    </form>
+    </div>
+</div>
+</div>
+
+<script src="/assets/eosjs/eosjs-api.js?1597422787"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?1597422787"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1597422787"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1597422787"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1597422787"></script>
+<script type="text/javascript">
+// This file needs to be included via the LIQUID template engine, in order to make the translations work!
+
+// Here is how to calculate the vote decay
+// https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue#L126
+// https://github.com/eosdac/eosdactoolkit/blob/master/eosdac-material/src/components/vote-eosdac.vue#L169
+
+const host = 'public.eosinfra.io' //TODO: use eu.eosdac.io instead? -> CORS problem
+const network = {
+    blockchain:'eos',
+    protocol:'https',
+    host,
+    port:443,
+    chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+}
+const EOSDACSERVER = 'eosdacserver'
+
+function castVote(api, account, producers, proxy = "") {
+    const transaction = {
+        actions: [{
+            account: 'eosio',
+            name: 'voteproducer',
+            authorization: [{ actor: account.name, permission: account.authority, }],
+            data: { producers: producers.sort(), proxy, voter: account.name }
+        }]
+    }
+    return api.transact(transaction, { blocksBehind: 3, expireSeconds: 30 })
+}
+
+function errHandler(scatter, target, originalContent, err, showAlert = true) {
+    console.error('Voting error:', err)
+    target.textContent = originalContent
+    scatter.logout()
+
+    // Do not show an alert() if the user rejected the transaction on purpose
+    const rejected = ['signature_rejected', 'identity_rejected', 'Request Canceled']
+    if(err &&  (rejected.includes(err.type) || rejected.includes(err.message))) {
+        showAlert = false
+    }
+    if(showAlert) alert('Error: ' + JSON.stringify(err))
+}
+
+function succHandler(scatter, target, msg = 'Thanks for voting!') {
+    target.textContent = msg
+    scatter.logout() //all done, goodbye!
+}
+
+function oneClickVote(scatter, target, originalContent) {
+    target.textContent = 'Voting...'
+
+    const rpc = new eosjs_jsonrpc.JsonRpc('https://'+host)
+    const api = new eosjs_api.Api({ rpc, signatureProvider:scatter.eosHook(network, null, true) })
+
+    scatter.login({ accounts: [network] }).then(function() {
+        const account = scatter.identity.accounts.find(x => x.blockchain === 'eos')
+        /*
+        We could also use get_table_rows() to get the voter_info,
+        but need to make sure that the result is for 'account.name'.
+        get_table_rows({
+            json: true,
+            code: 'eosio',
+            scope: 'eosio',
+            table: 'voters',
+            lower_bound: account.name,
+            limit: 1
+        })
+        */
+        api.rpc.get_account(account.name).then(function(data) {
+            const vote = data.voter_info
+            let proxy = ''
+            let producers = []
+            // If vote (e.g. account.voter_info) is 'null', the eosio.voters table is empty for this account,
+            // i.e. the account never voted before: Just vote for ['eosdacserver'] in this case!
+            if(vote !== null) {
+                proxy = vote.proxy
+                producers = vote.producers
+            }
+            if(proxy !== '') {
+                api.rpc.get_account(proxy).then(function(data) {
+                    if(data && data.voter_info && data.voter_info.is_proxy === 1) {
+                        const proxy_producers = data.voter_info.producers
+                        const eosdacserverVoted = proxy_producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                        if(eosdacserverVoted === true) {
+                            // Re-cast vote for the current proxy
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Re-cast vote for the current proxy, but notify user that it does not support eosdacserver
+                            castVote(api, account, [], proxy).then(function(result) {
+                                succHandler(scatter, target, 'Voted proxy: ' + proxy)
+                                alert(proxy + ' does not support eosDAC. Please consider another proxy!')
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        }
+                    } else {
+                        errHandler(scatter, target, originalContent, proxy+" isn't a proxy anymore")
+                        alert(proxy + ' is not a proxy anymore. Please choose another proxy!')
+                    }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
+            } else {
+                // Check status of all selected producers, e.g. if they are still registered
+                Promise.all(producers.map(p => api.rpc.get_producers(true, p, 1))).then(function(responses) {
+                    const reg_producers = responses.map(r => r.rows[0].owner)
+                    let new_producers = []
+                    // Add all selected AND registered producers into the new_producers array
+                    producers.forEach(p => {
+                        if(reg_producers.some(rp => rp === p)) new_producers.push(p)
+                    })
+                    producers = new_producers
+                    const eosdacserverVoted = producers.some(function(bpName) { return bpName === EOSDACSERVER })
+                    if(eosdacserverVoted === true) {
+                        // Re-cast vote for current set of producers (including eosdacserver)
+                        castVote(api, account, producers).then(function(result) {
+                            succHandler(scatter, target)
+                        }).catch(function(err) {
+                            errHandler(scatter, target, originalContent, err)
+                        })
+                    } else {
+                        if(producers.length < 30) {
+                            // Add 'eosdacserver' to producers list and cast a vote
+                            producers.push(EOSDACSERVER)
+                            castVote(api, account, producers).then(function(result) {
+                                succHandler(scatter, target)
+                            }).catch(function(err) {
+                                errHandler(scatter, target, originalContent, err)
+                            })
+                        } else {
+                            // Show a modal dialog, to let the user remove one existing producer
+                            // Set values inside the modal dialog
+                            $('#voting_col1').empty()
+                            $('#voting_col2').empty()
+                            producers.sort().forEach(function(bpName, idx) {
+                                const itm = '<div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" name="bp'+idx+'" id="bp'+idx+'" value="'+bpName+'" checked><label class="custom-control-label" style="font-family:monospace;" for="bp'+idx+'">'+bpName+'</label></div>'
+                                if(idx < 15) {
+                                    $(itm).appendTo('#voting_col1')
+                                } else {
+                                    $(itm).appendTo('#voting_col2')
+                                }
+                            })
+                            // Register the submit callback, using local variables
+                            $('#votingForm').submit(function(ev) {
+                                ev.preventDefault()
+                                const producers = $("#votingForm").serializeArray().map(function(elem) {
+                                    return elem.value
+                                })
+                                // Add 'eosdacserver' to producers, if user removed one other producer
+                                if(producers.length < 30) {
+                                    producers.push(EOSDACSERVER)
+                                }
+                                castVote(api, account, producers).then(function(result) {
+                                    $('#votingModal').modal('hide')
+                                    succHandler(scatter, target)
+                                }).catch(function(err) {
+                                    $('#votingModal').modal('hide')
+                                    errHandler(scatter, target, originalContent, err)
+                                })
+                            })
+                            // Register the modal's Cancel/Hide handler, using local variables
+                            $('#votingModal').on('hide.bs.modal', function (e) {
+                                errHandler(scatter, target, originalContent, 'Modal cancelled/hidden.')
+                            })
+                            // Show the voting modal
+                            $('#votingModal').modal('show')
+                        }
+                    }
+                }).catch(function(err) {
+                    errHandler(scatter, target, originalContent, err)
+                })
+            }
+        }).catch(function(err) {
+            errHandler(scatter, target, originalContent, err)
+        })
+    }).catch(function(err) {
+        errHandler({ logout: function() { /* Scatter not signed in */ }}, target, originalContent, err)
+    })
+}
+
+function adoptAuthenticatorByUseragent(idx, obj) {
+    const originalContent = obj.textContent
+    if(originalContent.includes('Scatter')) {
+        const UA = window.navigator.userAgent
+        // Detect EOS Lynx according to: https://developers.eoslynx.com/mobile
+        if(UA === 'EOSLynx IOS' || UA === 'EOSLynx Android') {
+            obj.textContent = originalContent.replace('Scatter', 'EOS Lynx')
+            console.info('Adopted for EOSLynx.')
+        }
+    }
+}
+
+$(document).ready(function() {
+    ScatterJS.plugins( new ScatterEOS(), new ScatterLynx({ Api: eosjs_api.Api, JsonRpc: eosjs_jsonrpc.JsonRpc }) )
+    ScatterJS.scatter.connect('eosDAC.io').then(function( connected ) {
+        if(!connected) {
+            console.error('Scatter could not be found.')
+            return false
+        }
+
+        // Scatter was successfully connected
+        const scatter = ScatterJS.scatter
+        //window.ScatterJS = null
+        console.info('Scatter connected.')
+
+        // Setup the click handler for '.scatter-vote-oneclick' links
+        // and prevent their default (fallback) link/button behaviour,
+        // i.e. do not follow their 'href'
+        $('.scatter-vote-oneclick').click(function(ev) {
+            ev.preventDefault()
+            const target = ev.target
+            const originalContent = target.textContent
+            oneClickVote(scatter, target, originalContent)
+        })
+        console.info('Scatter handler registered.')
+
+        // Adopt 'Vote using Scatter' button to 'Vote using EOS Lynx' if applicable
+        $('.scatter-vote-oneclick').each(adoptAuthenticatorByUseragent)
+    })
+})
+</script>
+</body>
+
+</html>

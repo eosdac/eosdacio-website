@@ -1,0 +1,65 @@
+{
+  "producer_account_name": "eosdacserver",
+  "org": {
+    "candidate_name": "eosDAC",
+    "website": "https://eosdac.io",
+    "code_of_conduct": "https://eosdac.io#core-principles",
+    "ownership_disclosure": "https://github.com/eosdac/constitution/blob/master/constitution.md",
+    "email": "hello@eosdac.io",
+    "branding": {
+      "logo_256": "https://eosdac.io/assets/bpjson/eosdaclogo_256.png",
+      "logo_1024": "https://eosdac.io/assets/bpjson/eosdaclogo_1024.png",
+      "logo_svg": "https://eosdac.io/assets/bpjson/eosDAC_logo.svg"
+    },
+    "location": {
+      "name": "United Kingdom",
+      "country": "GB",
+      "latitude": 51.2948492,
+      "longitude": 0.4075124
+    },
+    "social": {
+      "steemit": "eosdac",
+      "twitter": "eosdac",
+      "youtube": "eosdac",
+      "facebook": "eosdac",
+      "github": "eosdac",
+      "reddit": "eosdac",
+      "keybase": "",
+      "telegram": "eosdacio",
+      "wechat": ""
+    }
+  },
+  "nodes": [{
+      "location": {
+        "name": "United Kingdom",
+        "country": "GB",
+        "latitude": 51.5099,
+        "longitude": -0.1181
+      },
+      "node_type": "full",
+      "api_endpoint": "http://wax.eosdac.io",
+      "ssl_endpoint": "https://wax.eosdac.io",
+      "p2p_endpoint": "wax.eosdac.io:29876"
+    },{
+      "location": {
+        "name": "Germany",
+        "country": "DE",
+        "latitude": 50.3836,
+        "longitude": 8.0503
+      },
+      "node_type": "full",
+      "api_endpoint": "http://wax2.eosdac.io",
+      "ssl_endpoint": "https://wax2.eosdac.io",
+      "p2p_endpoint": "wax2.eosdac.io:29876"
+    },
+    {
+      "location": {
+        "name": "United Kingdom",
+        "country": "GB",
+        "latitude": 51.5099,
+        "longitude": -0.1181
+      },
+      "node_type": "producer"
+    }
+  ]
+}
