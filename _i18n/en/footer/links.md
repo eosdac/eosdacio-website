@@ -1,5 +1,6 @@
 Important Links
 ---
+[Newsletter](http://eepurl.com/dmQ2dX)\\
 [Code Of Conduct]({% translate_link why-vote %}#core-principles)\\
 [eosDAC History]({% translate_link history %})\\
 [Help Center](https://eosdac.zendesk.com/)\\

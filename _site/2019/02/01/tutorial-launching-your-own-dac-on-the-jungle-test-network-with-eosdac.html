@@ -12,32 +12,20 @@
   <meta property="og:site_name" content="eosDAC">
   <meta name="description" content="The Community-Owned EOS Block Producer and DAC Enabler">
   <meta property="og:description" content="The Community-Owned EOS Block Producer and DAC Enabler">
-<<<<<<< HEAD
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1586730102">
-  <link href="/assets/styles.css?1586730102s" rel="stylesheet">
-=======
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1586723374">
-  <link href="/assets/styles.css?1586723374s" rel="stylesheet">
->>>>>>> master
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png?1597418688">
+  <link href="/assets/styles.css?1597418688s" rel="stylesheet">
   <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="/assets/videojs-resolution-switcher.css">
   <link rel="stylesheet"
     href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
     integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
     crossorigin="anonymous">
-<<<<<<< HEAD
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1586730102">
+  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1597418688">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1586730102">
-=======
-  <link rel="stylesheet" href="/assets/bootstrap-material-design-overwrite.css?1586723374">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600">
-  <link rel="stylesheet" href="/assets/main.css?1586723374">
->>>>>>> master
+  <link rel="stylesheet" href="/assets/main.css?1597418688">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="site.title" /><link rel="alternate" hreflang="en" href="https://eosdac.io">
   <link rel="alternate" hreflang="ko" href="https://eosdac.io/ko/">
   <link rel="alternate" hreflang="zh-hans" href="https://eosdac.io/zh-hans/">
   <link rel="alternate" hreflang="vi" href="https://eosdac.io/vi/">
@@ -110,8 +98,6 @@
         
         
         
-        <li class="nav-item"><a class="nav-link" href="/block-production/">
-            Block Production</a></li>
         
         
         
@@ -128,20 +114,15 @@
         
         
         
-        
-        
-        
-<<<<<<< HEAD
-=======
+        <li class="nav-item"><a class="nav-link" href="/wax-news/">
+            Wax News</a></li>
         
         
         
         
->>>>>>> master
+        
         <li class="nav-item"><a class="nav-link" href="/news/index.html">
             News</a></li>
-        
-        
         
         
         
@@ -234,7 +215,7 @@
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Tutorial: Launching Your Own DAC on the Jungle Test Network with eosDAC</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2019-02-01T21:31:42+05:30" itemprop="datePublished">Feb 1, 2019
+      <time class="dt-published" datetime="2019-02-01T16:01:42+00:00" itemprop="datePublished">Feb 1, 2019
       </time></p>
   </header>
 
@@ -300,7 +281,7 @@ sudo ./install.sh
 <p>Let’s set up a couple scripts to keep everything contained in this folder. Adjust this according to your own starting folder. Create keosd.sh as follows in the TestDAC folder:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
 
-<span class="nv">cwd</span><span class="o">=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>
+<span class="nv">cwd</span><span class="o">=</span><span class="si">$(</span><span class="nb">pwd</span><span class="si">)</span>
 <span class="nv">$cwd</span>/eos/build/bin/keosd <span class="nt">--wallet-dir</span> <span class="nv">$cwd</span> <span class="nt">--http-server-address</span> localhost:8900 <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span>
 </code></pre></div></div>
 
@@ -312,7 +293,7 @@ sudo ./install.sh
 <p>In a new terminal window, create a script for running cleos to connect with the Jungle test network. Create jungle.sh as follows:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
 
-<span class="nv">cwd</span><span class="o">=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>
+<span class="nv">cwd</span><span class="o">=</span><span class="si">$(</span><span class="nb">pwd</span><span class="si">)</span>
 <span class="nv">$cwd</span>/eos/build/bin/cleos <span class="nt">--url</span> http://jungle2.cryptolions.io:80/ <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span>
 </code></pre></div></div>
 
@@ -413,8 +394,8 @@ git clone https://github.com/eosdac/dacmultisigs.git
 index 8b180ff..8889d3b 100755
 </span><span class="gd">--- a/output/jungle/compile.sh
 </span><span class="gi">+++ b/output/jungle/compile.sh
-</span><span class="gu">@@ -1,5 +1,5 @@
-</span> #!/usr/bin/env bash
+</span><span class="p">@@ -1,5 +1,5 @@</span>
+ #!/usr/bin/env bash
  
 <span class="gd">-eosio-cpp -DTOKENCONTRACT='"kasdactokens"' -DTRANSFER_DELAY=20 -o output/jungle/daccustodian/daccustodian.wasm daccustodian.cpp
 </span><span class="gi">+eosio-cpp -DTOKENCONTRACT='"lukedactoken"' -DTRANSFER_DELAY=20 -o output/jungle/daccustodian/daccustodian.wasm daccustodian.cpp
@@ -541,8 +522,8 @@ git push
 index 5b4bd96..fc0f04b 100644
 </span><span class="gd">--- a/eosdac-material/src/statics/config.jungle.json
 </span><span class="gi">+++ b/eosdac-material/src/statics/config.jungle.json
-</span><span class="gu">@@ -3,16 +3,16 @@
-</span>     "chainId": "e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473",
+</span><span class="p">@@ -3,16 +3,16 @@</span>
+     "chainId": "e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473",
      "name": "jungle2",
      "default_node": "http://jungle2.cryptolions.io:80",
 <span class="gd">-    "authorityAccount": "dacauthority",
@@ -562,8 +543,8 @@ index 5b4bd96..fc0f04b 100644
 </span>       "decimals": 4,
        "totalSupply": 1000000000.0000
      },
-<span class="gu">@@ -22,12 +22,12 @@
-</span>       "decimals": 4
+<span class="p">@@ -22,12 +22,12 @@</span>
+       "decimals": 4
      },
      "custodianContract": {
 <span class="gd">-      "name": "dacelections",
@@ -578,8 +559,8 @@ index 5b4bd96..fc0f04b 100644
 </span>     },
      "systemContract": {
        "name": "eosio"
-<span class="gu">@@ -35,7 +35,7 @@
-</span>   },
+<span class="p">@@ -35,7 +35,7 @@</span>
+   },
    "api": {
      "bpNodeApiUrl": "https://eosdac.io/topnodes.json",
 <span class="gd">-    "memberClientApiUrl": "http://ns3119712.ip-51-38-42.eu:3000"
@@ -620,8 +601,8 @@ git checkout dev
 index afc7af6..647ef86 100644
 </span><span class="gd">--- a/watchers/config.jungle.js
 </span><span class="gi">+++ b/watchers/config.jungle.js
-</span><span class="gu">@@ -7,17 +7,17 @@ const config = {
-</span> 
+</span><span class="p">@@ -7,17 +7,17 @@</span> const config = {
+ 
      db: {
          mongoUrl: 'mongodb://localhost:27017/',
 <span class="gd">-        dbName: 'eosdac'
@@ -658,8 +639,8 @@ cd memberclient-api
 index ab85c52..86ae7f8 100644
 </span><span class="gd">--- a/config.example.json
 </span><span class="gi">+++ b/config.example.json
-</span><span class="gu">@@ -14,7 +14,7 @@
-</span>   },
+</span><span class="p">@@ -14,7 +14,7 @@</span>
+   },
  
    "db": {
 <span class="gd">-    "name": "eosdac",
@@ -809,8 +790,8 @@ testdaccus15</p>
 index a04237f..0c48881 100644
 </span><span class="gd">--- a/eosdac-material/src/css/themes/common.variables.styl
 </span><span class="gi">+++ b/eosdac-material/src/css/themes/common.variables.styl
-</span><span class="gu">@@ -15,8 +15,8 @@
-</span> // to match your app's branding.
+</span><span class="p">@@ -15,8 +15,8 @@</span>
+ // to match your app's branding.
  @import "core-override.variables.styl"
  
 <span class="gd">-$primary   = #4a1289
@@ -820,8 +801,8 @@ index a04237f..0c48881 100644
 </span> $tertiary  = #555
  
  $neutral   = #E0E1E2
-<span class="gu">@@ -25,12 +25,12 @@ $negative  = #DB2828
-</span> $info      = #31CCEC
+<span class="p">@@ -25,12 +25,12 @@</span> $negative  = #DB2828
+ $info      = #31CCEC
  $warning   = #F2C037
  
 <span class="gd">-$dark      = #272B35
@@ -841,8 +822,8 @@ index a04237f..0c48881 100644
 index b7e7ecf..8d51a3b 100644
 </span><span class="gd">--- a/eosdac-material/src/layouts/default.vue
 </span><span class="gi">+++ b/eosdac-material/src/layouts/default.vue
-</span><span class="gu">@@ -7,7 +7,7 @@
-</span>         &lt;q-icon v-else name="icon-menu-9" /&gt;
+</span><span class="p">@@ -7,7 +7,7 @@</span>
+         &lt;q-icon v-else name="icon-menu-9" /&gt;
        &lt;/q-btn&gt;
        &lt;q-toolbar-title class="text-white q-pl-none"&gt;
 <span class="gd">-        &lt; img src="statics/img/icon-signet-eosdacmemberclient175x48.svg" style="height:48px;" :title="$t('default.member_client')"&gt;
@@ -893,7 +874,8 @@ Here’s the result:</p>
       <div class="row">
         <div class="col-md-3">
           <h2 id="important-links">Important Links</h2>
-<p><a href="/why-vote/#core-principles">Code Of Conduct</a><br />
+<p><a href="http://eepurl.com/dmQ2dX">Newsletter</a><br />
+<a href="/why-vote/#core-principles">Code Of Conduct</a><br />
 <a href="/history/">eosDAC History</a><br />
 <a href="https://eosdac.zendesk.com/">Help Center</a><br />
 <a href="/styleguide">Styleguide</a><br />
@@ -901,10 +883,12 @@ Here’s the result:</p>
 <a href="/bp.json">BP Info</a></p>
 
         </div>
+		
         <div class="col-md-6">
-          <h2 id="newsletter">Newsletter</h2>
+          <h1 id="sign-up-to-our-newsletter"><a href="http://eepurl.com/dmQ2dX">Sign up to our Newsletter</a></h1>
 
-          <form id="newsletterForm">
+
+        <!--  <form id="newsletterForm">
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
@@ -957,8 +941,9 @@ $('#newsletterForm').submit(function(event) {
         alert('Error '+xhr.status+':\n'+xhr.responseText);
     });
 });
-</script>
+</script> -->
         </div>
+		
         <div class="col-md-3">
           <h2 id="social-media">Social Media</h2>
 <p><a href="https://discord.io/eosdac"><i class="icon icon-social-discord-com"></i></a>
@@ -1018,27 +1003,22 @@ $('#newsletterForm').submit(function(event) {
             color: white;">Tools</a>
           
           
-          <a class="nav-link" href="/block-production/"
+          
+          
+          
+          
+          
+          
+          
+          
+          <a class="nav-link" href="/wax-news/"
             style="text-transform: none; display: inline-block; margin-top: 5px;
-            color: white;">Block Production</a>
+            color: white;">Wax News</a>
           
           
-          
-          
-          
-          
-          
-          
-          
-<<<<<<< HEAD
-=======
-          
-          
->>>>>>> master
           <a class="nav-link" href="/news/index.html"
             style="text-transform: none; display: inline-block; margin-top: 5px;
             color: white;">News</a>
-          
           
           
           
@@ -1148,19 +1128,11 @@ $(document).ready(function() {
 </div>
 </div>
 
-<<<<<<< HEAD
-<script src="/assets/eosjs/eosjs-api.js?1586730102"></script>
-<script src="/assets/eosjs/eosjs-jsonrpc.js?1586730102"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1586730102"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1586730102"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1586730102"></script>
-=======
-<script src="/assets/eosjs/eosjs-api.js?1586723374"></script>
-<script src="/assets/eosjs/eosjs-jsonrpc.js?1586723374"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1586723374"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1586723374"></script>
-<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1586723374"></script>
->>>>>>> master
+<script src="/assets/eosjs/eosjs-api.js?1597418688"></script>
+<script src="/assets/eosjs/eosjs-jsonrpc.js?1597418688"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-core.min.js?1597418688"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-eosjs2.min.js?1597418688"></script>
+<script src="https://cdn.scattercdn.com/file/scatter-cdn/js/latest/scatterjs-plugin-lynx.min.js?1597418688"></script>
 <script type="text/javascript">
 // This file needs to be included via the LIQUID template engine, in order to make the translations work!
 
