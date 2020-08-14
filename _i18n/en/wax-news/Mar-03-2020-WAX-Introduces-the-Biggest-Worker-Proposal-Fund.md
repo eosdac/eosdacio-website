@@ -18,15 +18,15 @@ Guidelines](https://wax.io/blog/update-wax-labs-proposal-guidelines)*
 
 *More than 75 million WAX Tokens, worth millions of dollars, are
 available for developers who grow the WAX Blockchain through
-decentralization and innovation**over many years.***
+decentralization and innovation** over many years.***
 
 ![](https://i.imgur.com/6fli8Fm.png)
 
 Introducing *WAX Labs*, a worker proposal system designed to grow the
 WAX Blockchain through decentralization and innovation. There
-are**presently more than** [**75
+are** presently more than** [**75
 million**](https://wax.bloks.io/account/eosio.saving) **WAX tokens worth
-millions of dollars in the*****WAX Labs*****fund**, which is allocated
+millions of dollars in the*****WAX Labs***** fund**, which is allocated
 towards compensating developers who build upon the WAX Blockchain **over
 many years**, making *WAX Labs* the largest community-owned worker
 proposal system in the entire blockchain ecosystem.
@@ -35,7 +35,7 @@ With such a well funded worker proposal system, WAX hopes to build the
 most extensive network of blockchain developers in the world.
 
 **Candidates can submit their projects for consideration, and WAX Token
-holders can vote on them, **[**here**](http://labs.wax.io/)**.**
+holders can vote on them, [**here**](http://labs.wax.io/)
 
 **About the WAX Labs worker proposal system:**
 ---
@@ -58,8 +58,8 @@ Through *WAX Labs*, the WAX Community benefits from a decentralized
 structure by reducing the reliance on a single source for new additions.
 This system is beneficial for everyone including:
 
--   The **developers**who are compensated for their efforts
--   The **community**for having access to additional resources
+-   The **developers** who are compensated for their efforts
+-   The **community** for having access to additional resources
 -   The **WAX organization**, which can leverage the creativity of the
     community to advance projects
 

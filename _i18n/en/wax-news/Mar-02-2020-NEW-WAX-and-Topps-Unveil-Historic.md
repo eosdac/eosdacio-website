@@ -63,7 +63,7 @@ Data for Garbage Pail Kids cards on the blockchain includes:
 -   **Comprehensive ownership records** that show who traded the card
     and when. Since everyone can see its full ownership history, no one
     can ever fake ownership of a card.
--   **Complete trade and sale history**including how much money was paid
+-   **Complete trade and sale history** including how much money was paid
     for the cards and when. No one can ever fake previous sale prices or
     dates.
 

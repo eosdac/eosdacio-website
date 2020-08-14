@@ -19,6 +19,7 @@ pages:
   community: "Cộng Đồng"
   tools: "Bộ Công Cụ"
   news: "Tin Tức"
+  wax-news: "Wax News"
   token: "Token"
 newsletterForm:
   name: "Tên"

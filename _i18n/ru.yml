@@ -19,7 +19,11 @@ pages:
   community: "Сообщество"
   tools: "Инструменты"
   news: "Новости"
+  wax-news: "Wax News"
   token: "Токены"
+
+  
+  
 newsletterForm:
   name: "Имя"
   email: "Почта *"

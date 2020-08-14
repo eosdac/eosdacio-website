@@ -39,3 +39,12 @@ launch of Topps NFTs on WAX, more games, and a few surprises.
 
 *---*
 
+*Let us know what you think by joining the WAX community:*
+
+[*Twitter*](https://go.wax.io/Twitter)
+
+[*Telegram*](https://go.wax.io/Telegram)
+
+[*Reddit*](https://go.wax.io/Reddit)
+
+[](https://splinterlands.com/)
