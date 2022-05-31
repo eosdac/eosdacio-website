@@ -50,6 +50,19 @@
         "latitude": 51.5099,
         "longitude": -0.1181
       },
+      
+      {
+    "location": {
+      "name": "Germany",
+      "country": "DE",
+      "latitude": 50.479511,
+      "longitude": 12.335697
+    },
+    "node_type": "query",
+    "ssl_endpoint": "https://wax-aa.eosdac.io",
+    "features": ["atomic-assets-api"]
+  }
+      
       "node_type": "producer"
     }
   ]
